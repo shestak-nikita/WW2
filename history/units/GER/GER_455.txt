@@ -1,0 +1,1 @@
+focus={current=GER_reject_the_locarno_treaty}

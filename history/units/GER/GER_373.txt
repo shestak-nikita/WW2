@@ -1,0 +1,1 @@
+focus={current=GER_sign_the_second_treaty_of_berlin}

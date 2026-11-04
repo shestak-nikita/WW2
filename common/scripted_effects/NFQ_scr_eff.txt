@@ -1,0 +1,357 @@
+NFQ_dirty={
+	if={limit={check_variable={NFQ_d=1000}}set_variable={NFQ_d=0}}else={add_to_variable={NFQ_d=1}}
+}
+NFQ_on_startup={
+	set_variable={NFQ_d=0}
+	set_variable={NFQ_nfnum=0}
+	set_variable={NFQ_hold_days=0}
+	clear_array=NFQ_focus_queue
+	clear_array=NFQ_templates
+	add_to_array={NFQ_templates=0}
+	NFQ_reset_fvals=yes
+	NFQ_refresh_focus_tree_layout = yes
+	if = {
+		limit = { original_tag = GER }
+		GER_update_todt_organization_stage = yes
+	}
+}
+NFQ_try_load_oob={
+	if={limit={has_country_flag=NFQ_NFQactivated}
+		meta_effect = {
+			text={set_variable={f[nfid]=1} set_variable={t[nfid]=0}}
+			nfid="[?NFQ_nfnum]"
+		}
+		set_variable={NFQ_nfnum=0}
+	set_variable={NFQ_hold_days=0}
+		set_country_flag=NFQ_error
+		clr_country_flag=NFQ_NFQactivated
+		NFQ_dirty=yes
+	}
+	else={
+		if={
+			limit={has_variable=NFQ_focus_queue^0}
+			NFQ_load_oob=yes
+		}
+	}
+}
+NFQ_refresh_focus_tree_layout = {
+    meta_effect = {
+        text = {
+            NFQ_focus_tree_reset_position_[tag] = yes
+            NFQ_focus_tree_allow_branch_[tag] = yes
+        }
+        tag = "[this.GetTag]"
+    }
+    mark_focus_tree_layout_dirty = yes
+    NFQ_dirty = yes
+}
+
+# NFQ 2.0: a single, shared daily tick for all supported countries.
+# Keeps the per-country on_action definitions small and prevents logic drift.
+NFQ_daily_tick={
+    if = {
+        limit = { has_country_flag = NFQ_tree_refresh_pending }
+        clr_country_flag = NFQ_tree_refresh_pending
+        NFQ_refresh_focus_tree_layout = yes
+    }
+    if={
+        limit={has_country_flag=NFQ_holding}
+        subtract_from_variable={hold_days_display=1}
+        NFQ_dirty=yes
+        if={
+            limit={check_variable={hold_days_display < 1}}
+            clr_country_flag=NFQ_holding
+            set_variable={hold_days_display=0}
+            if={
+                limit={has_variable=NFQ_focus_queue^0}
+                NFQ_load_oob=yes
+            }
+        }
+    }
+    else_if={
+        limit={NFQ_CanFocusLoad=yes}
+        NFQ_try_load_oob=yes
+    }
+}
+NFQ_set={
+    if = {
+        limit = { NFQ_character_only_focus = yes }
+        # Character/advisor-only inner-circle foci must never be started by NFQ.
+        meta_effect = {
+            text = {
+                if = { limit = { is_in_array = { array = NFQ_focus_queue value = nfid } } remove_from_array = { NFQ_focus_queue = nfid } }
+                set_variable = { f[nfid] = 8 }
+                set_variable = { t[nfid] = 0 }
+            }
+            nfid = "[?n]"
+        }
+        clr_country_flag = NFQ_error
+        NFQ_set_text_variables = yes
+    }
+    else = {
+        meta_effect={
+            text={
+                if={limit={check_variable={f[nfid]=1}}
+                    add_to_array={NFQ_focus_queue=[nfid]}
+                    set_variable={f[nfid]=2}
+                    set_variable={t[nfid]=NFQ_focus_queue^num}
+                }
+                else_if ={
+                    limit={check_variable={f[nfid]=2}}
+                    remove_from_array={NFQ_focus_queue=[nfid]}
+                    set_variable={f[nfid]=1}
+                    set_variable={t[nfid]=0}
+                }
+            }
+            nfid="[?n]"
+        }
+        clr_country_flag=NFQ_error
+        NFQ_set_text_variables=yes
+    }
+}
+NFQ_set_text_variables = {
+    # Clear every possible marker first so removed/reordered queue items never leave stale labels.
+    for_loop_effect = {
+        start = 101
+        end = 549
+        value = i
+        meta_effect = {
+            text = { set_variable = { t[nfid] = 0 } }
+            nfid = "[?i]"
+        }
+    }
+    for_each_loop = {
+        array = NFQ_focus_queue
+        value = vv
+        index = ii
+        meta_effect = {
+            text = {
+                add_to_temp_variable = { ii = 1 }
+                set_variable = { t[nfid] = ii }
+            }
+            nfid = "[?vv]"
+        }
+    }
+    NFQ_dirty = yes
+}
+NFQ_sync_tree_to_queue={
+	for_each_loop={
+		array=NFQ_focus_queue value=vv index=ii
+		meta_effect={
+			text={
+				add_to_temp_variable={ii=1}
+				set_variable={t[nfid]=ii}
+				set_variable={f[nfid]=2}
+			}
+			nfid="[?vv]"
+		}
+	}
+	NFQ_dirty=yes
+}
+# NFQ_load_oob: Processes the first item in the focus queue.
+# If it's a hold (negative value < -999), starts a hold timer.
+# Otherwise, loads the focus OOB file to activate the focus.
+NFQ_load_oob={
+	set_variable={NFQ_nfnum=NFQ_focus_queue^0}  # Get the first queue item
+	# Check if this is a hold command (value less than -999)
+	if={
+		limit={check_variable={NFQ_nfnum < -999}}
+		# It's a hold command, extract the days
+		# Hold values are stored as -1000 - days, e.g., 10 days = -1010
+		# Example: -1010 -> add 1000 = -10 -> multiply by -1 = 10
+		set_temp_variable = { hold_days_temp = NFQ_nfnum }
+		add_to_temp_variable = { hold_days_temp = 1000 }
+		multiply_temp_variable = { hold_days_temp = -1 }
+		set_variable = { hold_days_display = hold_days_temp }
+		# Set holding flag - the daily on_action will handle the countdown
+		set_country_flag = NFQ_holding
+		# Remove hold from queue
+		remove_from_array = { array = NFQ_focus_queue index = 0 }
+		# Reset NFQ_nfnum since we're not activating a focus
+		set_variable = { NFQ_nfnum = 0 }
+		clr_country_flag = NFQ_error
+		NFQ_set_text_variables = yes
+		NFQ_dirty = yes
+	}
+	else={
+		meta_effect={
+			text={
+				if={limit={[tag]_set[nfid]=yes}
+				remove_from_array={array=NFQ_focus_queue index=0}
+				set_country_flag=NFQ_NFQactivated
+				clr_country_flag=NFQ_error
+				load_oob=[tag]/[tag]_[nfid]
+				set_variable={f[nfid]=4}
+				set_variable={t[nfid]=0}
+				}
+				else={set_variable={NFQ_nfnum=0} set_variable={NFQ_hold_days=0} set_country_flag=NFQ_error}
+			}
+			nfid="[?NFQ_nfnum]"
+			tag="[root.GetTag]"
+		}
+		set_variable={v=NFQ_nfnum} #queue loc
+		NFQ_set_text_variables=yes
+	}
+}
+NFQ_complete_focus={
+	#if={limit={not={check_variable={NFQ_nfnum=0}}}
+		meta_effect={
+			text={set_variable={f[nfid]=5} set_variable={t[nfid]=0}}
+			nfid="[?NFQ_c]"
+		}
+		# Immediately purge mutually exclusive alternatives. This runs before the vanilla
+		# has_completed_focus flag necessarily becomes visible to scripted triggers.
+		meta_effect={
+			text={NFQ_cancel_exclusive_[tag]_[nfid]=yes}
+			tag="[this.GetTag]"
+			nfid="[?NFQ_c]"
+		}
+	#}
+	if={limit={is_in_array={NFQ_focus_queue=NFQ_c}}
+		remove_from_array={NFQ_focus_queue=NFQ_c}
+		NFQ_set_text_variables=yes
+	}
+	if={limit={check_variable={NFQ_nfnum=NFQ_c}}
+	clr_country_flag=NFQ_error
+	clr_country_flag=NFQ_NFQactivated
+	}
+	# Re-evaluate NFQ button visibility after the focus has been marked complete.
+	# This updates branch state only; it deliberately does not reset native tree positions
+	# or call mark_focus_tree_layout_dirty, so the camera is not teleported.
+	meta_effect = {
+		text = { NFQ_focus_tree_allow_branch_[tag] = yes }
+		tag = "[this.GetTag]"
+	}
+	# Do not call mark_focus_tree_layout_dirty from a focus completion reward.
+	# It runs before the focus is finalized and resets the focus-tree camera to
+	# the tree's initial_show_position. The game's native camera-follow behavior
+	# should handle the completed focus instead.
+	NFQ_dirty=yes
+
+}
+NFQ_get_lastindex={
+	set_temp_variable={li=NFQ_focus_queue^num}
+	subtract_from_temp_variable={li=1}
+}
+NFQ_reset_fvals={
+	for_loop_effect={
+		start=101 end=i_end value=i
+		meta_effect={
+			text={
+				set_variable={f[nfid]=1}
+			}
+			nfid="[?i]"
+		}
+	}
+	set_temp_variable={NFQ_first_unused_id=i_end}
+	add_to_temp_variable={NFQ_first_unused_id=1}
+	if={
+		limit={check_variable={NFQ_first_unused_id < 550}}
+		for_loop_effect={
+			start=NFQ_first_unused_id end=549 value=i
+			meta_effect={
+				text={
+					set_variable={f[nfid]=7}
+				}
+				nfid="[?i]"
+			}
+		}
+	}
+}
+NFQ_set_fvals={
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				if={limit={check_variable={f[nfid]=6}}
+					set_variable={f[nfid]=1}
+				}
+			}
+			nfid="[?i]"
+		}
+	}
+}
+NFQ_allow_branch_before={
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				if={limit={check_variable={f[nfid] < 4}}
+					set_variable={f[nfid]=6}
+				}
+			}
+			nfid="[?i]"
+		}
+	}
+}
+NFQ_allow_branch_after={
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				if={
+					limit={check_variable={f[nfid]=6}}
+					if={limit={is_in_array={NFQ_focus_queue=i}}
+					remove_from_array={NFQ_focus_queue=i}
+					set_variable={t[nfid]=0}
+					}
+				}
+			}
+			nfid="[?i]"
+		}
+	}
+	NFQ_sync_tree_to_queue=yes
+}
+NFQ_sub_xpositions={
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				subtract_from_variable={x[nfid]=val}
+			}
+			nfid="[?i]"
+		}
+	}
+}
+NFQ_sub_ypositions={
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				subtract_from_variable={y[nfid]=val}
+			}
+			nfid="[?i]"
+		}
+	}
+}
+NFQ_slide_xpos={
+	#find_lowest_in_array={array = x value=lowestx}
+	set_temp_variable={lowestx=0}
+	for_loop_effect={
+		start=i_start end=i_end value=i
+		meta_effect={
+			text={
+				if={
+					limit={check_variable={x[nfid] < lowestx}check_variable={f[nfid] < 5}}
+					set_temp_variable={lowestx=x[nfid]}
+				}
+			}
+			nfid="[?i]"
+		}
+	}
+	if={
+		limit={check_variable={lowestx < 0}}
+		set_temp_variable={val=lowestx}
+		NFQ_sub_xpositions=yes
+	}
+}
+NFQ_load_template_queue={
+	NFQ_del_all=yes
+	meta_effect={
+		text={NFQ_[route]_[tag]=yes
+		set_variable={NFQ_test=v}}
+		route="[NFQ_focusroute]"
+		tag="[root.GetTag]"
+	}
+	NFQ_sync_tree_to_queue=yes
+}

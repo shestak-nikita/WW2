@@ -1,0 +1,1 @@
+focus={current=JAP_reprimand_hamada_kunimatsu}

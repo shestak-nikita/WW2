@@ -1,0 +1,1 @@
+focus={current=FRA_infantry_tanks}

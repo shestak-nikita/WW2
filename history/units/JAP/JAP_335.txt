@@ -1,0 +1,1 @@
+focus={current=JAP_the_labor_farmer_faction_ascendant}

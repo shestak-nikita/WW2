@@ -1,0 +1,17 @@
+add_namespace = nfq_hold
+
+# NOTE: The hold countdown is now handled by the daily on_actions in NFQ_on_actions.txt
+# This event file is kept for reference but is no longer used.
+# The on_actions approach is more reliable as it fires every day without fail.
+
+# Legacy event - not used anymore
+country_event = {
+	id = nfq_hold.1
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		# This event is no longer used - hold countdown is handled by on_daily actions
+		NFQ_dirty = yes
+	}
+}

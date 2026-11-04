@@ -1,0 +1,1 @@
+focus={current=ITA_believe_obey_fight}

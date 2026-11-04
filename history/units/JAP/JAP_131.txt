@@ -1,0 +1,1 @@
+focus={current=JAP_join_the_london_naval_treaty}

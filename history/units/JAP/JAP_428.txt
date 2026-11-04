@@ -1,0 +1,1 @@
+focus={current=JAP_fund_resistance_groups_in_asia}

@@ -1,0 +1,640 @@
+RAJ_india_united = {
+	name = "India United"
+	desc = ""
+
+	allowed = {
+		original_tag = RAJ
+		has_dlc = "Graveyard of Empires"
+	}
+	enable = {
+		OR = {
+			has_country_flag = RAJ_AI_RANDOM_INDIA_UNITED
+			has_game_rule = {
+				rule = RAJ_ai_behavior
+				option = GOE_INDIA_UNITED
+			}
+		}
+	}
+	abort = {
+		#is_subject = no
+	}
+
+	ai_national_focuses = {
+		RAJ_local_recruitment_offices
+		##Post independence
+		#
+		
+		#Early Rush
+
+		###
+		RAJ_legacy_of_military_service
+
+		
+
+		
+
+		RAJ_military_pensions
+		RAJ_royal_indian_artillery_dlc
+		RAJ_specialized_dietary_requirement
+		RAJ_quinine
+		RAJ_mountain_guns
+		RAJ_re_establish_the_khyber_rifles
+		RAJ_indian_army_corps_of_engineers
+		RAJ_indian_air_force
+		RAJ_trainer_planes
+		RAJ_ammunition_factory_khadki
+		RAJ_gun_and_shell_factory_cossipore
+		RAJ_rifle_factory_ishapore_west_bengal
+		RAJ_cordite_factory_aruvankadu_tamil_nadu
+		RAJ_ordnance_factory_khamaria_jabalpur
+		RAJ_ordnance_factory_medak
+		RAJ_ordnance_factory_kanpur_uttar_pradesh
+		RAJ_east_india_railways_dlc
+		RAJ_the_burma_road
+		RAJ_tata_steel_dlc
+		RAJ_assam_oil_dlc
+		RAJ_the_calcutta_line
+		RAJ_engineering_revolution
+		RAJ_chindits_dlc
+		RAJ_gurkhas
+		RAJ_lions_of_the_great_war_dlc
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+		captain_of_industry = 5
+		war_industrialist = 5
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+RAJ_bose = {
+	name = "Bose Path"
+	desc = ""
+
+	allowed = {
+		original_tag = RAJ
+		has_dlc = "Graveyard of Empires"
+	}
+	enable = {
+		OR = {
+			has_country_flag = RAJ_AI_RANDOM_INDIA_BOSE
+			has_game_rule = {
+				rule = RAJ_ai_behavior
+				option = GOE_INDIA_FASCISM_BOSE
+			}
+		}
+	}
+	abort = {
+		#is_subject = no
+	}
+
+	ai_national_focuses = {		
+
+		#Early Rush
+		RAJ_local_recruitment_offices
+		
+		####
+		RAJ_ammunition_factory_khadki
+
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+
+
+
+RAJ_hindutva = {
+	name = "Fascism - Hindutva"
+	desc = ""
+
+	allowed = {
+		original_tag = RAJ
+		has_dlc = "Graveyard of Empires"
+	}
+	enable = {
+		OR = {
+			has_country_flag = RAJ_AI_RANDOM_INDIA_HINDUTVA
+			has_game_rule = {
+				rule = RAJ_ai_behavior
+				option = GOE_INDIA_FASCISM_HINDUTVA	
+			}
+		}
+	}
+	abort = {
+		#is_subject = no
+	}
+
+	ai_national_focuses = {		
+		#Early Rush
+		RAJ_local_recruitment_offices
+		####
+		RAJ_ammunition_factory_khadki
+
+		
+
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+RAJ_east_india_company = {
+	name = "Unaligned - East India Company"
+	desc = ""
+
+	allowed = {
+		original_tag = RAJ
+		has_dlc = "Graveyard of Empires"
+	}
+	enable = {
+		OR = {
+			has_country_flag = RAJ_AI_RANDOM_INDIA_EAST_INDIA_COMPANY
+			has_game_rule = {
+				rule = RAJ_ai_behavior
+				option = GOE_INDIA_EAST_INDIA_COMPANY	
+			}
+		}
+	}
+	abort = {
+		#is_subject = no
+	}
+
+	ai_national_focuses = {
+
+		#Early Rush
+
+		####
+
+
+
+
+
+
+
+
+
+		RAJ_ammunition_factory_khadki
+		RAJ_gun_and_shell_factory_cossipore
+		RAJ_rifle_factory_ishapore_west_bengal
+		RAJ_ordnance_factory_khamaria_jabalpur
+		RAJ_engineering_revolution
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+RAJ_mughal = {
+	name = "Unaligned - Mughal Empire"
+	desc = ""
+
+	allowed = {
+		original_tag = RAJ
+		has_dlc = "Graveyard of Empires"
+	}
+	enable = {
+		OR = {
+			has_country_flag = RAJ_AI_RANDOM_INDIA_MUGHAL
+			has_game_rule = {
+				rule = RAJ_ai_behavior
+				option = GOE_INDIA_MUGHAL	
+			}
+		}
+	}
+	abort = {
+		#is_subject = no
+	}
+
+	ai_national_focuses = {
+		#Early Rush
+
+		RAJ_local_recruitment_offices
+
+		####
+		RAJ_ammunition_factory_khadki
+		RAJ_gun_and_shell_factory_cossipore
+		RAJ_rifle_factory_ishapore_west_bengal
+
+
+
+
+		RAJ_ordnance_factory_khamaria_jabalpur
+		RAJ_engineering_revolution
+
+		RAJ_legacy_of_military_service
+		RAJ_relax_agrarian_society_criteria
+
+		RAJ_ordnance_factory_kanpur_uttar_pradesh
+		RAJ_ordnance_factory_medak
+		RAJ_cordite_factory_aruvankadu_tamil_nadu
+
+		RAJ_the_ordnance_factories_board
+
+
+		RAJ_regimental_loyalty
+		RAJ_abolish_agrarian_society_criteria
+
+		RAJ_engineering_revolution
+
+
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+RAJ_communist = { # AGRARIAN SOCIALISM
+	name = "Communism"
+	desc = ""
+
+	allowed = {
+		original_tag = RAJ
+		has_dlc = "Graveyard of Empires"
+	}
+	enable = {
+		OR = {
+			has_country_flag = RAJ_AI_RANDOM_INDIA_COMMUNISM
+			has_game_rule = {
+				rule = RAJ_ai_behavior
+				option = GOE_INDIA_COMMUNISM	
+			}
+		}
+	}
+	abort = {
+		#is_subject = no
+	}
+
+	ai_national_focuses = {
+		# 1936 - Early Rush - 385 DAYS (20)
+
+		# 1937 - Stalling - 370 DAYS (5)
+		RAJ_local_recruitment_offices
+		RAJ_bombay_baroda_and_central_india_railway
+		RAJ_tata_steel_dlc
+
+		# 1938 - Communist Flip - 355 DAYS (-10)
+		RAJ_legacy_of_military_service
+
+		# 1939 - Implementing communist policies - 375 DAYS (10)
+
+		# 1940 - Industry & Wars - 360 DAYS (-5)
+
+		# 1941 - Finishing off the tree - 345 DAYS (-20)
+
+		# 1942 - Last remnants - 365 DAYS (0)
+		RAJ_ammunition_factory_khadki
+		RAJ_gun_and_shell_factory_cossipore
+
+		# 1943+ random based on ai weight, there is more than enough stuff in the generic tree to last til like, probably 1950 or something
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+RAJ_communist_urban = { # AGRARIAN SOCIALISM
+	name = "Communism - Urban"
+	desc = ""
+
+	allowed = {
+		original_tag = RAJ
+		has_dlc = "Graveyard of Empires"
+	}
+	enable = {
+		OR = {
+			has_country_flag = RAJ_AI_RANDOM_INDIA_COMMUNISM_URBAN
+			has_game_rule = {
+				rule = RAJ_ai_behavior
+				option = GOE_INDIA_COMMUNISM_URBAN
+			}
+		}
+	}
+	abort = {
+		#is_subject = no
+	}
+
+	ai_national_focuses = {
+		# 1936 - Early Rush - 385 DAYS (20)
+
+		# 1937 - Stalling - 370 DAYS (5)
+		RAJ_local_recruitment_offices
+		RAJ_bombay_baroda_and_central_india_railway
+		RAJ_tata_steel_dlc
+
+		# 1938 - Communist Flip - 355 DAYS (-10)
+		RAJ_legacy_of_military_service
+
+		# 1939 - Implementing communist policies - 375 DAYS (10)
+
+		# 1940 - Mass Industrialization - 360 DAYS (-5)
+
+		# 1941 - Finish communist shift - 380 DAYS (15)
+
+		# 1942 - Expanding the nation - 405 DAYS (40)
+		RAJ_relax_agrarian_society_criteria
+		RAJ_regimental_loyalty
+
+		# 1943+ random based on AI weight
+
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+
+
+
+RAJ_loyalty_branch = { # 
+	name = "Loyalty Branch"
+	desc = ""
+
+	allowed = {
+		original_tag = RAJ
+		has_dlc = "Graveyard of Empires"
+	}
+	enable = {
+		OR = {
+			has_country_flag = RAJ_AI_RANDOM_INDIA_LOYALTY
+			has_game_rule = {
+				rule = RAJ_ai_behavior
+				option = GOE_INDIA_LOYALTY
+			}
+		}
+	}
+	abort = {
+		#is_subject = no
+	}
+
+	ai_national_focuses = {
+		RAJ_the_jewel_becomes_the_crown
+		
+		RAJ_linlithgows_declaration_of_war
+		RAJ_mobilization_of_the_indian_army
+		RAJ_south_east_asia_command
+		RAJ_desert_training
+		RAJ_fortify_el_alamein
+		RAJ_hill_training
+		RAJ_free_abyssinia
+		RAJ_jungle_training_GOE
+		RAJ_defense_of_malaya
+		RAJ_defense_of_burma
+		RAJ_holding_the_gates_of_india
+		
+		RAJ_urban_training
+
+		RAJ_his_majestys_loyal_government
+		RAJ_crown_commodities
+		RAJ_expand_the_zamindari_system
+		RAJ_local_recruitment_offices
+		RAJ_east_india_railways_dlc
+		RAJ_assam_oil_dlc
+		RAJ_the_riches_of_the_raj
+		RAJ_strengthen_ties_with_british_investors_GOE
+		RAJ_the_empires_workshop
+		RAJ_institute_of_fundamental_research_GOE
+		RAJ_keep_calm_and_carry_on
+		RAJ_indian_gentleman_officers
+
+		RAJ_the_government_of_india_act
+		RAJ_work_with_local_leaders
+		RAJ_concessions_to_the_industrialists
+		RAJ_favor_the_muslim_league
+		RAJ_the_integrity_of_india_act
+		RAJ_the_punjab_accord
+		RAJ_the_dominion_of_india
+
+		#Railway focus
+		
+		RAJ_bombay_baroda_and_central_india_railway
+		RAJ_great_indian_peninsula_railway_dlc
+		RAJ_south_indian_railway_company
+		RAJ_north_western_state_railway
+		RAJ_imperial_rail_renewal_act
+		RAJ_overlords_railway_investment
+		RAJ_exploit_the_frontier
+		RAJ_tata_steel_dlc
+
+		#Prep for war
+		RAJ_overlords_railway_investment
+		RAJ_legacy_of_military_service
+		RAJ_royal_indian_artillery_dlc
+		RAJ_ammunition_factory_khadki
+		RAJ_gun_and_shell_factory_cossipore
+		RAJ_ordnance_factory_khamaria_jabalpur
+		RAJ_engineering_revolution
+		RAJ_the_calcutta_line
+
+	}
+
+	research = {
+		industry = 20.0
+		infantry_tech = 15.0
+		artillery = 8.0
+		support_tech = 6.5
+	}
+
+	ideas = {
+		
+	}
+
+	traits = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+	focus_factors = {
+		
+	}
+
+}
+

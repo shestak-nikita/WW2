@@ -1,0 +1,1 @@
+focus={current=GER_GPW_we_are_ready_for_war}

@@ -1,0 +1,1672 @@
+# GPW/NFQ compatibility stubs for RAJ focus IDs referenced by remaining vanilla/DLC support scripts.
+# These are intentionally NOT visible: this tree has factor=0, default=no, and every stub is unavailable.
+focus_tree = {
+    id = GPW_NFQ_removed_RAJ_focus_compatibility
+    country = { factor = 0 }
+    default = no
+    initial_show_position = { x = 0 }
+    focus = {
+        id = RAJ_a_congress_resurgent
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_a_peacock_prince
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_a_permanent_muslim_governmental_seat
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_a_private_military
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_a_secular_state
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_acquire_new_resources
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_agrarian_socialism
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_agricultural_cooperatives
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_akhand_bharat
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_all_india_kisan_sabha
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_all_india_students_federation
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 0
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_an_economy_unbound
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_appoint_a_c_suite
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_arm_the_peasantry
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_attract_scientists
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_authoritarianship
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_azad_hind_dlc
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_azad_hind_dlc_bank
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_azad_hind_dlc_radio
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_bathe_in_hellfire
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_bhoodan_movement
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_boycott_british_made_goods
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_break_the_zamindars
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 1
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_cabinet_mission_plan
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_central_comittee_authority
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_coal_fire_and_steel
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_company_bonuses
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_comrades_of_the_city
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_conquer_afghanistan
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_conquerors_of_persia
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_constitution_for_the_masses
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_continue_the_five_year_plan
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_corporate_domination
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_corporate_expansion
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_creative_accounting
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 2
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_crush_the_anathema
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_cult_of_personality
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_cultural_reawekening
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_deathblow_to_imperial_remnants
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_deathknell_to_the_raj
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_debt_manipulation
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_debt_relief
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_decentralize_the_party
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_defenders_of_the_revolution
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_deforestation
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_demand_return_of_imperialist_colonies
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_education_efforts
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 3
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_education_for_the_masses
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_elephants_for_the_modern_age
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_enrollment_of_dali_children
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_every_man_a_gun
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_every_man_a_leader
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_exile_princes
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_expand_industry_in_hyderabad
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_expand_tax_loopholes
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_extend_indian_security_zone
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_fight_malnutrition
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_five_year_plan
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_focus_on_military_industry
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 4
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_focus_on_the_countryside
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_force_china_to_accept_opium_trade
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_forging_the_mughal_arsenal
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_form_a_federal_court
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_form_a_police_force
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_fortify_aden
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_forward_bloc
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_founding_of_the_peoples_republic
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_funnel_british_investments_into_princely_states
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_give_me_blood_and_i_will_grant_you_freedom
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_go_into_hiding
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_great_depression_price_controls
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 5
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_halls_of_knowledge
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_halls_of_knowledge_2
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_halls_of_knowledge_3
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_handloom_weaving
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_headhunt_army_personell
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_heavy_industries
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_hedgemony_of_the_subcontinent
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_hindi_as_a_national_language
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_hindu_mahasabha
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_hindutva
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_hostile_takeover
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_import_substitution_industrialisation
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 6
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_inclusive_nationalism
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_incorporation_of_the_east_india_company
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_india_indivisible
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_india_united
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_indian_independence_act
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_indian_national_highways
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_indian_socialism
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_indo_centric_curriculum
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_industrialize_the_ganges
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_infiltrate_aden
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_institutional_money_laundering
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 7
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_integrate_the_princes
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_invite_soviet_industrial_experts
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_iron_will_indoctrination
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_join_the_co_prospherity_sphere
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_jugantar
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_just_good_business
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_khadi_movement
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_lahore_resolution
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_land_grab
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_land_of_the_tillers
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_league_against_gandhism
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_legalize_the_opium_trade
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 8
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_litteracy_effort
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_lobby_for_increased_policing_responsibilities
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_lobby_parliment
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_local_resistance_to_land_taxes
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_look_to_the_future
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_look_to_the_past
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_mahatma
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_manipulate_army_statistics
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_mass_production
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_mineral_exploitation_institute
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_mixed_economy
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_mughal_court
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 9
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_national_planning_committee
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_nationalize_british_owned_factories
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_nationalize_gun_carriage_agency
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_nationalize_tata_group
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_netaji
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_new_economic_policy
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_night_shifts
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_nothing_personal
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_open_up_new_markets
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_orchestrate_train_robberies
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_peacock_throne_for_the_modern_age
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_phantom_armies
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 10
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_planned_but_decentralized
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_planned_economy
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_planned_economy2
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_pledge_for_the_allies
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_power_sharing_agreement
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_preamble_to_the_constitution_of_india
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_princely_autonomy
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_princely_states_policy
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_privatized_tutelage
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_promote_violence_against_the_british
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_protest_against_the_howell_monument
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_provincial_autonomy
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 11
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_purge_the_reactionaries
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_purna_swaraj
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_quality_training
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_rally_the_indian_left
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_rani_of_jhansi_regiment
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_rashtriya_swayamsevak_sangh
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_rebuilding_the_empires_roads
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_red_in_the_shadows
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_red_punjab_operation
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_reform_the_agricultural_system
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_reorganize_the_five_year_plan_towards_heavy_industry
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_restrictive_administration_budget
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 12
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_reviving_the_workshop_of_the_world
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_revolt_of_the_princes
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_royal_indian_navy_mutiny
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_sanatani
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_secular_rule
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_secure_rajahsthan
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_secure_weapons
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_seek_financial_aid_from_the_ussr
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_seek_intial_funding
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_seek_japanese_support
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_seven_shackles
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_shaheed_and_swaraj
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 13
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_shareholder_democracy
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_sharpen_the_tulwar
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_socialist_self_reliance
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_soviet_indian_industrial_cooperation
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_soviet_influence
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_special_economic_zones
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_stir_unrest_in_the_north
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_stopping_the_japanese_threat_into_central_asia
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_strike_burma
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_strike_eastern_pakistan
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_swadeshi_movement
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_take_over_administrative_rights
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 14
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_tenancy_reforms
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_crown_and_the_world
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_enemy_of_my_enemy
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_hindu_martial_tradition
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_indian_national_army
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_legacy_of_babur
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_mughal_uprising
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_pakistan_movement
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_peoples_liberation_army
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_red_curtain_falls_over_asia
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_revolutionary_army_marches
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 10
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_second_gorkha_war
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 15
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_silk_road
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_sun_sets
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_the_sword_and_the_saffron
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_theocratic_rule
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_through_the_wakhan_corridor
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_thunder_elephants
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_to_shake_the_world
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_trade_federation_of_india
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 7
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_trade_port
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 8
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_tryst_with_destiny
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 9
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_two_nation_theory_dlc
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 11
+        y = 16
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_union_busting
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 0
+        y = 17
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_unite_the_subcontinent
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 1
+        y = 17
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_united_bengal
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 2
+        y = 17
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_uplifting_the_people_of_india
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 3
+        y = 17
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_urban_industrialism
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 4
+        y = 17
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_vertical_integration
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 5
+        y = 17
+        cost = 1
+        available = { always = no }
+    }
+    focus = {
+        id = RAJ_war_taxes
+        icon = GFX_goal_generic_construct_civ_factory
+        x = 6
+        y = 17
+        cost = 1
+        available = { always = no }
+    }
+}

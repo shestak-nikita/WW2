@@ -1,0 +1,1034 @@
+# Generated file. Regenerate with tools/generate_nfq_layout.py.
+NFQ_focus_visible_GER_GER_bribe_senior_officers = {
+    always = yes
+}
+
+NFQ_focus_visible_GER_GER_develop_modern_maneuver_warfare = {
+    AND = {
+        NFQ_focus_visible_GER_GER_bribe_senior_officers = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_fortify_the_vaterland = {
+    AND = {
+        NFQ_focus_visible_GER_GER_develop_modern_maneuver_warfare = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_improve_motorized_troops = {
+    AND = {
+        NFQ_focus_visible_GER_GER_develop_modern_maneuver_warfare = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_lessons_of_the_great_war = {
+    AND = {
+        NFQ_focus_visible_GER_GER_bribe_senior_officers = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_all_terrain_military_motorcycle = {
+    AND = {
+        NFQ_focus_visible_GER_GER_develop_modern_maneuver_warfare = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_panzergrenadier = {
+    AND = {
+        NFQ_focus_visible_GER_GER_improve_motorized_troops = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_instill_auftragstaktik = {
+    AND = {
+        NFQ_focus_visible_GER_GER_panzergrenadier = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_improve_the_logistics_system = {
+    AND = {
+        NFQ_focus_visible_GER_GER_instill_auftragstaktik = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_defend_the_vaterland = {
+    AND = {
+        NFQ_focus_visible_GER_GER_instill_auftragstaktik = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_uranverein = {
+    AND = {
+        NFQ_focus_visible_GER_GER_instill_auftragstaktik = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_adopt_new_panzer_doctrine = {
+    AND = {
+        NFQ_focus_visible_GER_GER_develop_modern_maneuver_warfare = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_panzer_troops_school = {
+    AND = {
+        NFQ_focus_visible_GER_GER_adopt_new_panzer_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_advanced_panzer_research = {
+    AND = {
+        NFQ_focus_visible_GER_GER_adopt_new_panzer_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_salvage_captured_equipment = {
+    AND = {
+        NFQ_focus_visible_GER_GER_advanced_panzer_research = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_expand_kummersdorfs_capacity = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_GER_GER_advanced_panzer_research = yes
+            NFQ_focus_visible_GER_GER_panzer_troops_school = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_combined_arms = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_GER_GER_advanced_panzer_research = yes
+            NFQ_focus_visible_GER_GER_dive_bombers = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_expanding_the_luftwaffe = {
+    always = yes
+}
+
+NFQ_focus_visible_GER_GER_aeronautical_research_institute = {
+    AND = {
+        NFQ_focus_visible_GER_GER_expanding_the_luftwaffe = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_dive_bombers = {
+    AND = {
+        NFQ_focus_visible_GER_GER_aeronautical_research_institute = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_tactical_bombers = {
+    AND = {
+        NFQ_focus_visible_GER_GER_aeronautical_research_institute = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_uralbomber_program = {
+    AND = {
+        NFQ_focus_visible_GER_GER_aeronautical_research_institute = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_rocketry_innovations = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_GER_GER_dive_bombers = yes
+            NFQ_focus_visible_GER_GER_tactical_bombers = yes
+            NFQ_focus_visible_GER_GER_uralbomber_program = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_fallschirmjager = {
+    AND = {
+        NFQ_focus_visible_GER_GER_expanding_the_luftwaffe = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_form_the_jagdwaffe = {
+    AND = {
+        NFQ_focus_visible_GER_GER_expanding_the_luftwaffe = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_reorganize_the_luftwaffe = {
+    AND = {
+        NFQ_focus_visible_GER_GER_form_the_jagdwaffe = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_solve_the_logistical_bottlenecks = {
+    AND = {
+        NFQ_focus_visible_GER_GER_reorganize_the_luftwaffe = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_develop_the_knickebein = {
+    AND = {
+        NFQ_focus_visible_GER_GER_form_the_jagdwaffe = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_defense_of_the_reich = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_GER_GER_reorganize_the_luftwaffe = yes
+            NFQ_focus_visible_GER_GER_develop_the_knickebein = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_construct_the_kammhuber_line = {
+    AND = {
+        NFQ_focus_visible_GER_GER_defense_of_the_reich = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_establish_night_fighter_squadrons = {
+    AND = {
+        NFQ_focus_visible_GER_GER_defense_of_the_reich = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_torpedobomber = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_GER_GER_develop_the_knickebein = yes
+            NFQ_focus_visible_GER_GER_expand_kriegsmarinewerft = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_aerodynamic_research_institute = {
+    AND = {
+        AND = {
+            OR = {
+                NFQ_focus_visible_GER_GER_solve_the_logistical_bottlenecks = yes
+                NFQ_focus_visible_GER_GER_construct_the_kammhuber_line = yes
+                NFQ_focus_visible_GER_GER_establish_night_fighter_squadrons = yes
+            }
+            NFQ_focus_visible_GER_GER_rocketry_innovations = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_amerikabomber = {
+    AND = {
+        NFQ_focus_visible_GER_GER_aerodynamic_research_institute = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_strengthen_the_kriegsmarine = {
+    always = yes
+}
+
+NFQ_focus_visible_GER_GER_plan_z = {
+    AND = {
+        NFQ_focus_visible_GER_GER_strengthen_the_kriegsmarine = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_expand_kriegsmarinewerft = {
+    AND = {
+        NFQ_focus_visible_GER_GER_plan_z = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_grosskampfschiff_construction = {
+    AND = {
+        NFQ_focus_visible_GER_GER_expand_kriegsmarinewerft = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_atlantic_naval_dominance = {
+    AND = {
+        NFQ_focus_visible_GER_GER_grosskampfschiff_construction = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_trade_interdiction = {
+    AND = {
+        NFQ_focus_visible_GER_GER_strengthen_the_kriegsmarine = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_cruiser_warfare = {
+    AND = {
+        NFQ_focus_visible_GER_GER_trade_interdiction = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_panzerschiff_raiders = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = GER_u_boat_efforts
+                check_variable = { f195 = 5 }
+            }
+        }
+        NFQ_focus_visible_GER_GER_cruiser_warfare = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_wolfpack_tactics = {
+    AND = {
+        NFQ_focus_visible_GER_GER_trade_interdiction = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_u_boat_efforts = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = GER_panzerschiff_raiders
+                check_variable = { f193 = 5 }
+            }
+        }
+        NFQ_focus_visible_GER_GER_wolfpack_tactics = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_unrestricted_convoy_raiding = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_GER_GER_panzerschiff_raiders = yes
+            NFQ_focus_visible_GER_GER_u_boat_efforts = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_expand_the_truppenschulen = {
+    AND = {
+        NFQ_focus_visible_GER_GER_bribe_senior_officers = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_autonomy_in_the_kriegsschulen = {
+    AND = {
+        NFQ_focus_visible_GER_GER_expand_the_truppenschulen = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_Yalmar_Shaht = {
+    always = yes
+}
+
+NFQ_focus_visible_GER_GER_construct_the_reichsautobahn = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_Yalmar_Shaht = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_build_the_rur_dam = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_Yalmar_Shaht = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_kdf_wagen_factories = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_Yalmar_Shaht = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_expand_the_reichsautobahn_south = {
+    AND = {
+        NFQ_focus_visible_GER_GER_construct_the_reichsautobahn = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_expand_the_reichsautobahn_east = {
+    AND = {
+        NFQ_focus_visible_GER_GER_construct_the_reichsautobahn = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_the_four_year_plan = {
+    AND = {
+        NFQ_focus_visible_GER_GER_construct_the_reichsautobahn = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_develop_heraeus_facilities = {
+    AND = {
+        NFQ_focus_visible_GER_GER_the_four_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_autarky_efforts = {
+    AND = {
+        NFQ_focus_visible_GER_GER_the_four_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_institute_price_controls = {
+    AND = {
+        NFQ_focus_visible_GER_GER_the_four_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_establish_the_reichswerke = {
+    AND = {
+        NFQ_focus_visible_GER_GER_autarky_efforts = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_coal_liquefaction = {
+    AND = {
+        NFQ_focus_visible_GER_GER_autarky_efforts = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_subsidize_hoesch_benzin = {
+    AND = {
+        NFQ_focus_visible_GER_GER_establish_the_reichswerke = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_establish_buna_werke = {
+    AND = {
+        NFQ_focus_visible_GER_GER_coal_liquefaction = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_autarky_achieved = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_GER_GER_establish_buna_werke = yes
+            NFQ_focus_visible_GER_GER_subsidize_hoesch_benzin = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_seize_foreign_industries = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_GER_GER_zentrale_planung = yes
+            NFQ_focus_visible_GER_GER_GPW_Shindler_and_CO = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_accelerate_the_rearmament_program = {
+    AND = {
+        NFQ_focus_visible_GER_GER_the_four_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_concentrated_armament_program = {
+    AND = {
+        NFQ_focus_visible_GER_GER_accelerate_the_rearmament_program = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_establish_production_targets = {
+    AND = {
+        NFQ_focus_visible_GER_GER_accelerate_the_rearmament_program = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_nationalize_ford_factories = {
+    AND = {
+        NFQ_focus_visible_GER_GER_the_four_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_remilitarize_the_rhineland = {
+    always = yes
+}
+
+NFQ_focus_visible_GER_GER_heed_von_neuraths_concerns = {
+    AND = {
+        NFQ_focus_visible_GER_GER_remilitarize_the_rhineland = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_legion_condor = {
+    AND = {
+        NFQ_focus_visible_GER_GER_heed_von_neuraths_concerns = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_reorganize_secret_services = {
+    AND = {
+        AND = {
+            has_dlc = "La Resistance"
+        }
+        NFQ_focus_visible_GER_GER_heed_von_neuraths_concerns = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_subversive_infiltrators = {
+    AND = {
+        NFQ_focus_visible_GER_GER_reorganize_secret_services = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_anschluss = {
+    AND = {
+        NFQ_focus_visible_GER_GER_heed_von_neuraths_concerns = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_demand_sudetenland = {
+    AND = {
+        NFQ_focus_visible_GER_GER_anschluss = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_reorganize_the_wehrmacht = {
+    AND = {
+        NFQ_focus_visible_GER_GER_demand_sudetenland = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_war_preparations = {
+    AND = {
+        NFQ_focus_visible_GER_GER_reorganize_the_wehrmacht = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_first_vienna_award = {
+    AND = {
+        NFQ_focus_visible_GER_GER_reorganize_the_wehrmacht = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_fate_of_czechoslovakia = {
+    AND = {
+        NFQ_focus_visible_GER_GER_first_vienna_award = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_integrate_czechoslovakia = {
+    AND = {
+        NFQ_focus_visible_GER_GER_fate_of_czechoslovakia = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_integrate_czech_manufacturers = {
+    AND = {
+        AND = {
+            has_dlc = "Peace For Our Time"
+        }
+        NFQ_focus_visible_GER_GER_integrate_czechoslovakia = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_form_rome_berlin_axis = {
+    AND = {
+        NFQ_focus_visible_GER_GER_reorganize_the_wehrmacht = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_establish_the_afrikakorps = {
+    AND = {
+        NFQ_focus_visible_GER_GER_form_rome_berlin_axis = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_prepare_for_the_next_blockade_ww = {
+    AND = {
+        NFQ_focus_visible_GER_GER_form_rome_berlin_axis = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_danzig_or_war = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_GER_GER_fate_of_czechoslovakia = yes
+            NFQ_focus_visible_GER_GER_molotov_ribbentrop_pact = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_the_triumphant_will = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_GER_GER_operation_sea_lion = yes
+            NFQ_focus_visible_GER_GER_fate_of_greece = yes
+            NFQ_focus_visible_GER_GER_mittelafrika = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_subjugate_romanian_economy = {
+    AND = {
+        NFQ_focus_visible_GER_GER_reorganize_the_wehrmacht = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_around_maginot = {
+    AND = {
+        NFQ_focus_visible_GER_GER_danzig_or_war = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_operation_weserubung = {
+    AND = {
+        NFQ_focus_visible_GER_GER_danzig_or_war = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_war_with_france = {
+    AND = {
+        NFQ_focus_visible_GER_GER_around_maginot = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_demands_to_sweden = {
+    AND = {
+        NFQ_focus_visible_GER_GER_operation_weserubung = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_trade_deal_with_sweden = {
+    AND = {
+        NFQ_focus_visible_GER_GER_demands_to_sweden = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_reintegrate_luxemburg_and_alsace_lorraine = {
+    AND = {
+        NFQ_focus_visible_GER_GER_war_with_france = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_the_swiss_gold = {
+    AND = {
+        NFQ_focus_visible_GER_GER_war_with_france = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_operation_sea_lion = {
+    AND = {
+        NFQ_focus_visible_GER_GER_war_with_france = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_demand_slovenia = {
+    AND = {
+        NFQ_focus_visible_GER_GER_danzig_or_war = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_first_ljubljana_award = {
+    AND = {
+        NFQ_focus_visible_GER_GER_demand_slovenia = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_fate_of_yugoslavia = {
+    AND = {
+        NFQ_focus_visible_GER_GER_first_ljubljana_award = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_second_ljubljana_award = {
+    AND = {
+        NFQ_focus_visible_GER_GER_fate_of_yugoslavia = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_fate_of_greece = {
+    AND = {
+        NFQ_focus_visible_GER_GER_second_ljubljana_award = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_anti_comintern_pact = {
+    AND = {
+        NFQ_focus_visible_GER_GER_reorganize_the_wehrmacht = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_army_indoctrination = {
+    AND = {
+        NFQ_focus_visible_GER_GER_anti_comintern_pact = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_support_finland = {
+    AND = {
+        NFQ_focus_visible_GER_GER_reorganize_the_wehrmacht = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_war_with_the_ussr = {
+    AND = {
+        NFQ_focus_visible_GER_GER_army_indoctrination = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_kriegslokomotiven = {
+    AND = {
+        NFQ_focus_visible_GER_GER_war_with_the_ussr = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_totaler_krieg = {
+    AND = {
+        NFQ_focus_visible_GER_GER_kriegslokomotiven = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_strafbataillon = {
+    AND = {
+        NFQ_focus_visible_GER_GER_war_with_the_ussr = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_uplift_the_rosenberg_office = {
+    AND = {
+        NFQ_focus_visible_GER_GER_war_with_the_ussr = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_expand_ss_recruitment = {
+    AND = {
+        NFQ_focus_visible_GER_GER_war_with_the_ussr = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_molotov_ribbentrop_pact = {
+    AND = {
+        NFQ_focus_visible_GER_GER_war_preparations = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_treaty_with_the_ussr = {
+    AND = {
+        NFQ_focus_visible_GER_GER_molotov_ribbentrop_pact = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_befriend_turkey = {
+    AND = {
+        NFQ_focus_visible_GER_GER_war_with_the_ussr = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_befriend_japan = {
+    AND = {
+        NFQ_focus_visible_GER_GER_anti_comintern_pact = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_reclaim_former_african_colonies = {
+    AND = {
+        NFQ_focus_visible_GER_GER_establish_the_afrikakorps = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_mittelafrika = {
+    AND = {
+        NFQ_focus_visible_GER_GER_reclaim_former_african_colonies = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_japanese_naval_cooperation = {
+    AND = {
+        NFQ_focus_visible_GER_GER_befriend_japan = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_fuhrerprinzip = {
+    AND = {
+        NFQ_focus_visible_GER_GER_remilitarize_the_rhineland = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_ascension_of_todt = {
+    AND = {
+        NFQ_focus_visible_GER_GER_fuhrerprinzip = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_form_organization_todt = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_autonomous_organization_todt = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_integrate_organization_todt_into_wehrmacht = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_ascension_of_speer = {
+    AND = {
+        NFQ_focus_visible_GER_GER_fuhrerprinzip = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_employ_philipp_holzmann = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_plenipotentiary_of_armaments = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_wunderwaffe = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_ascension_of_goring = {
+    AND = {
+        NFQ_focus_visible_GER_GER_fuhrerprinzip = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_prioritize_the_four_year_plan = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_plenipotentiary_of_the_four_year_plan = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_integration_of_puppet_economies = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_ascension_of_himmler = {
+    AND = {
+        NFQ_focus_visible_GER_GER_fuhrerprinzip = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_expand_gestapo = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_absorb_the_abwehr = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_expand_ss_security_duties = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_strengthen_the_waffen_ss = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_hegemony_of_the_ss = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_ascension_of_goebbels = {
+    AND = {
+        NFQ_focus_visible_GER_GER_fuhrerprinzip = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_ministry_of_public_enlightenment = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_fund_the_film_department = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_propaganda_master = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_party_chancellor_hess = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = GER_party_chancellor_bormann
+                check_variable = { f308 = 5 }
+            }
+        }
+        NFQ_focus_visible_GER_GER_fuhrerprinzip = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_party_chancellor_bormann = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = GER_party_chancellor_hess
+                check_variable = { f307 = 5 }
+            }
+        }
+        NFQ_focus_visible_GER_GER_fuhrerprinzip = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_optimize_reich_labour_service = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_rally_the_industrialists = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_glorify_party_rallies = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_total_control_over_domestic_affairs = {
+    always = no
+}
+
+NFQ_focus_visible_GER_GER_loyalty_to_the_fuhrer = {
+    always = yes
+}
+
+NFQ_focus_visible_GER_GER_demonstration_of_military_achievements = {
+    AND = {
+        NFQ_focus_visible_GER_GER_loyalty_to_the_fuhrer = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_an_invincible_army = {
+    AND = {
+        NFQ_focus_visible_GER_GER_loyalty_to_the_fuhrer = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_the_supreme_leader = {
+    AND = {
+        NFQ_focus_visible_GER_GER_loyalty_to_the_fuhrer = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_we_are_ready_for_war = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_GER_GER_establish_production_targets = yes
+            NFQ_focus_visible_GER_GER_concentrated_armament_program = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_zentrale_planung = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_we_are_ready_for_war = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_create_rustungsstab = {
+    AND = {
+        NFQ_focus_visible_GER_GER_zentrale_planung = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_armament_rationalization = {
+    AND = {
+        NFQ_focus_visible_GER_GER_zentrale_planung = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_Albert_Shpeer = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_GER_GER_zentrale_planung = yes
+            NFQ_focus_visible_GER_GER_armament_rationalization = yes
+            NFQ_focus_visible_GER_GER_create_rustungsstab = yes
+        }
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_Walther_Funk = {
+    AND = {
+        NFQ_focus_visible_GER_GER_subsidize_hoesch_benzin = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_purchase_of_Jewish_property = {
+    AND = {
+        NFQ_focus_visible_GER_GER_the_four_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_concentration_camp = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_purchase_of_Jewish_property = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_Shindler_and_CO = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_concentration_camp = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_hungary = {
+    AND = {
+        NFQ_focus_visible_GER_GER_reorganize_the_wehrmacht = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_axis = {
+    AND = {
+        NFQ_focus_visible_GER_GER_subjugate_romanian_economy = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_romania_axis = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_axis = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_hungary_axis = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_axis = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_italy_axis = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_axis = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_main_ally = {
+    always = yes
+}
+
+NFQ_focus_visible_GER_GER_GPW_art = {
+    AND = {
+        NFQ_focus_visible_GER_GER_develop_modern_maneuver_warfare = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_artillery_bombardment = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_art = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_Stug = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_art = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_innovative_warfare = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_Stug = yes
+    }
+}
+
+NFQ_focus_visible_GER_GER_GPW_axis_Jewish = {
+    always = yes
+}
+
+NFQ_focus_visible_GER_GER_GPW_The_Final_Solution_of_the_Jewish_Question = {
+    AND = {
+        NFQ_focus_visible_GER_GER_GPW_Shindler_and_CO = yes
+    }
+}
+
+

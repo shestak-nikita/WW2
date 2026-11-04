@@ -1,0 +1,1 @@
+focus={current=JAP_expand_kawagoe_army_arsenal}

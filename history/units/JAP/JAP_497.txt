@@ -1,0 +1,1 @@
+focus={current=JAP_develop_lethal_infantry_equipment}

@@ -1,0 +1,1 @@
+focus={current=ENG_every_man_will_do_his_duty}

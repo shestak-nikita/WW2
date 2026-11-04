@@ -1,0 +1,1 @@
+focus={current=GER_no_reds_in_western_europe}

@@ -1,0 +1,1 @@
+focus={current=JAP_the_long_march_to_victory}

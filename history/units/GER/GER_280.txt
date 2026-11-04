@@ -1,0 +1,1 @@
+focus={current=GER_sentinels_of_the_pacific}

@@ -1,0 +1,1 @@
+focus={current=SOV_socialism_in_one_country}

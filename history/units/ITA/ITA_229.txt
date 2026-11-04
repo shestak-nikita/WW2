@@ -1,0 +1,1 @@
+focus={current=ITA_dino_grandi_focus}

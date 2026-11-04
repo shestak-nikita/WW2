@@ -1,0 +1,1 @@
+focus={current=ENG_royal_malay_regiment_focus}

@@ -1,0 +1,1 @@
+focus={current=ITA_brescia_small_arms_industry}

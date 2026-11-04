@@ -1,0 +1,1 @@
+focus={current=GER_embrace_liberal_leanings}

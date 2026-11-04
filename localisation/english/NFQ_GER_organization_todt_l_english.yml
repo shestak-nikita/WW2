@@ -1,0 +1,12 @@
+﻿l_english:
+ GER_integrate_organization_todt_into_wehrmacht:0 "Integrate the Organization Todt into the Wehrmacht"
+ GER_integrate_organization_todt_into_wehrmacht_desc:0 "With the Organization Todt placed under Wehrmacht control, the concern can be retooled for the needs of the war economy. Its civilian factory bonus will be converted into either synthetic refinery construction or military factory construction."
+ GER_integrate_organization_todt_into_wehrmacht_effect_tt:0 "Fires the event: $EVENT$. The 15% civilian factory bonus is converted into either 15% synthetic refinery construction or 15% military factory construction."
+ NFQ_GER_organization_todt.1.t:0 "The Organization Todt and the Wehrmacht"
+ NFQ_GER_organization_todt.1.desc:0 "The Organization Todt has been placed under Wehrmacht control. Its construction apparatus can now be retooled: the civilian factory programme can be converted into synthetic fuel production, or into military construction."
+ NFQ_GER_organization_todt.1.a:0 "Convert the concern to synthetic fuel production"
+ NFQ_GER_organization_todt.1.b:0 "Convert the concern to military construction"
+ GER_organization_todt_integrated_refinery:0 "Organization Todt — Refinery Division"
+ GER_organization_todt_integrated_military:0 "Organization Todt — Military Construction"
+ GER_organization_todt_integrated_refinery_trait:0 "$construction_company$"
+ GER_organization_todt_integrated_military_trait:0 "$construction_company$"

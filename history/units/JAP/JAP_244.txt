@@ -1,0 +1,1 @@
+focus={current=JAP_greater_east_asia_railroad}

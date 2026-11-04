@@ -1,0 +1,1 @@
+focus={current=SOV_undermine_stalins_authority}

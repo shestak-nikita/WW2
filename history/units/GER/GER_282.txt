@@ -1,0 +1,1 @@
+focus={current=GER_south_east_asian_natural_wealth}

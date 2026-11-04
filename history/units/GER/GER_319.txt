@@ -1,0 +1,1 @@
+focus={current=GER_revitalize_the_nation}

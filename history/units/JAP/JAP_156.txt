@@ -1,0 +1,1 @@
+focus={current=JAP_authorize_aid_to_ethiopia}

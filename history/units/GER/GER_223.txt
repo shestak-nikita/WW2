@@ -1,0 +1,1 @@
+focus={current=GER_support_a_coup_in_liechtenstein}

@@ -1,0 +1,1 @@
+focus={current=general_rearmament_focus}

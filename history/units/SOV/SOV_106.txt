@@ -1,0 +1,1 @@
+focus={current=SOV_reorganize_the_pc_of_heavy_industry}

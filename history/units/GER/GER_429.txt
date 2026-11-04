@@ -1,0 +1,1 @@
+focus={current=GER_german_hegemony_in_the_middle_east}

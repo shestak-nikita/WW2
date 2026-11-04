@@ -1,0 +1,1 @@
+focus={current=JAP_ally_with_the_zaibatsus}

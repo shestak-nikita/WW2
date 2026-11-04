@@ -1,0 +1,4 @@
+gain_focus = {
+	political_power_cost = 1
+	female_random_country_leader_chance = 2
+}

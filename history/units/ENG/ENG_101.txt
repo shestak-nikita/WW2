@@ -1,0 +1,1 @@
+focus={current=crypto_bomb_focus}

@@ -1,0 +1,1 @@
+focus={current=GER_establish_protectorates_in_america}

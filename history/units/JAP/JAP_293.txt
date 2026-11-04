@@ -1,0 +1,1 @@
+focus={current=JAP_sea_exploit_southern_resource_area}

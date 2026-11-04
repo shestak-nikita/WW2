@@ -1,0 +1,1 @@
+focus={current=GER_molotov_ribbentrop_pact}

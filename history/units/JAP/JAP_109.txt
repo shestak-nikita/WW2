@@ -1,0 +1,1 @@
+focus={current=JAP_finish_the_fight}

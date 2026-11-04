@@ -1,0 +1,1 @@
+focus={current=SOV_prepare_a_war_with_japan}

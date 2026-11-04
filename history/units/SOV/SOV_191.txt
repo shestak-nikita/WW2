@@ -1,0 +1,1 @@
+focus={current=SOV_keep_commissars_organization}

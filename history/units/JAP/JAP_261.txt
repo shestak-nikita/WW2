@@ -1,0 +1,1 @@
+focus={current=JAP_found_the_air_defense_surveilance_corps}

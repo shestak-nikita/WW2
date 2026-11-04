@@ -1,0 +1,1 @@
+focus={current=GER_wage_war_on_capitalism}

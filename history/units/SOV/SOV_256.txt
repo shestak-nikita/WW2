@@ -1,0 +1,1 @@
+focus={current=SOV_concessions_to_foreign_powers}

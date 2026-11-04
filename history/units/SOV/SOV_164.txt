@@ -1,0 +1,1 @@
+focus={current=SOV_pc_of_mortar_armament}

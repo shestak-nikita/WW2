@@ -1,0 +1,1 @@
+focus={current=JAP_to_reach_princess_kaguya}

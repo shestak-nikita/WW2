@@ -1,0 +1,1 @@
+focus={current=ENG_the_british_path_to_fascism}

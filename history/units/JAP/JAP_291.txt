@@ -1,0 +1,1 @@
+focus={current=JAP_battle_for_australia}

@@ -1,0 +1,1 @@
+focus={current=ENG_norwegian_intervention}

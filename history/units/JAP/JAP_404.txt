@@ -1,0 +1,1 @@
+focus={current=JAP_rikken_seiyukai_victory}

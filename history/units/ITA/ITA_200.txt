@@ -1,0 +1,1 @@
+focus={current=ITA_culto_del_duce}

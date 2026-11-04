@@ -1,0 +1,1 @@
+focus={current=ENG_embargo_ussr}

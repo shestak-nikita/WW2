@@ -1,0 +1,1 @@
+focus={current=GER_support_the_finns_ww}

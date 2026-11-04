@@ -1,0 +1,1 @@
+focus={current=FRA_protect_the_rights_of_man}

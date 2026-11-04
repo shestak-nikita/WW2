@@ -1,0 +1,1 @@
+focus={current=GER_pool_technical_know_how}

@@ -1,0 +1,1 @@
+focus={current=JAP_learn_from_the_nkvd}

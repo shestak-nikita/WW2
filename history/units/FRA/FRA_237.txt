@@ -1,0 +1,1 @@
+focus={current=FRA_dominate_the_middle_east}

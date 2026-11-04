@@ -1,0 +1,1 @@
+focus={current=JAP_sea_purge_the_kodoha_faction}

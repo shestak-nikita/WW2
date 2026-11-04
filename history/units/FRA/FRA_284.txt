@@ -1,0 +1,1 @@
+focus={current=FRA_heavy_bomber_focus}

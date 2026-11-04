@@ -1,0 +1,1 @@
+focus={current=JAP_focus_on_aircraft_carriers}

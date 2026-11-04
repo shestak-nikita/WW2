@@ -1,0 +1,1 @@
+focus={current=SOV_recover_the_kuril_islands}

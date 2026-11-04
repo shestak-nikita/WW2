@@ -1,0 +1,1 @@
+focus={current=FRA_two_countries_two_crowns}

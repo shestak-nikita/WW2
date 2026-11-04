@@ -1,0 +1,1 @@
+focus={current=FRA_general_work_council}

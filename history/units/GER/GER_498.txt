@@ -1,0 +1,1 @@
+focus={current=GER_pride_of_the_modern_germany}

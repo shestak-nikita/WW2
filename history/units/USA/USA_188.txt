@@ -1,0 +1,1 @@
+focus={current=USA_anti_bolshevist_aid}

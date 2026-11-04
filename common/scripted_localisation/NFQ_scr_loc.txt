@@ -1,0 +1,52 @@
+defined_text={
+	name=NFQ_queue_num
+	text={
+		trigger={has_variable=i set_temp_variable={ii=i} add_to_temp_variable={ii=1}}
+		localization_key="[?ii]"
+	}
+}
+defined_text={
+	name=NFQ_queue_state
+	text={trigger={has_country_flag=NFQ_error}localization_key="NFQ_queue_state_error"}
+	text={trigger={has_country_flag=NFQ_NFQactivated}localization_key="NFQ_queue_state_active"}
+	text={trigger={has_country_flag=NFQ_holding}localization_key="NFQ_queue_state_holding"}
+	text={localization_key=""}
+}
+defined_text={
+	name=NFQ_hold_item_name
+	text={
+		trigger={
+			check_variable={v<-999}
+			set_temp_variable={hold_days_display=v}
+			add_to_temp_variable={hold_days_display=1000}
+			multiply_temp_variable={hold_days_display=-1}
+		}
+		localization_key="NFQ_hold_display"
+	}
+	text={localization_key="Error"}
+}
+
+defined_text={name=NFQ_focustitle
+text={trigger={tag=JAP}localization_key=[NFQ_focustitle_JAP]}
+text={trigger={tag=USA}localization_key=[NFQ_focustitle_USA]}
+text={trigger={tag=ENG}localization_key=[NFQ_focustitle_ENG]}
+text={trigger={tag=GER}localization_key=[NFQ_focustitle_GER]}
+text={trigger={tag=ITA}localization_key=[NFQ_focustitle_ITA]}
+text={trigger={tag=SOV}localization_key=[NFQ_focustitle_SOV]}
+text={trigger={tag=FRA}localization_key=[NFQ_focustitle_FRA]}
+text={trigger={tag=RAJ}localization_key=[NFQ_focustitle_RAJ]}
+}
+defined_text={name=NFQ_focusicon
+text={trigger={tag=JAP}localization_key=[NFQ_focusicon_JAP]}
+text={trigger={tag=USA}localization_key=[NFQ_focusicon_USA]}
+text={trigger={tag=ENG}localization_key=[NFQ_focusicon_ENG]}
+text={trigger={tag=GER}localization_key=[NFQ_focusicon_GER]}
+text={trigger={tag=ITA}localization_key=[NFQ_focusicon_ITA]}
+text={trigger={tag=SOV}localization_key=[NFQ_focusicon_SOV]}
+text={trigger={tag=FRA}localization_key=[NFQ_focusicon_FRA]}
+text={trigger={tag=RAJ}localization_key=[NFQ_focusicon_RAJ]}
+}
+defined_text={name=NFQ_startmenu_text_scr
+text={trigger={NFQ_allowed_tag=yes}localization_key="NFQ_start_text"}
+text={localization_key="NFQ_start_text_error"}
+}

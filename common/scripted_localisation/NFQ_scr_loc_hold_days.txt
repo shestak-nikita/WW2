@@ -1,0 +1,7 @@
+defined_text={
+	name=NFQ_hold_days_num_display
+	text={
+		trigger={always=yes}
+		localization_key="[?NFQ_hold_days]"
+	}
+}

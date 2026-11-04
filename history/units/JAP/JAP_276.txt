@@ -1,0 +1,1 @@
+focus={current=JAP_reorganized_national_government}

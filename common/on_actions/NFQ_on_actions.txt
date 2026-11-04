@@ -1,0 +1,40 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			GER = {set_temp_variable={i_end=539} NFQ_on_startup=yes}
+			SOV = {set_temp_variable={i_end=412} NFQ_on_startup=yes}
+			USA = {set_temp_variable={i_end=236} NFQ_on_startup=yes}
+			ENG = {set_temp_variable={i_end=268} NFQ_on_startup=yes}
+			JAP = {set_temp_variable={i_end=549} NFQ_on_startup=yes}
+			ITA = {set_temp_variable={i_end=415} NFQ_on_startup=yes}
+			FRA = {set_temp_variable={i_end=286} NFQ_on_startup=yes}
+            RAJ = {if={limit={has_dlc="Graveyard of Empires"} set_temp_variable={i_end=245} NFQ_on_startup=yes}}
+			#Add more counttries later down the line
+		}
+	}
+	on_daily_GER = {
+            effect = {
+                NFQ_daily_tick = yes
+            }
+        }
+	on_daily_SOV = {
+            effect = { NFQ_daily_tick = yes }
+        }
+	on_daily_USA = {
+            effect = { NFQ_daily_tick = yes }
+        }
+	on_daily_ENG = {
+            effect = { NFQ_daily_tick = yes }
+        }
+	on_daily_JAP = {
+            effect = { NFQ_daily_tick = yes }
+        }
+	on_daily_ITA = {
+            effect = { NFQ_daily_tick = yes }
+        }
+	on_daily_FRA = {
+            effect = { NFQ_daily_tick = yes }
+        }
+
+	on_daily_RAJ = { effect = { NFQ_daily_tick = yes } }
+}

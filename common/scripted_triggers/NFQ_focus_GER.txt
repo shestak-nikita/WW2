@@ -1,0 +1,4131 @@
+# Generated from common/national_focus/germany.txt. Do not edit by hand.
+
+@inner_circle_time_tier_1 = 20
+
+@inner_circle_time_tier_2 = 20
+
+@inner_circle_time_tier_3 = 40
+
+
+
+GER_set101 = {
+    AND = {
+        has_completed_focus = GER_zentrale_planung
+        has_completed_focus = GER_armament_rationalization
+        has_completed_focus = GER_create_rustungsstab
+    }
+}
+
+GER_set102 = {
+    AND = {
+        has_completed_focus = GER_GPW_concentration_camp
+    }
+}
+
+GER_set103 = {
+    AND = {
+        has_completed_focus = GER_GPW_art
+    }
+}
+
+GER_set104 = {
+    AND = {
+        has_completed_focus = GER_GPW_Shindler_and_CO
+    }
+}
+
+GER_set105 = {
+    AND = {
+        has_completed_focus = GER_subsidize_hoesch_benzin
+    }
+}
+
+GER_set106 = {
+    always = yes
+}
+
+GER_set107 = {
+    AND = {
+        has_completed_focus = GER_develop_modern_maneuver_warfare
+    }
+}
+
+GER_set108 = {
+    AND = {
+        has_completed_focus = GER_subjugate_romanian_economy
+    }
+}
+
+GER_set109 = {
+    always = yes
+}
+
+GER_set110 = {
+    AND = {
+        has_completed_focus = GER_GPW_purchase_of_Jewish_property
+    }
+}
+
+GER_set111 = {
+    AND = {
+        has_completed_focus = GER_reorganize_the_wehrmacht
+    }
+}
+
+GER_set112 = {
+    AND = {
+        has_completed_focus = GER_GPW_axis
+    }
+}
+
+GER_set113 = {
+    AND = {
+        has_completed_focus = GER_GPW_axis
+    }
+}
+
+GER_set114 = {
+    always = yes
+}
+
+GER_set115 = {
+    AND = {
+        has_completed_focus = GER_the_four_year_plan
+    }
+}
+
+GER_set116 = {
+    AND = {
+        AND = {
+            OR = {
+                has_full_control_of_state = 64
+                has_full_control_of_state = 59
+                has_full_control_of_state = 60
+                has_full_control_of_state = 54
+            }
+        }
+        has_completed_focus = GER_GPW_Yalmar_Shaht
+        NOT = {
+            has_civil_war = no
+            NOT = {
+                has_full_control_of_state = 64
+            }
+            NOT = {
+                has_full_control_of_state = 59
+            }
+            NOT = {
+                has_full_control_of_state = 60
+            }
+            NOT = {
+                has_full_control_of_state = 54
+            }
+        }
+    }
+}
+
+GER_set117 = {
+    AND = {
+        AND = {
+            51 = {
+                is_fully_controlled_by = ROOT
+                is_demilitarized_zone = no
+            }
+        }
+        has_completed_focus = GER_GPW_Yalmar_Shaht
+    }
+}
+
+GER_set118 = {
+    AND = {
+        AND = {
+            is_subject = no
+            AND = {
+                country_exists = SWE
+                SWE = {
+                    is_subject = no
+                }
+                NOT = {
+                    has_war_with = SWE
+                }
+                SWE = {
+                    custom_trigger_tooltip = {
+                        tooltip = GER_alone_or_peace_faction_tt
+                        is_alone_or_in_faction_at_peace_with_GER = yes
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_demands_to_sweden
+    }
+}
+
+GER_set119 = {
+    AND = {
+        has_completed_focus = GER_GPW_Yalmar_Shaht
+    }
+}
+
+GER_set120 = {
+    AND = {
+        AND = {
+            OR = {
+                53 = {
+                    state_is_fully_controlled_by_ROOT_or_subject = yes
+                }
+                52 = {
+                    state_is_fully_controlled_by_ROOT_or_subject = yes
+                }
+                152 = {
+                    state_is_fully_controlled_by_ROOT_or_subject = yes
+                }
+                4 = {
+                    state_is_fully_controlled_by_ROOT_or_subject = yes
+                }
+            }
+        }
+        has_completed_focus = GER_construct_the_reichsautobahn
+    }
+}
+
+GER_set121 = {
+    AND = {
+        AND = {
+            OR = {
+                68 = {
+                    state_is_fully_controlled_by_ROOT_or_subject = yes
+                }
+                63 = {
+                    state_is_fully_controlled_by_ROOT_or_subject = yes
+                }
+                807 = {
+                    state_is_fully_controlled_by_ROOT_or_subject = yes
+                }
+                85 = {
+                    state_is_fully_controlled_by_ROOT_or_subject = yes
+                }
+            }
+        }
+        has_completed_focus = GER_construct_the_reichsautobahn
+    }
+}
+
+GER_set122 = {
+    AND = {
+        AND = {
+            industrial_complex
+            >
+            49
+        }
+        has_completed_focus = GER_the_four_year_plan
+    }
+}
+
+GER_set123 = {
+    AND = {
+        has_completed_focus = GER_construct_the_reichsautobahn
+    }
+}
+
+GER_set124 = {
+    AND = {
+        has_completed_focus = GER_the_four_year_plan
+    }
+}
+
+GER_set125 = {
+    AND = {
+        has_completed_focus = GER_the_four_year_plan
+    }
+}
+
+GER_set126 = {
+    AND = {
+        AND = {
+            custom_trigger_tooltip = {
+                tooltip = GER_industrial_consumer_goods_factor_limit_tt
+                check_variable = {
+                    GER_industrial_consumer_goods_factor
+                    <
+                    0.9
+                }
+            }
+        }
+        has_completed_focus = GER_autarky_efforts
+    }
+}
+
+GER_set127 = {
+    AND = {
+        AND = {
+            custom_trigger_tooltip = {
+                tooltip = GER_industrial_consumer_goods_factor_limit_tt
+                check_variable = {
+                    GER_industrial_consumer_goods_factor
+                    <
+                    0.9
+                }
+            }
+            any_controlled_state = {
+                NOT = {
+                    is_core_of = ROOT
+                }
+                is_fully_controlled_by = ROOT
+                OR = {
+                    steel
+                    >
+                    24
+                    aluminium
+                    >
+                    19
+                    oil
+                    >
+                    14
+                    tungsten
+                    >
+                    9
+                    chromium
+                    >
+                    9
+                }
+            }
+        }
+        has_completed_focus = GER_zentrale_planung
+        has_completed_focus = GER_GPW_Shindler_and_CO
+        NOT = {
+            OR = {
+                has_resources_in_collection = {
+                    collection = collection:country_and_all_subjects
+                    resource = steel
+                    amount
+                    >
+                    799
+                    extracted = yes
+                }
+            }
+            OR = {
+                has_resources_in_collection = {
+                    collection = collection:country_and_all_subjects
+                    resource = aluminium
+                    amount
+                    >
+                    499
+                    extracted = yes
+                }
+            }
+            OR = {
+                has_resources_in_collection = {
+                    collection = collection:country_and_all_subjects
+                    resource = tungsten
+                    amount
+                    >
+                    99
+                    extracted = yes
+                }
+            }
+            OR = {
+                has_resources_in_collection = {
+                    collection = collection:country_and_all_subjects
+                    resource = chromium
+                    amount
+                    >
+                    99
+                    extracted = yes
+                }
+            }
+        }
+    }
+}
+
+GER_set128 = {
+    AND = {
+        AND = {
+            custom_trigger_tooltip = {
+                tooltip = GER_industrial_consumer_goods_factor_limit_tt
+                check_variable = {
+                    GER_industrial_consumer_goods_factor
+                    <
+                    0.9
+                }
+            }
+        }
+        has_completed_focus = GER_autarky_efforts
+    }
+}
+
+GER_set129 = {
+    AND = {
+        AND = {
+            custom_trigger_tooltip = {
+                tooltip = GER_industrial_consumer_goods_factor_limit_tt
+                check_variable = {
+                    GER_industrial_consumer_goods_factor
+                    <
+                    0.9
+                }
+            }
+            has_tech = oil_processing
+        }
+        has_completed_focus = GER_establish_the_reichswerke
+        NOT = {
+            has_resources_in_collection = {
+                collection = collection:country_and_all_subjects
+                resource = oil
+                amount
+                >
+                149
+                extracted = yes
+            }
+        }
+    }
+}
+
+GER_set130 = {
+    AND = {
+        AND = {
+            custom_trigger_tooltip = {
+                tooltip = GER_industrial_consumer_goods_factor_limit_tt
+                check_variable = {
+                    GER_industrial_consumer_goods_factor
+                    <
+                    0.9
+                }
+            }
+            has_tech = rubber_processing
+        }
+        has_completed_focus = GER_coal_liquefaction
+        NOT = {
+            has_resources_in_collection = {
+                collection = collection:country_and_all_subjects
+                resource = rubber
+                amount
+                >
+                99
+                extracted = yes
+            }
+        }
+    }
+}
+
+GER_set131 = {
+    AND = {
+        AND = {
+            all_core_state = {
+                is_fully_controlled_by = ROOT
+            }
+            has_resources_in_collection = {
+                collection = collection:country_and_all_subjects
+                resource = steel
+                amount
+                >
+                799
+                extracted = yes
+            }
+            has_resources_in_collection = {
+                collection = collection:country_and_all_subjects
+                resource = aluminium
+                amount
+                >
+                199
+                extracted = yes
+            }
+            has_resources_in_collection = {
+                collection = collection:country_and_all_subjects
+                resource = oil
+                amount
+                >
+                149
+                extracted = yes
+            }
+            has_resources_in_collection = {
+                collection = collection:country_and_all_subjects
+                resource = tungsten
+                amount
+                >
+                99
+                extracted = yes
+            }
+            has_resources_in_collection = {
+                collection = collection:country_and_all_subjects
+                resource = chromium
+                amount
+                >
+                99
+                extracted = yes
+            }
+            has_resources_in_collection = {
+                collection = collection:country_and_all_subjects
+                resource = rubber
+                amount
+                >
+                99
+                extracted = yes
+            }
+            has_resources_in_collection = {
+                collection = collection:country_and_all_subjects
+                resource = coal
+                amount
+                >
+                499
+                extracted = yes
+            }
+        }
+        has_completed_focus = GER_establish_buna_werke
+        has_completed_focus = GER_subsidize_hoesch_benzin
+    }
+}
+
+GER_set132 = {
+    AND = {
+        has_completed_focus = GER_the_four_year_plan
+    }
+}
+
+GER_set133 = {
+    AND = {
+        has_completed_focus = GER_accelerate_the_rearmament_program
+    }
+}
+
+GER_set134 = {
+    AND = {
+        has_completed_focus = GER_accelerate_the_rearmament_program
+    }
+}
+
+GER_set135 = {
+    AND = {
+        AND = {
+            has_war_with_major = yes
+            has_civil_war = no
+        }
+        has_completed_focus = GER_GPW_we_are_ready_for_war
+    }
+}
+
+GER_set136 = {
+    AND = {
+        has_completed_focus = GER_zentrale_planung
+    }
+}
+
+GER_set137 = {
+    AND = {
+        has_completed_focus = GER_zentrale_planung
+    }
+}
+
+GER_set138 = {
+    AND = {
+        AND = {
+            has_war_with_major = yes
+            OR = {
+                has_war_support
+                >
+                0.89
+                surrender_progress
+                >
+                0
+            }
+            any_enemy_country = {
+                ic_ratio = {
+                    tag = ROOT
+                    ratio
+                    >
+                    0.5
+                }
+            }
+        }
+        has_completed_focus = GER_kriegslokomotiven
+    }
+}
+
+GER_set139 = {
+    AND = {
+        has_completed_focus = GER_bribe_senior_officers
+    }
+}
+
+GER_set140 = {
+    AND = {
+        has_completed_focus = GER_develop_modern_maneuver_warfare
+    }
+}
+
+GER_set141 = {
+    AND = {
+        has_completed_focus = GER_GPW_axis
+    }
+}
+
+GER_set142 = {
+    AND = {
+        has_completed_focus = GER_develop_modern_maneuver_warfare
+    }
+}
+
+GER_set143 = {
+    AND = {
+        has_completed_focus = GER_bribe_senior_officers
+    }
+}
+
+GER_set144 = {
+    AND = {
+        has_completed_focus = GER_GPW_art
+    }
+}
+
+GER_set145 = {
+    AND = {
+        has_completed_focus = GER_establish_production_targets
+        has_completed_focus = GER_concentrated_armament_program
+    }
+}
+
+GER_set146 = {
+    AND = {
+        has_completed_focus = GER_develop_modern_maneuver_warfare
+    }
+}
+
+GER_set147 = {
+    AND = {
+        AND = {
+            has_war_with_major = yes
+        }
+        has_completed_focus = GER_advanced_panzer_research
+    }
+}
+
+GER_set148 = {
+    AND = {
+        has_completed_focus = GER_panzergrenadier
+    }
+}
+
+GER_set149 = {
+    AND = {
+        AND = {
+            OR = {
+                AND = {
+                    any_controlled_state = {
+                        is_fully_controlled_by = ROOT
+                        OR = {
+                            is_on_continent = africa
+                            is_on_continent = asia
+                        }
+                    }
+                }
+                AND = {
+                    any_subject_country = {
+                        any_controlled_state = {
+                            is_fully_controlled_by = PREV
+                            OR = {
+                                is_on_continent = africa
+                                is_on_continent = asia
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    any_allied_country = {
+                        any_controlled_state = {
+                            is_fully_controlled_by = PREV
+                            OR = {
+                                is_on_continent = africa
+                                is_on_continent = asia
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_form_rome_berlin_axis
+    }
+}
+
+GER_set151 = {
+    AND = {
+        has_completed_focus = GER_improve_motorized_troops
+    }
+}
+
+GER_set152 = {
+    AND = {
+        AND = {
+            has_war = yes
+            51 = {
+                is_fully_controlled_by = ROOT
+            }
+        }
+    }
+}
+
+GER_set153 = {
+    AND = {
+        AND = {
+            has_war = yes
+        }
+        has_completed_focus = GER_war_with_the_ussr
+    }
+}
+
+GER_set154 = {
+    AND = {
+        AND = {
+            has_war = yes
+        }
+    }
+}
+
+GER_set155 = {
+    AND = {
+        AND = {
+            has_war = yes
+        }
+    }
+}
+
+GER_set156 = {
+    AND = {
+        AND = {
+            has_war_with_major = yes
+        }
+    }
+}
+
+GER_set157 = {
+    AND = {
+        has_completed_focus = GER_develop_modern_maneuver_warfare
+    }
+}
+
+GER_set158 = {
+    AND = {
+        has_completed_focus = GER_adopt_new_panzer_doctrine
+    }
+}
+
+GER_set159 = {
+    AND = {
+        AND = {
+            has_tech = radio
+        }
+        has_completed_focus = GER_adopt_new_panzer_doctrine
+    }
+}
+
+GER_set160 = {
+    AND = {
+        AND = {
+            has_war_with_major = yes
+        }
+        has_completed_focus = GER_advanced_panzer_research
+        has_completed_focus = GER_panzer_troops_school
+    }
+}
+
+GER_set161 = {
+    AND = {
+        has_completed_focus = GER_advanced_panzer_research
+        has_completed_focus = GER_dive_bombers
+    }
+}
+
+GER_set162 = {
+    always = yes
+}
+
+GER_set163 = {
+    AND = {
+        has_completed_focus = GER_expanding_the_luftwaffe
+    }
+}
+
+GER_set164 = {
+    AND = {
+        has_completed_focus = GER_aeronautical_research_institute
+    }
+}
+
+GER_set165 = {
+    AND = {
+        has_completed_focus = GER_aeronautical_research_institute
+    }
+}
+
+GER_set166 = {
+    AND = {
+        has_completed_focus = GER_aeronautical_research_institute
+    }
+}
+
+GER_set167 = {
+    AND = {
+        OR = {
+            has_completed_focus = GER_dive_bombers
+            has_completed_focus = GER_tactical_bombers
+            has_completed_focus = GER_uralbomber_program
+        }
+    }
+}
+
+GER_set168 = {
+    AND = {
+        has_completed_focus = GER_expanding_the_luftwaffe
+    }
+}
+
+GER_set169 = {
+    AND = {
+        has_completed_focus = GER_expanding_the_luftwaffe
+    }
+}
+
+GER_set170 = {
+    AND = {
+        AND = {
+            GER_hermann_goring = {
+                is_air_chief = no
+            }
+            NOT = {
+                has_completed_focus = GER_ascension_of_goring
+            }
+        }
+        has_completed_focus = GER_form_the_jagdwaffe
+    }
+}
+
+GER_set171 = {
+    AND = {
+        AND = {
+            GER_hermann_goring = {
+                is_air_chief = no
+            }
+            NOT = {
+                has_completed_focus = GER_ascension_of_goring
+            }
+        }
+        has_completed_focus = GER_reorganize_the_luftwaffe
+    }
+}
+
+GER_set173 = {
+    AND = {
+        AND = {
+            has_tech = improved_radio
+        }
+        has_completed_focus = GER_form_the_jagdwaffe
+    }
+}
+
+GER_set174 = {
+    AND = {
+        AND = {
+            has_war_with_major = yes
+        }
+        OR = {
+            has_completed_focus = GER_reorganize_the_luftwaffe
+            has_completed_focus = GER_develop_the_knickebein
+        }
+    }
+}
+
+GER_set175 = {
+    AND = {
+        AND = {
+            has_war_with_major = yes
+            is_special_project_completed = sp:sp_air_radar
+            custom_trigger_tooltip = {
+                tooltip = GER_controls_atlantic_coast_brittany_finnmark_tt
+                OR = {
+                    925 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    924 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    144 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    923 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    143 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    142 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    922 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    921 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    110 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    915 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    140 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    99 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    912 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    36 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    7 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    35 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    6 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    29 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    785 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    15 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    14 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_defense_of_the_reich
+    }
+}
+
+GER_set176 = {
+    AND = {
+        AND = {
+            has_tech = centimetric_radar
+            has_war_with_major = yes
+        }
+        has_completed_focus = GER_defense_of_the_reich
+    }
+}
+
+GER_set177 = {
+    AND = {
+        has_completed_focus = GER_develop_the_knickebein
+        has_completed_focus = GER_expand_kriegsmarinewerft
+    }
+}
+
+GER_set179 = {
+    AND = {
+        OR = {
+            has_completed_focus = GER_solve_the_logistical_bottlenecks
+            has_completed_focus = GER_construct_the_kammhuber_line
+            has_completed_focus = GER_establish_night_fighter_squadrons
+        }
+        has_completed_focus = GER_rocketry_innovations
+    }
+}
+
+GER_set180 = {
+    AND = {
+        AND = {
+            custom_trigger_tooltip = {
+                tooltip = GER_war_with_american_country_tt
+                any_enemy_country = {
+                    capital_scope = {
+                        OR = {
+                            is_on_continent = north_america
+                            is_on_continent = south_america
+                        }
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_aerodynamic_research_institute
+    }
+}
+
+GER_set181 = {
+    always = yes
+}
+
+GER_set182 = {
+    AND = {
+        AND = {
+            OR = {
+                NOT = {
+                    has_completed_focus = GER_trade_interdiction
+                }
+                has_completed_focus = GER_unrestricted_convoy_raiding
+            }
+        }
+        has_completed_focus = GER_strengthen_the_kriegsmarine
+    }
+}
+
+GER_set183 = {
+    AND = {
+        has_completed_focus = GER_plan_z
+    }
+}
+
+GER_set185 = {
+    AND = {
+        AND = {
+            IF = {
+                limit = {
+                    has_dlc = "Man the Guns"
+                }
+                has_tech = improved_ship_hull_heavy
+            }
+            ELSE = {
+                has_tech = improved_battleship
+            }
+        }
+        has_completed_focus = GER_expand_kriegsmarinewerft
+    }
+}
+
+GER_set190 = {
+    AND = {
+        AND = {
+            custom_trigger_tooltip = {
+                tooltip = GER_controls_an_atantic_island_tt
+                OR = {
+                    914 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    100 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    101 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    337 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    933 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    134 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    119 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    178 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    698 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    696 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    697 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                    702 = {
+                        state_is_fully_controlled_by_ROOT_or_subject = yes
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_grosskampfschiff_construction
+    }
+}
+
+GER_set191 = {
+    AND = {
+        AND = {
+            NOT = {
+                has_completed_focus = GER_plan_z
+            }
+        }
+        has_completed_focus = GER_strengthen_the_kriegsmarine
+    }
+}
+
+GER_set192 = {
+    AND = {
+        AND = {
+            NOT = {
+                has_completed_focus = GER_unrestricted_convoy_raiding
+            }
+        }
+        has_completed_focus = GER_trade_interdiction
+    }
+}
+
+GER_set193 = {
+    AND = {
+        AND = {
+            NOT = {
+                has_completed_focus = GER_unrestricted_convoy_raiding
+            }
+        }
+        has_completed_focus = GER_cruiser_warfare
+        NOT = {
+            has_completed_focus = GER_u_boat_efforts
+        }
+    }
+}
+
+GER_set194 = {
+    AND = {
+        AND = {
+            NOT = {
+                has_completed_focus = GER_unrestricted_convoy_raiding
+            }
+            has_war = yes
+        }
+        has_completed_focus = GER_trade_interdiction
+    }
+}
+
+GER_set195 = {
+    AND = {
+        AND = {
+            NOT = {
+                has_completed_focus = GER_unrestricted_convoy_raiding
+            }
+        }
+        has_completed_focus = GER_wolfpack_tactics
+        NOT = {
+            has_completed_focus = GER_panzerschiff_raiders
+        }
+    }
+}
+
+GER_set196 = {
+    AND = {
+        OR = {
+            has_completed_focus = GER_panzerschiff_raiders
+            has_completed_focus = GER_u_boat_efforts
+        }
+    }
+}
+
+GER_set198 = {
+    AND = {
+        AND = {
+            is_subject = no
+            has_government = fascism
+            42 = {
+                is_fully_controlled_by = ROOT
+            }
+            51 = {
+                is_fully_controlled_by = ROOT
+            }
+            978 = {
+                is_fully_controlled_by = ROOT
+            }
+        }
+        NOT = {
+            42 = {
+                is_demilitarized_zone = no
+            }
+            51 = {
+                is_demilitarized_zone = no
+            }
+            978 = {
+                is_demilitarized_zone = no
+            }
+        }
+    }
+}
+
+GER_set199 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    NOT = {
+                        has_dlc = "La Resistance"
+                    }
+                }
+                any_other_country = {
+                    original_tag = SPR
+                    has_government = fascism
+                    has_volunteers_amount_from = {
+                        tag = ROOT
+                        count
+                        >
+                        1
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    has_dlc = "La Resistance"
+                }
+                SPA = {
+                    has_volunteers_amount_from = {
+                        tag = ROOT
+                        count
+                        >
+                        1
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_heed_von_neuraths_concerns
+    }
+}
+
+GER_set200 = {
+    AND = {
+        has_completed_focus = GER_remilitarize_the_rhineland
+    }
+}
+
+GER_set201 = {
+    AND = {
+        AND = {
+            has_war = no
+        }
+        has_completed_focus = GER_reorganize_the_wehrmacht
+    }
+}
+
+GER_set202 = {
+    AND = {
+        AND = {
+            is_subject = no
+            has_war = no
+        }
+        has_completed_focus = GER_form_rome_berlin_axis
+    }
+}
+
+GER_set203 = {
+    AND = {
+        AND = {
+            has_dlc = "La Resistance"
+        }
+        has_completed_focus = GER_heed_von_neuraths_concerns
+    }
+}
+
+GER_set204 = {
+    AND = {
+        has_completed_focus = GER_reorganize_secret_services
+    }
+}
+
+GER_set206 = {
+    AND = {
+        AND = {
+            is_subject = no
+            CZE = {
+                OR = {
+                    has_government = fascism
+                    fascism
+                    >
+                    0.5
+                }
+                OR = {
+                    is_in_faction = no
+                    is_in_faction_with = ROOT
+                }
+                OR = {
+                    is_subject = no
+                    is_subject_of = ROOT
+                }
+            }
+        }
+        has_completed_focus = GER_fate_of_czechoslovakia
+        NOT = {
+            OR = {
+                has_war_with = CZE
+                NOT = {
+                    country_exists = CZE
+                }
+                CZE = {
+                    is_subject = yes
+                    NOT = {
+                        is_subject_of = ROOT
+                    }
+                    OVERLORD = {
+                        is_in_faction_with = ROOT
+                    }
+                }
+                CZE = {
+                    is_subject_of = ROOT
+                    OR = {
+                        has_completed_focus = CZE_german_minor_ally
+                        has_completed_focus = CZE_german_puppet
+                        has_completed_focus = CZE_complete_capitulation
+                    }
+                }
+                CZE = {
+                    has_completed_focus = CZE_work_with_germany
+                    is_in_faction_with = ROOT
+                }
+            }
+        }
+    }
+}
+
+GER_set207 = {
+    AND = {
+        AND = {
+            has_war = no
+            is_subject = no
+            IF = {
+                limit = {
+                    has_dlc = "Gotterdammerung"
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_anschluss_army_trigger_tt
+                    fighting_army_strength_ratio = {
+                        tag = AUS
+                        ratio
+                        >
+                        global.deployed_manpower_ratio_needed_for_anschluss
+                    }
+                }
+            }
+            ELSE = {
+                has_army_manpower = {
+                    size
+                    >
+                    499999
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_anschluss_eq_trigger_tt
+                    check_variable = {
+                        num_equipment_in_armies_k@infantry_equipment
+                        >
+                        50
+                    }
+                }
+            }
+            NOT = {
+                has_idea = rhineland_challenge_met
+            }
+            if = {
+                limit = {
+                    SWI = {
+                        has_completed_focus = SWI_gotthard_union
+                    }
+                }
+                NOT = {
+                    AUS = {
+                        has_idea = SWI_swiss_democratic_propaganda
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_heed_von_neuraths_concerns
+        NOT = {
+            OR = {
+                AUS = {
+                    OR = {
+                        is_subject = yes
+                        exists = no
+                        AND = {
+                            is_in_faction = yes
+                            NOT = {
+                                is_in_faction_with = GER
+                            }
+                            any_other_country = {
+                                is_in_faction_with = AUS
+                                is_subject = no
+                            }
+                        }
+                    }
+                }
+                GER = {
+                    owns_state = 4
+                    owns_state = 152
+                    owns_state = 153
+                    owns_state = 848
+                    owns_state = 975
+                    owns_state = 976
+                }
+            }
+        }
+    }
+}
+
+GER_set208 = {
+    always = yes
+}
+
+GER_set209 = {
+    AND = {
+        has_completed_focus = GER_anti_comintern_pact
+    }
+}
+
+GER_set210 = {
+    AND = {
+        has_completed_focus = GER_war_with_the_ussr
+    }
+}
+
+GER_set211 = {
+    AND = {
+        has_completed_focus = GER_expand_the_truppenschulen
+    }
+}
+
+GER_set212 = {
+    AND = {
+        has_completed_focus = GER_bribe_senior_officers
+    }
+}
+
+GER_set213 = {
+    AND = {
+        AND = {
+            has_war_with_major = yes
+            has_tech = advanced_machine_tools
+        }
+        has_completed_focus = GER_GPW_Stug
+    }
+}
+
+GER_set214 = {
+    AND = {
+        AND = {
+            has_government = fascism
+        }
+        has_completed_focus = GER_war_with_the_ussr
+    }
+}
+
+GER_set215 = {
+    AND = {
+        AND = {
+            has_government = fascism
+            OR = {
+                any_controlled_state = {
+                    NOT = {
+                        is_core_of = ROOT
+                    }
+                    is_on_continent = europe
+                }
+                any_subject_country = {
+                    capital_scope = {
+                        is_on_continent = europe
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_war_with_the_ussr
+    }
+}
+
+GER_set216 = {
+    AND = {
+        AND = {
+            is_subject = no
+            has_army_manpower = {
+                size
+                >
+                724999
+            }
+        }
+        has_completed_focus = GER_anschluss
+        NOT = {
+            OR = {
+                AND = {
+                    69 = {
+                        controller = {
+                            OR = {
+                                has_war_with = GER
+                                tag = ROOT
+                            }
+                        }
+                    }
+                    972 = {
+                        controller = {
+                            OR = {
+                                has_war_with = GER
+                                tag = ROOT
+                            }
+                        }
+                    }
+                    74 = {
+                        controller = {
+                            OR = {
+                                has_war_with = GER
+                                tag = ROOT
+                            }
+                        }
+                    }
+                }
+                CZE = {
+                    is_subject_of = ROOT
+                    OR = {
+                        has_completed_focus = CZE_german_minor_ally
+                        has_completed_focus = CZE_german_puppet
+                    }
+                }
+            }
+        }
+    }
+}
+
+GER_set217 = {
+    AND = {
+        AND = {
+            is_subject = no
+            HUN = {
+                is_friend_or_potential_friend_of_GER = yes
+                OR = {
+                    has_government = neutrality
+                    has_government = fascism
+                }
+            }
+            OR = {
+                owns_state = 69
+                owns_state = 972
+            }
+        }
+        has_completed_focus = GER_reorganize_the_wehrmacht
+        NOT = {
+            OR = {
+                AND = {
+                    NOT = {
+                        CZE = {
+                            controls_state = 664
+                        }
+                    }
+                    NOT = {
+                        SLO = {
+                            controls_state = 664
+                            is_subject_of = CZE
+                        }
+                    }
+                    NOT = {
+                        owns_state = 664
+                    }
+                }
+                HUN = {
+                    OR = {
+                        is_friend_or_potential_friend_of_GER = no
+                        has_government = communism
+                        has_government = democratic
+                    }
+                }
+                CZE = {
+                    is_puppet_of = GER
+                }
+                CZE = {
+                    is_in_faction_with = GER
+                }
+            }
+        }
+    }
+}
+
+GER_set218 = {
+    AND = {
+        AND = {
+            is_subject = no
+            has_army_manpower = {
+                size
+                >
+                749999
+            }
+        }
+        has_completed_focus = GER_first_vienna_award
+        NOT = {
+            OR = {
+                has_war_with = CZE
+                CZE = {
+                    is_in_faction_with = ROOT
+                    NOT = {
+                        is_subject_of = ROOT
+                    }
+                }
+                CZE = {
+                    is_subject_of = ROOT
+                    OR = {
+                        has_completed_focus = CZE_german_minor_ally
+                        has_completed_focus = CZE_german_puppet
+                        has_completed_focus = CZE_complete_capitulation
+                    }
+                }
+                NOT = {
+                    country_exists = CZE
+                    9 = {
+                        is_controlled_by = ROOT
+                    }
+                    75 = {
+                        is_controlled_by = ROOT
+                    }
+                }
+                any_allied_country = {
+                    has_subject = CZE
+                }
+            }
+        }
+    }
+}
+
+GER_set219 = {
+    AND = {
+        AND = {
+            surrender_progress
+            <
+            0.1
+            custom_trigger_tooltip = {
+                tooltip = GER_demonstration_of_military_achievements_trigger
+                OR = {
+                    num_subjects
+                    >
+                    2
+                    check_variable = {
+                        GER_occupied_states_europe
+                        >
+                        19
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_loyalty_to_the_fuhrer
+    }
+}
+
+GER_set220 = {
+    AND = {
+        AND = {
+            surrender_progress
+            <
+            0.05
+            custom_trigger_tooltip = {
+                tooltip = GER_an_invincible_army_trigger
+                OR = {
+                    num_subjects
+                    >
+                    5
+                    check_variable = {
+                        GER_occupied_states_europe
+                        >
+                        49
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_loyalty_to_the_fuhrer
+    }
+}
+
+GER_set221 = {
+    AND = {
+        AND = {
+            surrender_progress
+            <
+            0.01
+            custom_trigger_tooltip = {
+                tooltip = GER_an_invincible_army_trigger
+                OR = {
+                    num_subjects
+                    >
+                    5
+                    check_variable = {
+                        GER_occupied_states_europe
+                        >
+                        49
+                    }
+                }
+            }
+            custom_trigger_tooltip = {
+                tooltip = GER_the_supreme_leader_trigger
+                check_variable = {
+                    GER_capitulated_major_countries
+                    >
+                    2
+                }
+            }
+        }
+        has_completed_focus = GER_loyalty_to_the_fuhrer
+    }
+}
+
+GER_set222 = {
+    AND = {
+        AND = {
+            custom_trigger_tooltip = {
+                tooltip = GER_improve_national_spirit_tooltip
+                OR = {
+                    GER = {
+                        controls_state = 126
+                    }
+                    any_other_country = {
+                        is_in_faction_with = GER
+                        controls_state = 126
+                    }
+                }
+                OR = {
+                    GER = {
+                        controls_state = 16
+                    }
+                    any_other_country = {
+                        is_in_faction_with = GER
+                        controls_state = 16
+                    }
+                }
+            }
+            64 = {
+                is_fully_controlled_by = ROOT
+            }
+        }
+        has_completed_focus = GER_operation_sea_lion
+        has_completed_focus = GER_fate_of_greece
+        has_completed_focus = GER_mittelafrika
+    }
+}
+
+GER_set227 = {
+    AND = {
+        AND = {
+            is_faction_leader = yes
+            is_subject = no
+            NOT = {
+                has_war_with = ITA
+            }
+            ITA = {
+                has_government = fascism
+                is_subject = no
+            }
+            NOT = {
+                has_country_flag = ENG_ditched_the_italians_flag
+            }
+        }
+        has_completed_focus = GER_reorganize_the_wehrmacht
+        NOT = {
+            OR = {
+                is_in_faction_with = ITA
+                has_war_with = ITA
+                NOT = {
+                    country_exists = ITA
+                }
+                ITA = {
+                    OR = {
+                        NOT = {
+                            has_government = fascism
+                        }
+                        is_subject = yes
+                    }
+                }
+            }
+        }
+    }
+}
+
+GER_set229 = {
+    AND = {
+        AND = {
+            is_faction_leader = yes
+            is_subject = no
+            if = {
+                limit = {
+                    NOT = {
+                        has_dlc = "La Resistance"
+                    }
+                }
+                any_country_with_original_tag = {
+                    original_tag_to_check = SPR
+                    has_government = fascism
+                    exists = yes
+                    NOT = {
+                        has_war_with = ROOT
+                    }
+                    has_civil_war = no
+                    is_subject = no
+                    is_in_faction = no
+                }
+            }
+            if = {
+                limit = {
+                    has_dlc = "La Resistance"
+                }
+                SPA = {
+                    exists = yes
+                    NOT = {
+                        has_war_with = ROOT
+                    }
+                    has_civil_war = no
+                    is_subject = no
+                    is_in_faction = no
+                }
+            }
+            FRA = {
+                OR = {
+                    exists = no
+                    has_capitulated = yes
+                    has_government = fascism
+                    is_ally_with = ROOT
+                }
+            }
+        }
+        NOT = {
+            any_country_with_original_tag = {
+                original_tag_to_check = SPR
+                is_in_faction_with = ROOT
+            }
+        }
+    }
+}
+
+GER_set234 = {
+    AND = {
+        AND = {
+            is_subject = no
+            has_army_manpower = {
+                size
+                >
+                949999
+            }
+            85 = {
+                owner = {
+                    original_tag = POL
+                }
+                controller = {
+                    original_tag = POL
+                }
+            }
+            OR = {
+                POL = {
+                    has_civil_war = no
+                }
+                AND = {
+                    any_other_country = {
+                        original_tag = POL
+                        has_civil_war = yes
+                        OR = {
+                            is_in_faction_with = ROOT
+                            has_volunteers_amount_from = {
+                                tag = GER
+                                count
+                                >
+                                0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_fate_of_czechoslovakia
+        has_completed_focus = GER_molotov_ribbentrop_pact
+        NOT = {
+            OR = {
+                has_war_with = POL
+                is_in_faction_with = POL
+                NOT = {
+                    85 = {
+                        controller = {
+                            original_tag = POL
+                        }
+                        owner = {
+                            original_tag = POL
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+GER_set236 = {
+    AND = {
+        AND = {
+            ROM = {
+                fascism
+                >
+                0.35
+                has_full_control_of_state = 46
+                NOT = {
+                    has_war_with = ROOT
+                }
+                OR = {
+                    is_in_faction = no
+                    is_in_faction_with = ROOT
+                }
+                threat
+                >
+                0.3
+            }
+        }
+        has_completed_focus = GER_reorganize_the_wehrmacht
+    }
+}
+
+GER_set238 = {
+    AND = {
+        AND = {
+            is_subject = no
+            OR = {
+                NOT = {
+                    HOL = {
+                        is_in_faction_with = GER
+                    }
+                }
+                if = {
+                    limit = {
+                        INS = {
+                            has_cosmetic_tag = INS_UNION
+                        }
+                    }
+                    NOT = {
+                        INS = {
+                            is_in_faction_with = GER
+                        }
+                    }
+                }
+                NOT = {
+                    BEL = {
+                        is_in_faction_with = GER
+                    }
+                }
+                NOT = {
+                    LUX = {
+                        is_in_faction_with = GER
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_danzig_or_war
+        NOT = {
+            HOL = {
+                OR = {
+                    exists = no
+                    is_in_faction_with = GER
+                    has_war_with = ROOT
+                }
+            }
+            INS = {
+                OR = {
+                    exists = no
+                    NOT = {
+                        has_cosmetic_tag = INS_UNION
+                    }
+                }
+            }
+            BEL = {
+                OR = {
+                    exists = no
+                    is_in_faction_with = GER
+                    has_war_with = ROOT
+                }
+            }
+            LUX = {
+                OR = {
+                    exists = no
+                    is_in_faction_with = GER
+                    has_war_with = ROOT
+                }
+            }
+        }
+    }
+}
+
+GER_set239 = {
+    AND = {
+        AND = {
+            is_subject = no
+            hidden_trigger = {
+                OR = {
+                    AND = {
+                        is_ai = yes
+                        NOT = {
+                            has_country_flag = SWE_GER_avoid_dow_nordics
+                        }
+                    }
+                    is_ai = no
+                }
+            }
+            10 = {
+                controller = {
+                    OR = {
+                        is_in_faction_with = ROOT
+                        original_tag = GER
+                    }
+                }
+            }
+            85 = {
+                controller = {
+                    OR = {
+                        is_in_faction_with = ROOT
+                        original_tag = GER
+                    }
+                }
+            }
+            OR = {
+                has_war_with = ENG
+                NOT = {
+                    country_exists = ENG
+                }
+            }
+        }
+        has_completed_focus = GER_danzig_or_war
+        NOT = {
+            AND = {
+                DEN = {
+                    OR = {
+                        is_in_faction_with = ROOT
+                        exists = no
+                    }
+                }
+                NOR = {
+                    OR = {
+                        is_in_faction_with = ROOT
+                        exists = no
+                    }
+                }
+            }
+        }
+    }
+}
+
+GER_set241 = {
+    AND = {
+        AND = {
+            is_subject = no
+            NOT = {
+                is_in_faction_with = FRA
+            }
+        }
+        has_completed_focus = GER_around_maginot
+        NOT = {
+            OR = {
+                NOT = {
+                    country_exists = FRA
+                }
+                has_war_with = FRA
+            }
+        }
+    }
+}
+
+GER_set242 = {
+    AND = {
+        AND = {
+            is_subject = no
+            144 = {
+                state_is_fully_controlled_by_ROOT_or_subject = yes
+            }
+            918 = {
+                is_fully_controlled_by = SWE
+            }
+        }
+        has_completed_focus = GER_operation_weserubung
+    }
+}
+
+GER_set243 = {
+    AND = {
+        AND = {
+            is_subject = no
+            has_full_control_of_state = 8
+            has_full_control_of_state = 28
+            OR = {
+                owns_state = 28
+                FRA = {
+                    has_capitulated = yes
+                }
+                FRA = {
+                    is_subject_of = ROOT
+                }
+                all_country_with_original_tag = {
+                    original_tag_to_check = FRA
+                    exists = no
+                }
+            }
+            OR = {
+                LUX = {
+                    has_capitulated = yes
+                }
+                LUX = {
+                    is_subject_of = ROOT
+                }
+                all_country_with_original_tag = {
+                    original_tag_to_check = LUX
+                    exists = no
+                }
+            }
+        }
+        has_completed_focus = GER_war_with_france
+    }
+}
+
+GER_set245 = {
+    AND = {
+        AND = {
+            SWI = {
+                exists = yes
+                has_war = no
+                NOT = {
+                    has_government = communism
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_alone_or_peace_faction_tt
+                    is_alone_or_in_faction_at_peace_with_GER = yes
+                }
+            }
+        }
+        has_completed_focus = GER_war_with_france
+    }
+}
+
+GER_set247 = {
+    AND = {
+        AND = {
+            has_war_with = ENG
+            has_army_manpower = {
+                size
+                >
+                999999
+            }
+            custom_trigger_tooltip = {
+                tooltip = GER_sea_lion_eq_trigger_tt
+                check_variable = {
+                    num_equipment_in_armies_k@infantry_equipment
+                    >
+                    90
+                }
+            }
+        }
+        has_completed_focus = GER_war_with_france
+        NOT = {
+            ENG = {
+                OR = {
+                    is_in_faction_with = ROOT
+                    is_subject_of = ROOT
+                    exists = no
+                }
+            }
+        }
+    }
+}
+
+GER_set253 = {
+    AND = {
+        AND = {
+            is_subject = no
+            controls_state = 4
+            controls_state = 152
+            has_army_manpower = {
+                size
+                >
+                749999
+            }
+        }
+        has_completed_focus = GER_danzig_or_war
+        NOT = {
+            OR = {
+                NOT = {
+                    AND = {
+                        OR = {
+                            YUG = {
+                                owns_state = 102
+                            }
+                            102 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                        OR = {
+                            YUG = {
+                                owns_state = 853
+                            }
+                            853 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    102 = {
+                        owner = {
+                            is_in_faction_with = ROOT
+                        }
+                    }
+                    853 = {
+                        owner = {
+                            is_in_faction_with = ROOT
+                        }
+                    }
+                }
+                has_war_with = YUG
+                is_in_faction_with = YUG
+                YUG = {
+                    is_subject_of = GER
+                }
+                YUG = {
+                    has_non_aggression_pact_with = GER
+                }
+                YUG = {
+                    has_opinion_modifier = tripartite_pact_opinion
+                }
+            }
+        }
+    }
+}
+
+GER_set254 = {
+    AND = {
+        AND = {
+            is_subject = no
+            NOT = {
+                is_in_faction_with = YUG
+            }
+            NOT = {
+                YUG = {
+                    has_non_aggression_pact_with = GER
+                }
+            }
+            NOT = {
+                YUG = {
+                    has_opinion_modifier = tripartite_pact_opinion
+                }
+            }
+            OR = {
+                AND = {
+                    country_exists = YUG
+                    NOT = {
+                        has_war_with = YUG
+                    }
+                    OR = {
+                        owns_state = 102
+                        102 = {
+                            owner = {
+                                is_subject_of = YUG
+                            }
+                        }
+                        owns_state = 853
+                        853 = {
+                            owner = {
+                                is_subject_of = YUG
+                            }
+                        }
+                    }
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_first_ljubljana_award_tt
+                    AND = {
+                        NOT = {
+                            country_exists = YUG
+                        }
+                        OR = {
+                            owns_state = 102
+                            102 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                        OR = {
+                            owns_state = 853
+                            853 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                        OR = {
+                            owns_state = 45
+                            45 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                        OR = {
+                            owns_state = 106
+                            106 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                        OR = {
+                            owns_state = 803
+                            803 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                        OR = {
+                            owns_state = 804
+                            804 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                        OR = {
+                            owns_state = 802
+                            802 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                        OR = {
+                            owns_state = 103
+                            103 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                        OR = {
+                            owns_state = 105
+                            105 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                        OR = {
+                            owns_state = 970
+                            970 = {
+                                owner = {
+                                    is_subject_of = YUG
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            OR = {
+                YUG = {
+                    is_subject = no
+                }
+                YUG = {
+                    is_puppet_of = GER
+                }
+            }
+        }
+        has_completed_focus = GER_demand_slovenia
+        NOT = {
+            OR = {
+                is_in_faction_with = YUG
+                has_war_with = YUG
+                YUG = {
+                    has_non_aggression_pact_with = GER
+                }
+                YUG = {
+                    has_opinion_modifier = tripartite_pact_opinion
+                }
+                NOT = {
+                    country_exists = YUG
+                }
+                NOT = {
+                    OR = {
+                        YUG = {
+                            owns_state = 45
+                        }
+                        45 = {
+                            owner = {
+                                is_subject_of = YUG
+                            }
+                        }
+                        YUG = {
+                            owns_state = 106
+                        }
+                        106 = {
+                            owner = {
+                                is_subject_of = YUG
+                            }
+                        }
+                    }
+                }
+                AND = {
+                    HUN = {
+                        is_friend_or_potential_friend_of_GER = no
+                    }
+                    BUL = {
+                        is_friend_or_potential_friend_of_GER = no
+                    }
+                    ITA = {
+                        is_friend_or_potential_friend_of_GER = no
+                    }
+                }
+            }
+        }
+    }
+}
+
+GER_set255 = {
+    AND = {
+        AND = {
+            is_subject = no
+            NOT = {
+                has_war_with = YUG
+            }
+            NOT = {
+                is_in_faction_with = YUG
+            }
+            all_allied_country = {
+                NOT = {
+                    has_war_with = YUG
+                }
+            }
+        }
+        has_completed_focus = GER_first_ljubljana_award
+        NOT = {
+            OR = {
+                has_war_with = YUG
+                NOT = {
+                    country_exists = YUG
+                }
+                any_other_country = {
+                    is_in_faction_with = ROOT
+                    OR = {
+                        has_war_with = YUG
+                        YUG = {
+                            is_puppet_of = PREV
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+GER_set256 = {
+    AND = {
+        AND = {
+            is_subject = no
+            GRE = {
+                has_war = no
+                is_subject = no
+                controls_state = 185
+                controls_state = 731
+                controls_state = 184
+            }
+            OR = {
+                AND = {
+                    ITA = {
+                        NOT = {
+                            has_war_with = GER
+                        }
+                        OR = {
+                            has_government = fascism
+                            has_government = neutrality
+                        }
+                        OR = {
+                            is_subject_of = GER
+                            is_subject = no
+                        }
+                        OR = {
+                            is_in_faction_with = GER
+                            is_in_faction = no
+                        }
+                    }
+                }
+                AND = {
+                    BUL = {
+                        NOT = {
+                            has_war_with = GER
+                        }
+                        OR = {
+                            has_government = fascism
+                            has_government = neutrality
+                        }
+                        OR = {
+                            is_subject_of = GER
+                            is_subject = no
+                        }
+                        OR = {
+                            is_in_faction_with = GER
+                            is_in_faction = no
+                        }
+                    }
+                }
+                GRE = {
+                    any_neighbor_country = {
+                        OR = {
+                            is_subject_of = GER
+                            tag = GER
+                        }
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_fate_of_yugoslavia
+        NOT = {
+            GRE = {
+                OR = {
+                    has_war = yes
+                    is_subject = yes
+                }
+                NOT = {
+                    owns_state = 731
+                }
+                NOT = {
+                    owns_state = 184
+                }
+                NOT = {
+                    owns_state = 185
+                }
+            }
+            NOT = {
+                GRE = {
+                    any_neighbor_country = {
+                        OR = {
+                            is_subject_of = GER
+                            tag = GER
+                        }
+                    }
+                }
+            }
+            ITA = {
+                OR = {
+                    has_war_with = GER
+                    is_subject = yes
+                    AND = {
+                        is_in_faction = yes
+                        NOT = {
+                            is_in_faction_with = GER
+                        }
+                    }
+                }
+                OR = {
+                    NOT = {
+                        has_government = fascism
+                    }
+                    NOT = {
+                        has_government = neutrality
+                    }
+                }
+            }
+            BUL = {
+                OR = {
+                    has_war_with = GER
+                    is_subject = yes
+                    AND = {
+                        is_in_faction = yes
+                        NOT = {
+                            is_in_faction_with = GER
+                        }
+                    }
+                }
+                OR = {
+                    NOT = {
+                        has_government = fascism
+                    }
+                    NOT = {
+                        has_government = neutrality
+                    }
+                }
+            }
+        }
+    }
+}
+
+GER_set257 = {
+    AND = {
+        AND = {
+            is_subject = no
+            NOT = {
+                has_wargoal_against = GRE
+            }
+            GRE = {
+                exists = yes
+                is_subject = no
+                has_war = no
+            }
+        }
+        has_completed_focus = GER_second_ljubljana_award
+    }
+}
+
+GER_set259 = {
+    AND = {
+        has_completed_focus = GER_demand_sudetenland
+    }
+}
+
+GER_set260 = {
+    AND = {
+        AND = {
+            is_subject = no
+            NOT = {
+                has_government = communism
+            }
+            NOT = {
+                is_in_faction_with = SOU
+            }
+        }
+        has_completed_focus = GER_reorganize_the_wehrmacht
+        NOT = {
+            SOU = {
+                OR = {
+                    NOT = {
+                        has_government = communism
+                    }
+                    exists = no
+                }
+            }
+        }
+    }
+}
+
+GER_set262 = {
+    AND = {
+        AND = {
+            is_subject = no
+            NOT = {
+                is_ally_with = SOV
+            }
+            NOT = {
+                has_war_with = FIN
+            }
+            FIN = {
+                exists = yes
+                has_war_with = SOV
+            }
+        }
+        has_completed_focus = GER_reorganize_the_wehrmacht
+    }
+}
+
+GER_set263 = {
+    AND = {
+        AND = {
+            is_subject = no
+        }
+        has_completed_focus = GER_army_indoctrination
+        NOT = {
+            OR = {
+                has_war_with = SOV
+                SOV = {
+                    exists = no
+                }
+            }
+        }
+    }
+}
+
+GER_set264 = {
+    AND = {
+        AND = {
+            is_subject = no
+            has_government = fascism
+            if = {
+                limit = {
+                    ROOT = {
+                        is_ai = yes
+                    }
+                    NOT = {
+                        has_completed_focus = GER_demand_sudetenland
+                    }
+                    CZE = {
+                        has_capitulated = no
+                        OR = {
+                            is_in_faction_with = POL
+                            PREV = {
+                                any_allied_country = {
+                                    is_neighbor_of = ROOT
+                                    strength_ratio = {
+                                        tag = ROOT
+                                        ratio
+                                        >
+                                        0.7
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    FRA = {
+                        NOT = {
+                            is_in_faction_with = ROOT
+                        }
+                        OR = {
+                            is_in_faction_with = CZE
+                            has_guaranteed = CZE
+                        }
+                    }
+                    SOV = {
+                        NOT = {
+                            OR = {
+                                is_in_faction_with = CZE
+                                has_guaranteed = CZE
+                            }
+                        }
+                    }
+                }
+                has_army_manpower = {
+                    size
+                    >
+                    724999
+                }
+            }
+            else = {
+                has_army_manpower = {
+                    size
+                    >
+                    849999
+                }
+            }
+            SOV = {
+                NOT = {
+                    has_war_with = GER
+                }
+                country_exists = SOV
+                has_civil_war = no
+            }
+            NOT = {
+                has_global_flag = beck_ribbentrop_signed
+            }
+        }
+        has_completed_focus = GER_war_preparations
+    }
+}
+
+GER_set265 = {
+    AND = {
+        has_completed_focus = GER_molotov_ribbentrop_pact
+        NOT = {
+            OR = {
+                has_war_with = SOV
+                NOT = {
+                    country_exists = SOV
+                }
+            }
+        }
+    }
+}
+
+GER_set268 = {
+    AND = {
+        AND = {
+            is_subject = no
+            NOT = {
+                has_war_with = TUR
+            }
+            TUR = {
+                exists = yes
+                is_subject = no
+            }
+            TUR = {
+                custom_trigger_tooltip = {
+                    tooltip = GER_alone_or_peace_faction_tt
+                    is_alone_or_in_faction_at_peace_with_GER = yes
+                }
+            }
+        }
+        has_completed_focus = GER_war_with_the_ussr
+        NOT = {
+            OR = {
+                TUR = {
+                    is_in_faction_with = GER
+                }
+                TUR = {
+                    is_subject_of = GER
+                }
+                NOT = {
+                    country_exists = TUR
+                }
+            }
+        }
+    }
+}
+
+GER_set272 = {
+    AND = {
+        AND = {
+            is_subject = no
+            AND = {
+                country_exists = JAP
+                JAP = {
+                    is_subject = no
+                }
+                NOT = {
+                    has_war_with = JAP
+                }
+                JAP = {
+                    custom_trigger_tooltip = {
+                        tooltip = GER_alone_or_peace_faction_tt
+                        is_alone_or_in_faction_at_peace_with_GER = yes
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_anti_comintern_pact
+    }
+}
+
+GER_set273 = {
+    AND = {
+        AND = {
+            is_subject = no
+        }
+        has_completed_focus = GER_establish_the_afrikakorps
+        NOT = {
+            GER = {
+                controls_state = 541
+                controls_state = 546
+                controls_state = 777
+                controls_state = 893
+                controls_state = 894
+                controls_state = 894
+            }
+        }
+    }
+}
+
+GER_set274 = {
+    AND = {
+        AND = {
+            is_subject = no
+            has_government = fascism
+            has_completed_focus = GER_uplift_the_rosenberg_office
+            any_controlled_state = {
+                is_on_continent = africa
+            }
+        }
+        has_completed_focus = GER_reclaim_former_african_colonies
+    }
+}
+
+GER_set278 = {
+    AND = {
+        AND = {
+            is_subject = no
+            NOT = {
+                has_war_with = JAP
+            }
+            has_government = fascism
+            JAP = {
+                is_subject = no
+                OR = {
+                    is_in_faction = no
+                    has_government = fascism
+                    NOT = {
+                        any_allied_country = {
+                            has_war_with = ROOT
+                        }
+                    }
+                }
+            }
+            any_controlled_state = {
+                OR = {
+                    is_on_continent = asia
+                    is_on_continent = australia
+                }
+            }
+        }
+        has_completed_focus = GER_befriend_japan
+    }
+}
+
+GER_set285 = {
+    AND = {
+        AND = {
+            has_government = fascism
+        }
+        has_completed_focus = GER_remilitarize_the_rhineland
+    }
+}
+
+GER_set286 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    is_ai = yes
+                }
+                hidden_trigger = {
+                    NOT = {
+                        has_country_flag = GER_todt_was_ascended_flag
+                    }
+                }
+            }
+            has_government = fascism
+            NOT = {
+                has_country_leader = {
+                    ruling_only = yes
+                    character = GER_fritz_todt
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+                NOT = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+            }
+            GER_inner_circle_is_ascension_cd_over = yes
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_cd_flag
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_inner_circle_cd_days_tt
+                    NOT = {
+                        has_country_flag = GER_inner_circle_cd_flag
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_fuhrerprinzip
+    }
+}
+
+GER_set287 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_form_organization_todt_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_1
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_fritz_todt
+                        FLAG_DAYS = [?GER_form_organization_todt_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_fritz_todt
+                        FOCUS = GER_ascension_of_todt
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_ascension_of_todt
+    }
+}
+
+GER_set288 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_autonomous_organization_todt_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_2
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_fritz_todt
+                        FLAG_DAYS = [?GER_autonomous_organization_todt_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_fritz_todt
+                        FOCUS = GER_ascension_of_todt
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_form_organization_todt
+    }
+}
+
+GER_set289 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    is_ai = yes
+                }
+                hidden_trigger = {
+                    NOT = {
+                        has_country_flag = GER_speer_was_ascended_flag
+                    }
+                }
+            }
+            has_government = fascism
+            NOT = {
+                has_country_leader = {
+                    ruling_only = yes
+                    character = GER_albert_speer
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+                NOT = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+            }
+            GER_inner_circle_is_ascension_cd_over = yes
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_cd_flag
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_inner_circle_cd_days_tt
+                    NOT = {
+                        has_country_flag = GER_inner_circle_cd_flag
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_fuhrerprinzip
+    }
+}
+
+GER_set290 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_employ_philipp_holzmann_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_1
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_albert_speer
+                        FLAG_DAYS = [?GER_employ_philipp_holzmann_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_albert_speer
+                        FOCUS = GER_ascension_of_speer
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_ascension_of_speer
+    }
+}
+
+GER_set291 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_plenipotentiary_of_armaments_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_2
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_albert_speer
+                        FLAG_DAYS = [?GER_plenipotentiary_of_armaments_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_albert_speer
+                        FOCUS = GER_ascension_of_speer
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_employ_philipp_holzmann
+    }
+}
+
+GER_set292 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_wunderwaffe_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_3
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            GER_wonder_weapons_focus_advisor = 1
+                        }
+                    }
+                    custom_override_tooltip = {
+                        tooltip = {
+                            localization_key = GER_inner_circle_focus_in_progress_tt
+                            CHARACTER = GER_fritz_todt
+                            FLAG_DAYS = [?GER_wunderwaffe_in_progress_flag:days]
+                        }
+                        always = no
+                    }
+                }
+                else = {
+                    custom_override_tooltip = {
+                        tooltip = {
+                            localization_key = GER_inner_circle_focus_in_progress_tt
+                            CHARACTER = GER_albert_speer
+                            FLAG_DAYS = [?GER_wunderwaffe_in_progress_flag:days]
+                        }
+                        always = no
+                    }
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_multiple_tt
+                        CHARACTER = GER_fritz_todt
+                        FOCUS = GER_ascension_of_todt
+                        CHARACTER_2 = GER_albert_speer
+                        FOCUS_2 = GER_ascension_of_speer
+                    }
+                    always = no
+                }
+            }
+        }
+        OR = {
+            has_completed_focus = GER_autonomous_organization_todt
+            has_completed_focus = GER_plenipotentiary_of_armaments
+        }
+    }
+}
+
+GER_set293 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    is_ai = yes
+                }
+                hidden_trigger = {
+                    NOT = {
+                        has_country_flag = GER_goring_was_ascended_flag
+                    }
+                }
+            }
+            has_government = fascism
+            NOT = {
+                has_country_leader = {
+                    ruling_only = yes
+                    character = GER_hermann_goring
+                }
+            }
+            has_completed_focus = GER_the_four_year_plan
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+                NOT = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+            }
+            GER_inner_circle_is_ascension_cd_over = yes
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_cd_flag
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_inner_circle_cd_days_tt
+                    NOT = {
+                        has_country_flag = GER_inner_circle_cd_flag
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_fuhrerprinzip
+    }
+}
+
+GER_set294 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_prioritize_the_four_year_plan_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_1
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_hermann_goring
+                        FLAG_DAYS = [?GER_prioritize_the_four_year_plan_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_hermann_goring
+                        FOCUS = GER_ascension_of_goring
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_ascension_of_goring
+    }
+}
+
+GER_set295 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_plenipotentiary_of_the_four_year_plan_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_2
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_hermann_goring
+                        FLAG_DAYS = [?GER_plenipotentiary_of_the_four_year_plan_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_hermann_goring
+                        FOCUS = GER_ascension_of_goring
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_prioritize_the_four_year_plan
+    }
+}
+
+GER_set296 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_integration_of_puppet_economies_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_3
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_hermann_goring
+                        FLAG_DAYS = [?GER_integration_of_puppet_economies_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_hermann_goring
+                        FOCUS = GER_ascension_of_goring
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_plenipotentiary_of_the_four_year_plan
+    }
+}
+
+GER_set297 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    is_ai = yes
+                }
+                hidden_trigger = {
+                    NOT = {
+                        has_country_flag = GER_himmler_was_ascended_flag
+                    }
+                }
+            }
+            has_government = fascism
+            NOT = {
+                has_country_leader = {
+                    ruling_only = yes
+                    character = GER_heinrich_himmler
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+                NOT = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+            }
+            GER_inner_circle_is_ascension_cd_over = yes
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_cd_flag
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_inner_circle_cd_days_tt
+                    NOT = {
+                        has_country_flag = GER_inner_circle_cd_flag
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_fuhrerprinzip
+    }
+}
+
+GER_set298 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_expand_gestapo_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_1
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_heinrich_himmler
+                        FLAG_DAYS = [?GER_expand_gestapo_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_heinrich_himmler
+                        FOCUS = GER_ascension_of_himmler
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_ascension_of_himmler
+        NOT = {
+            has_completed_focus = GER_expand_ss_security_duties
+        }
+    }
+}
+
+GER_set299 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_absorb_the_abwehr_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_2
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_heinrich_himmler
+                        FLAG_DAYS = [?GER_absorb_the_abwehr_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_heinrich_himmler
+                        FOCUS = GER_ascension_of_himmler
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_expand_gestapo
+    }
+}
+
+GER_set300 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_expand_ss_security_duties_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_1
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_heinrich_himmler
+                        FLAG_DAYS = [?GER_expand_ss_security_duties_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_heinrich_himmler
+                        FOCUS = GER_ascension_of_himmler
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_ascension_of_himmler
+        NOT = {
+            has_completed_focus = GER_expand_gestapo
+        }
+    }
+}
+
+GER_set301 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_strengthen_the_waffen_ss_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_2
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_heinrich_himmler
+                        FLAG_DAYS = [?GER_strengthen_the_waffen_ss_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_heinrich_himmler
+                        FOCUS = GER_ascension_of_himmler
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_expand_ss_security_duties
+    }
+}
+
+GER_set302 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_hegemony_of_the_ss_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_3
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_heinrich_himmler
+                        FLAG_DAYS = [?GER_hegemony_of_the_ss_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_heinrich_himmler
+                        FOCUS = GER_ascension_of_himmler
+                    }
+                    always = no
+                }
+            }
+        }
+        OR = {
+            has_completed_focus = GER_absorb_the_abwehr
+            has_completed_focus = GER_strengthen_the_waffen_ss
+        }
+    }
+}
+
+GER_set303 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    is_ai = yes
+                }
+                hidden_trigger = {
+                    NOT = {
+                        has_country_flag = GER_goebbels_was_ascended_flag
+                    }
+                }
+            }
+            has_government = fascism
+            NOT = {
+                has_country_leader = {
+                    ruling_only = yes
+                    character = GER_joseph_goebbels
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+                NOT = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+            }
+            GER_inner_circle_is_ascension_cd_over = yes
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_cd_flag
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_inner_circle_cd_days_tt
+                    NOT = {
+                        has_country_flag = GER_inner_circle_cd_flag
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_fuhrerprinzip
+    }
+}
+
+GER_set304 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_ministry_of_public_enlightenment_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_1
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_joseph_goebbels
+                        FLAG_DAYS = [?GER_ministry_of_public_enlightenment_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_joseph_goebbels
+                        FOCUS = GER_ascension_of_goebbels
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_ascension_of_goebbels
+    }
+}
+
+GER_set305 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_fund_the_film_department_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_2
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_joseph_goebbels
+                        FLAG_DAYS = [?GER_fund_the_film_department_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_joseph_goebbels
+                        FOCUS = GER_ascension_of_goebbels
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_ministry_of_public_enlightenment
+    }
+}
+
+GER_set306 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_propaganda_master_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_3
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_joseph_goebbels
+                        FLAG_DAYS = [?GER_propaganda_master_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_joseph_goebbels
+                        FOCUS = GER_ascension_of_goebbels
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_fund_the_film_department
+    }
+}
+
+GER_set307 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    is_ai = yes
+                }
+                hidden_trigger = {
+                    NOT = {
+                        has_country_flag = GER_hess_was_ascended_flag
+                    }
+                }
+            }
+            has_government = fascism
+            NOT = {
+                has_country_leader = {
+                    ruling_only = yes
+                    character = GER_rudolf_hess
+                }
+            }
+            NOT = {
+                has_country_flag = flight_of_hess
+            }
+            OR = {
+                NOT = {
+                    has_war_with = SOU
+                }
+                NOT = {
+                    has_war_with = ENG
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+                NOT = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+            }
+            GER_inner_circle_is_ascension_cd_over = yes
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_cd_flag
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_inner_circle_cd_days_tt
+                    NOT = {
+                        has_country_flag = GER_inner_circle_cd_flag
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_fuhrerprinzip
+        NOT = {
+            has_completed_focus = GER_party_chancellor_bormann
+        }
+    }
+}
+
+GER_set308 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    is_ai = yes
+                }
+                hidden_trigger = {
+                    NOT = {
+                        has_country_flag = GER_bormann_was_ascended_flag
+                    }
+                }
+            }
+            has_government = fascism
+            NOT = {
+                has_country_leader = {
+                    ruling_only = yes
+                    character = GER_martin_bormann
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+                NOT = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+            }
+            GER_inner_circle_is_ascension_cd_over = yes
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_cd_flag
+                }
+                custom_trigger_tooltip = {
+                    tooltip = GER_inner_circle_cd_days_tt
+                    NOT = {
+                        has_country_flag = GER_inner_circle_cd_flag
+                    }
+                }
+            }
+        }
+        has_completed_focus = GER_fuhrerprinzip
+        NOT = {
+            has_completed_focus = GER_party_chancellor_hess
+        }
+    }
+}
+
+GER_set309 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_optimize_reich_labour_service_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_1
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            GER_optimize_reich_service_focus_advisor = 6
+                        }
+                    }
+                    custom_override_tooltip = {
+                        tooltip = {
+                            localization_key = GER_inner_circle_focus_in_progress_tt
+                            CHARACTER = GER_rudolf_hess
+                            FLAG_DAYS = [?GER_optimize_reich_labour_service_in_progress_flag:days]
+                        }
+                        always = no
+                    }
+                }
+                else = {
+                    custom_override_tooltip = {
+                        tooltip = {
+                            localization_key = GER_inner_circle_focus_in_progress_tt
+                            CHARACTER = GER_martin_bormann
+                            FLAG_DAYS = [?GER_optimize_reich_labour_service_in_progress_flag:days]
+                        }
+                        always = no
+                    }
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_multiple_tt
+                        CHARACTER = GER_rudolf_hess
+                        FOCUS = GER_party_chancellor_hess
+                        CHARACTER_2 = GER_martin_bormann
+                        FOCUS_2 = GER_party_chancellor_bormann
+                    }
+                    always = no
+                }
+            }
+        }
+        OR = {
+            has_completed_focus = GER_party_chancellor_hess
+            has_completed_focus = GER_party_chancellor_bormann
+        }
+    }
+}
+
+GER_set310 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_rally_the_industrialists_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_2
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_rudolf_hess
+                        FLAG_DAYS = [?GER_rally_the_industrialists_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_rudolf_hess
+                        FOCUS = GER_party_chancellor_hess
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_optimize_reich_labour_service
+        has_completed_focus = GER_party_chancellor_hess
+    }
+}
+
+GER_set311 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_glorify_party_rallies_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_2
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_inner_circle_focus_in_progress_tt
+                        CHARACTER = GER_martin_bormann
+                        FLAG_DAYS = [?GER_glorify_party_rallies_in_progress_flag:days]
+                    }
+                    always = no
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_tt
+                        CHARACTER = GER_martin_bormann
+                        FOCUS = GER_party_chancellor_bormann
+                    }
+                    always = no
+                }
+            }
+        }
+        has_completed_focus = GER_optimize_reich_labour_service
+        has_completed_focus = GER_party_chancellor_bormann
+    }
+}
+
+GER_set312 = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_country_flag = GER_total_control_over_domestic_affairs_in_progress_flag
+                }
+                set_temp_variable = {
+                    temp_focus_days = @inner_circle_time_tier_3
+                }
+                multiply_temp_variable = {
+                    temp_focus_days = 7
+                }
+                if = {
+                    limit = {
+                        check_variable = {
+                            GER_total_control_over_domestic_affairs_focus_advisor = 6
+                        }
+                    }
+                    custom_override_tooltip = {
+                        tooltip = {
+                            localization_key = GER_inner_circle_focus_in_progress_tt
+                            CHARACTER = GER_rudolf_hess
+                            FLAG_DAYS = [?GER_total_control_over_domestic_affairs_in_progress_flag:days]
+                        }
+                        always = no
+                    }
+                }
+                else = {
+                    custom_override_tooltip = {
+                        tooltip = {
+                            localization_key = GER_inner_circle_focus_in_progress_tt
+                            CHARACTER = GER_martin_bormann
+                            FLAG_DAYS = [?GER_total_control_over_domestic_affairs_in_progress_flag:days]
+                        }
+                        always = no
+                    }
+                }
+            }
+            else = {
+                custom_override_tooltip = {
+                    tooltip = {
+                        localization_key = GER_focus_can_only_be_completed_by_advisor_multiple_tt
+                        CHARACTER = GER_rudolf_hess
+                        FOCUS = GER_party_chancellor_hess
+                        CHARACTER_2 = GER_martin_bormann
+                        FOCUS_2 = GER_party_chancellor_bormann
+                    }
+                    always = no
+                }
+            }
+        }
+        OR = {
+            has_completed_focus = GER_glorify_party_rallies
+            has_completed_focus = GER_rally_the_industrialists
+        }
+    }
+}
+
+GER_set313 = {
+    AND = {
+        has_completed_focus = GER_autonomous_organization_todt
+    }
+}
+
+GER_set314 = {
+    AND = {
+        AND = {
+            has_government = fascism
+            custom_trigger_tooltip = {
+                tooltip = GER_a_strong_successor_trigger_tt
+                count_triggers = {
+                    amount = 3
+                    AND = {
+                        has_completed_focus = GER_wunderwaffe
+                        OR = {
+                            check_variable = {
+                                GER_ascended_advisor_1 = 1
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_2 = 1
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_3 = 1
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_1 = 2
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_2 = 2
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_3 = 2
+                            }
+                        }
+                    }
+                    AND = {
+                        has_completed_focus = GER_integration_of_puppet_economies
+                        OR = {
+                            check_variable = {
+                                GER_ascended_advisor_1 = 3
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_2 = 3
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_3 = 3
+                            }
+                        }
+                    }
+                    AND = {
+                        has_completed_focus = GER_hegemony_of_the_ss
+                        OR = {
+                            check_variable = {
+                                GER_ascended_advisor_1 = 4
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_2 = 4
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_3 = 4
+                            }
+                        }
+                    }
+                    AND = {
+                        has_completed_focus = GER_propaganda_master
+                        OR = {
+                            check_variable = {
+                                GER_ascended_advisor_1 = 5
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_2 = 5
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_3 = 5
+                            }
+                        }
+                    }
+                    AND = {
+                        has_completed_focus = GER_total_control_over_domestic_affairs
+                        OR = {
+                            check_variable = {
+                                GER_ascended_advisor_1 = 6
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_2 = 6
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_3 = 6
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_1 = 7
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_2 = 7
+                            }
+                            check_variable = {
+                                GER_ascended_advisor_3 = 7
+                            }
+                        }
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+                NOT = {
+                    has_country_flag = GER_inner_circle_event_pending_flag
+                }
+            }
+        }
+        OR = {
+            has_completed_focus = GER_hegemony_of_the_ss
+            has_completed_focus = GER_wunderwaffe
+            has_completed_focus = GER_integration_of_puppet_economies
+            has_completed_focus = GER_propaganda_master
+            has_completed_focus = GER_total_control_over_domestic_affairs
+        }
+    }
+}
+
+GER_set538 = {
+    AND = {
+        AND = {
+            has_dlc = "Peace For Our Time"
+        }
+        AND = {
+            9 = {
+                state_is_fully_controlled_by_ROOT_or_subject = yes
+            }
+        }
+        has_completed_focus = GER_integrate_czechoslovakia
+    }
+}
+

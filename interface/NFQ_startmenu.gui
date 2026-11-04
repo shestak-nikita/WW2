@@ -1,0 +1,84 @@
+guiTypes={
+	containerWindowType={
+		name="NFQ_StartMenu"
+		size={width=800 height=800}
+		position={x=-400 y=-380}
+		orientation=center
+		moveable=yes
+		click_to_front=yes
+		background={
+			name="Background"
+			spriteType="GFX_bg_start_menu"
+		}
+		instantTextboxType={
+			name="title"
+			position={x=100 y=15}
+			font="hoi_36header"
+			text="NFQ_start_title"
+			maxWidth=600
+			maxHeight=40
+			format=center
+		}
+		instantTextboxType={
+			name="starttext"
+			position={x=100 y=60}
+			font="hoi_24header"
+			text="[NFQ_startmenu_text_scr]"
+			maxWidth=600
+			format=center
+		}
+		instantTextboxType={
+			name="NFQ_start_title_1"
+			position={x=185 y=160}
+			font="hoi_30header"
+			text="NFQ_start_title_1"
+			maxWidth=420 #funny number hahaha
+			maxHeight=60
+			format=center
+		}
+		instantTextboxType={
+			name="NFQ_start_desc_1"
+			position={x=20 y=230}
+			font="hoi_18mbs"
+			text="NFQ_start_desc_1"
+			maxWidth=760
+			maxHeight=480
+			#format=center
+		}
+		instantTextboxType={
+			name="NFQ_start_title_2"
+			position={x=0 y=505}
+			font="hoi_24header"
+			text="NFQ_start_title_2"
+			maxWidth=380
+			maxHeight=40
+			format=center
+		}
+		instantTextboxType={
+			name="NFQ_start_desc_2"
+			position={x=20 y=560}
+			font="hoi_18mbs"
+			text="NFQ_start_desc_2"
+			maxWidth=360
+			maxHeight=320
+			#format=center
+		}
+		instantTextboxType={
+			name="NFQ_letter"
+			position={x=400 y=500}
+			font="hoi_36header"
+			text="NFQ_letter"
+			maxWidth=360
+			maxHeight=320
+			#format=center
+		}
+		buttonType={
+			name="NFQ_start_close"
+			position={x=290 y=733}
+			quadTextureSprite ="GFX_button_261x34_2"
+			buttonText=NFQ_start_close
+			buttonFont="hoi_16mbs"
+			clicksound=click_close
+		}
+	}
+}

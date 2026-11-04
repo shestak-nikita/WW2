@@ -1,0 +1,207 @@
+guiTypes = {
+	containerWindowType = {
+		name = "NFQ_OpenNFqueue"
+		position = { x=0 y=0 }
+		buttonType = {
+			name = "NFQ_OpenButton"
+			text = "NFQ_OpenButton_text"
+			position = { x=1600 y=1 }
+			quadTextureSprite = "GFX_set_need_amount_button"
+		}
+	}
+	containerWindowType = {
+		name = "NFQ_queue_window"
+		position = { x=0 y=50 }
+		size = { width=400 height=600 }
+		moveable = yes
+		click_to_front = yes
+		show_sound = pop_up
+		background = {
+			name = "Background"
+			spriteType ="GFX_tiled_plain_bg"
+		}
+		containerWindowType = {
+			name = "NFQ_title"
+			position = { x=0 y=0 }
+			size ={ width=400 height=100 }
+			instantTextboxType={
+				name = "title"
+				position = { x=0 y=0 }
+				font = "hoi_36header"
+				text = "NFQ_queue_title"
+				maxWidth = 400
+				format = center
+			}
+			instantTextboxType = {
+				name = "NFQ_instruction"
+				position = { x = 205 y = 25 }
+				font = "hoi_16mbs"
+				text = "NFQ_queue_text_inst"
+				maxWidth = 200
+				format = center
+			}
+			instantTextboxType = {
+				name = "NFQ_statement"
+				position = { x = 10 y = 30 }
+				font = "hoi_16mbs"
+				text = "[NFQ_queue_state]"
+				maxWidth = 200
+				format = center
+			}
+		}
+		buttonType = {
+			name = "NFQ_close_button"
+			position = { x = -25 y = 6 }
+			clicksound = click_close
+			quadTextureSprite = "GFX_closebutton"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "CLOSE"
+			scale = 0.67
+		}
+		buttonType = {
+			name = "NFQ_clear_button"
+			position = { x = -395 y = 80 }
+			clicksound = click_checkbox
+			quadTextureSprite = "GFX_button_211x20"
+			buttonText = NFQ_queue_clear_button
+			buttonFont = "hoi_16mbs"
+			frame = 1
+			pdx_tooltip = NFQ_queue_clear_button_tt
+			Orientation = "UPPER_RIGHT"
+		}
+		buttonType = {
+			name = "NFQ_skip_failed_item"
+			position = { x = -395 y = 100 }
+			clicksound = click_checkbox
+			quadTextureSprite = "GFX_button_211x20"
+			buttonText = NFQ_skip_failed_button
+			buttonFont = "hoi_16mbs"
+			frame = 1
+			pdx_tooltip = NFQ_skip_failed_button_tt
+			Orientation = "UPPER_RIGHT"
+		}
+		buttonType = {
+			name = "NFQ_reopen_startmenu"
+			position = { x = -395 y = 62 }
+			clicksound = click_checkbox
+			quadTextureSprite = "GFX_button_211x20"
+			buttonText = NFQ_reopen_startmenu_button
+			buttonFont = "hoi_16mbs"
+			frame = 1
+			pdx_tooltip = NFQ_reopen_startmenu_tt
+			Orientation = "UPPER_RIGHT"
+		}
+		buttonType = {
+			name = "NFQ_hold_decrease" 
+			position = { x = -187 y = 80 }
+			spriteType = "GFX_subtract_10"
+			scale = 0.6
+			pdx_tooltip = "NFQ_hold_decrease_tt" 
+			Orientation = "UPPER_RIGHT"
+		}
+		instantTextboxType = {
+			name = "NFQ_hold_days_display"  
+			position = { x = -180 y = 80 }
+			font = "hoi_20b"
+			text = "[NFQ_hold_days_num_display]"
+			maxWidth = 40
+			maxHeight = 23
+			format = centre
+			pdx_tooltip = "NFQ_hold_days_tt"
+			Orientation = "UPPER_RIGHT"
+		}
+		buttonType = {
+			name = "NFQ_hold_increase" 
+			position = { x = -147 y = 80 }
+			spriteType = "GFX_add_10"
+			scale = 0.6
+			pdx_tooltip = "NFQ_hold_increase_tt" 
+			Orientation = "UPPER_RIGHT"
+		}
+		buttonType = {
+			name = "NFQ_add_hold_to_queue" 
+			position = { x = -130 y = 80 }
+			spriteType = "GFX_goal_unknown"
+			scale = 0.3
+			pdx_tooltip = "NFQ_add_hold_tt"
+			Orientation = "UPPER_RIGHT"
+		}
+		containerWindowType = {
+			name = "NFQ_queue_list_window"
+			position = { x = 0 y = 124 }
+			size = { width = 400 height = 476 }
+			margin = { top = 10 left = 10 bottom = 10 right = 10 }
+			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 60
+			smooth_scrolling = yes
+
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_window2_1b_border"
+			}
+
+			gridBoxType = {
+				name = "NFQ_queue_list"
+				position = {x =20 y =5}
+				size = {width=100%% height=100%%}
+				slotsize = { width=400 height=60}
+				max_slots_horizontal = 1
+				add_horizontal = no
+			}
+
+		}
+	}
+	#Need to add vidoe/gfx explaning what to do or NOT do to for the monkes
+	containerWindowType={
+		name = "NFQ_NF_item"
+		position = { x = 0 y = 0}
+		size = { width = 365 height = 60 }
+		Background = {
+			name = "background"
+			spriteType = "GFX_queue_bg"
+		}
+		instantTextBoxType = {
+			name = "NFQ_queue_number"
+			position = { x = 5 y = 23 }
+			font = "hoi_16mbs"
+			text = "[NFQ_queue_num]"
+			format = center
+			maxWidth = 30
+			maxHeight = 20
+		}
+		iconType = {
+			name = "NFQ_NFicon"
+			position = { x = 40 y = 10 }
+			spriteType = "GFX_goal_unknown"
+			scale = 0.5
+		}
+		instantTextboxType = {
+			name = "NFQ_NFname"
+			position = { x = 90 y = 20 }
+			font = "hoi_20bs"
+			text = "[GetNFQItemName]"
+			maxWidth = 180
+			maxHeight = 60 
+			format = center
+		}
+		buttonType = {
+			name = "NFQ_queue_up" 
+			position = { x = 277 y = 16 }
+			quadTextureSprite = "GFX_arrow_up_small"
+			pdx_tooltip = NFQ_arrow_up
+		}
+		buttonType = {
+			name = "NFQ_queue_down" 
+			position = { x = 299 y = 16 } 
+			quadTextureSprite = "GFX_arrow_down_small" 
+			pdx_tooltip = NFQ_arrow_down
+		}
+		buttonType ={ 
+			name = "NFQ_remove_from_queue_button"
+			position = {x = 329 y = 14 }
+			clicksound = click_close
+			quadTextureSprite = "GFX_closebutton"
+		}
+	}
+}

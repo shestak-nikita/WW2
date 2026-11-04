@@ -1,0 +1,1 @@
+focus={current=GER_loyalty_to_the_fuhrer}

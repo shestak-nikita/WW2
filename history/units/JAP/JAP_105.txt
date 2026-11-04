@@ -1,0 +1,1 @@
+focus={current=JAP_cast_the_die}

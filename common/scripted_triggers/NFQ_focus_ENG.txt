@@ -1,0 +1,1451 @@
+ENG_set101={	has_war_with=GER
+	POL={
+		NOT={is_in_faction_with=GER}
+	}}
+ENG_set102={has_completed_focus=crypto_bomb_focus has_completed_focus=radar_focus
+	has_government=democratic
+	any_other_country={
+		has_war_with=ROOT
+		NOT={has_government=democratic}
+		num_of_factories>30
+	}
+	NOT={has_war_with=USA}
+	USA={
+		has_government=ROOT
+		has_war=no
+		NOT={
+			OR={has_idea=undisturbed_isolation has_idea=isolation}
+		}
+	}}
+ENG_set103={has_completed_focus=tizard_mission_focus
+is_in_faction_with=USA}
+ENG_set104={always=yes}
+ENG_set105={has_completed_focus=limited_rearmament_focus}
+ENG_set106={has_completed_focus=ENG_motorized_focus}
+ENG_set107={has_completed_focus=limited_rearmament_focus}
+ENG_set108={has_completed_focus=limited_rearmament_focus
+	if={
+		limit={has_dlc="Man the Guns"}
+		OR={
+			threat>0.05
+			has_war=yes
+			has_idea=ENG_no_further_appeasement_idea
+			NOT={has_government=democratic}
+		}
+	}
+	if={
+		limit={
+			NOT={has_dlc="Man the Guns"}
+		}
+		OR={
+			threat>0.05
+			has_war=yes
+			NOT={has_government=democratic}
+		}
+	}}
+ENG_set109={has_completed_focus=air_defense_focus}
+ENG_set110={has_completed_focus=limited_rearmament_focus
+	if={
+		limit={has_dlc="Man the Guns"}
+		OR={
+			threat>0.05
+			has_war=yes
+			has_idea=ENG_no_further_appeasement_idea
+			NOT={has_government=democratic}
+		}
+	}
+	if={
+		limit={
+			NOT={has_dlc="Man the Guns"}
+		}
+		OR={
+			threat>0.05
+			has_war=yes
+			NOT={has_government=democratic}
+		}
+	}}
+ENG_set111={has_completed_focus=shadow_scheme_focus}
+ENG_set112={has_completed_focus=uk_industrial_focus
+	126={is_fully_controlled_by=ROOT}}
+ENG_set113={has_completed_focus=uk_industrial_focus}
+ENG_set114={has_completed_focus=limited_rearmament_focus
+	if={
+		limit={has_dlc="Man the Guns"}
+		OR={
+			threat>0.1
+			has_war=yes
+			has_idea=ENG_no_further_appeasement_idea
+			NOT={has_government=democratic}
+		}
+	}
+	if={
+		limit={
+			NOT={has_dlc="Man the Guns"}
+		}
+		OR={
+			threat>0.1
+			has_war=yes
+			NOT={has_government=democratic}
+		}
+	}}
+ENG_set115={has_completed_focus=general_rearmament_focus}
+ENG_set116={has_completed_focus=ENG_special_air_service}
+ENG_set117={has_completed_focus=uk_industrial_focus
+	if={
+		limit={has_dlc="Man the Guns"}
+		OR={
+			any_other_country={
+				has_war_with=ROOT
+				num_of_factories>30
+			}
+			GER={has_completed_focus=GER_remilitarize_the_rhineland}
+			threat>0.2
+			has_idea=ENG_no_further_appeasement_idea
+			NOT={has_government=democratic}
+		}
+	}
+	if={
+		limit={
+			NOT={has_dlc="Man the Guns"}
+		}
+		OR={
+			any_other_country={
+				has_war_with=ROOT
+				num_of_factories>30
+			}
+			GER={has_completed_focus=GER_remilitarize_the_rhineland}
+			threat>0.2
+			NOT={has_government=democratic}
+		}
+	}}
+ENG_set118={has_completed_focus=royal_ordinance_focus}
+ENG_set119={has_completed_focus=royal_ordinance_focus has_completed_focus=maud_focus}
+ENG_set120={has_completed_focus=general_rearmament_focus}
+ENG_set121={has_completed_focus=air_rearmament_focus has_completed_focus=naval_rearmament_focus}
+ENG_set122={has_completed_focus=air_rearmament_focus}
+ENG_set123={has_completed_focus=air_rearmament_focus}
+ENG_set124={has_completed_focus=air_rearmament_focus}
+ENG_set125={or={has_completed_focus=fighter_command_focus has_completed_focus=bomber_command_focus has_completed_focus=coastal_command_focus}}
+ENG_set126={has_completed_focus=aircraft_production_focus}
+ENG_set127={has_completed_focus=general_rearmament_focus}
+ENG_set128={has_completed_focus=naval_rearmament_focus}
+ENG_set129={has_completed_focus=naval_rearmament_focus has_completed_focus=uk_service_focus}
+ENG_set130={has_completed_focus=naval_rearmament_focus}
+ENG_set131={has_completed_focus=uk_destroyer_focus}
+ENG_set132={has_completed_focus=uk_destroyer_focus}
+ENG_set133={has_completed_focus=uk_convoy_focus}
+ENG_set134={has_completed_focus=naval_rearmament_focus}
+ENG_set135={has_completed_focus=uk_waves_focus
+	not={has_completed_focus=uk_battleship_focus}}
+ENG_set136={has_completed_focus=uk_waves_focus
+	not={has_completed_focus=uk_carrier_focus}}
+ENG_set137={has_completed_focus=naval_rearmament_focus}
+ENG_set138={or={has_completed_focus=uk_battleship_focus has_completed_focus=uk_carrier_focus}}
+ENG_set139={has_completed_focus=uk_battleship_focus
+	date>1944.1.1
+	has_tech=advanced_ship_hull_heavy
+	has_full_control_of_state=133}
+ENG_set140={not={has_completed_focus=ENG_revisit_colonial_policy}
+	NOT={has_government=communism}
+	num_subjects>0}
+ENG_set141={has_completed_focus=uk_empire_focus}
+ENG_set142={has_completed_focus=uk_service_focus
+	447={
+		CONTROLLER={
+			OR={
+				tag=ENG
+				is_subject_of=ENG
+			}
+		}
+	}}
+ENG_set143={has_completed_focus=uk_mediterranean_focus
+	not={has_completed_focus=uk_spain_focus}
+	118={is_owned_and_controlled_by=ENG}}
+ENG_set144={has_completed_focus=uk_mediterranean_focus
+	not={has_completed_focus=uk_rock_focus}
+	any_other_country={
+		original_tag=SPR
+		exists=yes
+		has_war=no
+		NOT={is_in_faction_with=ENG}
+		is_subject=no
+	}
+	NOT={has_government=communism}}
+ENG_set145={has_completed_focus=uk_mediterranean_focus
+	447={
+		CONTROLLER={
+			OR={
+				tag=ENG
+				is_subject_of=ENG
+			}
+		}
+	}}
+ENG_set146={has_completed_focus=uk_protect_suez has_completed_focus=uk_malta_focus
+has_government=democratic}
+ENG_set147={has_completed_focus=uk_balkan_strategy
+	ITA={ENG_focus_available_embargo_sanction=yes}}
+ENG_set148={has_completed_focus=uk_sanction_italy_focus
+	has_offensive_war=no
+	ITA={ENG_focus_available_war=yes}}
+ENG_set149={has_completed_focus=uk_protect_suez
+	not={has_completed_focus=uk_greece_focus}
+	TUR={
+		exists=yes
+		has_war=no
+		NOT={is_in_faction_with=ENG}
+		is_subject=no
+	}
+	NOT={has_government=communism}}
+ENG_set150={has_completed_focus=uk_protect_suez
+	not={has_completed_focus=uk_turkey_focus}
+	GRE={
+		exists=yes
+		has_war=no
+		NOT={is_in_faction_with=ENG}
+		is_subject=no
+	}
+	NOT={has_government=communism}}
+ENG_set151={has_completed_focus=uk_mediterranean_focus
+	116={is_owned_and_controlled_by=ENG}}
+ENG_set152={not={has_completed_focus=uk_empire_focus}
+	is_subject=no
+	OR={has_government=democratic has_government=communism}}
+ENG_set153={has_completed_focus=ENG_revisit_colonial_policy
+	is_subject=no
+	num_subjects>0}
+ENG_set154={has_completed_focus=ENG_guide_the_colonies
+	is_subject=no
+	OR={
+		CAN={is_subject_of=ENG}
+		SAF={is_subject_of=ENG}
+		AST={is_subject_of=ENG}
+		NZL={is_subject_of=ENG}
+	}}
+ENG_set155={has_completed_focus=ENG_towards_dominion_independence
+	is_subject=no
+	OR={
+		RAJ={is_subject_of=ENG}
+		hidden_trigger={
+			if={
+				limit={
+					has_dlc="Graveyard of Empires"
+					has_event_target=UK_INDIA
+				}
+				event_target:UK_INDIA={is_subject_of=ENG}
+			}
+		}
+	}}
+ENG_set156={has_completed_focus=ENG_foundations_for_an_indian_state
+	is_subject=no
+	RAJ={is_subject_of=ENG}}
+ENG_set157={has_completed_focus=ENG_foundations_for_an_indian_state
+	is_subject=no
+	if={
+		limit={
+			has_dlc="Graveyard of Empires"
+			has_event_target=UK_INDIA
+		}
+		event_target:UK_INDIA={is_subject_of=ROOT}
+	}
+	else={
+		RAJ={is_subject_of=ENG}
+	}
+	hidden_trigger={
+		if={
+			limit={
+				has_dlc="Graveyard of Empires"
+				has_event_target=UK_INDIA
+			}
+			event_target:UK_INDIA={is_subject_of=ENG}
+		}
+	}}
+ENG_set158={has_completed_focus=ENG_guide_the_colonies
+	is_subject=no
+	OR={has_full_control_of_state=659 has_full_control_of_state=326 has_full_control_of_state=332 has_full_control_of_state=331 has_full_control_of_state=119 has_full_control_of_state=118 has_full_control_of_state=906 has_full_control_of_state=1021}}
+ENG_set159={has_completed_focus=ENG_withdraw_from_contested_territories
+	is_subject=no
+	OR={has_full_control_of_state=116 has_full_control_of_state=183}}
+ENG_set160={has_completed_focus=ENG_self_government_for_the_mediterranean
+	is_subject=no
+	OR={has_full_control_of_state=767 has_full_control_of_state=551 has_full_control_of_state=549 has_full_control_of_state=269 has_full_control_of_state=548 has_full_control_of_state=547 has_full_control_of_state=903 has_full_control_of_state=904 has_full_control_of_state=905 has_full_control_of_state=546 has_full_control_of_state=771 has_full_control_of_state=981 has_full_control_of_state=770 has_full_control_of_state=545 has_full_control_of_state=542 has_full_control_of_state=558 has_full_control_of_state=900 has_full_control_of_state=901 has_full_control_of_state=902 has_full_control_of_state=274 has_full_control_of_state=700 has_full_control_of_state=701 has_full_control_of_state=883 has_full_control_of_state=884 has_full_control_of_state=885 has_full_control_of_state=886 has_full_control_of_state=887}}
+ENG_set161={has_completed_focus=ENG_withdraw_from_contested_territories
+	is_subject=no
+	OR={has_full_control_of_state=454 has_full_control_of_state=455 has_full_control_of_state=453 has_full_control_of_state=452 has_full_control_of_state=447 has_full_control_of_state=446 has_full_control_of_state=907 has_full_control_of_state=457 has_full_control_of_state=456 has_full_control_of_state=656 has_full_control_of_state=765 has_full_control_of_state=1014 has_full_control_of_state=658 has_full_control_of_state=992}}
+ENG_set162={has_completed_focus=ENG_self_government_for_the_middle_east
+	is_subject=no
+	OR={has_full_control_of_state=311 has_full_control_of_state=690 has_full_control_of_state=693 has_full_control_of_state=689 has_full_control_of_state=691 has_full_control_of_state=692 has_full_control_of_state=308 has_full_control_of_state=687}}
+ENG_set163={has_completed_focus=ENG_self_government_for_the_americas
+	is_subject=no
+	OR={
+		has_full_control_of_state=422 has_full_control_of_state=281 has_full_control_of_state=636 has_full_control_of_state=643 has_full_control_of_state=639 has_full_control_of_state=725 has_full_control_of_state=711 has_full_control_of_state=712
+		OR={
+			RAJ={
+				is_subject_of=ENG
+				has_full_control_of_state=640 has_full_control_of_state=288
+			}
+			BRM={
+				is_subject_of=ENG
+				has_full_control_of_state=640 has_full_control_of_state=288
+			}
+			RAJ={
+				NOT={is_subject_of=ENG}
+			}
+			ENG={has_full_control_of_state=640 has_full_control_of_state=288}
+		}
+	}}
+ENG_set164={has_completed_focus=ENG_self_government_for_africa has_completed_focus=ENG_self_government_for_asia has_completed_focus=ENG_towards_indian_independence
+is_subject=no}
+ENG_set165={has_completed_focus=uk_service_focus}
+ENG_set166={has_completed_focus=uk_colonial_focus
+	336={
+		CONTROLLER={
+			OR={
+				tag=ENG
+				is_subject_of=ENG
+			}
+		}
+	}
+	326={
+		CONTROLLER={
+			OR={
+				tag=ENG
+				is_subject_of=ENG
+			}
+		}
+	}}
+ENG_set167={has_completed_focus=uk_asia_focus
+	CHI={
+		has_war_with=JAP
+		NOT={has_war_with=ENG}
+	}
+	JAP={
+		NOT={is_in_faction_with=ENG}
+	}}
+ENG_set168={has_completed_focus=uk_burma_focus
+	JAP={ENG_focus_available_embargo_sanction=yes}
+	has_government=democratic}
+ENG_set169={has_completed_focus=uk_sanction_japan_focus has_completed_focus=peninsular_focus has_completed_focus=hk_air_focus
+	has_offensive_war=no
+	JAP={ENG_focus_available_war=yes}
+	has_government=democratic}
+ENG_set170={has_completed_focus=uk_asia_focus
+	336={
+		CONTROLLER={
+			OR={
+				tag=ENG
+				is_subject_of=ENG
+			}
+		}
+	}}
+ENG_set171={has_completed_focus=singapore_focus
+	336={
+		CONTROLLER={
+			OR={
+				tag=ENG
+				is_subject_of=ENG
+			}
+		}
+	}}
+ENG_set172={has_completed_focus=sp_landward_forts_focus
+	336={
+		CONTROLLER={
+			OR={
+				tag=ENG
+				is_subject_of=ENG
+			}
+		}
+	}}
+ENG_set173={has_completed_focus=uk_asia_focus
+	326={
+		CONTROLLER={
+			OR={
+				tag=ENG
+				is_subject_of=ENG
+			}
+		}
+	}}
+ENG_set174={has_completed_focus=hongkong_focus
+	326={
+		CONTROLLER={
+			OR={
+				tag=ENG
+				is_subject_of=ENG
+			}
+		}
+	}}
+ENG_set175={has_completed_focus=hk_landward_forts_focus
+	326={
+		CONTROLLER={
+			OR={
+				tag=ENG
+				is_subject_of=ENG
+			}
+		}
+	}}
+ENG_set176={has_completed_focus=hk_air_focus
+	CHI={exists=yes}
+	has_government=democratic}
+ENG_set177={has_completed_focus=uk_colonial_focus
+	OR={
+		any_country={
+			original_tag=NZL
+			is_in_faction_with=ROOT
+		}
+		any_country={
+			original_tag=SAF
+			is_in_faction_with=ROOT
+		}
+		any_country={
+			original_tag=RAJ
+			is_in_faction_with=ROOT
+		}
+		any_country={
+			original_tag=AST
+			is_in_faction_with=ROOT
+		}
+		any_country={
+			original_tag=CAN
+			is_in_faction_with=ROOT
+		}
+		any_country={
+			original_tag=MAL
+			is_in_faction_with=ROOT
+		}
+		any_country={
+			original_tag=PAL
+			is_in_faction_with=ROOT
+		}
+		any_country={
+			original_tag=JOR
+			is_in_faction_with=ROOT
+		}
+		any_country={
+			original_tag=KUW
+			is_in_faction_with=ROOT
+		}
+		any_country={
+			original_tag=BRM
+			is_in_faction_with=ROOT
+		}
+	}}
+ENG_set178={has_completed_focus=uk_commonwealth_focus
+	OR={
+		CAN={is_in_faction_with=ENG}
+		SAF={is_in_faction_with=ENG}
+		RAJ={is_in_faction_with=ENG}
+		AST={is_in_faction_with=ENG}
+		NZL={is_in_faction_with=ENG}
+	}}
+ENG_set179={has_completed_focus=uk_commonwealth_focus
+	any_country={
+		original_tag=RAJ
+		is_in_faction_with=ROOT
+	}}
+ENG_set180={has_completed_focus=uk_india_focus
+	not={has_completed_focus=ENG_indian_autonomy}
+	if={
+		limit={has_dlc="Together for Victory"}
+		OR={
+			AND={
+				date>1943.10.01
+				RAJ={
+					is_subject_of=ENG
+					has_war=no
+				}
+			}
+			AND={
+				NOT={has_government=democratic}
+				RAJ={
+					is_subject_of=ENG
+					has_war=no
+				}
+			}
+		}
+		else={
+			has_global_flag=indian_national_army_setup
+			has_government=democratic
+			RAJ={is_puppet_of=ENG}
+		}
+	}}
+ENG_set181={has_completed_focus=uk_commonwealth_focus
+	any_country={
+		original_tag=AST
+		is_in_faction_with=ROOT
+	}}
+ENG_set182={has_completed_focus=uk_australia_focus
+	any_country={
+		original_tag=NZL
+		is_in_faction_with=ROOT
+	}}
+ENG_set183={has_completed_focus=uk_commonwealth_focus
+	any_country={
+		original_tag=CAN
+		is_in_faction_with=ROOT
+	}}
+ENG_set184={has_completed_focus=uk_commonwealth_focus
+	any_country={
+		original_tag=SAF
+		is_in_faction_with=ROOT
+	}}
+ENG_set185={has_completed_focus=uk_india_focus
+	not={has_completed_focus=uk_free_india_focus}
+	RAJ={is_subject_of=ENG}}
+ENG_set186={has_completed_focus=uk_canada_focus has_completed_focus=uk_new_zealand_focus has_completed_focus=uk_south_africa_focus
+	CAN={
+		OR={
+			AND={
+				is_subject_of=ENG
+				has_government=ROOT
+			}
+			exists=no
+		}
+	}
+	SAF={
+		OR={
+			AND={
+				is_subject_of=ENG
+				has_government=ROOT
+			}
+			exists=no
+		}
+	}
+	AST={
+		OR={
+			AND={
+				is_subject_of=ENG
+				has_government=ROOT
+			}
+			exists=no
+		}
+	}
+	NZL={
+		OR={
+			AND={
+				is_subject_of=ENG
+				has_government=ROOT
+			}
+			exists=no
+		}
+	}
+	NOT={
+		any_state={
+			OR={is_core_of=ENG is_core_of=CAN is_core_of=SAF is_core_of=AST is_core_of=NZL}
+			NOT={state=331}
+			OWNER={
+				NOT={
+					OR={tag=ENG tag=CAN tag=SAF tag=AST tag=NZL}
+				}
+			}
+		}
+	}}
+ENG_set187={has_completed_focus=ENG_imperial_conference
+	if={
+		limit={has_dlc="Together for Victory" has_dlc="Death or Dishonor"}
+		CAN={
+			OR={
+				AND={
+					is_subject_of=ENG
+					OR={has_autonomy_state=autonomy_integrated_puppet has_autonomy_state=autonomy_reichskommissariat}
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=CAN
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		SAF={
+			OR={
+				AND={
+					is_subject_of=ENG
+					OR={has_autonomy_state=autonomy_integrated_puppet has_autonomy_state=autonomy_reichskommissariat}
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=SAF
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		if={
+			limit={
+				RAJ={has_country_flag=ENG_accepted_federation}
+			}
+			RAJ={
+				OR={
+					AND={
+						is_subject_of=ENG
+						OR={
+							has_autonomy_state=autonomy_integrated_puppet has_autonomy_state=autonomy_reichskommissariat
+							ROOT={has_country_leader_with_trait=viceroy_emeritus}
+						}
+					}
+					AND={
+						exists=no
+						NOT={
+							any_state={
+								is_core_of=RAJ
+								NOT={state=320}
+								NOT={state=321}
+								NOT={is_owned_by=ROOT}
+							}
+						}
+					}
+				}
+			}
+		}
+		AST={
+			OR={
+				AND={
+					is_subject_of=ENG
+					OR={has_autonomy_state=autonomy_integrated_puppet has_autonomy_state=autonomy_reichskommissariat}
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=AST
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		NZL={
+			OR={
+				AND={
+					is_subject_of=ENG
+					OR={has_autonomy_state=autonomy_integrated_puppet has_autonomy_state=autonomy_reichskommissariat}
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=NZL
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+	}
+	else_if={
+		limit={
+			has_dlc="Together for Victory"
+			NOT={has_dlc="Death or Dishonor"}
+		}
+		CAN={
+			OR={
+				AND={
+					is_subject_of=ENG
+					has_autonomy_state=autonomy_integrated_puppet
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=CAN
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		SAF={
+			OR={
+				AND={
+					is_subject_of=ENG
+					has_autonomy_state=autonomy_integrated_puppet
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=SAF
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		if={
+			limit={
+				RAJ={has_country_flag=ENG_accepted_federation}
+			}
+			RAJ={
+				OR={
+					AND={
+						is_subject_of=ENG
+						has_autonomy_state=autonomy_integrated_puppet
+					}
+					AND={
+						exists=no
+						NOT={
+							any_state={
+								is_core_of=RAJ
+								NOT={state=320}
+								NOT={state=321}
+								NOT={is_owned_by=ROOT}
+							}
+						}
+					}
+				}
+			}
+		}
+		AST={
+			OR={
+				AND={
+					is_subject_of=ENG
+					has_autonomy_state=autonomy_integrated_puppet
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=AST
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		NZL={
+			OR={
+				AND={
+					is_subject_of=ENG
+					has_autonomy_state=autonomy_integrated_puppet
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=NZL
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+	}
+	else_if={
+		limit={
+			NOT={has_dlc="Together for Victory"}
+			has_dlc="Death or Dishonor"
+			has_government=fascism
+		}
+		CAN={
+			OR={
+				AND={
+					is_subject_of=ENG
+					has_autonomy_state=autonomy_reichskommissariat
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=CAN
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		SAF={
+			OR={
+				AND={
+					is_subject_of=ENG
+					has_autonomy_state=autonomy_reichskommissariat
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=SAF
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		if={
+			limit={
+				RAJ={has_country_flag=ENG_accepted_federation}
+			}
+			RAJ={
+				OR={
+					AND={
+						is_subject_of=ENG
+						has_autonomy_state=autonomy_reichskommissariat
+					}
+					AND={
+						exists=no
+						NOT={
+							any_state={
+								is_core_of=RAJ
+								NOT={state=320}
+								NOT={state=321}
+								NOT={is_owned_by=ROOT}
+							}
+						}
+					}
+				}
+			}
+		}
+		AST={
+			OR={
+				AND={
+					is_subject_of=ENG
+					has_autonomy_state=autonomy_reichskommissariat
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=AST
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		NZL={
+			OR={
+				AND={
+					is_subject_of=ENG
+					has_autonomy_state=autonomy_reichskommissariat
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=NZL
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+	}
+	else={
+		CAN={
+			OR={
+				AND={
+					is_subject_of=ENG
+					compare_autonomy_progress_ratio<0.1
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=CAN
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		SAF={
+			OR={
+				AND={
+					is_subject_of=ENG
+					compare_autonomy_progress_ratio<0.1
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=SAF
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		if={
+			limit={
+				RAJ={has_country_flag=ENG_accepted_federation}
+			}
+			RAJ={
+				OR={
+					AND={
+						is_subject_of=ENG
+						compare_autonomy_progress_ratio<0.1
+					}
+					AND={
+						exists=no
+						NOT={
+							any_state={
+								is_core_of=RAJ
+								NOT={state=320}
+								NOT={state=321}
+								NOT={is_owned_by=ROOT}
+							}
+						}
+					}
+				}
+			}
+		}
+		AST={
+			OR={
+				AND={
+					is_subject_of=ENG
+					compare_autonomy_progress_ratio<0.1
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=AST
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+		NZL={
+			OR={
+				AND={
+					is_subject_of=ENG
+					compare_autonomy_progress_ratio<0.1
+				}
+				AND={
+					exists=no
+					NOT={
+						any_state={
+							is_core_of=NZL
+							NOT={is_owned_by=ROOT}
+						}
+					}
+				}
+			}
+		}
+	}
+	if={
+		limit={
+			OR={
+				CAN={exists=yes}
+				SAF={exists=yes}
+				AST={exists=yes}
+				NZL={exists=yes}
+			}
+		}
+		has_country_flag=ENG_dominions_accepted_federation
+	}}
+ENG_set188={not={has_completed_focus=ENG_a_change_in_course}
+	if={
+		limit={
+			NOT={has_country_flag=ENG_abdication_crisis_changed_mind}
+		}
+		NOT={has_country_flag=edward_viii_refused_to_abdicate_flag}
+	}}
+ENG_set189={has_completed_focus=ENG_steady_as_she_goes
+	not={has_completed_focus=ENG_home_defence}}
+ENG_set190={has_completed_focus=ENG_global_defense}
+ENG_set191={has_completed_focus=ENG_global_defense
+	has_country_leader={
+		character=ENG_neville_chamberlain
+		ruling_only=yes
+	}}
+ENG_set192={has_completed_focus=ENG_every_man_will_do_his_duty has_completed_focus=ENG_motion_of_no_confidence
+is_subject=no}
+ENG_set193={has_completed_focus=ENG_no_further_appeasement}
+ENG_set194={has_completed_focus=ENG_kickstart_the_war_industry
+	is_subject=no
+	OR={country_exists=IRQ country_exists=PER country_exists=HOL country_exists=VEN}}
+ENG_set195={has_completed_focus=ENG_no_further_appeasement
+	not={has_completed_focus=ENG_maintaining_the_balance_of_power}
+is_subject=no}
+ENG_set196={has_completed_focus=ENG_maintaining_imperial_integrity
+is_subject=no}
+ENG_set197={has_completed_focus=ENG_no_further_appeasement
+	not={has_completed_focus=ENG_maintaining_imperial_integrity}
+is_subject=no}
+ENG_set198={has_completed_focus=ENG_maintaining_the_balance_of_power
+is_subject=no}
+ENG_set199={has_completed_focus=ENG_steady_as_she_goes
+	not={has_completed_focus=ENG_global_defense}}
+ENG_set200={has_completed_focus=ENG_home_defence
+	IRQ={
+		OR={
+			communism>0.2
+			fascism>0.2
+		}
+	}}
+ENG_set201={has_completed_focus=uk_iraq_focus
+	country_exists=PER
+	NOT={has_war_with=PER}
+	is_subject=no
+	any_enemy_country={is_major=yes}}
+ENG_set202={or={has_completed_focus=uk_iran_focus has_completed_focus=ENG_no_further_appeasement}
+	SOV={ENG_focus_available_embargo_sanction=yes}}
+ENG_set203={has_completed_focus=ENG_embargo_ussr
+	has_offensive_war=no
+	SOV={ENG_focus_available_war=yes}}
+ENG_set204={has_completed_focus=ENG_home_defence
+	OR={
+		threat>0.2
+		has_war=yes
+	}}
+ENG_set205={has_completed_focus=ENG_issue_gasmasks
+	OR={
+		threat>0.5
+		has_war=yes
+	}}
+ENG_set206={has_completed_focus=ENG_military_training_act
+	GER={ENG_focus_available_embargo_sanction=yes}}
+ENG_set207={has_completed_focus=ENG_embargo_germany
+	has_war=no
+	GER={ENG_focus_available_war=yes}}
+ENG_set208={has_completed_focus=ENG_home_defence
+	OR={
+		SWE={
+			exists=yes
+			OR={
+				communism>0.1
+				fascism>0.1
+			}
+		}
+		NOR={
+			exists=yes
+			OR={
+				communism>0.1
+				fascism>0.1
+			}
+		}
+		DEN={
+			exists=yes
+			OR={
+				communism>0.1
+				fascism>0.1
+			}
+		}
+	}}
+ENG_set209={has_completed_focus=uk_scandinavian_focus
+	SWE={
+		exists=yes
+		OR={
+			communism>0.2
+			fascism>0.2
+		}
+	}}
+ENG_set210={has_completed_focus=uk_scandinavian_focus
+	NOR={
+		exists=yes
+		OR={
+			communism>0.2
+			fascism>0.2
+		}
+	}}
+ENG_set211={has_completed_focus=uk_scandinavian_focus
+	DEN={
+		exists=yes
+		OR={
+			communism>0.2
+			fascism>0.2
+		}
+	}}
+ENG_set212={has_completed_focus=ENG_home_defence}
+ENG_set213={has_completed_focus=ENG_home_defence
+	OR={
+		BEL={
+			exists=yes
+			OR={
+				communism>0.15
+				fascism>0.15
+			}
+		}
+		HOL={
+			exists=yes
+			OR={
+				communism>0.15
+				fascism>0.15
+			}
+		}
+	}}
+ENG_set214={has_completed_focus=ENG_benelux_intervention
+	BEL={
+		exists=yes
+		OR={
+			communism>0.2
+			fascism>0.2
+		}
+	}}
+ENG_set215={has_completed_focus=ENG_benelux_intervention
+	HOL={
+		exists=yes
+		OR={
+			communism>0.2
+			fascism>0.2
+		}
+	}}
+ENG_set216={not={has_completed_focus=ENG_steady_as_she_goes}}
+ENG_set217={has_completed_focus=ENG_a_change_in_course
+	not={has_completed_focus=ENG_organize_the_blackshirts has_completed_focus=ENG_concessions_to_the_trade_unions}
+	has_country_flag=edward_viii_married_wallis_simpson
+	is_subject=no
+	has_war=no}
+ENG_set218={has_completed_focus=ENG_the_kings_party
+	is_subject=no
+	NOT={has_war_together_with=FRA}}
+ENG_set219={has_completed_focus=ENG_reassess_continental_commitments
+	is_subject=no
+	NOT={is_in_faction_with=ITA}}
+ENG_set220={has_completed_focus=ENG_isolate_the_mediterranean_threat
+	not={has_completed_focus=ENG_noninterference_treaty_with_germany}
+	is_subject=no
+	country_exists=GER
+	NOT={has_war_with=GER}
+	GER={has_government=fascism}
+	NOT={has_country_flag=ENG_germany_rejected_isolate_the_italian_threat}}
+ENG_set221={has_completed_focus=ENG_isolate_the_mediterranean_threat
+	not={has_completed_focus=ENG_alliance_with_germany}
+	is_subject=no
+	country_exists=GER
+	NOT={has_war_with=GER}}
+ENG_set222={or={has_completed_focus=ENG_noninterference_treaty_with_germany has_completed_focus=ENG_alliance_with_germany}
+	is_subject=no
+	country_exists=ITA
+	NOT={is_in_faction_with=ITA}}
+ENG_set223={has_completed_focus=ENG_a_change_in_course
+	not={has_completed_focus=ENG_the_kings_party has_completed_focus=ENG_concessions_to_the_trade_unions}
+	is_subject=no
+	has_war=no
+	if={
+		limit={
+			NOT={has_country_flag=ENG_abdication_crisis_changed_mind}
+		}
+		NOT={has_country_flag=edward_viii_refused_to_abdicate_flag}
+	}}
+ENG_set224={has_completed_focus=ENG_organize_the_blackshirts
+	is_subject=no
+	has_government=fascism}
+ENG_set225={has_completed_focus=ENG_the_british_path_to_fascism
+	is_subject=no
+	country_exists=ITA
+	NOT={has_war_together_with=FRA}
+	NOT={has_war_with=ITA}
+	ITA={is_in_faction=no}}
+ENG_set226={has_completed_focus=ENG_secure_the_italian_alliance
+	not={has_completed_focus=ENG_pre_empt_spanish_alignment}
+	is_subject=no
+	if={
+		limit={
+			NOT={has_dlc="La Resistance"}
+		}
+		any_country={
+			original_tag=SPR
+			has_government=fascism
+			exists=yes
+			NOT={is_in_faction_with=ENG}
+		}
+	}
+	if={
+		limit={has_dlc="La Resistance"}
+		SPA={
+			exists=yes
+			NOT={is_in_faction_with=ENG}
+		}
+	}
+	has_global_flag=scw_over}
+ENG_set227={has_completed_focus=ENG_secure_the_italian_alliance
+	not={has_completed_focus=ENG_gibraltar_for_spanish_support}
+	is_subject=no
+	if={
+		limit={
+			NOT={has_dlc="La Resistance"}
+		}
+		any_country={
+			original_tag=SPR
+			has_government=fascism
+			exists=yes
+			NOT={is_in_faction_with=ENG}
+			NOT={has_war_with=ENG}
+		}
+	}
+	if={
+		limit={has_dlc="La Resistance"}
+		SPA={
+			exists=yes
+			NOT={is_in_faction_with=ENG}
+			NOT={has_war_with=ENG}
+		}
+	}
+	has_global_flag=scw_over}
+ENG_set228={or={has_completed_focus=ENG_gibraltar_for_spanish_support has_completed_focus=ENG_pre_empt_spanish_alignment}
+	is_subject=no
+	country_exists=GER
+	NOT={is_in_faction_with=GER}}
+ENG_set229={has_completed_focus=ENG_the_british_path_to_fascism}
+ENG_set230={or={has_completed_focus=ENG_the_kings_party has_completed_focus=ENG_organize_the_blackshirts}
+	is_subject=no
+	OR={has_government=neutrality has_government=fascism}}
+ENG_set231={has_completed_focus=ENG_god_save_the_king
+	has_full_control_of_state=422
+	hidden_trigger={
+		if={
+			limit={
+				has_dlc="Graveyard of Empires"
+				has_event_target=UK_INDIA
+			}
+			event_target:UK_INDIA={is_subject_of=ENG}
+		}
+	}}
+ENG_set232={has_completed_focus=ENG_ceylon_forward_operating_base}
+ENG_set233={has_completed_focus=ENG_imperial_conscription
+	is_subject=no
+	BRM={
+		exists=yes
+		NOT={is_subject_of=ROOT}
+	}}
+ENG_set234={or={has_completed_focus=ENG_imperial_conscription has_completed_focus=ENG_take_out_the_regia_marina}
+	is_subject=no
+	country_exists=SOV
+	NOT={is_in_faction_with=SOV}
+	SOV={has_government=communism}}
+ENG_set235={has_completed_focus=ENG_pre_empt_the_ideological_threat
+	is_subject=no
+	OR={
+		AND={
+			country_exists=PER
+			NOT={is_in_faction_with=PER}
+		}
+		AND={
+			country_exists=AFG
+			NOT={is_in_faction_with=AFG}
+		}
+	}}
+ENG_set236={has_completed_focus=ENG_imperial_conscription
+	is_subject=no
+	if={
+		limit={has_dlc="Graveyard of Empires"}
+		RAJ={
+			NOT={is_subject_of=ENG}
+		}
+		hidden_trigger={
+			if={
+				limit={
+					has_dlc="Graveyard of Empires"
+					has_event_target=UK_INDIA
+				}
+				event_target:UK_INDIA={
+					NOT={is_subject_of=ENG}
+				}
+			}
+		}
+	}}
+ENG_set237={has_completed_focus=ENG_god_save_the_king
+	is_subject=no
+	country_exists=IRE
+	NOT={is_in_faction_with=IRE}}
+ENG_set238={has_completed_focus=ENG_imperial_conscription has_completed_focus=ENG_bring_the_dominions_back_into_the_fold
+	is_subject=no
+	country_exists=USA
+	NOT={is_in_faction_with=USA}}
+ENG_set239={has_completed_focus=ENG_god_save_the_king
+	is_subject=no
+	OR={country_exists=CAN country_exists=SAF country_exists=AST country_exists=NZL}}
+ENG_set240={has_completed_focus=ENG_appeal_to_imperial_loyalists
+is_subject=no}
+ENG_set241={has_completed_focus=ENG_bring_the_dominions_back_into_the_fold}
+ENG_set242={has_completed_focus=ENG_bring_the_dominions_back_into_the_fold
+	is_subject=no
+	country_exists=JAP
+	NOT={is_in_faction_with=JAP}
+	OR={
+		JAP={has_government=fascism}
+		JAP={has_government=communism}
+	}}
+ENG_set243={has_completed_focus=ENG_a_change_in_course
+	not={has_completed_focus=ENG_the_kings_party has_completed_focus=ENG_organize_the_blackshirts}
+	is_subject=no
+	has_war=no
+	if={
+		limit={
+			NOT={has_country_flag=ENG_abdication_crisis_changed_mind}
+		}
+		NOT={has_country_flag=edward_viii_refused_to_abdicate_flag}
+	}}
+ENG_set244={or={has_completed_focus=ENG_organize_the_blackshirts has_completed_focus=ENG_concessions_to_the_trade_unions}
+	is_subject=no
+	has_war=no
+	OR={has_government=fascism has_government=communism}
+	OR={
+		RAJ={is_subject_of=ENG}
+		CAN={is_subject_of=ENG}
+		SAF={is_subject_of=ENG}
+		AST={is_subject_of=ENG}
+		NZL={is_subject_of=ENG}
+	}}
+ENG_set245={has_completed_focus=ENG_concessions_to_the_trade_unions
+has_government=communism}
+ENG_set246={has_completed_focus=ENG_concessions_to_the_trade_unions
+has_government=communism}
+ENG_set247={has_completed_focus=ENG_the_fate_of_the_royal_family has_completed_focus=ENG_eliminate_the_upper_class}
+ENG_set248={has_completed_focus=ENG_for_the_good_of_the_revolution
+	not={has_completed_focus=ENG_follow_moscow}
+	is_subject=no
+	NOT={is_in_faction_with=SOU}}
+ENG_set249={has_completed_focus=ENG_the_british_communist_alternative
+	not={has_completed_focus=ENG_reach_out_across_the_channel}
+	is_subject=no
+	has_completed_focus=ENG_decolonization}
+ENG_set250={has_completed_focus=ENG_the_british_communist_alternative
+	not={has_completed_focus=ENG_enforce_decolonization}
+	is_subject=no
+	OR={country_exists=FRA country_exists=HOL country_exists=BEL country_exists=LUX}
+	OR={
+		FRA={has_government=communism}
+		HOL={has_government=communism}
+		BEL={has_government=communism}
+		LUX={has_government=communism}
+	}
+	OR={
+		NOT={has_war_with=FRA}
+		NOT={has_war_with=HOL}
+		NOT={has_war_with=BEL}
+		NOT={has_war_with=LUX}
+	}}
+ENG_set251={or={has_completed_focus=ENG_enforce_decolonization has_completed_focus=ENG_reach_out_across_the_channel}
+	not={has_completed_focus=ENG_the_one_true_revolution}
+	is_subject=no
+	NOT={has_war_with=SOU}
+	SOU={
+		exists=yes
+		has_civil_war=no
+		has_government=communism
+	}}
+ENG_set252={or={has_completed_focus=ENG_enforce_decolonization has_completed_focus=ENG_reach_out_across_the_channel}
+	not={has_completed_focus=ENG_soviet_cooperation}
+	is_subject=no
+	country_exists=SOU
+	NOT={is_in_faction_with=SOU}
+	SOU={has_government=communism}}
+ENG_set253={has_completed_focus=ENG_for_the_good_of_the_revolution
+	not={has_completed_focus=ENG_the_british_communist_alternative}
+	is_subject=no
+	country_exists=SOu
+	NOT={is_in_faction_with=SOU}
+	NOT={has_war_with=SOU}
+	SOU={
+		has_government=communism
+		has_civil_war=no
+	}}
+ENG_set254={has_completed_focus=ENG_follow_moscow
+	not={has_completed_focus=ENG_tackle_capitalism}
+	is_subject=no
+	OR={country_exists=GER country_exists=ITA}
+	OR={
+		GER={has_government=fascism}
+		ITA={has_government=fascism}
+	}}
+ENG_set255={has_completed_focus=ENG_tackle_fascism}
+ENG_set256={has_completed_focus=ENG_follow_moscow
+	not={has_completed_focus=ENG_tackle_fascism}
+	is_subject=no
+	country_exists=USA
+	USA={has_government=democratic}}
+ENG_set257={has_completed_focus=ENG_tackle_capitalism
+has_full_control_of_state=696}
+ENG_set258={has_completed_focus=ENG_bermuda_invasion_launch_point
+	is_subject=no
+	NOT={is_in_faction_with=USA}
+	USA={has_government=democratic}}
+ENG_set259={has_completed_focus=ENG_follow_moscow
+is_in_faction_with=SOV}
+ENG_set260={or={has_completed_focus=ENG_the_one_true_revolution has_completed_focus=ENG_preparing_the_second_front}
+	is_subject=no
+	country_exists=GER
+	NOT={is_in_faction_with=GER}}
+ENG_set261={or={has_completed_focus=ENG_soviet_cooperation has_completed_focus=ENG_liberate_the_home_of_marx has_completed_focus=ENG_crush_the_dream}}
+
+ENG_set262 = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_east_indies_fleet_focus = yes
+        AND = {
+            has_completed_focus = peninsular_focus
+            has_completed_focus = ENG_south_east_asia_air_command_focus
+        }
+        OR = {
+            326 = {
+                is_controlled_by_ROOT_or_subject = yes
+            }
+            1021 = {
+                is_controlled_by_ROOT_or_subject = yes
+            }
+            422 = {
+                is_controlled_by_ROOT_or_subject = yes
+            }
+            333 = {
+                is_controlled_by_ROOT_or_subject = yes
+            }
+        }
+    }
+}
+
+ENG_set263 = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_royal_malay_regiment_focus = yes
+        has_completed_focus = singapore_focus
+        MAL = {
+            any_core_state = {
+                is_controlled_by = ROOT
+            }
+        }
+    }
+}
+
+ENG_set264 = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_sarawakrangers_focus = yes
+        has_completed_focus = peninsular_focus
+        OR = {
+            has_subject = MAL
+            has_subject = SAR
+            333 = {
+                is_owned_and_controlled_by = ROOT
+            }
+        }
+    }
+}
+
+ENG_set265 = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_south_east_asia_air_command_focus = yes
+        has_completed_focus = hongkong_focus
+        OR = {
+            326 = {
+                is_controlled_by_ROOT_or_subject = yes
+            }
+            1021 = {
+                is_controlled_by_ROOT_or_subject = yes
+            }
+            1024 = {
+                is_controlled_by_ROOT_or_subject = yes
+            }
+        }
+    }
+}
+
+ENG_set266 = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_territorial_army_of_malaysia_focus = yes
+        has_completed_focus = singapore_focus
+        has_subject = MAL
+    }
+}
+
+ENG_set267 = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_the_winds_of_change = yes
+        has_completed_focus = ENG_decolonization
+        is_subject = no
+    }
+}

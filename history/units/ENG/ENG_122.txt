@@ -1,0 +1,1 @@
+focus={current=fighter_command_focus}

@@ -1,0 +1,1 @@
+focus={current=SOV_protect_the_white_sea_baltic_canal}

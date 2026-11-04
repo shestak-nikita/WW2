@@ -1,0 +1,1 @@
+focus={current=JAP_form_the_dai_nippon_fujinkai}

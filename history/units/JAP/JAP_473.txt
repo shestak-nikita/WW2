@@ -1,0 +1,1 @@
+focus={current=JAP_manchuria_five_year_plan}

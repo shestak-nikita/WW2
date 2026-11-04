@@ -1,0 +1,13 @@
+l_english:
+ GER_GPW_Albert_Shpeer:0 "Albert Speer"
+GER_GPW_Albert_Shpeer_desc:0 "Unlocks Albert Speer as an economic advisor. He is visible from the start and can be appointed after completing this focus, provided no other exclusive economic advisor is appointed."
+ GER_GPW_Yalmar_Shaht:0 "Hjalmar Schacht"
+GER_GPW_Yalmar_Shaht_desc:0 "Completing this focus unlocks Hjalmar Schacht as an economic advisor. He is visible from the start; only one of Schacht, Funk, Speer, and Göring can occupy the exclusive economic-advisor position at a time."
+ GER_GPW_Walther_Funk:0 "Walther Funk"
+GER_GPW_Walther_Funk_desc:0 "Completing this focus unlocks Walther Funk as an economic advisor. He is visible from the start; only one of Schacht, Funk, Speer, and Göring can occupy the exclusive economic-advisor position at a time."
+ GPW_GER_speer_economic_advisor:0 "Industrial Organizer"
+ GPW_GER_speer_economic_advisor_desc:0 "Increases military factory construction speed by 15% and reduces the production cost of tier III infantry equipment by 5%."
+
+GER_the_four_year_plan_desc:0 "The Four-Year Plan expands German industry, grants one industry research bonus, and unlocks Hermann Göring as an economic advisor. He can be appointed after this focus if Schacht, Funk, and Speer are not occupying the exclusive economic-advisor position."
+GPW_GER_advisor_unlocked_tt:0 "§YAdvisor unlocked:§! this advisor is visible from the start and can be appointed after this focus if the exclusive economic-advisor position is free."
+

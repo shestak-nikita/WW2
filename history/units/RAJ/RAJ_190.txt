@@ -1,0 +1,1 @@
+focus={current=RAJ_armoured_corps_center_and_school}

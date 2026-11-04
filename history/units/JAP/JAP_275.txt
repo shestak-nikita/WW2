@@ -1,0 +1,1 @@
+focus={current=JAP_intensify_anti_guerilla_operations}

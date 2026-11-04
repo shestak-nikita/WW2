@@ -1,0 +1,1 @@
+focus={current=sp_landward_forts_focus}

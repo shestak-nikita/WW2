@@ -1,0 +1,2088 @@
+JAP_set101={not={has_completed_focus=JAP_support_the_kodoha_faction has_completed_focus=JAP_strengthen_civilian_government has_completed_focus=JAP_sea_purge_the_kodoha_faction}
+has_country_flag=JAP_aizawas_trial_over_flag}
+JAP_set102={has_completed_focus=JAP_the_unthinkable_option}
+JAP_set103={has_completed_focus=JAP_the_unthinkable_option}
+JAP_set104={has_completed_focus=JAP_exchange_the_exiles}
+JAP_set105={has_completed_focus=JAP_approach_the_young_officers has_completed_focus=JAP_exchange_the_exiles}
+JAP_set106={has_completed_focus=JAP_cast_the_die
+has_civil_war=no}
+JAP_set107={has_completed_focus=JAP_the_fate_of_the_imperial_family}
+JAP_set108={has_completed_focus=JAP_the_fate_of_the_imperial_family
+has_stability<0.7}
+JAP_set109={has_completed_focus=JAP_rebuild_the_civil_service has_completed_focus=JAP_reeducation_campaign
+	country_exists=MAN
+	MAN={has_government=fascism}}
+JAP_set110={has_completed_focus=JAP_finish_the_fight has_completed_focus=JAP_communist_volunteers
+	not={has_completed_focus=JAP_asian_communist_solidarity}
+	has_government=communism
+	is_subject=no
+	SOV_comintern_joinable=yes}
+JAP_set111={has_completed_focus=JAP_cast_the_die
+	has_government=communism
+	has_civil_war=no}
+JAP_set112={has_completed_focus=JAP_red_brigades
+has_government=communism}
+JAP_set113={has_completed_focus=JAP_finish_the_fight has_completed_focus=JAP_communist_volunteers
+	not={has_completed_focus=JAP_join_comintern}
+	has_government=communism
+	is_subject=no
+	NOT={has_war_with=event_target:WTT_communist_china}
+	event_target:WTT_communist_china={
+		has_government=communism
+		OR={
+			is_in_faction=no
+			is_faction_leader=yes
+		}
+	}}
+JAP_set114={has_completed_focus=JAP_cast_the_die
+has_civil_war=no}
+JAP_set115={has_completed_focus=JAP_nationalize_the_zaibatsus}
+JAP_set116={has_completed_focus=JAP_nationalize_the_zaibatsus
+has_full_control_of_state=535 has_full_control_of_state=533 has_full_control_of_state=528}
+JAP_set117={has_completed_focus=JAP_people_owned_mines has_completed_focus=JAP_public_works
+has_full_control_of_state=282}
+JAP_set118={not={has_completed_focus=JAP_support_the_kodoha_faction has_completed_focus=JAP_the_unthinkable_option has_completed_focus=JAP_sea_purge_the_kodoha_faction}
+has_country_flag=JAP_aizawas_trial_over_flag}
+JAP_set119={not={has_completed_focus=JAP_the_unthinkable_option has_completed_focus=JAP_strengthen_civilian_government has_completed_focus=JAP_sea_purge_the_kodoha_faction}
+has_country_flag=JAP_aizawas_trial_over_flag}
+JAP_set120={has_completed_focus=JAP_support_the_kodoha_faction}
+JAP_set121={has_completed_focus=JAP_challenge_the_zaibatsus}
+JAP_set122={has_completed_focus=JAP_national_mobilization_law}
+JAP_set123={has_completed_focus=JAP_national_mobilization_law has_completed_focus=JAP_challenge_the_zaibatsus}
+JAP_set124={has_completed_focus=JAP_imperial_arsenals}
+JAP_set125={has_completed_focus=JAP_national_defense_state}
+JAP_set126={has_completed_focus=JAP_national_defense_state}
+JAP_set127={has_completed_focus=JAP_spiritual_mobilization has_completed_focus=JAP_warrior_spirit
+is_special_project_completed=sp:sp_rocket_interceptor}
+JAP_set128={has_completed_focus=JAP_support_the_kodoha_faction
+	not={has_completed_focus=JAP_modern_shogunate}}
+JAP_set129={has_completed_focus=JAP_support_the_kodoha_faction
+	not={has_completed_focus=JAP_showa_restoration}}
+JAP_set130={or={has_completed_focus=JAP_modern_shogunate has_completed_focus=JAP_showa_restoration}}
+JAP_set131={has_completed_focus=JAP_prepare_for_war_with_the_soviet_union
+	NOT={has_war_with=FRA}
+	NOT={has_war_with=ENG}
+	NOT={has_war_with=USA}}
+JAP_set132={has_completed_focus=JAP_prepare_for_war_with_the_soviet_union
+	MAN={
+		OR={
+			is_in_faction_with=ROOT
+			is_subject_of=ROOT
+		}
+	}
+	has_equipment={infantry_equipment>1999}}
+JAP_set133={has_completed_focus=JAP_build_up_the_manchurian_army
+	MAN={
+		OR={
+			is_in_faction_with=ROOT
+			is_subject_of=ROOT
+		}
+	}}
+JAP_set134={has_completed_focus=JAP_join_the_london_naval_treaty}
+JAP_set135={has_completed_focus=JAP_non_aggression_pact_with_china has_completed_focus=JAP_create_a_manchurian_imperial_air_force}
+JAP_set136={has_completed_focus=JAP_technological_exchange
+	is_subject=no
+	NOT={has_war_with=SOV}}
+JAP_set137={has_completed_focus=JAP_preemptive_war has_completed_focus=JAP_imperial_arsenals
+	has_tech=excavation1
+	564={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	OR={
+		657={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		408={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		560={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		409={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	}}
+JAP_set138={has_completed_focus=JAP_preemptive_war
+	is_in_faction_with=GER
+	NOT={has_war_with=GER}}
+JAP_set139={has_completed_focus=JAP_strengthen_civilian_government
+has_full_control_of_state=282 has_full_control_of_state=529}
+JAP_set140={has_completed_focus=JAP_strengthen_civilian_government}
+JAP_set141={or={has_completed_focus=JAP_research_spending has_completed_focus=JAP_ally_with_the_zaibatsus}
+democratic>0.3}
+JAP_set142={or={has_completed_focus=JAP_research_spending has_completed_focus=JAP_ally_with_the_zaibatsus}}
+JAP_set143={has_completed_focus=JAP_pre_emptive_coup has_completed_focus=JAP_purge_the_militarists
+has_civil_war=no}
+JAP_set144={has_completed_focus=JAP_the_showa_constitution
+	not={has_completed_focus=JAP_rekindle_the_old_alliance}
+is_subject=no}
+JAP_set145={has_completed_focus=JAP_the_showa_constitution
+	not={has_completed_focus=JAP_west_pacific_treaty_organization}
+	has_government=democratic
+	is_subject=no
+	ENG={has_government=democratic}
+	NOT={has_war_with=ENG}}
+JAP_set146={or={has_completed_focus=JAP_west_pacific_treaty_organization has_completed_focus=JAP_rekindle_the_old_alliance}}
+JAP_set147={has_completed_focus=JAP_pacific_guardian
+	NOT={has_government=communism}}
+JAP_set148={has_completed_focus=JAP_anti_communist_bulwark
+	NOT={has_government=communism}}
+JAP_set149={has_completed_focus=JAP_pacific_guardian
+	NOT={has_war_with=KOR}}
+JAP_set150={has_completed_focus=JAP_the_korean_question
+	MAN={
+		NOT={has_government=democratic}
+	}}
+JAP_set151={has_completed_focus=JAP_liberate_manchuria has_completed_focus=JAP_anti_communist_volunteers
+is_in_faction=yes}
+JAP_set152={has_completed_focus=JAP_liberate_manchuria
+	PHI={is_subject=yes}}
+JAP_set153={not={has_completed_focus=JAP_sea_purge_the_kodoha_faction has_completed_focus=JAP_revere_the_emperor_destroy_the_traitors}
+has_country_flag=JAP_aizawas_trial_over_flag}
+JAP_set154={not={has_completed_focus=JAP_sea_purge_the_kodoha_faction has_completed_focus=JAP_okadas_military_purge_speech}
+has_country_flag=JAP_aizawas_trial_over_flag}
+JAP_set155={has_completed_focus=JAP_revere_the_emperor_destroy_the_traitors
+has_government=neutrality}
+JAP_set156={has_completed_focus=JAP_revere_the_emperor_destroy_the_traitors
+	has_war=no
+	ETH={exists=yes}
+	has_global_flag=second_italo_ethiopian_war_flag}
+JAP_set157={has_completed_focus=JAP_establish_the_gunbatsu}
+JAP_set158={has_completed_focus=JAP_establish_the_gunbatsu}
+JAP_set159={has_completed_focus=JAP_remove_the_weeds_from_the_crop has_completed_focus=JAP_grand_army_purge}
+JAP_set160={has_completed_focus=JAP_sea_the_showa_restoration
+has_country_flag=JAP_kodoha_the_emperor_cooperated_flag}
+JAP_set161={has_completed_focus=JAP_sea_the_showa_restoration}
+JAP_set162={has_completed_focus=JAP_ikki_kitas_state_socialist_ideals}
+JAP_set163={has_completed_focus=JAP_oppose_the_zaibatsus
+	NOT={has_idea=JAP_restructing_the_industrial_conglomerates}}
+JAP_set164={has_completed_focus=JAP_oppose_the_zaibatsus
+	NOT={has_idea=JAP_restructing_the_industrial_conglomerates}}
+JAP_set165={has_completed_focus=JAP_oppose_the_zaibatsus
+	NOT={has_idea=JAP_restructing_the_industrial_conglomerates}}
+JAP_set166={has_completed_focus=JAP_sea_the_showa_restoration
+	OR={has_government=neutrality has_government=fascism}}
+JAP_set167={has_completed_focus=JAP_ally_the_league_of_blood
+	OR={has_government=neutrality has_government=fascism}
+	any_country_with_original_tag={
+		original_tag_to_check=SOV
+		has_government=communism
+	}}
+JAP_set168={has_completed_focus=JAP_ally_the_league_of_blood
+	OR={has_government=neutrality has_government=fascism}}
+JAP_set169={has_completed_focus=JAP_ally_the_league_of_blood
+	OR={has_government=neutrality has_government=fascism}}
+JAP_set170={has_completed_focus=JAP_sea_the_showa_restoration
+	OR={has_government=neutrality has_government=fascism}
+	NOT={has_country_flag=banned_communism_flag}}
+JAP_set171={has_completed_focus=JAP_the_great_spiritual_evil
+	is_subject=no
+	any_country={
+		any_state={
+			is_owned_by=PREV
+			is_on_continent=asia
+		}
+		has_government=communism
+	}}
+JAP_set172={has_completed_focus=JAP_the_great_spiritual_evil
+	is_subject=no
+	OR={
+		has_war_with_major=yes
+		has_war_support>0.75
+	}}
+JAP_set173={has_completed_focus=JAP_sea_the_showa_restoration
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set174={has_completed_focus=JAP_indoctrination_in_the_military_academy
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set175={has_completed_focus=JAP_sea_supremacy_of_will
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set176={has_completed_focus=JAP_sea_supremacy_of_will
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set177={has_completed_focus=JAP_a_truly_righteous_army
+	JAP_army_faction_is_at_least_influential=yes
+	OR={has_government=neutrality has_government=fascism}}
+JAP_set178={or={has_completed_focus=JAP_a_truly_righteous_army has_completed_focus=JAP_tennoheika_banzai}
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set179={has_completed_focus=JAP_indoctrination_in_the_military_academy}
+JAP_set180={has_completed_focus=JAP_subdue_the_kwantung_army
+	524={is_owned_and_controlled_by=ROOT}}
+JAP_set181={has_completed_focus=JAP_subdue_the_kwantung_army
+	OR={
+		KOR={
+			exists=yes
+			is_subject_of=ROOT
+		}
+		KOR={
+			all_core_state={is_owned_by=ROOT}
+		}
+	}}
+JAP_set182={has_completed_focus=JAP_integrate_the_government_general has_completed_focus=JAP_hasten_the_integration_of_taiwan
+	MAN={
+		exists=yes
+		is_subject_of=ROOT
+	}}
+JAP_set183={has_completed_focus=JAP_align_the_concordia_association
+	OR={
+		AND={
+			has_country_flag=JAP_MAN_accepted_our_proposal_for_integration
+			MAN={
+				exists=yes
+				is_subject_of=ROOT
+				hidden_trigger={
+					NOT={
+						OR={has_completed_focus=MAN_assertiveness has_completed_focus=MAN_tsr_assertiveness}
+					}
+				}
+				custom_trigger_tooltip={
+					tooltip=MAN_not_assertiveness_tt
+					NOT={
+						OR={has_completed_focus=MAN_assertiveness has_completed_focus=MAN_tsr_assertiveness}
+					}
+				}
+			}
+		}
+		MAN={
+			all_core_state={is_owned_by=ROOT}
+		}
+	}}
+JAP_set184={has_completed_focus=JAP_sea_the_showa_restoration}
+JAP_set185={has_completed_focus=JAP_embrace_kokutai
+	not={has_completed_focus=JAP_empower_the_emperor}
+JAP_army_faction_is_not_subdued=yes}
+JAP_set186={has_completed_focus=JAP_embrace_kokutai
+	not={has_completed_focus=JAP_empower_the_shogun}}
+JAP_set187={has_completed_focus=JAP_empower_the_emperor
+	OR={
+		has_country_leader={
+			ruling_only=yes
+			character=JAP_emperor_hirohito
+		}
+		has_country_leader={
+			ruling_only=yes
+			character=JAP_emperor_yasuhito
+		}
+	}}
+JAP_set188={has_completed_focus=JAP_empower_the_shogun}
+JAP_set189={or={has_completed_focus=JAP_empower_the_shogun has_completed_focus=JAP_empower_the_emperor}}
+JAP_set190={has_completed_focus=JAP_the_imperial_colors
+	not={has_completed_focus=JAP_the_enemy_of_our_enemy has_completed_focus=JAP_return_to_sakoku_ron}
+	POL={
+		exists=yes
+		NOT={
+			has_war_with=ROOT
+			is_ally_with=SOV
+		}
+	}}
+JAP_set191={has_completed_focus=JAP_the_imperial_colors
+	not={has_completed_focus=JAP_the_enemy_of_our_enemy has_completed_focus=JAP_utilize_our_polish_friendship}
+	is_in_faction=no
+	is_subject=no}
+JAP_set192={has_completed_focus=JAP_the_imperial_colors
+	not={has_completed_focus=JAP_return_to_sakoku_ron has_completed_focus=JAP_utilize_our_polish_friendship}
+	is_subject=no
+	is_in_faction=no
+	GER={
+		OR={has_government=fascism has_government=neutrality}
+		is_faction_leader=yes
+		NOT={
+			has_war_with=ROOT
+			is_ally_with=SOV
+		}
+	}
+	SOV={
+		has_government=communism
+		NOT={is_ally_with=ROOT}
+	}}
+JAP_set193={or={has_completed_focus=JAP_the_enemy_of_our_enemy has_completed_focus=JAP_utilize_our_polish_friendship has_completed_focus=JAP_return_to_sakoku_ron}}
+JAP_set194={has_completed_focus=JAP_societal_bushido}
+JAP_set195={has_completed_focus=JAP_societal_bushido}
+JAP_set196={has_completed_focus=JAP_the_spirit_of_the_imperial_nation has_completed_focus=JAP_politicize_the_education_system}
+JAP_set197={has_completed_focus=JAP_propagandize_the_nihon_shoki}
+JAP_set198={has_completed_focus=JAP_the_yamato_spirit}
+JAP_set199={has_completed_focus=JAP_the_yamato_spirit}
+JAP_set200={has_completed_focus=JAP_the_footsteps_of_jimmu
+has_completed_focus=JAP_embodying_empress_jinguu}
+JAP_set201={has_completed_focus=JAP_the_footsteps_of_jimmu has_completed_focus=JAP_children_of_the_sun
+is_subject=no}
+JAP_set202={has_completed_focus=JAP_the_jeweled_spear_has_struck
+	is_subject=no
+	surrender_progress<0.05
+	has_war_support>0.7
+	OR={has_government=neutrality has_government=fascism}}
+JAP_set203={has_completed_focus=JAP_the_yamato_spirit
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_empress_nagako
+	}}
+JAP_set204={has_completed_focus=JAP_embodying_empress_jinguu
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_empress_nagako
+	}}
+JAP_set205={has_completed_focus=JAP_embodying_empress_jinguu
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_empress_nagako
+	}}
+JAP_set206={has_completed_focus=JAP_to_rival_zheng_yi_sao has_completed_focus=JAP_to_reach_princess_kaguya
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_empress_nagako
+	}}
+JAP_set207={not={has_completed_focus=JAP_the_unthinkable_option has_completed_focus=JAP_support_the_kodoha_faction has_completed_focus=JAP_strengthen_civilian_government has_completed_focus=JAP_revere_the_emperor_destroy_the_traitors has_completed_focus=JAP_okadas_military_purge_speech}
+has_country_flag=JAP_aizawas_trial_over_flag}
+JAP_set208={has_completed_focus=JAP_sea_purge_the_kodoha_faction
+has_government=neutrality}
+JAP_set209={has_completed_focus=JAP_sea_purge_the_kodoha_faction
+is_subject=no}
+JAP_set210={has_completed_focus=JAP_sea_purge_the_kodoha_faction
+	OR={has_government=neutrality has_government=fascism}
+	JAP_naval_faction_is_not_subdued=yes
+	JAP_army_faction_is_not_subdued=yes}
+JAP_set211={has_completed_focus=JAP_promulgate_the_military_ministers_system
+	not={has_completed_focus=JAP_the_harakiri_debate}
+has_country_flag=JAP_harakiri_debate_has_taken_place_flag}
+JAP_set212={has_completed_focus=JAP_promulgate_the_military_ministers_system
+	not={has_completed_focus=JAP_reprimand_hamada_kunimatsu}
+has_country_flag=JAP_harakiri_debate_has_taken_place_flag}
+JAP_set213={has_completed_focus=JAP_the_harakiri_debate
+	OR={has_government=neutrality has_government=fascism}}
+JAP_set214={has_completed_focus=JAP_konoes_first_cabinet
+	is_subject=no
+	OR={
+		is_in_faction=no
+		is_faction_leader=yes
+	}}
+JAP_set215={has_completed_focus=JAP_reprimand_hamada_kunimatsu
+	is_subject=no
+	has_war=no
+	CHI={
+		exists=yes
+		NOT={is_ally_with=ROOT}
+	}
+	PRC={
+		exists=yes
+		has_government=communism
+		NOT={is_ally_with=ROOT}
+	}
+	SOV={
+		exists=yes
+		has_government=communism
+		NOT={is_ally_with=ROOT}
+	}}
+JAP_set216={has_completed_focus=JAP_reiterate_the_three_principles_of_hirota
+	is_subject=no
+	is_in_faction=no
+	has_government=neutrality
+	CHI={
+		is_subject=no
+		NOT={
+			has_government=communism
+			has_war_with=ROOT
+		}
+	}
+	has_global_flag=CHI_accepted_JAP_demands_to_suppress_communism_and_more_flag}
+JAP_set217={or={has_completed_focus=JAP_reiterate_the_three_principles_of_hirota has_completed_focus=JAP_konoes_first_cabinet}}
+JAP_set218={has_completed_focus=JAP_sea_national_spiritual_mobliization_movement}
+JAP_set219={has_completed_focus=JAP_form_cabinet_intelligence_bureau
+	OR={has_government=neutrality has_government=fascism}}
+JAP_set220={has_completed_focus=JAP_form_cabinet_intelligence_bureau}
+JAP_set221={has_completed_focus=JAP_found_the_great_japan_press_association
+	IF={
+		limit={has_dlc="La Resistance"}
+		has_idea=JAP_tokko_idea_lar
+	}
+	ELSE_IF={
+		limit={
+			NOT={has_dlc="La Resistance"}
+		}
+		has_idea=JAP_tokko_idea_no_lar
+	}}
+JAP_set222={has_completed_focus=JAP_sea_national_spiritual_mobliization_movement}
+JAP_set223={has_completed_focus=JAP_form_the_central_economic_council}
+JAP_set224={has_completed_focus=JAP_form_the_central_economic_council
+	NOT={has_idea=JAP_central_economic_council_idea}}
+JAP_set225={has_completed_focus=JAP_form_the_central_economic_council
+JAP_zaibatsu_faction_is_at_most_meddling=yes}
+JAP_set226={has_completed_focus=JAP_sea_national_spiritual_mobliization_movement
+has_war=yes}
+JAP_set227={has_completed_focus=JAP_sea_national_spiritual_mobliization_movement}
+JAP_set228={or={has_completed_focus=JAP_issue_the_ten_commandments_for_marriage has_completed_focus=JAP_sea_state_general_mobilization_law}}
+JAP_set229={has_completed_focus=JAP_enact_religious_organizations_law}
+JAP_set230={has_completed_focus=JAP_new_order_movement
+	is_subject=no
+	any_country={
+		original_tag=GER
+		has_government=fascism
+		NOT={has_war_with=ROOT}
+	}
+	any_country={
+		original_tag=ITA
+		has_government=fascism
+		NOT={has_war_with=ROOT}
+	}}
+JAP_set231={has_completed_focus=JAP_sea_tripartite_pact
+	is_subject=no
+	GER={has_government=ROOT}
+	NOT={has_war_with=GER}}
+JAP_set232={has_completed_focus=JAP_new_order_movement
+is_subject=no}
+JAP_set233={has_completed_focus=JAP_imperial_rule_assistance_association}
+JAP_set234={has_completed_focus=JAP_form_the_yokusan_sonendan}
+JAP_set235={has_completed_focus=JAP_imperial_rule_assistance_association
+	has_war_with_major=yes
+	OR={
+		has_war_support>0.79
+		surrender_progress>0
+	}
+	any_enemy_country={
+		ic_ratio={
+			tag=ROOT
+			ratio>0.3
+		}
+	}}
+JAP_set236={has_completed_focus=JAP_imperial_rule_assistance_association}
+JAP_set237={or={has_completed_focus=JAP_formalize_the_tonarigumi has_completed_focus=JAP_sea_national_defense_state has_completed_focus=JAP_form_the_yokusan_sonendan}
+	OR={has_government=neutrality has_government=fascism}}
+JAP_set238={has_completed_focus=JAP_imperial_rule_assistance_association}
+JAP_set239={has_completed_focus=JAP_issue_the_senjinkun_military_code}
+JAP_set240={has_completed_focus=JAP_imperial_rule_assistance_association
+	is_subject=no
+	OR={
+		is_faction_leader=yes
+		is_in_faction=no
+	}
+	NOT={has_country_flag=JAP_CHI_pact_is_active_flag}}
+JAP_set241={has_completed_focus=JAP_sea_greater_east_asian_co_properity_sphere
+	MAN={is_ally_with=ROOT}
+	is_faction_leader=yes}
+JAP_set242={has_completed_focus=JAP_expand_japan_manchukuo_economic_bloc
+is_faction_leader=yes}
+JAP_set243={has_completed_focus=JAP_sea_greater_east_asian_co_properity_sphere
+	is_faction_leader=yes
+	any_country={is_ally_with=ROOT}}
+JAP_set244={has_completed_focus=JAP_the_flying_geese
+is_faction_leader=yes}
+JAP_set245={has_completed_focus=JAP_sea_greater_east_asian_co_properity_sphere
+is_faction_leader=yes}
+JAP_set246={has_completed_focus=JAP_east_asia_development_board
+is_faction_leader=yes}
+JAP_set247={has_completed_focus=JAP_ministry_of_greater_east_asia has_completed_focus=JAP_develop_the_yen_bloc has_completed_focus=JAP_greater_east_asia_railroad}
+JAP_set248={has_completed_focus=JAP_ichioku_isshin
+	not={has_completed_focus=JAP_yamamotos_premiership has_completed_focus=JAP_the_crysanthemum_throne has_completed_focus=JAP_solidify_tohokai_rule}
+	OR={
+		AND={
+			JAP_army_faction_is_at_least_influential=yes
+			JAP_army_faction_is_greater_than_navy=yes
+		}
+		AND={
+			any_enemy_country={
+				is_major=yes
+				custom_trigger_tooltip={
+					tooltip=JAP_tojos_premiership_tt
+					NOT={is_literally_china=yes}
+				}
+			}
+			has_war_support>0.9
+		}
+	}}
+JAP_set249={has_completed_focus=JAP_ichioku_isshin
+	not={has_completed_focus=JAP_tojos_premiership has_completed_focus=JAP_the_crysanthemum_throne has_completed_focus=JAP_solidify_tohokai_rule}
+	JAP_naval_faction_is_at_least_influential=yes
+	JAP_naval_faction_is_greater_than_army=yes
+	NOT={has_country_flag=JAP_yamamoto_shot_down_flag}}
+JAP_set250={has_completed_focus=JAP_ichioku_isshin
+	not={has_completed_focus=JAP_tojos_premiership has_completed_focus=JAP_yamamotos_premiership has_completed_focus=JAP_solidify_tohokai_rule}
+JAP_naval_faction_is_same_as_army=yes}
+JAP_set251={has_completed_focus=JAP_ichioku_isshin
+	not={has_completed_focus=JAP_tojos_premiership has_completed_focus=JAP_yamamotos_premiership has_completed_focus=JAP_the_crysanthemum_throne}
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_seigo_nakano
+	}}
+JAP_set252={has_completed_focus=JAP_tojos_premiership}
+JAP_set253={or={has_completed_focus=JAP_tojos_premiership has_completed_focus=JAP_yamamotos_premiership has_completed_focus=JAP_the_crysanthemum_throne has_completed_focus=JAP_solidify_tohokai_rule}
+	has_war=yes
+	is_subject=no}
+JAP_set254={or={has_completed_focus=JAP_tojos_premiership has_completed_focus=JAP_yamamotos_premiership has_completed_focus=JAP_the_crysanthemum_throne has_completed_focus=JAP_solidify_tohokai_rule}
+	has_war=yes
+	any_core_state={
+		JAP_is_home_islands_state=yes
+		NOT={is_fully_controlled_by=ROOT}
+	}}
+JAP_set255={has_completed_focus=JAP_found_the_boeitai
+	any_enemy_country={is_major=yes}
+	any_core_state={
+		JAP_is_home_islands_state=yes
+		NOT={is_fully_controlled_by=ROOT}
+	}
+	has_stability>0.4
+	has_war_support>0.8}
+JAP_set256={or={has_completed_focus=JAP_tojos_premiership has_completed_focus=JAP_yamamotos_premiership has_completed_focus=JAP_the_crysanthemum_throne has_completed_focus=JAP_solidify_tohokai_rule}}
+JAP_set257={or={has_completed_focus=JAP_tojos_premiership has_completed_focus=JAP_yamamotos_premiership has_completed_focus=JAP_the_crysanthemum_throne has_completed_focus=JAP_solidify_tohokai_rule}}
+JAP_set258={or={has_completed_focus=JAP_tojos_premiership has_completed_focus=JAP_yamamotos_premiership has_completed_focus=JAP_the_crysanthemum_throne has_completed_focus=JAP_solidify_tohokai_rule}}
+JAP_set259={or={has_completed_focus=JAP_tojos_premiership has_completed_focus=JAP_yamamotos_premiership has_completed_focus=JAP_the_crysanthemum_throne has_completed_focus=JAP_solidify_tohokai_rule}}
+JAP_set260={has_completed_focus=JAP_fund_propaganda_films
+	surrender_progress<0.05
+	282={is_controlled_by_ROOT_or_ally=yes}
+	613={is_controlled_by_ROOT_or_ally=yes}
+	1021={is_controlled_by_ROOT_or_ally=yes}
+	995={is_controlled_by_ROOT_or_ally=yes}
+	524={is_controlled_by_ROOT_or_ally=yes}
+	629={is_controlled_by_ROOT_or_ally=yes}
+	328={is_controlled_by_ROOT_or_ally=yes}
+	327={is_controlled_by_ROOT_or_ally=yes}
+	289={is_controlled_by_ROOT_or_ally=yes}
+	638={is_controlled_by_ROOT_or_ally=yes}}
+JAP_set261={or={has_completed_focus=JAP_tojos_premiership has_completed_focus=JAP_yamamotos_premiership has_completed_focus=JAP_the_crysanthemum_throne has_completed_focus=JAP_solidify_tohokai_rule}
+has_war_with_major=yes}
+JAP_set262={	is_subject=no
+	has_government=fascism
+	has_war=yes}
+JAP_set263={has_completed_focus=JAP_the_koiso_cabinet
+	is_subject=no
+	has_government=fascism
+	has_war=yes}
+JAP_set264={has_completed_focus=JAP_the_war_has_not_necessarily_developed_focus
+	not={has_completed_focus=JAP_the_surrender_broadcast}
+	is_subject=no
+	has_government=fascism
+	has_country_flag=JAP_kyujo_incident_rebels_won_flag
+	has_war=yes}
+JAP_set265={has_completed_focus=JAP_the_war_has_not_necessarily_developed_focus
+	not={has_completed_focus=JAP_japans_longest_day}
+	is_subject=no
+	has_government=fascism
+	has_country_flag=JAP_kyujo_incident_rebels_lost_flag
+	has_war=yes
+	OR={
+		any_core_state={
+			JAP_is_home_islands_state=yes
+			NOT={is_fully_controlled_by=ROOT}
+		}
+		has_global_flag=JAP_nuke_2
+	}}
+JAP_set266={or={has_completed_focus=JAP_sea_purge_the_kodoha_faction has_completed_focus=JAP_revere_the_emperor_destroy_the_traitors}
+JAP_army_faction_is_not_subdued=yes}
+JAP_set267={has_completed_focus=JAP_revisit_the_thirteen_demands}
+JAP_set268={has_completed_focus=JAP_revisit_the_thirteen_demands
+	MEN={
+		exists=yes
+		is_subject=no
+		NOT={has_war_with=ROOT}
+	}}
+JAP_set269={has_completed_focus=JAP_establish_mongol_military_government
+	has_subject=MEN
+	SHX={
+		exists=yes
+		is_in_faction=no
+		is_subject=no
+		has_war=no
+		AND={owns_state=621 owns_state=746}
+	}}
+JAP_set270={has_completed_focus=JAP_establish_mongol_military_government
+has_subject=MEN}
+JAP_set271={has_completed_focus=JAP_reorganize_the_united_autonomous_government
+	has_subject=MEN
+	IF={
+		limit={has_dlc="No Compromise, No Surrender"}
+		OR={has_completed_focus=JAP_the_imperial_colors has_completed_focus=JAP_imperial_rule_assistance_association}
+	}
+	ELSE={has_completed_focus=JAP_imperial_rule_assistance_association}}
+JAP_set272={has_completed_focus=JAP_mengjiang_united_autonomous_government
+	has_subject=MEN
+	JAP_army_faction_is_at_least_influential=yes}
+JAP_set273={has_completed_focus=JAP_revisit_the_thirteen_demands
+	is_subject=no
+	NOT={
+		has_war_with=CHI
+		is_ally_with=CHI
+	}
+	OR={
+		NOT={has_completed_focus=JAP_ensure_temporary_peace_with_china}
+		AND={
+			has_country_flag={
+				flag=JAP_chinese_japanese_neutrality_pact_flag
+				days>365
+			}
+			custom_trigger_tooltip={
+				tooltip=JAG_chinese_neutality_pact_focus_days_tt
+				has_country_flag={
+					flag=JAP_chinese_japanese_neutrality_pact_flag
+					days>365
+				}
+			}
+		}
+	}}
+JAP_set274={has_completed_focus=JAP_reinforce_the_beijing_garrison
+	any_enemy_country={is_literally_china=yes}
+	NOT={has_idea=JAP_surprise_invasion_idea}}
+JAP_set275={has_completed_focus=JAP_strategic_offensives
+	any_controlled_state={
+		OR={
+			has_dynamic_modifier={modifier=PRC_guerilla_cells_active_1}
+			has_dynamic_modifier={modifier=PRC_guerilla_cells_active_2}
+			has_dynamic_modifier={modifier=PRC_anti_japanese_base}
+		}
+	}}
+JAP_set276={has_completed_focus=JAP_strategic_offensives
+	is_subject=no
+	OR={has_government=neutrality has_government=fascism}
+	613={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set277={has_completed_focus=JAP_reorganized_national_government
+	is_subject=no
+	592={
+		CONTROLLER={
+			OR={
+				original_tag=ROOT
+				is_ally_with=ROOT
+			}
+		}
+	}
+	729={
+		CONTROLLER={
+			owns_state=PREV
+			NOT={
+				has_war_with=ROOT
+				is_ally_with=ROOT
+			}
+		}
+	}}
+JAP_set278={has_completed_focus=JAP_reinforce_the_beijing_garrison
+	has_tech=excavation1
+	605={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	325={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	597={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	614={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	602={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set279={has_completed_focus=JAP_reinforce_the_beijing_garrison
+	USA={
+		exists=yes
+		NOT={is_ally_with=ROOT}
+	}}
+JAP_set280={has_completed_focus=JAP_reinforce_the_beijing_garrison
+	TIB={
+		exists=yes
+		is_subject=no
+		NOT={is_in_faction_with=ROOT}
+	}
+	OR={
+		has_war_with=CHI
+		CHI={exists=no}
+		has_subject=CHI has_subject=RNG
+	}
+	JAP_army_faction_is_at_least_influential=yes}
+JAP_set281={has_completed_focus=JAP_an_expedition_to_tibet
+	not={has_completed_focus=JAP_claim_the_raven_crown}
+	is_subject=no
+	is_faction_leader=yes
+	BHU={
+		exists=yes
+		is_subject=no
+		is_in_faction=no
+		NOT={has_war_with=ROOT}
+	}}
+JAP_set282={has_completed_focus=JAP_an_expedition_to_tibet
+	not={has_completed_focus=JAP_ally_the_dragon_king}
+	BHU={
+		exists=yes
+		NOT={
+			has_war_with=ROOT
+			is_ally_with=ROOT
+		}
+	}}
+JAP_set283={or={has_completed_focus=JAP_claim_the_raven_crown has_completed_focus=JAP_ally_the_dragon_king}
+	not={has_completed_focus=JAP_claim_the_scripech}
+	is_subject=no
+	is_faction_leader=yes
+	NEP={
+		exists=yes
+		is_subject=no
+		is_in_faction=no
+		NOT={has_war_with=ROOT}
+	}}
+JAP_set284={or={has_completed_focus=JAP_claim_the_raven_crown has_completed_focus=JAP_ally_the_dragon_king}
+	not={has_completed_focus=JAP_ally_the_gorkhas}
+	NEP={
+		exists=yes
+		NOT={
+			has_war_with=ROOT
+			is_ally_with=ROOT
+		}
+	}}
+JAP_set285={or={has_completed_focus=JAP_claim_the_scripech has_completed_focus=JAP_ally_the_gorkhas}
+	not={has_completed_focus=JAP_best_the_graveyard}
+	is_subject=no
+	is_faction_leader=yes
+	AFG={
+		exists=yes
+		is_subject=no
+		is_in_faction=no
+		NOT={has_war_with=ROOT}
+	}}
+JAP_set286={or={has_completed_focus=JAP_claim_the_scripech has_completed_focus=JAP_ally_the_gorkhas}
+	not={has_completed_focus=JAP_ally_afghanistan}
+	AFG={
+		exists=yes
+		NOT={
+			has_war_with=ROOT
+			is_ally_with=ROOT
+		}
+	}}
+JAP_set287={or={has_completed_focus=JAP_sea_purge_the_kodoha_faction has_completed_focus=JAP_revere_the_emperor_destroy_the_traitors}
+	JAP_naval_faction_is_not_subdued=yes
+	OR={
+		NOT={has_completed_focus=JAP_hokushin_ron}
+		AND={
+			has_country_flag={
+				flag=JAP_hokushin_ron_started_flag
+				days>180
+			}
+			custom_trigger_tooltip={
+				tooltip=JAG_hokushin_ron_focus_days_tt
+				has_country_flag={
+					flag=JAP_hokushin_ron_started_flag
+					days>180
+				}
+			}
+		}
+	}}
+JAP_set288={has_completed_focus=JAP_nanshin_ron
+	SOV={exists=yes}
+	NOT={has_war_with=SOV}}
+JAP_set289={has_completed_focus=JAP_nanshin_ron
+	OR={
+		647={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		684={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		633={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		646={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		725={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		639={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		643={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		734={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		636={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		635={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		648={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		645={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	}}
+JAP_set290={has_completed_focus=JAP_unsinkable_aircraft_carriers
+JAP_naval_faction_is_not_subdued=yes}
+JAP_set291={has_completed_focus=JAP_isolate_oceania
+JAP_naval_faction_is_at_least_influential=yes}
+JAP_set292={has_completed_focus=JAP_battle_for_australia
+JAP_naval_faction_is_at_least_influential=yes}
+JAP_set293={has_completed_focus=JAP_nanshin_ron
+	has_tech=excavation1
+	OR={
+		333={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		672={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		334={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		1023={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		1024={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		669={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	}
+	336={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	671={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	1021={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set294={has_completed_focus=JAP_nanshin_ron
+	is_subject=no
+	671={
+		CONTROLLER={
+			NOT={
+				has_war_with=ROOT
+				is_ally_with=ROOT
+			}
+		}
+	}
+	OR={
+		AND={
+			custom_trigger_tooltip={
+				tooltip=JAP_demand_tonkinese_bases_tt
+				671={
+					CONTROLLER={
+						OR={
+							tag=FRA tag=VIC
+							is_subject_of=FRA is_subject_of=VIC
+						}
+					}
+				}
+			}
+			OR={
+				AND={
+					has_army_manpower={size>799999}
+					has_war_support>0.9
+				}
+				16={
+					NOT={is_controlled_by=FRA}
+				}
+			}
+		}
+		custom_trigger_tooltip={
+			tooltip=JAP_demand_tonkinese_bases_2_tt
+			671={
+				CONTROLLER={
+					NOT={
+						tag=FRA tag=VIC
+						is_subject_of=FRA is_subject_of=VIC
+					}
+				}
+			}
+		}
+	}
+	1033={
+		CONTROLLER={
+			OR={
+				has_war_with=ROOT
+				is_ally_with=ROOT
+			}
+		}
+	}}
+JAP_set295={has_completed_focus=JAP_demand_tonkinese_bases
+	is_subject=no
+	OR={
+		286={
+			CONTROLLER={
+				NOT={
+					has_war_with=ROOT
+					is_ally_with=ROOT
+				}
+			}
+		}
+		670={
+			CONTROLLER={
+				NOT={
+					has_war_with=ROOT
+					is_ally_with=ROOT
+				}
+			}
+		}
+		1017={
+			CONTROLLER={
+				NOT={
+					has_war_with=ROOT
+					is_ally_with=ROOT
+				}
+			}
+		}
+		741={
+			CONTROLLER={
+				NOT={
+					has_war_with=ROOT
+					is_ally_with=ROOT
+				}
+			}
+		}
+	}
+	OR={
+		AND={
+			16={
+				NOT={is_controlled_by=FRA}
+			}
+			custom_trigger_tooltip={
+				tooltip=demand_indochina_focus_tt
+				OR={
+					286={
+						CONTROLLER={
+							OR={
+								tag=FRA tag=VIC
+								is_subject_of=FRA is_subject_of=VIC
+							}
+						}
+					}
+					670={
+						CONTROLLER={
+							OR={
+								tag=FRA tag=VIC
+								is_subject_of=FRA is_subject_of=VIC
+							}
+						}
+					}
+					741={
+						CONTROLLER={
+							OR={
+								tag=FRA tag=VIC
+								is_subject_of=FRA is_subject_of=VIC
+							}
+						}
+					}
+					1017={
+						CONTROLLER={
+							OR={
+								tag=FRA tag=VIC
+								is_subject_of=FRA is_subject_of=VIC
+							}
+						}
+					}
+				}
+			}
+		}
+		custom_trigger_tooltip={
+			tooltip=JAP_occupy_indochina_tt
+			OR={
+				286={
+					CONTROLLER={
+						NOT={
+							tag=FRA tag=VIC
+							is_subject_of=FRA is_subject_of=VIC
+						}
+					}
+				}
+				670={
+					CONTROLLER={
+						NOT={
+							tag=FRA tag=VIC
+							is_subject_of=FRA is_subject_of=VIC
+						}
+					}
+				}
+				741={
+					CONTROLLER={
+						NOT={
+							tag=FRA tag=VIC
+							is_subject_of=FRA is_subject_of=VIC
+						}
+					}
+				}
+				1017={
+					CONTROLLER={
+						NOT={
+							tag=FRA tag=VIC
+							is_subject_of=FRA is_subject_of=VIC
+						}
+					}
+				}
+			}
+		}
+	}}
+JAP_set296={has_completed_focus=JAP_demand_tonkinese_bases
+	not={has_completed_focus=JAP_occupy_siam}
+	is_subject=no
+	is_faction_leader=yes
+	SIA={
+		exists=yes
+		is_subject=no
+		is_in_faction=no
+		NOT={has_war_with=ROOT}
+	}}
+JAP_set297={has_completed_focus=JAP_demand_tonkinese_bases
+	not={has_completed_focus=JAP_sea_pressure_siam}
+	SIA={
+		exists=yes
+		NOT={
+			has_war_with=ROOT
+			is_ally_with=ROOT
+		}
+	}}
+JAP_set298={or={has_completed_focus=JAP_occupy_siam has_completed_focus=JAP_sea_pressure_siam}
+	is_subject=no
+	IF={
+		limit={is_ai=no}
+		JAP_naval_faction_is_at_least_influential=yes
+	}
+	OR={
+		has_government=fascism
+		AND={
+			has_war_support>0.95
+			has_army_manpower={size>999999}
+		}
+	}}
+JAP_set299={has_completed_focus=JAP_strike_the_southern_road
+	is_subject=no
+	667={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	721={
+		OWNER={
+			has_war=no
+			OR={original_tag=POR original_tag=TML}
+			NOT={is_ally_with=ROOT}
+			controls_state=721
+		}
+	}}
+JAP_set300={or={has_completed_focus=JAP_sea_purge_the_kodoha_faction has_completed_focus=JAP_revere_the_emperor_destroy_the_traitors}
+	JAP_army_faction_is_not_subdued=yes
+	OR={
+		NOT={has_completed_focus=JAP_nanshin_ron}
+		AND={
+			has_country_flag={
+				flag=JAP_nanshin_ron_started_flag
+				days>180
+			}
+			custom_trigger_tooltip={
+				tooltip=JAG_nanshin_ron_focus_days_tt
+				has_country_flag={
+					flag=JAP_nanshin_ron_started_flag
+					days>180
+				}
+			}
+		}
+	}}
+JAP_set301={has_completed_focus=JAP_hokushin_ron
+	CHI={
+		exists=yes
+		is_subject=no
+		NOT={has_war_with=ROOT}
+	}}
+JAP_set302={has_completed_focus=JAP_ensure_temporary_peace_with_china
+	761={state_is_fully_controlled_by_ROOT_subject_or_faction_member=yes}
+	MON={
+		NOT={is_ally_with=ROOT}
+	}}
+JAP_set303={has_completed_focus=JAP_hokushin_ron
+	MAN={
+		exists=yes
+		is_ally_with=ROOT
+	}}
+JAP_set304={has_completed_focus=JAP_strenghten_manchukuo_imperial_army
+	MAN={
+		exists=yes
+		is_ally_with=ROOT
+	}}
+JAP_set305={has_completed_focus=JAP_hokushin_ron}
+JAP_set306={has_completed_focus=JAP_utilize_ainu_expertise}
+JAP_set307={has_completed_focus=JAP_kantokuen
+	not={has_completed_focus=JAP_the_persimmon_has_ripened}
+	JAP_army_faction_is_at_least_influential=yes
+	IF={
+		limit={has_dlc="No Compromise, No Surrender"}
+		OR={has_completed_focus=JAP_imperial_rule_assistance_association has_completed_focus=JAP_the_imperial_colors}
+	}
+	ELSE={
+		OR={has_completed_focus=JAP_imperial_rule_assistance_association has_completed_focus=JAP_support_the_kodoha_faction}
+	}
+	is_subject=no
+	SOV={exists=yes}
+	NOT={has_war_with=SOV}
+	OR={
+		NOT={has_completed_focus=JAP_soviet_japanese_neutrality_pact}
+		AND={
+			has_country_flag={
+				flag=JAP_soviet_japanese_neutrality_pact_flag
+				days>365
+			}
+			custom_trigger_tooltip={
+				tooltip=JAG_neutality_pact_focus_days_tt
+				has_country_flag={
+					flag=JAP_soviet_japanese_neutrality_pact_flag
+					days>365
+				}
+			}
+		}
+	}}
+JAP_set308={has_completed_focus=JAP_kantokuen
+	not={has_completed_focus=JAP_a_green_persimmon}
+	JAP_army_faction_is_at_least_influential=yes
+	IF={
+		limit={has_dlc="No Compromise, No Surrender"}
+		OR={has_completed_focus=JAP_imperial_rule_assistance_association has_completed_focus=JAP_the_imperial_colors}
+	}
+	ELSE={
+		OR={has_completed_focus=JAP_imperial_rule_assistance_association has_completed_focus=JAP_support_the_kodoha_faction}
+	}
+	is_subject=no
+	SOV={exists=yes}
+	NOT={has_war_with=SOV}
+	OR={
+		NOT={has_completed_focus=JAP_soviet_japanese_neutrality_pact}
+		AND={
+			has_country_flag={
+				flag=JAP_soviet_japanese_neutrality_pact_flag
+				days>365
+			}
+			custom_trigger_tooltip={
+				tooltip=JAG_neutality_pact_focus_days_tt
+				has_country_flag={
+					flag=JAP_soviet_japanese_neutrality_pact_flag
+					days>365
+				}
+			}
+		}
+	}
+	SOV={
+		has_war=yes
+		surrender_progress>0.5
+	}}
+JAP_set309={or={has_completed_focus=JAP_a_green_persimmon has_completed_focus=JAP_the_persimmon_has_ripened}
+	has_tech=excavation1
+	564={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	OR={
+		657={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		408={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		560={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		409={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	}}
+JAP_set310={has_completed_focus=JAP_okadas_military_purge_speech
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set311={has_completed_focus=JAP_okadas_military_purge_speech
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set312={has_completed_focus=JAP_okadas_military_purge_speech
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_abe_isoo
+	}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set313={has_completed_focus=JAP_okadas_military_purge_speech
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set314={has_completed_focus=JAP_build_an_anti_army_coalition
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set315={has_completed_focus=JAP_build_an_anti_army_coalition
+	NOT={
+		has_country_leader={
+			ruling_only=yes
+			character=JAP_abe_isoo
+		}
+	}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set316={or={has_completed_focus=JAP_gather_royal_pacifists_support has_completed_focus=JAP_ensure_cross_party_support}
+	not={has_completed_focus=JAP_sway_the_navy_moderates}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set317={or={has_completed_focus=JAP_gather_royal_pacifists_support has_completed_focus=JAP_ensure_cross_party_support}
+	not={has_completed_focus=JAP_limit_military_power}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set318={or={has_completed_focus=JAP_limit_military_power has_completed_focus=JAP_sway_the_navy_moderates}
+	not={has_completed_focus=JAP_return_of_the_manchukuo_exiles}
+	democratic>0.39
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set319={or={has_completed_focus=JAP_sway_the_navy_moderates has_completed_focus=JAP_limit_military_power}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set320={has_completed_focus=JAP_bribe_generals has_completed_focus=JAP_divert_military_funds
+has_completed_focus=JAP_revoke_the_peace_preservation_law}
+JAP_set321={has_completed_focus=JAP_bribe_generals has_completed_focus=JAP_divert_military_funds
+has_completed_focus=JAP_revoke_the_peace_preservation_law}
+JAP_set322={has_completed_focus=JAP_implement_army_reforms has_completed_focus=JAP_appoint_new_generals}
+JAP_set323={has_completed_focus=JAP_a_new_take_on_state_shintoism}
+JAP_set324={has_completed_focus=JAP_secretly_rebuild_the_party
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_abe_isoo
+	}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set325={has_completed_focus=JAP_anti_militarist_speeches_in_the_diet
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_abe_isoo
+	}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set326={has_completed_focus=JAP_anti_militarist_speeches_in_the_diet
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_abe_isoo
+	}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set327={has_completed_focus=JAP_organize_the_student_movements
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_abe_isoo
+	}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set328={has_completed_focus=JAP_anti_militarist_speeches_in_the_diet
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_abe_isoo
+	}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set329={has_completed_focus=JAP_organize_underground_resistance
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_abe_isoo
+	}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}}
+JAP_set330={has_completed_focus=JAP_mountain_village_operation_units has_completed_focus=JAP_raise_support_within_the_proletarian_class
+	not={has_completed_focus=JAP_divert_military_funds}
+	communism>0.39
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_abe_isoo
+	}
+	NOT={has_completed_focus=JAP_revoke_the_peace_preservation_law}
+	has_subject=MAN}
+JAP_set331={has_completed_focus=JAP_return_of_the_manchukuo_exiles
+	is_subject=no
+	has_government=communism
+	has_civil_war=yes}
+JAP_set332={or={has_completed_focus=JAP_return_of_the_manchukuo_exiles has_completed_focus=JAP_divert_military_funds}
+	is_subject=no
+	has_civil_war=no
+	custom_trigger_tooltip={
+		tooltip=JAP_revoke_the_peace_preservation_law_requirements_tt
+		set_temp_variable={JAP_lw_support=party_popularity@democratic}
+		add_to_temp_variable={JAP_lw_support=party_popularity@communism}
+		check_variable={JAP_lw_support>0.5}
+	}}
+JAP_set333={has_completed_focus=JAP_revoke_the_peace_preservation_law
+	not={has_completed_focus=JAP_organize_a_general_election}
+	has_government=communism
+	has_civil_war=no}
+JAP_set334={has_completed_focus=JAP_a_red_sun_rises_for_a_new_era
+	not={has_completed_focus=JAP_the_labor_farmer_faction_ascendant}
+has_country_flag=JAP_supported_the_kozaha_idea_flag}
+JAP_set335={has_completed_focus=JAP_a_red_sun_rises_for_a_new_era
+	not={has_completed_focus=JAP_the_lecture_group_ascendant}
+has_country_flag=JAP_supported_the_rounoha_idea_flag}
+JAP_set336={or={has_completed_focus=JAP_the_lecture_group_ascendant has_completed_focus=JAP_the_labor_farmer_faction_ascendant}}
+JAP_set337={has_completed_focus=JAP_sea_fate_of_the_imperial_family}
+JAP_set338={has_completed_focus=JAP_sea_fate_of_the_imperial_family}
+JAP_set339={has_completed_focus=JAP_social_and_cultural_revolution has_completed_focus=JAP_hold_a_peoples_tribunal}
+JAP_set340={has_completed_focus=JAP_overhaul_the_education_system}
+JAP_set341={has_completed_focus=JAP_overhaul_the_education_system}
+JAP_set342={has_completed_focus=JAP_overhaul_the_education_system}
+JAP_set343={has_completed_focus=JAP_redistribute_land_and_wealth has_completed_focus=JAP_a_functionalist_housing_policy has_completed_focus=JAP_sea_nationalize_the_zaibatsus}
+JAP_set344={has_completed_focus=JAP_sea_fate_of_the_imperial_family has_completed_focus=JAP_the_labor_farmer_faction_ascendant}
+JAP_set345={has_completed_focus=JAP_sea_fate_of_the_imperial_family has_completed_focus=JAP_the_lecture_group_ascendant}
+JAP_set346={has_completed_focus=JAP_the_ie_system_and_socialism}
+JAP_set347={has_completed_focus=JAP_the_ie_system_and_socialism}
+JAP_set348={has_completed_focus=JAP_the_modern_ashigaru}
+JAP_set349={has_completed_focus=JAP_fukumotoism}
+JAP_set350={has_completed_focus=JAP_fukumotoism}
+JAP_set351={has_completed_focus=JAP_the_first_five_year_plan has_completed_focus=JAP_further_urban_investments}
+JAP_set352={has_completed_focus=JAP_cooperate_with_anarchists
+has_war=yes}
+JAP_set353={has_completed_focus=JAP_cooperate_with_anarchists}
+JAP_set354={has_completed_focus=JAP_cooperate_with_anarchists}
+JAP_set355={has_completed_focus=JAP_incorporate_buddhist_socialism
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_giro_senoo
+	}}
+JAP_set356={has_completed_focus=JAP_the_spirit_of_the_ikko_ikki
+	is_subject=no
+	has_government=communism
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_giro_senoo
+	}
+	surrender_progress<0.01
+	has_war_support>0.8
+	has_stability>0.8
+	282={is_controlled_by_ROOT_or_ally=yes}
+	525={is_controlled_by_ROOT_or_ally=yes}
+	608={is_controlled_by_ROOT_or_ally=yes}
+	671={is_controlled_by_ROOT_or_ally=yes}}
+JAP_set357={has_completed_focus=JAP_incorporate_buddhist_socialism}
+JAP_set358={has_completed_focus=JAP_cooperate_with_anarchists
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_yamakawa_kikue
+	}}
+JAP_set359={has_completed_focus=JAP_kikues_new_model
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_yamakawa_kikue
+	}}
+JAP_set360={has_completed_focus=JAP_the_uno_school_of_economics}
+JAP_set361={has_completed_focus=JAP_the_uno_school_of_economics}
+JAP_set362={has_completed_focus=JAP_further_rural_investments has_completed_focus=JAP_form_national_cooperatives}
+JAP_set363={or={has_completed_focus=JAP_adopt_syndicalist_ideas has_completed_focus=JAP_form_pioneer_organizations}}
+JAP_set364={has_completed_focus=JAP_raise_the_red_flag_high has_completed_focus=JAP_adopt_syndicalist_ideas
+	has_government=communism
+	is_subject=no
+	is_in_faction=no}
+JAP_set365={has_completed_focus=JAP_raise_the_red_flag_high has_completed_focus=JAP_form_pioneer_organizations}
+JAP_set366={has_completed_focus=JAP_guide_the_lesser_states
+has_war_with_major=yes}
+JAP_set367={has_completed_focus=JAP_guide_the_lesser_states
+	has_government=communism
+	is_subject=no
+	OR={
+		FOR={
+			exists=yes
+			NOT={
+				is_ally_with=ROOT
+				has_war_with=ROOT
+			}
+		}
+		PLU={
+			exists=yes
+			NOT={
+				is_ally_with=ROOT
+				has_war_with=ROOT
+			}
+		}
+	}}
+JAP_set368={has_completed_focus=JAP_demand_submission_from_breawakay_states
+	has_government=communism
+	is_subject=no
+	KOR={
+		exists=yes
+		is_subject=no
+		has_civil_war=no
+		NOT={
+			is_ally_with=ROOT
+			has_war_with=ROOT
+			has_government=communism
+		}
+	}}
+JAP_set369={has_completed_focus=JAP_ignite_the_korean_peninsula
+	has_government=communism
+	is_subject=no
+	MAN={
+		exists=yes
+		NOT={
+			is_ally_with=ROOT
+			has_war_with=ROOT
+		}
+	}}
+JAP_set370={has_completed_focus=JAP_ignite_the_korean_peninsula
+	has_government=communism
+	is_subject=no}
+JAP_set371={has_completed_focus=JAP_guide_the_chinese
+	has_government=communism
+	is_subject=no
+	OR={
+		MAN={
+			exists=yes
+			NOT={
+				is_ally_with=ROOT
+				has_war_with=ROOT
+			}
+		}
+		MEN={
+			exists=yes
+			NOT={
+				is_ally_with=ROOT
+				has_war_with=ROOT
+			}
+		}
+		MON={
+			exists=yes
+			NOT={
+				is_ally_with=ROOT
+				has_war_with=ROOT
+			}
+		}
+		TAN={
+			exists=yes
+			NOT={
+				is_ally_with=ROOT
+				has_war_with=ROOT
+			}
+		}
+		KUM={
+			exists=yes
+			NOT={
+				is_ally_with=ROOT
+				has_war_with=ROOT
+			}
+		}
+		BYA={
+			exists=yes
+			NOT={
+				is_ally_with=ROOT
+				has_war_with=ROOT
+			}
+		}
+	}}
+JAP_set372={has_completed_focus=JAP_guide_the_chinese has_completed_focus=JAP_protect_the_manchurians
+	has_government=communism
+	is_subject=no
+	is_faction_leader=yes}
+JAP_set373={has_completed_focus=JAP_spread_the_revolutuon_south
+	has_government=communism
+	is_subject=no
+	SOV={
+		exists=yes
+		NOT={
+			is_ally_with=ROOT
+			has_war_with=ROOT
+		}
+	}}
+JAP_set374={has_completed_focus=JAP_spread_the_revolutuon_south
+	has_government=communism
+	is_subject=no
+	OR={
+		USA={
+			exists=yes
+			NOT={
+				is_ally_with=ROOT
+				has_war_with=ROOT
+			}
+		}
+		ENG={
+			exists=yes
+			NOT={
+				is_ally_with=ROOT
+				has_war_with=ROOT
+			}
+		}
+	}}
+JAP_set375={has_completed_focus=JAP_go_after_the_capitalists has_completed_focus=JAP_free_asians_from_soviet_opression
+	has_government=communism
+	is_subject=no
+	surrender_progress<0.02
+	282={is_controlled_by_ROOT_or_ally=yes}
+	613={is_controlled_by_ROOT_or_ally=yes}
+	1021={is_controlled_by_ROOT_or_ally=yes}
+	995={is_controlled_by_ROOT_or_ally=yes}
+	524={is_controlled_by_ROOT_or_ally=yes}
+	328={is_controlled_by_ROOT_or_ally=yes}
+	327={is_controlled_by_ROOT_or_ally=yes}
+	289={is_controlled_by_ROOT_or_ally=yes}
+	523={is_controlled_by_ROOT_or_ally=yes}
+	408={is_controlled_by_ROOT_or_ally=yes}}
+JAP_set376={has_completed_focus=JAP_guide_the_lesser_states
+	has_government=communism
+	is_subject=no
+	is_faction_leader=yes}
+JAP_set377={has_completed_focus=JAP_the_pan_asian_revolutionary_front
+	has_government=communism
+	is_subject=no
+	is_faction_leader=yes}
+JAP_set378={has_completed_focus=JAP_the_pan_asian_revolutionary_front
+	has_government=communism
+	is_subject=no
+	is_faction_leader=yes}
+JAP_set379={has_completed_focus=JAP_the_pan_asian_revolutionary_front
+	has_government=communism
+	is_subject=no
+	is_faction_leader=yes}
+JAP_set380={has_completed_focus=JAP_the_minitry_of_pan_asian_development
+	has_government=communism
+	is_subject=no
+	is_faction_leader=yes}
+JAP_set381={has_completed_focus=JAP_the_minitry_of_pan_asian_development has_completed_focus=JAP_a_common_currency_for_all_of_asia has_completed_focus=JAP_educate_the_peasants
+	has_government=communism
+	is_subject=no
+	is_faction_leader=yes}
+JAP_set382={has_completed_focus=JAP_socialism_in_one_state}
+JAP_set383={has_completed_focus=JAP_socialism_in_one_state}
+JAP_set384={has_completed_focus=JAP_socialism_in_one_state
+	OR={
+		PLU={
+			exists=yes
+			NOT={
+				has_war_with=ROOT
+				is_ally_with=ROOT
+			}
+		}
+		FOR={
+			exists=yes
+			NOT={
+				has_war_with=ROOT
+				is_ally_with=ROOT
+			}
+		}
+		KOR={
+			exists=yes
+			NOT={
+				has_war_with=ROOT
+				is_ally_with=ROOT
+			}
+		}
+	}}
+JAP_set385={has_completed_focus=JAP_socialism_in_one_state
+	MAN={
+		exists=yes
+		NOT={
+			has_war_with=ROOT
+			is_ally_with=ROOT
+		}
+	}}
+JAP_set386={has_completed_focus=JAP_conquer_the_army_remnants has_completed_focus=JAP_reclaim_lost_territories}
+JAP_set387={has_completed_focus=JAP_put_an_end_to_chinese_feudalism
+has_war=yes}
+JAP_set388={has_completed_focus=JAP_put_an_end_to_chinese_feudalism
+has_war=yes}
+JAP_set389={has_completed_focus=JAP_put_an_end_to_chinese_feudalism
+	has_government=communism
+	is_subject=no
+	282={is_controlled_by_ROOT_or_ally=yes}
+	524={is_controlled_by_ROOT_or_ally=yes}
+	613={is_controlled_by_ROOT_or_ally=yes}
+	608={is_controlled_by_ROOT_or_ally=yes}
+	1037={is_controlled_by_ROOT_or_ally=yes}
+	592={is_controlled_by_ROOT_or_ally=yes}}
+JAP_set390={has_completed_focus=JAP_the_pacific_union_of_soviet_socialist_republics}
+JAP_set391={has_completed_focus=JAP_the_indochinese_soviet
+	has_tech=excavation1
+	OR={
+		333={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		672={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		334={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		1023={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		1024={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		669={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	}
+	336={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	671={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	1021={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	605={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	325={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	597={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	614={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	602={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	564={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set392={has_completed_focus=JAP_the_pacific_union_of_soviet_socialist_republics}
+JAP_set393={has_completed_focus=JAP_the_south_pacific_soviet}
+JAP_set394={has_completed_focus=JAP_the_pacific_union_of_soviet_socialist_republics
+	SOV={
+		exists=yes
+		is_subject=no
+		has_government=communism
+		NOT={
+			has_war_with=ROOT
+			is_ally_with=ROOT
+		}
+	}}
+JAP_set395={has_completed_focus=JAP_strike_down_the_great_pretender
+	surrender_progress<0.02
+	282={is_controlled_by_ROOT_or_ally=yes}
+	613={is_controlled_by_ROOT_or_ally=yes}
+	1021={is_controlled_by_ROOT_or_ally=yes}
+	995={is_controlled_by_ROOT_or_ally=yes}
+	524={is_controlled_by_ROOT_or_ally=yes}
+	629={is_controlled_by_ROOT_or_ally=yes}
+	328={is_controlled_by_ROOT_or_ally=yes}
+	327={is_controlled_by_ROOT_or_ally=yes}
+	289={is_controlled_by_ROOT_or_ally=yes}
+	523={is_controlled_by_ROOT_or_ally=yes}}
+JAP_set396={has_completed_focus=JAP_the_pacific_union_of_soviet_socialist_republics
+	is_subject=no
+	is_in_faction=no}
+JAP_set397={has_completed_focus=JAP_to_rival_the_comintern
+	has_government=communism
+	is_faction_leader=yes
+	is_subject=no
+	MON={
+		exists=yes
+		is_subject=no
+		has_government=communism
+		OR={
+			is_in_faction=no
+			is_in_faction_with=SOV
+		}
+	}}
+JAP_set398={has_completed_focus=JAP_wrestle_mongolia_from_the_soviets
+	has_government=communism
+	is_faction_leader=yes
+	is_subject=no
+	TAN={
+		exists=yes
+		is_subject=no
+		has_government=communism
+		OR={
+			is_in_faction=no
+			is_in_faction_with=SOV
+		}
+	}}
+JAP_set399={has_completed_focus=JAP_to_rival_the_comintern
+	has_government=communism
+	is_subject=no
+	is_faction_leader=yes}
+JAP_set400={has_completed_focus=JAP_spread_revolutionary_flames_to_south_asia
+	has_government=communism
+	is_subject=no
+	is_faction_leader=yes}
+JAP_set401={has_completed_focus=JAP_to_rival_the_comintern
+	has_government=communism
+	is_subject=no
+	is_faction_leader=yes}
+JAP_set402={has_completed_focus=JAP_revoke_the_peace_preservation_law
+	not={has_completed_focus=JAP_a_red_sun_rises_for_a_new_era}
+	has_government=democratic
+	has_civil_war=no}
+JAP_set403={has_completed_focus=JAP_organize_a_general_election
+	not={has_completed_focus=JAP_rikken_seiyukai_victory}
+has_country_flag=JAP_rikken_minseito_victory_flag}
+JAP_set404={has_completed_focus=JAP_organize_a_general_election
+	not={has_completed_focus=JAP_rikken_minseito_victory}
+has_country_flag=JAP_rikken_seiyukai_victory_flag}
+JAP_set405={has_completed_focus=JAP_rikken_minseito_victory}
+JAP_set406={has_completed_focus=JAP_rikken_minseito_victory}
+JAP_set407={has_completed_focus=JAP_experimental_housing_solutions has_completed_focus=JAP_promote_meritocracy}
+JAP_set408={has_completed_focus=JAP_rikken_seiyukai_victory}
+JAP_set409={has_completed_focus=JAP_rikken_seiyukai_victory}
+JAP_set410={has_completed_focus=JAP_agricultural_protectionism has_completed_focus=JAP_embrace_amakudari}
+JAP_set411={has_completed_focus=JAP_minshu_shugi
+	not={has_completed_focus=JAP_mitsumasa_yonai_focus has_completed_focus=JAP_abe_isoo_focus has_completed_focus=JAP_tokugawa_iesato_focus has_completed_focus=JAP_ichiro_hatoyama_focus}}
+JAP_set412={has_completed_focus=JAP_minshu_shugi
+	not={has_completed_focus=JAP_mitsumasa_yonai_focus has_completed_focus=JAP_machida_chuuji_focus has_completed_focus=JAP_tokugawa_iesato_focus has_completed_focus=JAP_ichiro_hatoyama_focus}}
+JAP_set413={has_completed_focus=JAP_abe_isoo_focus}
+JAP_set414={or={has_completed_focus=JAP_minpon_shugi has_completed_focus=JAP_minshu_shugi}
+	not={has_completed_focus=JAP_abe_isoo_focus has_completed_focus=JAP_machida_chuuji_focus has_completed_focus=JAP_ichiro_hatoyama_focus has_completed_focus=JAP_mitsumasa_yonai_focus}}
+JAP_set415={has_completed_focus=JAP_minpon_shugi
+	not={has_completed_focus=JAP_abe_isoo_focus has_completed_focus=JAP_machida_chuuji_focus has_completed_focus=JAP_tokugawa_iesato_focus has_completed_focus=JAP_mitsumasa_yonai_focus}}
+JAP_set416={has_completed_focus=JAP_ichiro_hatoyama_focus
+	has_country_leader={
+		ruling_only=yes
+		character=JAP_ichiro_hatoyama
+	}}
+JAP_set417={has_completed_focus=JAP_minpon_shugi
+	not={has_completed_focus=JAP_abe_isoo_focus has_completed_focus=JAP_machida_chuuji_focus has_completed_focus=JAP_tokugawa_iesato_focus has_completed_focus=JAP_ichiro_hatoyama_focus}}
+JAP_set418={or={has_completed_focus=JAP_abe_isoo_focus has_completed_focus=JAP_machida_chuuji_focus has_completed_focus=JAP_tokugawa_iesato_focus has_completed_focus=JAP_ichiro_hatoyama_focus has_completed_focus=JAP_mitsumasa_yonai_focus}}
+JAP_set419={has_completed_focus=JAP_draft_the_showa_constitution}
+JAP_set420={has_completed_focus=JAP_draft_the_showa_constitution}
+JAP_set421={or={has_completed_focus=JAP_limit_the_emperors_power has_completed_focus=JAP_ensure_civil_liberties}
+JAP_civilian_government_faction_is_at_least_influential=yes}
+JAP_set422={has_completed_focus=JAP_crush_the_internal_factions
+	is_subject=no
+	MAN={
+		exists=yes
+		NOT={
+			is_ally_with=ROOT
+			has_war_with=ROOT
+		}
+		has_country_flag=MAN_kwantung_army_took_control_flag
+	}}
+JAP_set423={has_completed_focus=JAP_crush_the_internal_factions
+	is_subject=no
+	any_country={
+		NOT={
+			is_ally_with=ROOT
+			has_war_with=ROOT
+		}
+		owns_state=613
+	}}
+JAP_set424={has_completed_focus=JAP_democratic_war_with_china
+	USA={
+		has_government=democratic
+		NOT={has_war_with=ROOT}
+	}}
+JAP_set425={has_completed_focus=JAP_closer_ties_with_the_usa
+	is_in_faction=yes
+	is_subject=no
+	PHI={
+		exists=yes
+		is_subject=no
+		is_in_faction=no
+		NOT={has_war_with=ROOT}
+	}}
+JAP_set426={has_completed_focus=JAP_democratic_war_with_china
+	is_subject=no
+	SOV={
+		exists=yes
+		NOT={
+			is_ally_with=ROOT
+			has_war_with=ROOT
+		}
+	}
+	any_owned_state={
+		any_neighbor_state={is_owned_by=SOV}
+	}}
+JAP_set427={has_completed_focus=JAP_democratic_war_with_china
+is_subject=no}
+JAP_set428={has_completed_focus=JAP_free_colonized_asian_countries}
+JAP_set429={has_completed_focus=JAP_crush_the_internal_factions
+	not={has_completed_focus=JAP_create_greater_east_asian_treaty_organization}
+	has_government=democratic
+	is_subject=no
+	ENG={has_government=democratic}
+	NOT={has_war_with=ENG}}
+JAP_set430={has_completed_focus=JAP_sea_rekindle_the_old_alliance
+	has_government=democratic
+	is_subject=no
+	ENG={
+		is_in_faction_with=ROOT
+		OR={has_subject=MAL has_subject=BRM has_subject=SAR has_subject=SAB has_subject=BRN has_subject=INS has_subject=SIA has_subject=PHI}
+	}}
+JAP_set431={has_completed_focus=JAP_democratic_war_with_china
+	not={has_completed_focus=JAP_sea_rekindle_the_old_alliance}
+	is_in_faction=no
+	is_subject=no}
+JAP_set432={has_completed_focus=JAP_create_greater_east_asian_treaty_organization
+	is_subject=no
+	is_faction_leader=yes
+	num_faction_members>1}
+JAP_set433={has_completed_focus=JAP_create_greater_east_asian_treaty_organization
+	is_subject=no
+	is_faction_leader=yes
+	any_other_country={is_ally_with=ROOT}}
+JAP_set434={has_completed_focus=JAP_form_greater_east_asian_currency_union has_completed_focus=JAP_form_greater_east_asian_customs_union
+	is_subject=no
+	is_faction_leader=yes
+	any_other_country={is_ally_with=ROOT}}
+JAP_set435={or={has_completed_focus=JAP_an_integrated_union has_completed_focus=JAP_guardian_of_the_pacific}
+	has_government=democratic
+	is_subject=no}
+JAP_set436={has_completed_focus=JAP_crush_the_internal_factions}
+JAP_set437={has_completed_focus=JAP_crush_the_internal_factions}
+JAP_set438={has_completed_focus=JAP_launch_the_income_doubling_plan}
+JAP_set439={has_completed_focus=JAP_reform_the_education_system has_completed_focus=JAP_democratic_womens_suffrage}
+JAP_set440={has_completed_focus=JAP_launch_the_income_doubling_plan
+	282={is_fully_controlled_by=ROOT}
+	532={is_fully_controlled_by=ROOT}
+	531={is_fully_controlled_by=ROOT}
+	529={is_fully_controlled_by=ROOT}
+	528={is_fully_controlled_by=ROOT}}
+JAP_set441={has_completed_focus=JAP_launch_the_income_doubling_plan}
+JAP_set442={has_completed_focus=JAP_launch_the_income_doubling_plan}
+JAP_set443={has_completed_focus=JAP_pursue_international_trade}
+JAP_set444={has_completed_focus=JAP_pursue_international_trade}
+JAP_set445={has_completed_focus=JAP_invest_in_foreign_industries has_completed_focus=JAP_seek_foreign_investments}
+JAP_set446={has_completed_focus=JAP_taiheyo_belt has_completed_focus=JAP_reform_the_education_system}
+JAP_set447={or={has_completed_focus=JAP_taiheyo_belt has_completed_focus=JAP_shinkansen}
+	528={is_fully_controlled_by=ROOT}}
+JAP_set448={or={has_completed_focus=JAP_offshore_coal has_completed_focus=JAP_democratic_research_slot}
+	not={has_completed_focus=JAP_democratic_work_with_the_zaibatsus has_completed_focus=JAP_split_uo_zaibatsu_monopolies}
+	JAP_civilian_government_faction_is_at_least_influential=yes
+	JAP_zaibatsu_faction_is_at_most_meddling=yes}
+JAP_set449={or={has_completed_focus=JAP_offshore_coal has_completed_focus=JAP_democratic_research_slot}
+	not={has_completed_focus=JAP_democratic_work_with_the_zaibatsus has_completed_focus=JAP_democratic_nationalize_zaibatsus}
+	JAP_civilian_government_faction_is_at_least_influential=yes
+	JAP_zaibatsu_faction_is_at_most_meddling=yes}
+JAP_set450={or={has_completed_focus=JAP_offshore_coal has_completed_focus=JAP_democratic_research_slot}
+	not={has_completed_focus=JAP_split_uo_zaibatsu_monopolies has_completed_focus=JAP_democratic_nationalize_zaibatsus}
+	JAP_civilian_government_faction_is_at_least_influential=yes
+	JAP_zaibatsu_faction_is_not_subdued=yes}
+JAP_set451={or={has_completed_focus=JAP_split_uo_zaibatsu_monopolies has_completed_focus=JAP_democratic_work_with_the_zaibatsus has_completed_focus=JAP_democratic_nationalize_zaibatsus}}
+JAP_set452={or={has_completed_focus=JAP_split_uo_zaibatsu_monopolies has_completed_focus=JAP_democratic_work_with_the_zaibatsus has_completed_focus=JAP_democratic_nationalize_zaibatsus}}
+JAP_set453={has_completed_focus=JAP_modernize_agriculture has_completed_focus=JAP_lifetime_employment}
+JAP_set454={always=yes}
+JAP_set455={has_completed_focus=JAP_ministry_of_commerce_and_industry
+	not={has_completed_focus=JAP_increase_armament_spending}
+JAP_civilian_government_faction_is_not_subdued=yes}
+JAP_set456={has_completed_focus=JAP_ministry_of_commerce_and_industry
+	not={has_completed_focus=JAP_continue_takahashi_korekiyos_policies}}
+JAP_set457={or={has_completed_focus=JAP_continue_takahashi_korekiyos_policies has_completed_focus=JAP_increase_armament_spending}
+JAP_zaibatsu_faction_is_not_subdued=yes}
+JAP_set458={or={has_completed_focus=JAP_continue_takahashi_korekiyos_policies has_completed_focus=JAP_increase_armament_spending}
+JAP_zaibatsu_faction_is_not_subdued=yes}
+JAP_set459={or={has_completed_focus=JAP_continue_takahashi_korekiyos_policies has_completed_focus=JAP_increase_armament_spending}
+JAP_zaibatsu_faction_is_not_subdued=yes}
+JAP_set460={or={has_completed_focus=JAP_continue_takahashi_korekiyos_policies has_completed_focus=JAP_increase_armament_spending}
+JAP_zaibatsu_faction_is_not_subdued=yes}
+JAP_set461={or={has_completed_focus=JAP_approach_yasuda has_completed_focus=JAP_approach_mitsui has_completed_focus=JAP_approach_sumitomo has_completed_focus=JAP_approach_mitsubishi}
+num_of_civilian_factories>34}
+JAP_set462={has_completed_focus=JAP_fund_the_riken_institute
+	534={is_fully_controlled_by=ROOT}}
+JAP_set463={has_completed_focus=JAP_fund_the_riken_institute
+has_tech=rubber_processing}
+JAP_set464={has_completed_focus=JAP_fund_the_riken_institute
+has_war=yes}
+JAP_set465={or={has_completed_focus=JAP_establish_nippon_hassoden has_completed_focus=JAP_establish_synthetic_fuel_joint_venture has_completed_focus=JAP_build_the_nishotaki_and_miyanaka_dams}
+	any_core_state={
+		is_owned_by=ROOT
+		has_state_category=city
+	}}
+JAP_set466={has_completed_focus=JAP_new_industrial_city_development_policy
+has_war_with_major=yes}
+JAP_set467={or={has_completed_focus=JAP_establish_nippon_hassoden has_completed_focus=JAP_establish_synthetic_fuel_joint_venture has_completed_focus=JAP_build_the_nishotaki_and_miyanaka_dams}
+	any_core_state={
+		is_owned_by=ROOT
+		OR={has_state_category=large_town has_state_category=town}
+	}}
+JAP_set468={has_completed_focus=JAP_establish_housing_corporation
+industrial_complex>49}
+JAP_set469={has_completed_focus=JAP_establish_housing_corporation
+	any_core_state={
+		is_owned_by=ROOT
+		has_state_category=rural
+	}}
+JAP_set470={has_completed_focus=JAP_new_industrial_city_development_policy
+	282={is_fully_controlled_by=ROOT}
+	532={is_fully_controlled_by=ROOT}
+	531={is_fully_controlled_by=ROOT}}
+JAP_set471={has_completed_focus=JAP_the_five_great_cities has_completed_focus=JAP_central_agricultural_association
+	has_resources_in_collection={
+		collection=collection:country_and_all_subjects
+		resource=steel
+		amount>199
+		extracted=yes
+	}
+	has_resources_in_collection={
+		collection=collection:country_and_all_subjects
+		resource=aluminium
+		amount>199
+		extracted=yes
+	}
+	has_resources_in_collection={
+		collection=collection:country_and_all_subjects
+		resource=oil
+		amount>249
+		extracted=yes
+	}
+	has_resources_in_collection={
+		collection=collection:country_and_all_subjects
+		resource=tungsten
+		amount>199
+		extracted=yes
+	}
+	has_resources_in_collection={
+		collection=collection:country_and_all_subjects
+		resource=chromium
+		amount>149
+		extracted=yes
+	}
+	has_resources_in_collection={
+		collection=collection:country_and_all_subjects
+		resource=rubber
+		amount>299
+		extracted=yes
+	}
+	has_resources_in_collection={
+		collection=collection:country_and_all_subjects
+		resource=coal
+		amount>199
+		extracted=yes
+	}}
+JAP_set472={has_completed_focus=JAP_ministry_of_commerce_and_industry
+	OR={
+		has_subject=MAN has_subject=KOR has_subject=MEN has_subject=FOR has_subject=PLU
+		524={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		647={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	}}
+JAP_set473={has_completed_focus=JAP_ministry_of_colonial_affairs
+	OR={
+		has_subject=MAN
+		any_controlled_state={
+			is_core_of=MAN
+			is_fully_controlled_by=ROOT
+		}
+	}}
+JAP_set474={has_completed_focus=JAP_manchuria_five_year_plan
+	OR={
+		has_subject=MAN
+		any_controlled_state={is_core_of=MAN}
+	}}
+JAP_set475={has_completed_focus=JAP_manchuria_five_year_plan
+	328={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	OR={
+		AND={
+			527={state_is_fully_controlled_by_ROOT_or_subject=yes}
+			1028={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		}
+		KOR={is_ally_with=ROOT}
+	}}
+JAP_set476={or={has_completed_focus=JAP_eastern_road_and_steel_expansion has_completed_focus=JAP_establish_manchuria_airplane_manufacturing_company}
+	715={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	610={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	328={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set477={or={has_completed_focus=JAP_eastern_road_and_steel_expansion has_completed_focus=JAP_establish_manchuria_airplane_manufacturing_company}
+	716={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set478={has_completed_focus=JAP_ministry_of_colonial_affairs
+	524={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set479={has_completed_focus=JAP_the_shuilikeng_power_plant
+	524={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set480={has_completed_focus=JAP_ministry_of_colonial_affairs
+	647={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set481={has_completed_focus=JAP_develop_the_south_seas_mandate
+	count_triggers={
+		amount=4
+		controls_state=645 controls_state=648 controls_state=646 controls_state=684 controls_state=647 controls_state=633
+	}}
+JAP_set482={has_completed_focus=JAP_improve_agricultural_output has_completed_focus=JAP_increase_crop_yields}
+JAP_set483={has_completed_focus=JAP_ministry_of_colonial_affairs
+	OR={
+		has_subject=KOR
+		any_controlled_state={
+			is_core_of=KOR
+			is_fully_controlled_by=ROOT
+		}
+	}}
+JAP_set484={has_completed_focus=JAP_build_up_korean_industries
+	OR={
+		has_subject=KOR
+		any_controlled_state={
+			is_core_of=KOR
+			is_fully_controlled_by=ROOT
+		}
+	}}
+JAP_set485={has_completed_focus=JAP_build_up_korean_industries
+	1029={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set486={has_completed_focus=JAP_build_up_korean_industries
+	OR={
+		controls_state=527 controls_state=1028
+		AND={
+			has_subject=KOR
+			KOR={
+				OR={controls_state=527 controls_state=1028}
+			}
+		}
+	}}
+JAP_set487={has_completed_focus=JAP_prepare_for_peninsular_warfare
+	OR={
+		controls_state=525
+		has_subject=KOR
+	}}
+JAP_set488={is_subject=no}
+JAP_set489={has_completed_focus=JAP_the_imperial_defense_plan}
+JAP_set490={has_completed_focus=JAP_expand_kawagoe_army_arsenal
+	not={has_completed_focus=JAP_rely_on_supremacy_of_the_will}}
+JAP_set491={has_completed_focus=JAP_reform_the_army
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set492={has_completed_focus=JAP_rethink_armor_doctrine
+	not={has_completed_focus=JAP_domestic_tank_modernization_program}
+	JAP_army_faction_is_at_least_influential=yes
+	custom_trigger_tooltip={
+		tooltip=JAP_foreign_tank_modernization_cooperation_tt
+		OR={
+			GER={
+				OR={
+					is_in_faction_with=ROOT
+					has_guaranteed=ROOT
+				}
+			}
+			FRA={
+				OR={
+					is_in_faction_with=ROOT
+					has_guaranteed=ROOT
+				}
+			}
+			ENG={
+				OR={
+					is_in_faction_with=ROOT
+					has_guaranteed=ROOT
+				}
+			}
+			ITA={
+				OR={
+					is_in_faction_with=ROOT
+					has_guaranteed=ROOT
+				}
+			}
+			USA={
+				OR={
+					is_in_faction_with=ROOT
+					has_guaranteed=ROOT
+				}
+			}
+			SOV={
+				OR={
+					is_in_faction_with=ROOT
+					has_guaranteed=ROOT
+				}
+			}
+		}
+	}}
+JAP_set493={has_completed_focus=JAP_rethink_armor_doctrine
+	not={has_completed_focus=JAP_foreign_tank_modernization_cooperation}
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set494={or={has_completed_focus=JAP_domestic_tank_modernization_program has_completed_focus=JAP_foreign_tank_modernization_cooperation}
+	JAP_army_faction_is_at_least_influential=yes
+	IF={
+		limit={has_dlc="No Step Back"}
+		has_tech=basic_heavy_tank_chassis
+	}
+	ELSE_IF={
+		limit={has_tech=basic_heavy_tank}
+	}}
+JAP_set495={has_completed_focus=JAP_expand_kawagoe_army_arsenal
+	not={has_completed_focus=JAP_reform_the_army}}
+JAP_set496={has_completed_focus=JAP_rely_on_supremacy_of_the_will
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set497={has_completed_focus=JAP_adopt_new_assault_doctrine}
+JAP_set498={has_completed_focus=JAP_adopt_new_assault_doctrine}
+JAP_set499={has_completed_focus=JAP_develop_sophisticated_artillery_equipment has_completed_focus=JAP_develop_lethal_infantry_equipment
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set500={or={has_completed_focus=JAP_reform_the_army has_completed_focus=JAP_rely_on_supremacy_of_the_will}
+	714={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+JAP_set501={or={has_completed_focus=JAP_reform_the_army has_completed_focus=JAP_rely_on_supremacy_of_the_will}}
+JAP_set502={or={has_completed_focus=JAP_prepare_the_northern_front has_completed_focus=JAP_enact_the_national_conscription_law}
+	OR={
+		has_war_support>0.79
+		surrender_progress>0
+	}}
+JAP_set503={has_completed_focus=JAP_instill_the_spirit_of_bushido
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set504={has_completed_focus=JAP_instill_the_spirit_of_bushido
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set505={has_completed_focus=JAP_instill_the_spirit_of_bushido
+has_war_with_major=yes}
+JAP_set506={has_completed_focus=JAP_army_weapons_administration_headquarters
+JAP_army_faction_is_at_least_influential=yes}
+JAP_set507={or={has_completed_focus=JAP_army_weapons_administration_headquarters has_completed_focus=JAP_jungle_adaptation has_completed_focus=JAP_sea_mountaineers}
+	not={has_completed_focus=JAP_strenghten_the_supply_lines}
+has_war_with_major=yes}
+JAP_set508={or={has_completed_focus=JAP_army_weapons_administration_headquarters has_completed_focus=JAP_jungle_adaptation has_completed_focus=JAP_sea_mountaineers}
+	not={has_completed_focus=JAP_pivot_towards_defensive_measures}
+has_war_with_major=yes}
+JAP_set509={or={has_completed_focus=JAP_strenghten_the_supply_lines has_completed_focus=JAP_pivot_towards_defensive_measures}
+	has_war_with_major=yes
+	JAP_army_faction_is_at_least_influential=yes}
+JAP_set510={has_completed_focus=JAP_the_imperial_defense_plan}
+JAP_set511={has_completed_focus=JAP_establish_showa_aircraft_idnsutry}
+JAP_set512={has_completed_focus=JAP_develop_new_fighters}
+JAP_set513={has_completed_focus=JAP_establish_showa_aircraft_idnsutry}
+JAP_set514={has_completed_focus=JAP_modern_bombers
+JAP_naval_faction_is_not_subdued=yes}
+JAP_set515={or={has_completed_focus=JAP_develop_new_fighters has_completed_focus=JAP_modern_bombers}
+has_war=yes}
+JAP_set516={has_completed_focus=JAP_escort_efficiency
+	not={has_completed_focus=JAP_sea_long_operational_range}}
+JAP_set517={has_completed_focus=JAP_escort_efficiency
+	not={has_completed_focus=JAP_sea_sturdy_aircraft}}
+JAP_set518={has_completed_focus=JAP_sea_long_operational_range
+	custom_trigger_tooltip={
+		tooltip=GER_war_with_american_country_tt
+		any_enemy_country={
+			capital_scope={
+				OR={is_on_continent=north_america is_on_continent=south_america}
+			}
+		}
+	}}
+JAP_set519={or={has_completed_focus=JAP_sea_long_operational_range has_completed_focus=JAP_sea_sturdy_aircraft}
+has_war_with_major=yes}
+JAP_set520={has_completed_focus=JAP_adopt_new_air_doctrine
+JAP_naval_faction_is_same_as_army=yes}
+JAP_set521={has_completed_focus=JAP_sea_unify_the_air_forces
+has_tech=improved_radio}
+JAP_set522={has_completed_focus=JAP_improved_radio_communications or={has_completed_focus=JAP_strenghten_the_supply_lines has_completed_focus=JAP_pivot_towards_defensive_measures}}
+JAP_set523={has_completed_focus=JAP_adopt_new_air_doctrine}
+JAP_set524={or={has_completed_focus=JAP_sea_unify_the_air_forces has_completed_focus=JAP_the_divine_wind}}
+JAP_set525={or={has_completed_focus=JAP_sea_unify_the_air_forces has_completed_focus=JAP_the_divine_wind}
+is_special_project_completed=sp:sp_rocket_interceptor}
+JAP_set526={has_completed_focus=JAP_the_imperial_defense_plan}
+JAP_set527={has_completed_focus=JAP_expand_hiratsuka_navy_arsenal}
+JAP_set528={has_completed_focus=JAP_expand_hiratsuka_navy_arsenal}
+JAP_set529={or={has_completed_focus=JAP_expand_navy_technical_department has_completed_focus=JAP_prepare_the_southern_front}
+	not={has_completed_focus=JAP_balanced_naval_approach has_completed_focus=JAP_sea_battleship_initiative}
+JAP_naval_faction_is_not_subdued=yes}
+JAP_set530={has_completed_focus=JAP_focus_on_aircraft_carriers
+	has_tech=improved_ship_hull_carrier
+	custom_trigger_tooltip={
+		tooltip=JAP_expand_hiratsuka_navy_arsenal_tt
+		NOT={has_idea=MTG_naval_treaty_adherent}
+	}}
+JAP_set531={has_completed_focus=JAP_yokosuka_naval_air_technical_arsenal has_completed_focus=JAP_improve_the_type_91_aerial_torpedo
+has_tech=magnetic_detonator has_tech=improved_naval_mines}
+JAP_set532={or={has_completed_focus=JAP_expand_navy_technical_department has_completed_focus=JAP_prepare_the_southern_front}
+	not={has_completed_focus=JAP_focus_on_aircraft_carriers has_completed_focus=JAP_sea_battleship_initiative}
+JAP_naval_faction_is_not_subdued=yes}
+JAP_set533={or={has_completed_focus=JAP_expand_navy_technical_department has_completed_focus=JAP_prepare_the_southern_front}
+	not={has_completed_focus=JAP_focus_on_aircraft_carriers has_completed_focus=JAP_balanced_naval_approach}
+JAP_naval_faction_is_not_subdued=yes}
+JAP_set534={has_completed_focus=JAP_sea_battleship_initiative
+	is_special_project_completed=sp:sp_naval_super_heavy_battleship
+	custom_trigger_tooltip={
+		tooltip=JAP_expand_hiratsuka_navy_arsenal_tt
+		NOT={has_idea=MTG_naval_treaty_adherent}
+	}}
+JAP_set535={or={has_completed_focus=JAP_focus_on_aircraft_carriers has_completed_focus=JAP_balanced_naval_approach has_completed_focus=JAP_sea_battleship_initiative}
+has_tech=basic_ship_hull_light}
+JAP_set536={or={has_completed_focus=JAP_focus_on_aircraft_carriers has_completed_focus=JAP_balanced_naval_approach}
+	custom_trigger_tooltip={
+		tooltip=JAP_expand_hiratsuka_navy_arsenal_tt
+		NOT={has_idea=MTG_naval_treaty_adherent}
+	}}
+JAP_set537={or={has_completed_focus=JAP_balanced_naval_approach has_completed_focus=JAP_sea_battleship_initiative}
+	custom_trigger_tooltip={
+		tooltip=JAP_expand_hiratsuka_navy_arsenal_tt
+		NOT={has_idea=MTG_naval_treaty_adherent}
+	}}
+JAP_set538={or={has_completed_focus=JAP_form_the_kido_butai has_completed_focus=JAP_sea_heavier_naval_guns}
+	JAP_naval_faction_is_at_least_influential=yes
+	OR={
+		AND={
+			has_tech=improved_ship_hull_carrier
+			has_completed_focus=JAP_focus_on_aircraft_carriers
+		}
+		AND={
+			has_tech=improved_ship_hull_carrier
+			is_special_project_completed=sp:sp_naval_super_heavy_battleship
+			has_completed_focus=JAP_balanced_naval_approach
+		}
+		AND={
+			is_special_project_completed=sp:sp_naval_super_heavy_battleship
+			has_completed_focus=JAP_sea_battleship_initiative
+		}
+	}}
+JAP_set539={has_completed_focus=JAP_naval_armaments_program has_completed_focus=JAP_rockets_development}
+JAP_set540={or={has_completed_focus=JAP_form_the_kido_butai has_completed_focus=JAP_sea_heavier_naval_guns}
+	not={has_completed_focus=JAP_seek_strength_in_numbers}
+	has_war_with_major=yes
+	JAP_naval_faction_is_at_least_influential=yes}
+JAP_set541={or={has_completed_focus=JAP_form_the_kido_butai has_completed_focus=JAP_sea_heavier_naval_guns}
+	not={has_completed_focus=JAP_assure_superior_naval_quality}
+	has_war_with_major=yes
+	JAP_naval_faction_is_at_least_influential=yes}
+JAP_set542={or={has_completed_focus=JAP_form_the_kido_butai has_completed_focus=JAP_sea_heavier_naval_guns}
+JAP_naval_faction_is_at_least_influential=yes}
+JAP_set543={has_completed_focus=JAP_nationalize_suzuka_naval_arsenal}
+JAP_set544={or={has_completed_focus=JAP_naval_armaments_program has_completed_focus=JAP_assure_superior_naval_quality has_completed_focus=JAP_seek_strength_in_numbers has_completed_focus=JAP_nationalize_suzuka_naval_arsenal}
+has_war_with_major=yes}
+JAP_set545={or={has_completed_focus=JAP_naval_armaments_program has_completed_focus=JAP_assure_superior_naval_quality has_completed_focus=JAP_seek_strength_in_numbers has_completed_focus=JAP_nationalize_suzuka_naval_arsenal}
+has_war_with_major=yes}
+JAP_set546={has_completed_focus=JAP_fix_flawed_naval_designs has_completed_focus=JAP_secure_the_sea_lanes
+	has_war_with_major=yes
+	JAP_naval_faction_is_at_least_influential=yes}
+JAP_set547={has_completed_focus=JAP_f_go_nuclear_project has_completed_focus=JAP_ni_go_nuclear_project
+JAP_naval_faction_is_same_as_army=yes}
+JAP_set548={has_completed_focus=JAP_combined_nuclear_research_efforts
+JAP_naval_faction_is_same_as_army=yes}

@@ -1,0 +1,1 @@
+focus={current=JAP_ensure_cross_party_support}

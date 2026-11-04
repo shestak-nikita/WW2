@@ -1,0 +1,1 @@
+focus={current=JAP_democratic_womens_suffrage}

@@ -1,0 +1,1 @@
+focus={current=USA_focus_on_asia}

@@ -1,0 +1,1 @@
+focus={current=SOV_autonomous_soviet_republics}

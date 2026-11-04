@@ -1,0 +1,1 @@
+focus={current=ITA_industria_della_gomma_sintetica}

@@ -1,0 +1,1 @@
+focus={current=FRA_support_the_finns}

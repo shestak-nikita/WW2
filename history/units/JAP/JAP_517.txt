@@ -1,0 +1,1 @@
+focus={current=JAP_sea_long_operational_range}

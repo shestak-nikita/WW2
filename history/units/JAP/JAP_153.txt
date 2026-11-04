@@ -1,0 +1,1 @@
+focus={current=JAP_okadas_military_purge_speech}

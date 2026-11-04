@@ -1,0 +1,1106 @@
+# Generated file. Regenerate with tools/generate_nfq_layout.py.
+NFQ_focus_visible_RAJ_RAJ_his_majestys_loyal_government = {
+    always = yes
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_government_of_india_act = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_his_majestys_loyal_government = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_work_with_local_leaders = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_the_government_of_india_act = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_concessions_to_the_industrialists = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_empower_provincial_authorities
+                check_variable = { f105 = 5 }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_work_with_local_leaders = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_empower_provincial_authorities = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_concessions_to_the_industrialists
+                check_variable = { f104 = 5 }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_work_with_local_leaders = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_confer_with_the_congress = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_concessions_to_the_industrialists = yes
+            NFQ_focus_visible_RAJ_RAJ_empower_provincial_authorities = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_favor_the_muslim_league = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_court_the_princes
+                check_variable = { f109 = 5 }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_confer_with_the_congress = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_indian_parliament = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_the_integrity_of_india_act
+                check_variable = { f110 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_favor_the_muslim_league = yes
+            NFQ_focus_visible_RAJ_RAJ_court_the_princes = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_court_the_princes = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_favor_the_muslim_league
+                check_variable = { f107 = 5 }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_confer_with_the_congress = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_integrity_of_india_act = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_the_indian_parliament
+                check_variable = { f108 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_court_the_princes = yes
+            NFQ_focus_visible_RAJ_RAJ_favor_the_muslim_league = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_princely_state_donations_GOE = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_court_the_princes = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_jewel_becomes_the_crown = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_the_indian_parliament = yes
+            NFQ_focus_visible_RAJ_RAJ_the_integrity_of_india_act = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_punjab_accord = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_the_indian_parliament = yes
+            NFQ_focus_visible_RAJ_RAJ_the_integrity_of_india_act = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_dominion_of_india = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_the_punjab_accord = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_curtail_the_zamindars = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_expand_the_zamindari_system
+                check_variable = { f121 = 5 }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_work_with_local_leaders = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_raise_import_duties = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_curtail_the_zamindars = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_imperial_industry_initiative = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_raise_import_duties = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_rural_development_plan = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_raise_import_duties = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_great_recovery = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_RAJ_RAJ_imperial_industry_initiative = yes
+            NFQ_focus_visible_RAJ_RAJ_rural_development_plan = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_reform_the_agricultural_sector = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_curtail_the_zamindars = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_expand_the_zamindari_system = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_curtail_the_zamindars
+                check_variable = { f115 = 5 }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_his_majestys_loyal_government = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_crown_commodities = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_expand_the_zamindari_system = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_rural_mechanization_program = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_reform_the_agricultural_sector = yes
+            NFQ_focus_visible_RAJ_RAJ_crown_commodities = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_riches_of_the_raj = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_expand_the_zamindari_system = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_strengthen_ties_with_british_investors_GOE = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_crown_commodities = yes
+            NFQ_focus_visible_RAJ_RAJ_the_riches_of_the_raj = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_imperial_rail_renewal_act = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_the_riches_of_the_raj = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_exploit_the_frontier = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_imperial_rail_renewal_act = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_overlords_railway_investment = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_imperial_rail_renewal_act = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_territorial_development_scheme = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_RAJ_RAJ_rural_development_plan = yes
+            NFQ_focus_visible_RAJ_RAJ_reform_the_agricultural_sector = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_empires_workshop = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_RAJ_RAJ_crown_commodities = yes
+            NFQ_focus_visible_RAJ_RAJ_strengthen_ties_with_british_investors_GOE = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_institute_of_fundamental_research_GOE = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_territorial_development_scheme = yes
+            NFQ_focus_visible_RAJ_RAJ_the_empires_workshop = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_keep_calm_and_carry_on = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_institute_of_fundamental_research_GOE = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_indian_gentleman_officers = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_his_majestys_loyal_government = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_aden_protectorate = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indian_gentleman_officers = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_linlithgows_declaration_of_war = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_consult_with_congress_leaders
+                check_variable = { f135 = 5 }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_indian_gentleman_officers = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_consult_with_congress_leaders = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_linlithgows_declaration_of_war
+                check_variable = { f134 = 5 }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_indian_gentleman_officers = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_preemptive_invasion_of_iran = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indian_gentleman_officers = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_mobilization_of_the_indian_army = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_linlithgows_declaration_of_war = yes
+            NFQ_focus_visible_RAJ_RAJ_consult_with_congress_leaders = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_support_naval_invasions = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_mobilization_of_the_indian_army = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_assume_eastern_naval_responsibilities = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_mobilization_of_the_indian_army = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_south_east_asia_command = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_mobilization_of_the_indian_army = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_desert_training = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_south_east_asia_command = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_fortify_el_alamein = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_desert_training = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_jungle_training_GOE = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_south_east_asia_command = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_defense_of_malaya = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_jungle_training_GOE = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_hill_training = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_south_east_asia_command = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_defense_of_burma = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_jungle_training_GOE = yes
+            NFQ_focus_visible_RAJ_RAJ_hill_training = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_holding_the_gates_of_india = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_defense_of_burma = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_free_abyssinia = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_hill_training = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_urban_training = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_south_east_asia_command = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_defense_of_hong_kong = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_urban_training = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_indianize_the_army = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_keep_british_generals
+                check_variable = { f152 = 5 }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_keep_british_generals = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_indianize_the_army
+                check_variable = { f158 = 5 }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_defense_of_india_act = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_indianize_the_army = yes
+            NFQ_focus_visible_RAJ_RAJ_keep_british_generals = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_learn_from_the_crown = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_keep_british_generals = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_join_the_shadow_scheme = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_learn_from_the_crown = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_colonial_cadet_exchange = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_learn_from_the_crown = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_learn_from_the_secret_intelligence_service = {
+    AND = {
+        AND = {
+            has_dlc = "La Resistance"
+        }
+        NFQ_focus_visible_RAJ_RAJ_colonial_cadet_exchange = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_purchase_british_supply_equipment = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_colonial_cadet_exchange = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_forming_an_indian_doctrine = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indianize_the_army = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_model_after_germany = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = RAJ_model_after_soviet
+                    check_variable = { f163 = 5 }
+                }
+                OR = {
+                    has_completed_focus = RAJ_model_after_usa
+                    check_variable = { f162 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_forming_an_indian_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_model_after_usa = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = RAJ_model_after_germany
+                    check_variable = { f161 = 5 }
+                }
+                OR = {
+                    has_completed_focus = RAJ_model_after_soviet
+                    check_variable = { f163 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_forming_an_indian_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_model_after_soviet = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = RAJ_model_after_germany
+                    check_variable = { f161 = 5 }
+                }
+                OR = {
+                    has_completed_focus = RAJ_model_after_usa
+                    check_variable = { f162 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_forming_an_indian_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_automating_the_army = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_for_the_people_by_the_people
+                check_variable = { f165 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_model_after_usa = yes
+            NFQ_focus_visible_RAJ_RAJ_model_after_germany = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_for_the_people_by_the_people = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_automating_the_army
+                check_variable = { f164 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_model_after_usa = yes
+            NFQ_focus_visible_RAJ_RAJ_model_after_soviet = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_east_india_railways_dlc = {
+    always = yes
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_calcutta_line = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_east_india_railways_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_bombay_baroda_and_central_india_railway = {
+    always = yes
+}
+
+NFQ_focus_visible_RAJ_RAJ_great_indian_peninsula_railway_dlc = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_east_india_railways_dlc = yes
+            NFQ_focus_visible_RAJ_RAJ_bombay_baroda_and_central_india_railway = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_south_indian_railway_company = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_great_indian_peninsula_railway_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_supply_center_fortifications = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_great_indian_peninsula_railway_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_north_western_state_railway = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_great_indian_peninsula_railway_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_prioritize_army_cargo = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_prioritize_civilian_cargo
+                check_variable = { f178 = 5 }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_supply_center_fortifications = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_prioritize_civilian_cargo = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_prioritize_army_cargo
+                check_variable = { f177 = 5 }
+            }
+        }
+        NFQ_focus_visible_RAJ_RAJ_supply_center_fortifications = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_ammunition_factory_khadki = {
+    always = yes
+}
+
+NFQ_focus_visible_RAJ_RAJ_royal_indian_artillery_dlc = {
+    always = yes
+}
+
+NFQ_focus_visible_RAJ_RAJ_military_pensions = {
+    always = yes
+}
+
+NFQ_focus_visible_RAJ_RAJ_local_recruitment_offices = {
+    always = yes
+}
+
+NFQ_focus_visible_RAJ_RAJ_specialized_dietary_requirement = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_standardized_rations
+                check_variable = { f197 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_military_pensions = yes
+            NFQ_focus_visible_RAJ_RAJ_royal_indian_artillery_dlc = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_standardized_rations = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_specialized_dietary_requirement
+                check_variable = { f196 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_military_pensions = yes
+            NFQ_focus_visible_RAJ_RAJ_royal_indian_artillery_dlc = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_quinine = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_specialized_dietary_requirement = yes
+            NFQ_focus_visible_RAJ_RAJ_standardized_rations = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_armoured_corps_center_and_school = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_royal_indian_artillery_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_legacy_of_military_service = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_local_recruitment_offices = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_indian_states_force = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_military_pensions = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_womens_auxiliary_corps = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_military_pensions = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_indian_army_corps_of_engineers = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_legacy_of_military_service = yes
+            NFQ_focus_visible_RAJ_RAJ_military_pensions = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_relax_agrarian_society_criteria = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_legacy_of_military_service = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_mechanization_of_the_cavalry = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_armoured_corps_center_and_school = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_mountain_tanks = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_mechanization_of_the_cavalry = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_siege_batteries = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indian_army_corps_of_engineers = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_mountain_guns = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_royal_indian_artillery_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_frontier_corps = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_military_pensions = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_regimental_loyalty = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_legacy_of_military_service = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_burma_rifles = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_frontier_corps = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_gurkhas = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_the_burma_rifles = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_lions_of_the_great_war_dlc = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_gurkhas = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_abolish_agrarian_society_criteria = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_relax_agrarian_society_criteria = yes
+            NFQ_focus_visible_RAJ_RAJ_regimental_loyalty = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_indian_territorial_force = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_frontier_corps = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_military_engineer_services = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indian_army_corps_of_engineers = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_help_from_the_nagas = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indian_territorial_force = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_re_establish_the_khyber_rifles = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_indian_territorial_force = yes
+            NFQ_focus_visible_RAJ_RAJ_mountain_guns = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_campaign_against_agrarian_societys = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_abolish_agrarian_society_criteria = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_assam_oil_dlc = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_east_india_railways_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_tata_steel_dlc = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_bombay_baroda_and_central_india_railway = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_chindits_dlc = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_re_establish_the_khyber_rifles = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_viceroys_body_guard = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indian_states_force = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_engineering_revolution = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_mechanization_of_the_cavalry = yes
+            NFQ_focus_visible_RAJ_RAJ_ordnance_factory_khamaria_jabalpur = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_gun_and_shell_factory_cossipore = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_ammunition_factory_khadki = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_rifle_factory_ishapore_west_bengal = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_ammunition_factory_khadki = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_ordnance_factory_kanpur_uttar_pradesh = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_rifle_factory_ishapore_west_bengal = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_ordnance_factory_medak = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_rifle_factory_ishapore_west_bengal = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_chariot_of_victory = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_ordnance_factory_medak = yes
+            NFQ_focus_visible_RAJ_RAJ_ordnance_factory_kanpur_uttar_pradesh = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_indian_air_force = {
+    always = yes
+}
+
+NFQ_focus_visible_RAJ_RAJ_cordite_factory_aruvankadu_tamil_nadu = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_gun_and_shell_factory_cossipore = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_burma_road = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_east_india_railways_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_womens_auxiliary_air_force = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indian_air_force = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_trainer_planes = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indian_air_force = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_spitfire = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_trainer_planes = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_ground_pounder = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_trainer_planes = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_douglas_dakota = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_trainer_planes = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_vultee_vengeance = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_ground_pounder = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_ordnance_factory_khamaria_jabalpur = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_gun_and_shell_factory_cossipore = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_ledo_road = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_the_burma_road = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_long_range_escorts = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_trainer_planes = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_british_air_experts = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_spitfire = yes
+            NFQ_focus_visible_RAJ_RAJ_long_range_escorts = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_special_operations_executive = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_british_air_experts = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_the_ordnance_factories_board = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_cordite_factory_aruvankadu_tamil_nadu = yes
+            NFQ_focus_visible_RAJ_RAJ_ordnance_factory_kanpur_uttar_pradesh = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_smiling_buddah = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_british_air_experts = yes
+            NFQ_focus_visible_RAJ_RAJ_abolish_agrarian_society_criteria = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_royal_indian_air_force_dlc = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_british_air_experts = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_royal_indian_navy_dlc = {
+    always = yes
+}
+
+NFQ_focus_visible_RAJ_RAJ_expand_mazagon_dock_dlc = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_royal_indian_navy_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_black_swan_sloops = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_royal_indian_navy_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_indian_marine_corps = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_royal_indian_navy_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_madras_ship_repair_factories = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indian_marine_corps = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_found_scindia_shipyard_dlc = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_obtain_british_naval_contracts
+                check_variable = { f234 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_black_swan_sloops = yes
+            NFQ_focus_visible_RAJ_RAJ_expand_mazagon_dock_dlc = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_dominate_the_bay_of_bengal = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_found_scindia_shipyard_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_indian_cruiser_development = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_found_scindia_shipyard_dlc = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_womens_royal_indian_naval_service = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_indian_cruiser_development = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_increase_funding_for_the_GRSE = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_dominate_the_bay_of_bengal = yes
+            NFQ_focus_visible_RAJ_RAJ_indian_cruiser_development = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_obtain_british_naval_contracts = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = RAJ_found_scindia_shipyard_dlc
+                check_variable = { f237 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_black_swan_sloops = yes
+            NFQ_focus_visible_RAJ_RAJ_expand_mazagon_dock_dlc = yes
+        }
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_eastern_shipyard_construction = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_increase_funding_for_the_GRSE = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_purchase_decomissioned_british_ships = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_obtain_british_naval_contracts = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_request_transfer_of_british_commanders = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_obtain_british_naval_contracts = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_obtain_modern_ship_contracts = {
+    AND = {
+        NFQ_focus_visible_RAJ_RAJ_purchase_decomissioned_british_ships = yes
+    }
+}
+
+NFQ_focus_visible_RAJ_RAJ_modernizing_navy_dlc = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_RAJ_RAJ_obtain_modern_ship_contracts = yes
+            NFQ_focus_visible_RAJ_RAJ_increase_funding_for_the_GRSE = yes
+        }
+    }
+}
+

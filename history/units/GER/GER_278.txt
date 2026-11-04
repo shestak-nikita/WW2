@@ -1,0 +1,1 @@
+focus={current=GER_japanese_naval_cooperation}

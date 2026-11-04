@@ -1,0 +1,1 @@
+focus={current=JAP_further_rural_investments}

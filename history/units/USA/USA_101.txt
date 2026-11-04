@@ -1,0 +1,1 @@
+focus={current=USA_continue_the_new_deal}

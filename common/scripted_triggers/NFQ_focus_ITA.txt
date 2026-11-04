@@ -1,0 +1,1263 @@
+ITA_set101={always=yes}
+ITA_set102={	OR={controls_state=2 controls_state=117 controls_state=162 controls_state=158}}
+ITA_set103={has_completed_focus=ITA_italian_highways_bba has_completed_focus=ITA_ethiopian_war_logistics_bba
+	NOT={has_global_flag=second_italo_ethiopian_war_flag}
+	OR={
+		any_owned_state={is_on_continent=africa}
+		any_subject_country={
+			capital_scope={is_on_continent=africa}
+		}
+	}}
+ITA_set104={has_completed_focus=ITA_ministry_of_italian_africa
+	OR={
+		any_controlled_state={
+			is_core_of=ETH
+			is_fully_controlled_by=ROOT
+		}
+		any_subject_country={
+			any_controlled_state={
+				is_core_of=ETH
+				is_fully_controlled_by=PREV
+			}
+		}
+	}}
+ITA_set105={has_completed_focus=ITA_ministry_of_italian_africa
+	OR={
+		any_controlled_state={
+			is_core_of=LBA
+			is_fully_controlled_by=ROOT
+		}
+		any_subject_country={
+			any_controlled_state={
+				is_core_of=LBA
+				is_fully_controlled_by=PREV
+			}
+		}
+	}}
+ITA_set106={has_completed_focus=ITA_ministry_of_italian_africa
+	OR={
+		550={is_fully_controlled_by=ROOT}
+		any_subject_country={has_full_control_of_state=550}
+	}}
+ITA_set107={has_completed_focus=ITA_ministry_of_italian_africa
+	OR={
+		559={is_fully_controlled_by=ROOT}
+		any_subject_country={has_full_control_of_state=559}
+	}}
+ITA_set108={or={has_completed_focus=ITA_develop_eritrea has_completed_focus=ITA_develop_libya has_completed_focus=ITA_develop_somaliland has_completed_focus=ITA_develop_ethiopia}
+	OR={
+		any_controlled_state={
+			is_fully_controlled_by=ROOT
+			has_state_flag=ITA_improved_infrastructure_in_state_flag
+		}
+		any_subject_country={
+			any_controlled_state={
+				is_fully_controlled_by=PREV
+				has_state_flag=ITA_improved_infrastructure_in_state_flag
+			}
+		}
+	}}
+ITA_set109={has_completed_focus=ITA_regional_development
+	OR={
+		448={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		449={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		450={state_is_fully_controlled_by_ROOT_or_subject=yes}
+		451={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	}}
+ITA_set110={has_completed_focus=ITA_litoranea_balbo
+	451={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	452={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+ITA_set111={has_completed_focus=ITA_litoranea_balbo has_completed_focus=ITA_prospect_for_oil
+	448={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	449={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	450={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	451={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+ITA_set112={has_completed_focus=ITA_regional_development
+	662={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+ITA_set113={has_completed_focus=ITA_prospect_for_oil
+	450={
+		state_is_fully_controlled_by_ROOT_or_subject=yes
+		NOT={has_state_flag=benghazi_oil_developed}
+	}
+	has_tech=synth_oil_experiments}
+ITA_set114={has_completed_focus=ITA_regional_development
+	not={has_completed_focus=ITA_strengthen_ascari_corps}
+	any_controlled_state={is_on_continent=africa}}
+ITA_set115={has_completed_focus=ITA_regional_development
+	not={has_completed_focus=ITA_polizia_dell_africa_italiana}
+	any_state={
+		OR={is_core_of=LBA is_core_of=ERI is_core_of=SOM is_core_of=ETH}
+		state_is_fully_controlled_by_ROOT_or_subject=yes
+	}}
+ITA_set116={or={has_completed_focus=ITA_polizia_dell_africa_italiana has_completed_focus=ITA_strengthen_ascari_corps}
+	any_state={
+		OR={is_core_of=LBA is_core_of=ERI is_core_of=SOM is_core_of=ETH}
+		state_is_fully_controlled_by_ROOT_or_subject=yes
+	}}
+ITA_set117={has_completed_focus=ITA_italian_highways_bba
+	not={has_completed_focus=ITA_power_plants_in_terni}
+has_full_control_of_state=2}
+ITA_set118={has_completed_focus=ITA_italian_highways_bba
+	not={has_completed_focus=ITA_steel_industry_in_terni}
+has_full_control_of_state=2}
+ITA_set119={or={has_completed_focus=ITA_steel_industry_in_terni has_completed_focus=ITA_power_plants_in_terni}
+has_tech=synth_oil_experiments}
+ITA_set120={has_completed_focus=ITA_industria_della_gomma_sintetica
+	not={has_completed_focus=ITA_modernize_the_mezzogiorno}}
+ITA_set121={has_completed_focus=ITA_industria_della_gomma_sintetica
+	not={has_completed_focus=ITA_strengthen_northern_industry}}
+ITA_set122={or={has_completed_focus=ITA_strengthen_northern_industry has_completed_focus=ITA_modernize_the_mezzogiorno} has_completed_focus=ITA_expand_national_universities
+	custom_trigger_tooltip={
+		tooltip=ITA_new_industrialization_program_factories_required_tt
+		NOT={num_of_controlled_factories<ITA_new_industrialization_program_factories_required}
+	}}
+ITA_set123={has_completed_focus=ITA_italian_highways_bba
+controls_state=2 controls_state=161 controls_state=162 controls_state=117}
+ITA_set124={has_completed_focus=ITA_railway_innovations}
+ITA_set125={has_completed_focus=ITA_railway_innovations
+has_full_control_of_state=159}
+ITA_set126={has_completed_focus=ITA_investments_in_edison}
+ITA_set127={has_completed_focus=ITA_italian_highways_bba
+has_full_control_of_state=159}
+ITA_set128={has_completed_focus=ITA_fiocchi_munizioni
+has_full_control_of_state=159}
+ITA_set129={has_completed_focus=ITA_fiocchi_munizioni
+	is_special_project_completed=sp:sp_air_radar
+	has_full_control_of_state=159}
+ITA_set130={or={has_completed_focus=ITA_brescia_small_arms_industry has_completed_focus=ITA_milan_comms_industry}
+has_full_control_of_state=159}
+ITA_set131={has_completed_focus=ITA_expand_national_universities has_completed_focus=ITA_redirect_alfa_romeo_production
+	not={has_completed_focus=ITA_keep_specialization}}
+ITA_set132={has_completed_focus=ITA_expand_national_universities has_completed_focus=ITA_redirect_alfa_romeo_production
+	not={has_completed_focus=ITA_increase_production}}
+ITA_set133={or={has_completed_focus=ITA_increase_production has_completed_focus=ITA_keep_specialization}}
+ITA_set134={always=yes}
+ITA_set135={has_completed_focus=ITA_army_primacy_bba
+	not={has_completed_focus=ITA_a_bandits_war}}
+ITA_set136={has_completed_focus=ITA_fiocchi_munizioni has_completed_focus=ITA_army_primacy_bba}
+ITA_set137={has_completed_focus=ITA_milan_comms_industry has_completed_focus=ITA_increase_artillery_production
+	OR={has_full_control_of_state=158 has_full_control_of_state=159 has_full_control_of_state=850 has_full_control_of_state=39 has_full_control_of_state=160 has_full_control_of_state=736 has_full_control_of_state=852}}
+ITA_set138={has_completed_focus=ITA_preserve_army_traditions}
+ITA_set139={has_completed_focus=ITA_army_primacy_bba
+	not={has_completed_focus=ITA_preserve_army_traditions}}
+ITA_set140={has_completed_focus=ITA_a_bandits_war}
+ITA_set141={or={has_completed_focus=ITA_preserve_army_traditions has_completed_focus=ITA_a_bandits_war}
+	NOT={has_global_flag=second_italo_ethiopian_war_flag}}
+ITA_set142={or={has_completed_focus=ITA_preserve_army_traditions has_completed_focus=ITA_a_bandits_war}
+	any_enemy_country={is_major_not_original_tag_root=yes}}
+ITA_set143={or={has_completed_focus=ITA_preserve_army_traditions has_completed_focus=ITA_a_bandits_war}}
+ITA_set144={has_completed_focus=ITA_army_leaders has_completed_focus=ITA_superesercito}
+ITA_set145={has_completed_focus=ITA_bersaglieri}
+ITA_set146={has_completed_focus=ITA_bersaglieri
+has_tech=paratroopers}
+ITA_set147={has_completed_focus=ITA_superesercito has_completed_focus=ITA_italian_tankettes
+	if={
+		limit={has_dlc="No Step Back"}
+		has_tech=basic_medium_tank_chassis
+	}}
+ITA_set148={has_completed_focus=ITA_self_propelled_guns
+	not={has_completed_focus=ITA_modernize_ansaldo_facilities}}
+ITA_set149={has_completed_focus=ITA_self_propelled_guns
+	not={has_completed_focus=ITA_end_fiat_ansaldo_duopoly}}
+ITA_set150={or={has_completed_focus=ITA_end_fiat_ansaldo_duopoly has_completed_focus=ITA_modernize_ansaldo_facilities}}
+ITA_set151={always=yes}
+ITA_set152={has_completed_focus=ITA_air_innovations_bba
+has_full_control_of_state=2}
+ITA_set153={has_completed_focus=ITA_air_innovations_bba}
+ITA_set154={has_completed_focus=ITA_citta_dell_aria
+has_full_control_of_state=161}
+ITA_set155={has_completed_focus=ITA_citta_dell_aria has_completed_focus=ITA_expand_rome_flying_school}
+ITA_set156={has_completed_focus=ITA_citta_dell_aria
+	any_enemy_country={is_major_not_original_tag_root=yes}}
+ITA_set157={has_completed_focus=ITA_superaereo has_completed_focus=ITA_expand_rome_flying_school
+	if={
+		limit={has_dlc="By Blood Alone"}
+		has_tech=improved_small_airframe has_tech=improved_medium_airframe
+	}
+	else={has_tech=fighter2 has_tech=tactical_bomber2}}
+ITA_set158={has_completed_focus=ITA_superaereo
+	not={has_completed_focus=ITA_specialization}}
+ITA_set159={has_completed_focus=ITA_superaereo
+	not={has_completed_focus=ITA_standardization}}
+ITA_set160={has_completed_focus=ITA_standardization}
+ITA_set161={or={has_completed_focus=ITA_standardization has_completed_focus=ITA_specialization}}
+ITA_set162={or={has_completed_focus=ITA_standardization has_completed_focus=ITA_specialization}}
+ITA_set163={has_completed_focus=ITA_specialization}
+ITA_set164={or={has_completed_focus=ITA_multirole_aircraft has_completed_focus=ITA_long_range_aircraft has_completed_focus=ITA_fighter_designs has_completed_focus=ITA_bomber_designs}}
+ITA_set165={always=yes}
+ITA_set166={has_completed_focus=ITA_naval_power_projection}
+ITA_set167={has_completed_focus=ITA_naval_power_projection
+	OR={has_full_control_of_state=162 has_full_control_of_state=736 has_full_control_of_state=114 has_full_control_of_state=117 has_full_control_of_state=849 has_full_control_of_state=852}}
+ITA_set168={has_completed_focus=ITA_naval_power_projection
+has_full_control_of_state=162}
+ITA_set169={has_completed_focus=ITA_expand_naval_facilities
+	OR={has_full_control_of_state=448 has_full_control_of_state=451 has_full_control_of_state=164 has_full_control_of_state=550 has_full_control_of_state=559 has_full_control_of_state=844 has_full_control_of_state=447 has_full_control_of_state=458 has_full_control_of_state=459}}
+ITA_set170={has_completed_focus=ITA_expand_naval_facilities}
+ITA_set171={has_completed_focus=ITA_expand_naval_facilities
+	any_enemy_country={is_major_not_original_tag_root=yes}}
+ITA_set172={has_completed_focus=ITA_expand_naval_facilities
+is_at_peace_exiled_countries_excluded=yes}
+ITA_set173={has_completed_focus=ITA_expand_naval_facilities
+has_tech=marines}
+ITA_set174={has_completed_focus=ITA_supermarina has_completed_focus=ITA_expand_rome_flying_school}
+ITA_set175={has_completed_focus=ITA_supermarina}
+ITA_set176={has_completed_focus=ITA_supermarina
+	not={has_completed_focus=ITA_incrociatori_pesanti}}
+ITA_set177={has_completed_focus=ITA_supermarina
+	not={has_completed_focus=ITA_incrociatori_leggeri}}
+ITA_set178={has_completed_focus=ITA_supermarina}
+ITA_set179={has_completed_focus=ITA_supermarina}
+ITA_set180={has_completed_focus=ITA_incrociatori_leggeri
+	not={has_completed_focus=ITA_midget_submarines}}
+ITA_set181={has_completed_focus=ITA_incrociatori_leggeri
+	not={has_completed_focus=ITA_cruiser_submarines}}
+ITA_set182={has_completed_focus=ITA_incrociatori_leggeri
+	if={
+		limit={has_dlc="Man the Guns"}
+		has_tech=improved_ship_hull_light has_tech=sonar
+	}
+	else={has_tech=improved_destroyer}
+	has_tech=cavity_magnatron}
+ITA_set183={or={has_completed_focus=ITA_incrociatori_leggeri has_completed_focus=ITA_incrociatori_pesanti}
+	IF={
+		limit={has_dlc="Man the Guns"}
+		has_tech=improved_depth_charges has_tech=sonar
+	}
+	ELSE={has_tech=basic_destroyer}}
+ITA_set184={has_completed_focus=ITA_incrociatori_pesanti}
+ITA_set185={has_completed_focus=ITA_incrociatori_pesanti
+	not={has_completed_focus=ITA_refit_civilian_ships}
+	if={
+		limit={has_dlc="Man the Guns"}
+		has_tech=early_ship_hull_carrier
+	}
+	else={has_tech=early_carrier}}
+ITA_set186={has_completed_focus=ITA_incrociatori_pesanti
+	not={has_completed_focus=ITA_proper_carriers}}
+ITA_set187={or={has_completed_focus=ITA_ispettorato_dei_mezzi_antisommergibili has_completed_focus=ITA_cacciatorpediniere_di_scorta has_completed_focus=ITA_navi_da_battaglia}
+	if={
+		limit={has_dlc="Man the Guns"}
+		has_tech=basic_ship_hull_cruiser
+	}
+	else={has_tech=basic_light_cruiser}}
+ITA_set188={not={has_completed_focus=ITA_solid_progress has_completed_focus=ITA_struggle_in_ethiopia}
+	custom_trigger_tooltip={
+		tooltip=ITA_the_abyssinian_fiasco_completion_tt
+		always=no
+	}}
+ITA_set189={not={has_completed_focus=ITA_the_abyssinian_fiasco has_completed_focus=ITA_struggle_in_ethiopia}
+	custom_trigger_tooltip={
+		tooltip=ITA_solid_progress_completion_tt
+		always=no
+	}}
+ITA_set190={not={has_completed_focus=ITA_the_abyssinian_fiasco has_completed_focus=ITA_solid_progress}
+	custom_trigger_tooltip={
+		tooltip=ITA_the_abyssinian_fiasco_completion_tt
+		always=no
+	}}
+ITA_set191={has_completed_focus=ITA_struggle_in_ethiopia}
+ITA_set192={or={has_completed_focus=ITA_solid_progress has_completed_focus=ITA_the_abyssinian_fiasco has_completed_focus=ITA_struggle_in_ethiopia}}
+ITA_set193={has_completed_focus=ITA_undermine_the_duce}
+ITA_set194={has_completed_focus=ITA_servizio_informazione_militare
+	NOT={has_global_flag=second_italo_ethiopian_war_flag}
+	NOT={has_country_flag=ITA_defeat_in_ethiopia_flag}}
+ITA_set195={or={has_completed_focus=ITA_triumph_in_africa_bba has_completed_focus=ITA_conspiracies_in_the_shadows}
+	not={has_completed_focus=ITA_culto_del_duce has_completed_focus=ITA_defy_the_duce}
+	is_at_peace_exiled_countries_excluded=yes
+	power_balance_value={
+		id=ITA_power_balance
+		value<0.01
+	}}
+ITA_set196={has_completed_focus=ITA_triumph_in_africa_bba}
+ITA_set197={has_completed_focus=ITA_triumph_in_africa_bba
+	custom_trigger_tooltip={
+		tooltip=ITA_anglo_italian_agreements_suez_tt
+		OR={
+			NOT={has_country_flag=SUEZ_SANCTIONS_FLAG}
+			has_country_flag={
+				flag=SUEZ_SANCTIONS_FLAG
+				days>365
+			}
+		}
+	}
+	core_compliance={
+		occupied_country_tag=ETH
+		value>40
+	}}
+ITA_set198={has_completed_focus=ITA_triumph_in_africa_bba
+	OR={has_government=fascism has_government=neutrality}
+	has_full_control_of_state=835 has_full_control_of_state=836 has_full_control_of_state=837 has_full_control_of_state=838
+	NOT={has_global_flag=ITA_antifascist_civil_war_triggered_flag}
+	hidden_trigger={
+		NOT={has_completed_focus=ITA_defy_the_duce}
+	}}
+ITA_set199={has_completed_focus=ITA_triumph_in_africa_bba
+	custom_trigger_tooltip={
+		tooltip=ITA_all_eth_initial_states_controlled_tt
+		NOT={
+			any_state={
+				is_initial_ethiopian_state=yes
+				is_controlled_by_ROOT_or_subject=no
+			}
+		}
+	}
+	OR={
+		custom_trigger_tooltip={
+			tooltip=ITA_the_new_emperor_of_ethiopia_has_idea_vittorio_emanuele_tt
+			OR={has_idea=vittorio_emanuele has_idea=vittorio_emanuele_king_of_albania}
+		}
+		has_country_leader={
+			character=ITA_vittorio_emanuele_iii
+			ruling_only=yes
+		}
+		has_completed_focus=ITA_capo_supremo has_completed_focus=ITA_divino_duce
+	}
+	is_subject=no}
+ITA_set200={has_completed_focus=ITA_triumph_in_africa_bba
+	not={has_completed_focus=ITA_convene_the_grand_council has_completed_focus=ITA_defy_the_duce}
+	has_country_leader={
+		character=ITA_benito_mussolini
+		ruling_only=yes
+	}}
+ITA_set201={has_completed_focus=ITA_culto_del_duce
+	has_country_leader={
+		character=ITA_benito_mussolini
+		ruling_only=yes
+	}
+	power_balance_value={
+		id=ITA_power_balance
+		value>0.499
+	}
+	custom_trigger_tooltip={
+		tooltip="Requires 50+ value towards Mussolini in the Balance of Power"
+		always=yes
+	}}
+ITA_set202={has_completed_focus=ITA_the_man_of_providence}
+ITA_set203={has_completed_focus=ITA_the_man_of_providence
+	not={has_completed_focus=ITA_to_live_as_a_lion}
+	power_balance_value={
+		id=ITA_power_balance
+		value>0.699
+	}}
+ITA_set204={has_completed_focus=ITA_the_man_of_providence
+	not={has_completed_focus=ITA_boost_the_grand_council_of_fascism}
+	has_country_leader={
+		character=ITA_benito_mussolini
+		ruling_only=yes
+	}
+	power_balance_value={
+		id=ITA_power_balance
+		value>0.649
+	}}
+ITA_set205={has_completed_focus=ITA_culto_del_duce
+	not={has_completed_focus=ITA_la_battaglia_per_la_terra}}
+ITA_set206={has_completed_focus=ITA_culto_del_duce
+	not={has_completed_focus=ITA_la_battaglia_del_grano}}
+ITA_set207={or={has_completed_focus=ITA_la_battaglia_del_grano has_completed_focus=ITA_la_battaglia_per_la_terra}}
+ITA_set208={has_completed_focus=ITA_la_battaglia_per_le_nascite
+	has_country_leader={
+		character=ITA_benito_mussolini
+		ruling_only=yes
+	}}
+ITA_set209={or={has_completed_focus=ITA_to_live_as_a_lion has_completed_focus=ITA_boost_the_grand_council_of_fascism} has_completed_focus=ITA_strengthen_the_regime
+	has_country_leader={
+		character=ITA_benito_mussolini
+		ruling_only=yes
+	}
+	power_balance_value={
+		id=ITA_power_balance
+		value>0.799
+	}}
+ITA_set210={or={has_completed_focus=ITA_culto_del_duce has_completed_focus=ITA_convene_the_grand_council}
+has_government=fascism}
+ITA_set211={has_completed_focus=ITA_ministero_della_cultura_popolare
+has_government=fascism}
+ITA_set212={has_completed_focus=ITA_believe_obey_fight
+	if={
+		limit={has_dlc="La Resistance"}
+		agency_upgrade_number>4
+	}}
+ITA_set213={has_completed_focus=ITA_banda_carita
+agency_upgrade_number>9}
+ITA_set214={or={has_completed_focus=ITA_culto_del_duce has_completed_focus=ITA_convene_the_grand_council}
+	has_government=fascism
+	ITA_has_disbanded_blackshirts=no}
+ITA_set215={has_completed_focus=ITA_security_militias
+	not={has_completed_focus=ITA_strengthen_the_blackshirts}
+	has_government=fascism
+	ITA_has_disbanded_blackshirts=no}
+ITA_set216={has_completed_focus=ITA_security_militias
+	not={has_completed_focus=ITA_battaglioni_d_assalto}
+	has_government=fascism
+	any_owned_state={
+		is_core_of=ROOT
+		is_fully_controlled_by=ROOT
+	}
+	ITA_has_disbanded_blackshirts=no}
+ITA_set217={or={has_completed_focus=ITA_battaglioni_d_assalto has_completed_focus=ITA_strengthen_the_blackshirts}
+	has_government=fascism
+	ITA_has_disbanded_blackshirts=no}
+ITA_set218={or={has_completed_focus=ITA_strengthen_the_regime has_completed_focus=ITA_blackshirt_loyalty has_completed_focus=ITA_setting_course}
+	not={has_completed_focus=ITA_mare_nostrum_bba}
+is_subject=no}
+ITA_set219={has_completed_focus=ITA_towards_a_greater_italy has_completed_focus=ITA_devotion
+	not={has_completed_focus=ITA_capo_supremo}}
+ITA_set220={has_completed_focus=ITA_towards_a_greater_italy has_completed_focus=ITA_devotion
+	not={has_completed_focus=ITA_heroes_of_the_nation}
+	has_country_leader={
+		character=ITA_benito_mussolini
+		ruling_only=yes
+	}
+	power_balance_value={
+		id=ITA_power_balance
+		value>0.949
+	}}
+ITA_set221={has_completed_focus=ITA_towards_a_greater_italy}
+ITA_set222={has_completed_focus=ITA_bend_the_bars}
+ITA_set223={has_completed_focus=ITA_subdue_the_sentinels}
+ITA_set224={has_completed_focus=ITA_a_colonial_empire}
+ITA_set225={has_completed_focus=ITA_bend_the_bars}
+ITA_set226={has_completed_focus=ITA_masters_of_the_aegean}
+ITA_set227={has_completed_focus=ITA_convene_the_grand_council
+	has_government=fascism
+	power_balance_value={
+		id=ITA_power_balance
+		value<-0.09
+	}}
+ITA_set228={has_completed_focus=ITA_depose_mussolini
+	not={has_completed_focus=ITA_dino_grandi_focus has_completed_focus=ITA_monarchia_d_italia}
+	has_character=ITA_italo_balbo
+	has_government=fascism}
+ITA_set229={has_completed_focus=ITA_depose_mussolini
+	not={has_completed_focus=ITA_italo_balbo_focus has_completed_focus=ITA_monarchia_d_italia}
+	has_character=ITA_dino_grandi
+	has_government=fascism}
+ITA_set230={or={has_completed_focus=ITA_italo_balbo_focus has_completed_focus=ITA_dino_grandi_focus}}
+ITA_set231={or={has_completed_focus=ITA_italo_balbo_focus has_completed_focus=ITA_dino_grandi_focus}}
+ITA_set232={has_completed_focus=ITA_consolidate_power has_completed_focus=ITA_stop_the_squandering
+has_government=fascism}
+ITA_set233={has_completed_focus=ITA_purge_the_party}
+ITA_set234={has_completed_focus=ITA_the_fate_of_mussolini
+	not={has_completed_focus=ITA_a_greater_purpose}
+has_government=fascism}
+ITA_set235={has_completed_focus=ITA_divino_duce}
+ITA_set236={has_completed_focus=ITA_the_fate_of_mussolini
+	not={has_completed_focus=ITA_divino_duce}
+has_government=fascism}
+ITA_set237={has_completed_focus=ITA_a_greater_purpose}
+ITA_set238={has_completed_focus=ITA_spreading_the_eagles_wings
+num_subjects>0}
+ITA_set239={has_completed_focus=ITA_italo_balbo_focus has_completed_focus=ITA_stop_the_squandering
+	not={has_completed_focus=ITA_reinforce_regia_aeronautica}
+has_completed_focus=ITA_stop_the_squandering}
+ITA_set240={has_completed_focus=ITA_italo_balbo_focus has_completed_focus=ITA_stop_the_squandering
+	not={has_completed_focus=ITA_reorganize_regio_esercito}}
+ITA_set241={or={has_completed_focus=ITA_reorganize_regio_esercito has_completed_focus=ITA_reinforce_regia_aeronautica}}
+ITA_set242={has_completed_focus=ITA_compagnie_auto_avio_sahariane}
+ITA_set243={has_completed_focus=ITA_italo_balbo_focus has_completed_focus=ITA_stop_the_squandering
+	OR={
+		any_controlled_state={
+			is_core_of=LBA
+			is_fully_controlled_by=ROOT
+		}
+		any_subject_country={
+			any_controlled_state={
+				is_core_of=LBA
+				is_fully_controlled_by=PREV
+			}
+		}
+	}}
+ITA_set244={has_completed_focus=ITA_the_fourth_shore
+	not={has_completed_focus=ITA_steel_in_tripoli}
+	has_tech=excavation3
+	448={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+ITA_set245={has_completed_focus=ITA_the_fourth_shore
+	not={has_completed_focus=ITA_oil_in_tripoli}
+	has_tech=excavation3
+	448={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+ITA_set246={or={has_completed_focus=ITA_steel_in_tripoli has_completed_focus=ITA_oil_in_tripoli}
+	OR={
+		any_controlled_state={
+			is_core_of=LBA
+			is_fully_controlled_by=ROOT
+		}
+		any_subject_country={
+			any_controlled_state={
+				is_core_of=LBA
+				is_fully_controlled_by=PREV
+			}
+		}
+	}}
+ITA_set247={or={has_completed_focus=ITA_dino_grandi_focus has_completed_focus=ITA_monarchia_d_italia}
+	not={has_completed_focus=ITA_invite_france_to_military_partnership}
+	is_subject=no
+	ENG={
+		is_subject=no
+		NOT={has_war_with=ROOT}
+		NOT={is_justifying_wargoal_against=ROOT}
+		has_opinion={
+			target=ROOT
+			value>9
+		}
+	}}
+ITA_set248={has_completed_focus=ITA_seek_british_military_cooperation
+	is_subject=no
+	ENG={
+		is_subject=no
+		NOT={has_war_with=ROOT}
+		NOT={is_justifying_wargoal_against=ROOT}
+		NOT={has_government=communism}
+		has_opinion={
+			target=ROOT
+			value>49
+		}
+	}}
+ITA_set249={or={has_completed_focus=ITA_dino_grandi_focus has_completed_focus=ITA_monarchia_d_italia}
+	not={has_completed_focus=ITA_seek_british_military_cooperation}
+	is_subject=no
+	FRA={
+		is_subject=no
+		NOT={has_war_with=ROOT}
+		NOT={is_justifying_wargoal_against=ROOT}
+		has_opinion={
+			target=ROOT
+			value>9
+		}
+	}}
+ITA_set250={has_completed_focus=ITA_invite_france_to_military_partnership
+	is_subject=no
+	FRA={
+		is_subject=no
+		NOT={has_war_with=ROOT}
+		NOT={is_justifying_wargoal_against=ROOT}
+		NOT={has_government=communism}
+		has_opinion={
+			target=ROOT
+			value>49
+		}
+	}}
+ITA_set251={or={has_completed_focus=ITA_anglo_italian_pact has_completed_focus=ITA_franco_italian_pact}
+	is_subject=no
+	OR={
+		any_controlled_state={
+			is_core_of=ETH
+			is_fully_controlled_by=ROOT
+		}
+		any_subject_country={
+			any_controlled_state={
+				is_core_of=ETH
+				is_fully_controlled_by=PREV
+			}
+		}
+	}
+	OR={
+		any_controlled_state={
+			is_core_of=LBA
+			is_fully_controlled_by=ROOT
+		}
+		any_subject_country={
+			any_controlled_state={
+				is_core_of=LBA
+				is_fully_controlled_by=PREV
+			}
+		}
+	}
+	OR={
+		550={is_fully_controlled_by=ROOT}
+		any_subject_country={has_full_control_of_state=550}
+	}
+	OR={
+		559={is_fully_controlled_by=ROOT}
+		any_subject_country={has_full_control_of_state=559}
+		844={is_fully_controlled_by=ROOT}
+		any_subject_country={has_full_control_of_state=884}
+	}
+	OR={
+		has_non_aggression_pact_with=ENG has_non_aggression_pact_with=FRA
+		is_in_faction_with=ENG is_in_faction_with=FRA
+	}
+	has_army_manpower={size>999999}}
+ITA_set252={has_completed_focus=ITA_dino_grandi_focus has_completed_focus=ITA_consolidate_power}
+ITA_set253={has_completed_focus=ITA_reorganize_the_party has_completed_focus=ITA_purge_the_party}
+ITA_set254={has_completed_focus=ITA_reorganize_the_party}
+ITA_set255={has_completed_focus=ITA_economic_reforms}
+ITA_set256={has_completed_focus=ITA_meritocracy has_completed_focus=ITA_improve_the_industries}
+ITA_set257={has_completed_focus=ITA_depose_mussolini
+	not={has_completed_focus=ITA_dino_grandi_focus has_completed_focus=ITA_italo_balbo_focus}
+neutrality>0.25}
+ITA_set258={has_completed_focus=ITA_monarchia_d_italia}
+ITA_set259={has_completed_focus=ITA_extraction_industry}
+ITA_set260={has_completed_focus=ITA_extraction_industry}
+ITA_set261={has_completed_focus=ITA_prepare_for_the_coming_wars
+has_tech=armored_train}
+ITA_set262={has_completed_focus=ITA_prepare_for_the_coming_wars}
+ITA_set263={has_completed_focus=ITA_prepare_for_the_coming_wars
+	has_tech=atomic_research
+	if={
+		limit={
+			NOT={has_country_flag=ITA_late_to_the_atomic_party_flag}
+		}
+		has_country_flag=ITA_pioneer_in_atomic_research_flag
+	}
+	else={
+		NOT={has_country_flag=ITA_late_to_the_atomic_party_flag}
+	}}
+ITA_set264={has_completed_focus=ITA_monarchia_d_italia
+	not={has_completed_focus=ITA_power_to_the_king}
+is_subject=no}
+ITA_set265={has_completed_focus=ITA_revoke_the_acerbo_law
+	not={has_completed_focus=ITA_democratic_king}}
+ITA_set266={has_completed_focus=ITA_revoke_the_acerbo_law
+	not={has_completed_focus=ITA_christian_democracy}}
+ITA_set267={or={has_completed_focus=ITA_christian_democracy has_completed_focus=ITA_democratic_king}}
+ITA_set268={or={has_completed_focus=ITA_democratic_king has_completed_focus=ITA_christian_democracy}
+	if={
+		limit={has_dlc="La Resistance"}
+		has_intelligence_agency=yes
+	}}
+ITA_set269={or={has_completed_focus=ITA_cooperate_with_moderates has_completed_focus=ITA_expand_intelligence_services}}
+ITA_set270={has_completed_focus=ITA_monarchia_d_italia
+	not={has_completed_focus=ITA_revoke_the_acerbo_law}
+neutrality>0.5}
+ITA_set271={or={has_completed_focus=ITA_power_to_the_king has_completed_focus=ITA_revoke_the_acerbo_law}
+	not={has_completed_focus=ITA_utilize_the_blackshirts}
+	NOT={has_completed_focus=ITA_battaglioni_d_assalto}}
+ITA_set272={has_completed_focus=ITA_power_to_the_king
+	not={has_completed_focus=ITA_disband_the_blackshirts}}
+ITA_set273={or={has_completed_focus=ITA_disband_the_blackshirts has_completed_focus=ITA_utilize_the_blackshirts}}
+ITA_set274={or={has_completed_focus=ITA_expand_the_royal_guard has_completed_focus=ITA_democratic_king}
+	ITA_is_ruled_by_a_monarchy=yes
+	44={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	103={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+ITA_set275={has_completed_focus=ITA_expand_the_royal_guard has_completed_focus=ITA_utilize_the_blackshirts}
+ITA_set276={has_completed_focus=ITA_power_to_the_king
+	NOT={has_country_flag=ITA_revoked_lateran_treaty_flag}
+	NOT={country_exists=PAP}}
+ITA_set277={has_completed_focus=ITA_seek_papal_support}
+ITA_set278={has_completed_focus=ITA_agents_of_the_church}
+ITA_set279={or={has_completed_focus=ITA_gloria_al_regno_d_italia has_completed_focus=ITA_crush_opposition has_completed_focus=ITA_strengthen_the_papacy}}
+ITA_set280={or={has_completed_focus=ITA_setting_course has_completed_focus=ITA_strengthen_the_regime has_completed_focus=ITA_blackshirt_loyalty}
+	not={has_completed_focus=ITA_towards_a_greater_italy}
+	any_owned_state={
+		is_controlled_by=ROOT
+		dockyard>0
+	}
+	is_subject=no}
+ITA_set281={has_completed_focus=ITA_mare_nostrum_bba}
+ITA_set282={has_completed_focus=ITA_mare_nostrum_bba}
+ITA_set283={has_completed_focus=ITA_mare_nostrum_bba}
+ITA_set284={has_completed_focus=ITA_the_italian_legions
+has_full_control_of_state=2}
+ITA_set285={has_completed_focus=ITA_all_roads_lead_to_rome
+	has_full_control_of_state=2
+	if={
+		limit={has_dlc="By Blood Alone"}
+		has_tech=advanced_large_airframe has_tech=engines_4
+	}}
+ITA_set286={has_completed_focus=ITA_all_roads_lead_to_rome
+	if={
+		limit={has_dlc="No Step Back"}
+		has_tech=super_heavy_tank_chassis
+	}}
+ITA_set287={has_completed_focus=ITA_all_roads_lead_to_rome
+is_special_project_completed=sp:sp_naval_super_heavy_battleship}
+ITA_set288={or={has_completed_focus=ITA_mare_nostrum_bba has_completed_focus=ITA_deus_vult}
+	any_country={
+		OR={original_tag=POR original_tag=SPR}
+		exists=yes
+		has_civil_war=no
+		is_in_faction=no
+		NOT={
+			has_war_with=ROOT
+			is_justifying_wargoal_against=ROOT
+		}
+	}}
+ITA_set289={has_completed_focus=ITA_iberian_protection}
+ITA_set290={has_completed_focus=ITA_strengthen_the_papacy
+	ITA_is_ruled_by_a_pope=yes
+	is_subject=no}
+ITA_set291={has_completed_focus=ITA_the_papacy_reborn}
+ITA_set292={has_completed_focus=ITA_deus_vult}
+ITA_set293={has_completed_focus=ITA_the_papacy_reborn}
+ITA_set294={has_completed_focus=ITA_deus_vult}
+ITA_set295={has_completed_focus=ITA_deus_vult
+	OR={
+		AND={
+			owns_state=454
+			has_full_control_of_state=454
+		}
+		454={
+			is_fully_controlled_by=owner
+			owner={
+				NOT={has_war_with=ROOT}
+			}
+		}
+	}}
+ITA_set296={has_completed_focus=ITA_a_time_for_war has_completed_focus=ITA_the_holy_lands}
+ITA_set297={or={has_completed_focus=ITA_triumph_in_africa_bba has_completed_focus=ITA_conspiracies_in_the_shadows}
+	NOT={has_completed_focus=ITA_unite_the_opposition has_completed_focus=ITA_defy_the_duce}}
+ITA_set298={has_completed_focus=ITA_foreign_affairs
+	not={has_completed_focus=ITA_potential_allies_in_the_balkans}}
+ITA_set299={has_completed_focus=ITA_foreign_affairs
+	not={has_completed_focus=ITA_balkan_ambition}}
+ITA_set300={or={has_completed_focus=ITA_potential_allies_in_the_balkans has_completed_focus=ITA_balkan_ambition}}
+ITA_set301={has_completed_focus=ITA_albanian_occupation
+	44={state_is_fully_controlled_by_ROOT_or_subject=yes}
+	has_tech=synth_oil_experiments}
+ITA_set302={has_completed_focus=ITA_albanian_occupation
+	44={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+ITA_set303={has_completed_focus=ITA_support_albanian_irredentism
+	44={state_is_fully_controlled_by_ROOT_or_subject=yes}}
+ITA_set304={or={has_completed_focus=ITA_potential_allies_in_the_balkans has_completed_focus=ITA_balkan_ambition}
+	not={has_completed_focus=ITA_pact_of_steel has_completed_focus=ITA_italy_first}
+	country_exists=AUS
+	NOT={has_war_with=AUS}}
+ITA_set305={has_completed_focus=ITA_guarantee_austrian_independence
+	NOT={has_war_with=ENG has_war_with=FRA}}
+ITA_set306={has_completed_focus=ITA_negotiate_italian_claims
+	OR={
+		AND={
+			NOT={has_war_with=ENG has_war_with=FRA}
+			FRA={is_in_faction_with=ENG}
+		}
+		AND={
+			NOT={has_war_with=FRA}
+			FRA={
+				NOT={is_in_faction_with=ENG}
+			}
+		}
+	}}
+ITA_set307={has_completed_focus=ITA_ratify_the_stresa_front
+	OR={is_in_faction_with=ENG is_in_faction_with=FRA}}
+ITA_set308={has_completed_focus=ITA_ratify_the_stresa_front}
+ITA_set309={has_completed_focus=ITA_italys_destiny
+	any_country={
+		original_tag=SOV
+		exists=yes
+		NOT={is_in_faction_with=ROOT}
+		NOT={has_non_aggression_pact_with=ROOT}
+		NOT={is_guaranteed_by=ROOT}
+	}}
+ITA_set310={or={has_completed_focus=ITA_potential_allies_in_the_balkans has_completed_focus=ITA_balkan_ambition}
+	not={has_completed_focus=ITA_guarantee_austrian_independence has_completed_focus=ITA_italy_first}
+	NOT={has_war_with=GER}
+	custom_trigger_tooltip={
+		tooltip=ITA_germ_italy_same_tt
+		GER={has_government=ROOT}
+	}
+	is_in_faction=no
+	GER={
+		is_faction_leader=yes
+		is_subject=no
+	}
+	is_subject=no
+	NOT={has_country_flag=ENG_ditched_by_the_germans_flag}}
+ITA_set311={has_completed_focus=ITA_pact_of_steel
+	NOT={has_war_with=GER}
+	NOT={has_country_flag=ENG_ditched_by_the_germans_flag}}
+ITA_set312={has_completed_focus=ITA_german_military_cooperation
+	NOT={has_country_flag=ENG_ditched_by_the_germans_flag}}
+ITA_set313={has_completed_focus=ITA_german_military_cooperation
+	NOT={has_country_flag=ENG_ditched_by_the_germans_flag}}
+ITA_set314={has_completed_focus=ITA_pact_of_steel
+	NOT={has_country_flag=ENG_ditched_by_the_germans_flag}}
+ITA_set315={has_completed_focus=ITA_pact_of_steel has_completed_focus=ITA_italian_irredentism
+	not={has_completed_focus=ITA_war_with_france}
+	is_puppet=no
+	is_in_faction_with=GER
+	GER={
+		controls_state=16
+		GER={is_faction_leader=yes}
+	}
+	custom_trigger_tooltip={
+		tooltip=ITA_claims_on_france_tt
+		any_other_country={
+			original_tag=FRA
+			has_government=fascism
+			owns_state=735 owns_state=1
+			controls_state=735 controls_state=1
+		}
+	}}
+ITA_set316={or={has_completed_focus=ITA_potential_allies_in_the_balkans has_completed_focus=ITA_balkan_ambition}
+	not={has_completed_focus=ITA_guarantee_austrian_independence has_completed_focus=ITA_pact_of_steel}
+	is_subject=no
+	is_in_faction=no
+	OR={
+		owns_state=44 owns_state=102 owns_state=853
+		44={
+			owner={is_subject_of=ROOT}
+		}
+		102={
+			owner={is_subject_of=ROOT}
+		}
+		853={
+			owner={is_subject_of=ROOT}
+		}
+	}}
+ITA_set317={or={has_completed_focus=ITA_pact_of_steel has_completed_focus=ITA_italy_first}
+	country_exists=JAP
+	JAP={
+		is_in_faction=no
+		has_government=ROOT
+	}}
+ITA_set318={or={has_completed_focus=ITA_pact_of_steel has_completed_focus=ITA_italy_first}
+is_subject=no}
+ITA_set319={has_completed_focus=ITA_italian_irredentism
+	not={has_completed_focus=ITA_request_control_of_french_territories}
+	is_subject=no
+	FRA={exists=yes}
+	NOT={is_in_faction_with=FRA}
+	NOT={has_guaranteed=FRA}
+	NOT={has_non_aggression_pact_with=FRA}
+	NOT={
+		FRA={is_subject_of=ROOT}
+	}}
+ITA_set320={or={has_completed_focus=ITA_war_with_france has_completed_focus=ITA_request_control_of_french_territories}
+	846={is_owned_and_controlled_by=SWI}
+	is_subject=no
+	159={is_controlled_by=ITA}
+	158={is_controlled_by=ITA}
+	735={is_controlled_by=ITA}}
+ITA_set321={has_completed_focus=ITA_italy_first has_completed_focus=ITA_italian_irredentism
+	is_subject=no
+	NOT={is_in_faction_with=ENG}
+	NOT={has_guaranteed=ENG}
+	NOT={has_non_aggression_pact_with=ENG}}
+ITA_set322={has_completed_focus=ITA_italian_irredentism
+	not={has_completed_focus=ITA_befriend_greece}
+	is_subject=no
+	GRE={exists=yes}
+	NOT={is_in_faction_with=GRE}
+	NOT={has_guaranteed=GRE}
+	NOT={has_non_aggression_pact_with=GRE}
+	NOT={
+		GRE={is_subject_of=ROOT}
+	}}
+ITA_set323={has_completed_focus=ITA_italy_first
+	not={has_completed_focus=ITA_war_with_greece}
+	country_exists=GRE
+	NOT={has_war_with=GRE}}
+ITA_set324={or={has_completed_focus=ITA_war_with_greece has_completed_focus=ITA_befriend_greece}
+	not={has_completed_focus=ITA_befriend_turkey}
+	TUR={owns_state=342}}
+ITA_set325={or={has_completed_focus=ITA_war_with_greece has_completed_focus=ITA_befriend_greece}
+	not={has_completed_focus=ITA_claims_on_turkey_bba}
+	country_exists=TUR
+	NOT={has_war_with=TUR}}
+ITA_set326={has_completed_focus=ITA_foreign_affairs
+	if={
+		limit={
+			NOT={has_dlc="La Resistance"}
+		}
+		any_other_country={
+			original_tag=SPR
+			has_government=fascism
+			has_volunteers_amount_from={
+				tag=ITA
+				count>1
+			}
+		}
+	}
+	if={
+		limit={has_dlc="La Resistance"}
+		SPA={
+			has_volunteers_amount_from={
+				tag=ITA
+				count>1
+			}
+		}
+	}}
+ITA_set327={has_completed_focus=ITA_corpo_di_truppe_volontarie has_completed_focus=ITA_italy_first
+	not={has_completed_focus=ITA_demand_balearic_islands_bba}
+	is_in_faction=yes
+	if={
+		limit={has_dlc="La Resistance"}
+		any_other_country={
+			OR={tag=SPA tag=SPB}
+			has_civil_war=no
+			NOT={has_war_with=ROOT}
+			is_in_faction=no
+		}
+	}
+	else={
+		any_country={
+			original_tag=SPR
+			OR={has_government=fascism has_government=neutrality}
+			has_civil_war=no
+			NOT={has_war_with=ROOT}
+			is_in_faction=no
+		}
+	}
+	FRA={
+		OR={
+			NOT={country_exists=THIS}
+			has_capitulated=yes
+			has_government=fascism
+		}
+	}}
+ITA_set328={has_completed_focus=ITA_corpo_di_truppe_volontarie
+	not={has_completed_focus=ITA_spanish_italian_alliance}
+	if={
+		limit={
+			NOT={has_dlc="La Resistance"}
+		}
+		any_other_country={
+			original_tag=SPR
+			has_government=fascism
+			has_war=no
+			owns_state=177
+		}
+	}
+	if={
+		limit={has_dlc="La Resistance"}
+		SPA={
+			has_war=no
+			owns_state=177
+		}
+	}
+	is_puppet=no}
+ITA_set329={or={has_completed_focus=ITA_spanish_italian_alliance has_completed_focus=ITA_demand_balearic_islands_bba}
+	is_in_faction=yes
+	country_exists=POR
+	NOT={has_war_with=POR}}
+ITA_set330={tag=RDS}
+ITA_set331={has_completed_focus=ITA_the_italian_liberation_war}
+ITA_set332={has_completed_focus=ITA_fronte_militare_clandestino
+	not={has_completed_focus=ITA_the_carabinieri}
+	NOT={has_government=neutrality}
+	NOT={has_government=fascism}}
+ITA_set333={has_completed_focus=ITA_fronte_militare_clandestino
+	not={has_completed_focus=ITA_corpo_volontari_della_liberta}
+	NOT={has_government=communism}}
+ITA_set334={has_completed_focus=ITA_corpo_volontari_della_liberta
+	NOT={has_government=neutrality}
+	NOT={has_government=fascism}}
+ITA_set335={or={has_completed_focus=ITA_corpo_volontari_della_liberta has_completed_focus=ITA_the_carabinieri}}
+ITA_set336={has_completed_focus=ITA_the_carabinieri
+has_government=neutrality}
+ITA_set337={has_completed_focus=ITA_partisan_republics or={has_completed_focus=ITA_gappisti has_completed_focus=ITA_the_kings_finest}}
+ITA_set338={has_completed_focus=ITA_grande_rivolta_rurale
+surrender_progress<0.01}
+ITA_set339={has_completed_focus=ITA_liberation_or_death
+	has_war=no
+	is_subject=yes}
+ITA_set340={tag=RSI}
+ITA_set341={has_completed_focus=ITA_the_italian_social_republic}
+ITA_set342={has_completed_focus=ITA_guardia_nazionale_repubblicana}
+ITA_set343={has_completed_focus=ITA_integrate_polizia_dell_africa_italiana}
+ITA_set344={has_completed_focus=ITA_guardia_nazionale_repubblicana
+has_stability>0.2}
+ITA_set345={has_completed_focus=ITA_guardia_nazionale_repubblicana}
+ITA_set346={has_completed_focus=ITA_battaglioni_m}
+ITA_set347={has_completed_focus=ITA_anti_partisan_measures has_completed_focus=ITA_all_within_the_state has_completed_focus=ITA_reinforce_the_gustav_line
+surrender_progress<0.01}
+ITA_set348={has_completed_focus=ITA_the_social_republic_prevails
+	has_war=no
+	is_subject=yes}
+ITA_set349={has_completed_focus=ITA_the_abyssinian_fiasco
+	NOT={has_completed_focus=ITA_foreign_affairs}
+	has_civil_war=no}
+ITA_set350={or={has_completed_focus=ITA_unite_the_opposition has_completed_focus=ITA_triumph_in_africa_bba}
+	NOT={has_global_flag=ITA_antifascist_civil_war_triggered_flag}
+	date<1937.1.1
+	has_civil_war=no}
+ITA_set351={has_completed_focus=ITA_unite_the_opposition
+	not={has_completed_focus=ITA_the_southern_farmlands}
+has_civil_war=no}
+ITA_set352={has_completed_focus=ITA_unite_the_opposition
+	not={has_completed_focus=ITA_organize_strikes_in_the_north}
+has_civil_war=no}
+ITA_set353={or={has_completed_focus=ITA_organize_strikes_in_the_north has_completed_focus=ITA_the_southern_farmlands has_completed_focus=ITA_triumph_in_africa_bba}
+	not={has_completed_focus=ITA_culto_del_duce has_completed_focus=ITA_convene_the_grand_council}
+	NOT={has_completed_focus=ITA_foreign_affairs}}
+ITA_set354={has_completed_focus=ITA_defy_the_duce
+has_civil_war=yes}
+ITA_set355={has_completed_focus=ITA_defy_the_duce
+	has_civil_war=yes
+	has_full_control_of_state=162}
+ITA_set356={has_completed_focus=ITA_defy_the_duce}
+ITA_set357={has_completed_focus=ITA_the_italian_republic
+	not={has_completed_focus=ITA_italian_socialism}
+	NOT={has_government=fascism}
+	NOT={has_government=neutrality}
+	has_civil_war=no
+	is_subject=no}
+ITA_set358={has_completed_focus=ITA_the_popular_front
+	has_civil_war=no
+	if={
+		limit={has_dlc="La Resistance"}
+		SPR_scw_in_progress=yes
+		if={
+			limit={
+				NOT={has_global_flag=spanish_civil_war}
+			}
+			custom_trigger_tooltip={
+				tooltip=POR_spr_tooltip_country_exist_tt
+				country_exists=SPR
+			}
+			custom_trigger_tooltip={
+				tooltip=POR_spr_tooltip_at_peace_tt
+				NOT={has_war_with=SPR}
+			}
+		}
+		else={
+			OR={
+				AND={
+					country_exists=SPD
+					NOT={has_war_with=SPD}
+				}
+				AND={
+					country_exists=SPC
+					NOT={has_war_with=SPC}
+				}
+			}
+		}
+	}
+	else={
+		any_other_country={
+			original_tag=SPR
+			has_civil_war=yes
+			NOT={has_war_with=ROOT}
+			OR={has_government=democratic has_government=communism}
+		}
+	}}
+ITA_set359={has_completed_focus=ITA_the_garibaldi_legion}
+ITA_set360={has_completed_focus=ITA_the_garibaldi_legion}
+ITA_set361={or={has_completed_focus=ITA_gruppi_di_difesa_della_donna has_completed_focus=ITA_a_new_era_for_the_red_shirts}
+	has_war=yes
+	has_government=communism}
+ITA_set362={has_completed_focus=ITA_the_popular_front
+has_government=communism}
+ITA_set363={has_completed_focus=ITA_a_leader_steps_forward}
+ITA_set364={has_completed_focus=ITA_the_popular_front}
+ITA_set365={has_completed_focus=ITA_industrial_socialization}
+ITA_set366={has_completed_focus=ITA_institute_the_five_year_plan}
+ITA_set367={has_completed_focus=ITA_industrial_socialization
+	not={has_completed_focus=ITA_appease_the_military has_completed_focus=ITA_empower_the_carabinieri}}
+ITA_set368={or={has_completed_focus=ITA_the_popular_front has_completed_focus=ITA_italian_socialism}}
+ITA_set369={has_completed_focus=ITA_common_ground
+	not={has_completed_focus=ITA_political_commissars has_completed_focus=ITA_empower_the_carabinieri}}
+ITA_set370={or={has_completed_focus=ITA_the_popular_front has_completed_focus=ITA_italian_socialism}
+	not={has_completed_focus=ITA_cooperate_with_the_mafia}
+	has_equipment={infantry_equipment>999}
+	has_manpower>999}
+ITA_set371={has_completed_focus=ITA_crush_the_mafia
+	not={has_completed_focus=ITA_political_commissars has_completed_focus=ITA_appease_the_military}}
+ITA_set372={or={has_completed_focus=ITA_appease_the_military has_completed_focus=ITA_political_commissars has_completed_focus=ITA_empower_the_carabinieri}}
+ITA_set373={has_completed_focus=ITA_the_path_to_progress}
+ITA_set374={has_completed_focus=ITA_union_in_the_party
+	not={has_completed_focus=ITA_defend_the_land}
+	if={
+		limit={
+			OR={
+				NOT={country_exists=SOU}
+				NOT={
+					SOU={has_government=communism}
+				}
+				is_in_faction_with=SOU
+			}
+		}
+	}
+	else={
+		is_in_faction=no
+		is_subject=no
+		SOU={
+			has_government=communism
+			is_faction_leader=yes
+			is_subject=no
+			has_civil_war=no
+			NOT={is_justifying_wargoal_against=ROOT}
+			NOT={has_war_with=ROOT}
+		}
+		SOU={
+			has_opinion={
+				target=ROOT
+				value>50
+			}
+		}
+	}}
+ITA_set375={has_completed_focus=ITA_follow_the_soviet_union
+is_in_faction=yes}
+ITA_set376={has_completed_focus=ITA_military_cooperation
+has_government=communism}
+ITA_set377={has_completed_focus=ITA_military_cooperation
+	has_government=communism
+	any_other_country={
+		is_in_faction_with=ROOT
+		is_government_in_exile=no
+	}}
+ITA_set378={or={has_completed_focus=ITA_follow_the_soviet_union has_completed_focus=ITA_defend_the_land}
+has_government=communism}
+ITA_set379={has_completed_focus=ITA_union_in_the_party
+	not={has_completed_focus=ITA_follow_the_soviet_union}
+is_subject=no}
+ITA_set380={has_completed_focus=ITA_defend_the_land
+has_government=communism}
+ITA_set381={has_completed_focus=ITA_defend_the_land
+	country_exists=SOU
+	NOT={is_in_faction_with=SOU}
+	NOT={has_guaranteed=SOU}
+	NOT={is_guaranteed_by=SOU}
+	NOT={has_non_aggression_pact_with=SOU}}
+ITA_set382={has_completed_focus=ITA_defend_the_land
+has_government=communism}
+ITA_set383={or={has_completed_focus=ITA_combined_research_effort has_completed_focus=ITA_raise_the_peoples}
+has_completed_focus=ITA_servizio_informazione_militare}
+ITA_set384={has_completed_focus=ITA_the_italian_republic
+	not={has_completed_focus=ITA_the_popular_front}
+	has_civil_war=no
+	is_subject=no}
+ITA_set385={has_completed_focus=ITA_italian_socialism
+	not={has_completed_focus=ITA_crush_the_mafia}
+has_civil_war=no}
+ITA_set386={has_completed_focus=ITA_cooperate_with_the_mafia
+	is_subject=no
+	any_other_country={
+		NOT={
+			is_in_faction_with=ROOT
+			is_subject_of=ROOT
+		}
+		OR={
+			original_tag=USA
+			AND={
+				is_major=yes
+				has_government=democratic
+				capital_scope={
+					OR={is_on_continent=europe is_on_continent=north_america}
+				}
+			}
+		}
+	}}
+ITA_set387={has_completed_focus=ITA_italian_socialism}
+ITA_set388={has_completed_focus=ITA_empower_the_unions}
+ITA_set389={has_completed_focus=ITA_italian_socialism
+has_government=democratic}
+ITA_set390={has_completed_focus=ITA_the_republics_leadership}
+ITA_set391={has_completed_focus=ITA_bring_back_exiled_intellectuals}
+ITA_set392={has_completed_focus=ITA_italian_socialism
+	has_civil_war=no
+	if={
+		limit={has_dlc="La Resistance"}
+		SPR_scw_in_progress=yes
+		if={
+			limit={
+				NOT={has_global_flag=spanish_civil_war}
+			}
+			custom_trigger_tooltip={
+				tooltip=POR_spr_tooltip_country_exist_tt
+				country_exists=SPR
+			}
+			custom_trigger_tooltip={
+				tooltip=POR_spr_tooltip_at_peace_tt
+				NOT={has_war_with=SPR}
+			}
+		}
+		else={
+			country_exists=SPD
+			NOT={has_war_with=SPD}
+		}
+	}
+	else={
+		any_other_country={
+			original_tag=SPR
+			has_civil_war=yes
+			NOT={has_war_with=ROOT}
+			OR={has_government=democratic has_government=communism}
+		}
+	}
+	has_manpower>10000}
+ITA_set393={has_completed_focus=ITA_social_stability
+	not={has_completed_focus=ITA_reestablish_old_alliances}
+is_subject=no}
+ITA_set394={has_completed_focus=ITA_italia_libera}
+ITA_set395={has_completed_focus=ITA_european_democracies
+	is_subject=no
+	OR={
+		any_other_country={
+			capital_scope={is_on_continent=europe}
+			OR={
+				is_in_faction=no
+				is_in_faction_with=ROOT
+			}
+			has_government=democratic
+			is_subject=no
+		}
+		any_other_country={is_in_faction_with=ROOT}
+	}}
+ITA_set396={or={has_completed_focus=ITA_italia_libera has_completed_focus=ITA_reestablish_old_alliances}
+is_subject=no}
+ITA_set397={has_completed_focus=ITA_scientific_cooperation}
+ITA_set398={has_completed_focus=ITA_scientific_cooperation}
+ITA_set399={has_completed_focus=ITA_social_stability
+	not={has_completed_focus=ITA_italia_libera}
+	is_in_faction=no
+	is_subject=no
+	any_other_country={
+		OR={tag=FRA tag=ENG}
+		NOT={has_government=fascism}
+		is_faction_leader=yes
+		is_subject=no
+		has_civil_war=no
+		NOT={is_justifying_wargoal_against=ROOT}
+		NOT={has_war_with=ROOT}
+		NOT={
+			any_allied_country={has_war_with=ROOT}
+		}
+	}
+	any_other_country={
+		OR={tag=FRA tag=ENG}
+		has_opinion={
+			target=ROOT
+			value>50
+		}
+	}}
+ITA_set400={has_completed_focus=ITA_reestablish_old_alliances
+	is_in_faction=yes
+	any_allied_country={is_major=yes}}
+ITA_set401={has_completed_focus=ITA_military_agreements
+	any_country={
+		original_tag=SOV
+		exists=yes
+		NOT={is_in_faction_with=ROOT}
+		NOT={has_non_aggression_pact_with=ROOT}
+		NOT={is_guaranteed_by=ROOT}
+		has_government=communism
+	}}
+ITA_set402={has_completed_focus=ITA_defy_the_duce
+	has_civil_war=no
+	is_subject=no}
+ITA_set403={has_completed_focus=ITA_the_ethiopian_question
+	not={has_completed_focus=ITA_new_colonial_policies}
+	is_subject=no
+	any_controlled_state={
+		NOT={is_on_continent=europe}
+	}}
+ITA_set404={has_completed_focus=ITA_abolish_the_colonies}
+ITA_set405={has_completed_focus=ITA_cooperatives_for_intensive_exploitation}
+ITA_set406={has_completed_focus=ITA_the_ethiopian_question
+	not={has_completed_focus=ITA_abolish_the_colonies}
+	is_subject=no
+	any_controlled_state={is_on_continent=africa}}
+ITA_set407={or={has_completed_focus=ITA_abolish_the_colonies has_completed_focus=ITA_new_colonial_policies}
+	OR={has_government=communism has_government=neutrality}}
+ITA_set408={has_completed_focus=ITA_negotiations_with_albania
+	44={
+		controller={
+			OR={
+				tag=ROOT
+				is_subject_of=ROOT
+			}
+		}
+	}}
+ITA_set409={has_completed_focus=ITA_new_colonial_policies
+	OR={
+		is_faction_leader=yes
+		is_in_faction=no
+	}}
+ITA_set410={has_completed_focus=ITA_the_italian_confederation
+	num_subjects>4
+	has_idea=ITA_italian_confederation_leader}
+ITA_set411={or={has_completed_focus=ITA_cooperatives_for_intensive_exploitation has_completed_focus=ITA_the_italian_confederation}}
+ITA_set412={has_completed_focus=ITA_the_fight_overseas}
+ITA_set413={has_completed_focus=ITA_the_fight_overseas}
+ITA_set414={has_completed_focus=ITA_the_fight_overseas}

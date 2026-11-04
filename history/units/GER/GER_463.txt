@@ -1,0 +1,1 @@
+focus={current=GER_accept_british_naval_dominance_ww}

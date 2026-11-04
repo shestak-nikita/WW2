@@ -1,0 +1,1 @@
+focus={current=JAP_strenghten_manchukuo_imperial_army}

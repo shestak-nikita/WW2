@@ -1,0 +1,945 @@
+RAJ_set101={
+	is_subject_of = ENG
+}
+
+RAJ_set102={
+	has_completed_focus=RAJ_his_majestys_loyal_government
+}
+
+RAJ_set103={
+	has_completed_focus=RAJ_the_government_of_india_act
+}
+
+RAJ_set104={
+	has_completed_focus=RAJ_work_with_local_leaders
+	NOT={OR={has_completed_focus=RAJ_empower_provincial_authorities}}
+}
+
+RAJ_set105={
+	has_completed_focus=RAJ_work_with_local_leaders
+	NOT={OR={has_completed_focus=RAJ_concessions_to_the_industrialists}}
+}
+
+RAJ_set106={
+	OR={has_completed_focus=RAJ_concessions_to_the_industrialists has_completed_focus=RAJ_empower_provincial_authorities}
+}
+
+RAJ_set107={
+	has_completed_focus=RAJ_confer_with_the_congress
+	NOT={OR={has_completed_focus=RAJ_court_the_princes}}
+}
+
+RAJ_set108={
+	OR={has_completed_focus=RAJ_favor_the_muslim_league has_completed_focus=RAJ_court_the_princes}
+	NOT={OR={has_completed_focus=RAJ_the_integrity_of_india_act}}
+}
+
+RAJ_set109={
+	has_completed_focus=RAJ_confer_with_the_congress
+	NOT={OR={has_completed_focus=RAJ_favor_the_muslim_league}}
+}
+
+RAJ_set110={
+	OR={has_completed_focus=RAJ_court_the_princes has_completed_focus=RAJ_favor_the_muslim_league}
+	NOT={OR={has_completed_focus=RAJ_the_indian_parliament}}
+}
+
+RAJ_set111={
+	has_completed_focus=RAJ_court_the_princes
+}
+
+RAJ_set112={
+	OR={has_completed_focus=RAJ_the_indian_parliament has_completed_focus=RAJ_the_integrity_of_india_act}
+	ENG = {
+				OR = {
+					has_capitulated = yes
+					surrender_progress > 0.05
+				}
+				is_ally_with = ROOT
+			}
+}
+
+RAJ_set113={
+	OR={has_completed_focus=RAJ_the_indian_parliament has_completed_focus=RAJ_the_integrity_of_india_act}
+}
+
+RAJ_set114={
+	has_completed_focus=RAJ_the_punjab_accord
+	is_subject_of = ENG
+			has_autonomy_state = autonomy_dominion
+}
+
+RAJ_set115={
+	has_completed_focus=RAJ_work_with_local_leaders
+	NOT={OR={has_completed_focus=RAJ_expand_the_zamindari_system}}
+}
+
+RAJ_set116={
+	has_completed_focus=RAJ_curtail_the_zamindars
+}
+
+RAJ_set117={
+	has_completed_focus=RAJ_raise_import_duties
+	has_tech = construction3
+}
+
+RAJ_set118={
+	has_completed_focus=RAJ_raise_import_duties
+}
+
+RAJ_set119={
+	has_completed_focus=RAJ_imperial_industry_initiative
+	has_completed_focus=RAJ_rural_development_plan
+	industrial_complex > 39
+}
+
+RAJ_set120={
+	has_completed_focus=RAJ_curtail_the_zamindars
+}
+
+RAJ_set121={
+	has_completed_focus=RAJ_his_majestys_loyal_government
+	NOT={OR={has_completed_focus=RAJ_curtail_the_zamindars}}
+}
+
+RAJ_set122={
+	has_completed_focus=RAJ_expand_the_zamindari_system
+}
+
+RAJ_set123={
+	OR={has_completed_focus=RAJ_reform_the_agricultural_sector has_completed_focus=RAJ_crown_commodities}
+	has_tech = motorised_infantry
+}
+
+RAJ_set124={
+	has_completed_focus=RAJ_rural_development_plan
+	has_completed_focus=RAJ_reform_the_agricultural_sector
+}
+
+RAJ_set125={
+	has_completed_focus=RAJ_expand_the_zamindari_system
+}
+
+RAJ_set126={
+	OR={has_completed_focus=RAJ_crown_commodities has_completed_focus=RAJ_the_riches_of_the_raj}
+	is_ally_with = ENG
+}
+
+RAJ_set127={
+	has_completed_focus=RAJ_crown_commodities
+	has_completed_focus=RAJ_strengthen_ties_with_british_investors_GOE
+}
+
+RAJ_set128={
+	has_completed_focus=RAJ_the_riches_of_the_raj
+}
+
+RAJ_set129={
+	has_completed_focus=RAJ_imperial_rail_renewal_act
+}
+
+RAJ_set130={
+	has_completed_focus=RAJ_imperial_rail_renewal_act
+	is_ally_with = ENG
+}
+
+RAJ_set131={
+	OR={has_completed_focus=RAJ_territorial_development_scheme has_completed_focus=RAJ_the_empires_workshop}
+}
+
+RAJ_set132={
+	has_completed_focus=RAJ_institute_of_fundamental_research_GOE
+	has_war = yes
+			arms_factory > 39
+}
+
+RAJ_set133={
+	has_completed_focus=RAJ_his_majestys_loyal_government
+}
+
+RAJ_set134={
+	has_completed_focus=RAJ_indian_gentleman_officers
+	NOT={OR={has_completed_focus=RAJ_consult_with_congress_leaders}}
+	has_country_leader = {
+				ruling_only = yes
+				character = RAJ_lord_linlithgow
+			}
+			is_subject_of = ENG
+			ENG = {
+				has_war = yes
+			}
+}
+
+RAJ_set135={
+	has_completed_focus=RAJ_indian_gentleman_officers
+	NOT={OR={has_completed_focus=RAJ_linlithgows_declaration_of_war}}
+	is_subject_of = ENG
+			ENG = {
+				has_war = yes
+			}
+}
+
+RAJ_set136={
+	has_completed_focus=RAJ_indian_gentleman_officers
+	992 = {
+				is_fully_controlled_by = ROOT
+			}
+}
+
+RAJ_set137={
+	OR={has_completed_focus=RAJ_linlithgows_declaration_of_war has_completed_focus=RAJ_consult_with_congress_leaders}
+}
+
+RAJ_set138={
+	has_completed_focus=RAJ_indian_gentleman_officers
+	threat > 0.5
+			OR = {
+				is_subject = no
+				is_subject_of = ENG
+			}
+			NOT = {
+				is_in_faction_with = PER
+				has_guaranteed = PER
+				has_non_aggression_pact_with = PER
+			}
+}
+
+RAJ_set139={
+	has_completed_focus=RAJ_mobilization_of_the_indian_army
+	NOT = {
+				has_idea = RAJ_mobilization_of_the_indian_army
+			}
+			has_war = yes
+			has_tech = marines
+}
+
+RAJ_set140={
+	has_completed_focus=RAJ_mobilization_of_the_indian_army
+	NOT = {
+				has_idea = RAJ_mobilization_of_the_indian_army
+			}
+			has_war = yes
+			has_tech = interwar_antiair
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				has_tech = early_ship_hull_light
+				has_tech = early_ship_hull_cruiser
+				has_tech = basic_battery
+				has_tech = basic_torpedo
+			}
+			else = {
+				has_tech = early_destroyer
+			}
+}
+
+RAJ_set141={
+	has_completed_focus=RAJ_mobilization_of_the_indian_army
+	NOT = {
+				has_idea = RAJ_mobilization_of_the_indian_army
+			}
+}
+
+RAJ_set142={
+	has_completed_focus=RAJ_south_east_asia_command
+}
+
+RAJ_set143={
+	has_completed_focus=RAJ_desert_training
+	447 = {
+				controller = {
+					OR = {
+						original_tag = ROOT
+						is_ally_with = ROOT
+					}
+					has_full_control_of_state = PREV
+				}
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = generic_requires_divs_in_state_tt
+					NUM_DIVISIONS = 0
+					STATE = [447.GetName]
+				}
+				num_divisions_in_states = {
+					count > 0
+					states = { 447 }
+				}
+			}
+}
+
+RAJ_set144={
+	has_completed_focus=RAJ_south_east_asia_command
+}
+
+RAJ_set145={
+	has_completed_focus=RAJ_jungle_training_GOE
+	336 = {
+				controller = {
+					OR = {
+						original_tag = ROOT
+						is_ally_with = ROOT
+					}
+					has_full_control_of_state = PREV
+				}
+			}
+			1021 = {
+				controller = {
+					OR = {
+						original_tag = ROOT
+						is_ally_with = ROOT
+					}
+					has_full_control_of_state = PREV
+				}
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = generic_requires_divs_in_state_tt
+					NUM_DIVISIONS = 0
+					STATE = [336.GetName]
+				}
+				num_divisions_in_states = {
+					count > 0
+					states = { 336 }
+				}
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = generic_requires_divs_in_state_tt
+					NUM_DIVISIONS = 0
+					STATE = [1021.GetName]
+				}
+				num_divisions_in_states = {
+					count > 0
+					states = { 1021 }
+				}
+			}
+}
+
+RAJ_set146={
+	has_completed_focus=RAJ_south_east_asia_command
+}
+
+RAJ_set147={
+	OR={has_completed_focus=RAJ_jungle_training_GOE has_completed_focus=RAJ_hill_training}
+	995 = {
+				controller = {
+					OR = {
+						original_tag = ROOT
+						is_ally_with = ROOT
+					}
+					has_full_control_of_state = PREV
+				}
+			}
+			998 = {
+				controller = {
+					OR = {
+						original_tag = ROOT
+						is_ally_with = ROOT
+					}
+					has_full_control_of_state = PREV
+				}
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = generic_requires_divs_in_state_tt
+					NUM_DIVISIONS = 0
+					STATE = [995.GetName]
+				}
+				num_divisions_in_states = {
+					count > 0
+					states = { 995 }
+				}
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = generic_requires_divs_in_state_tt
+					NUM_DIVISIONS = 0
+					STATE = [998.GetName]
+				}
+				num_divisions_in_states = {
+					count > 0
+					states = { 998 }
+				}
+			}
+}
+
+RAJ_set148={
+	has_completed_focus=RAJ_hill_training
+	has_tech = marines
+			992 = {
+				controller = {
+					is_ally_with = ROOT
+				}
+			}
+}
+
+RAJ_set149={
+	has_completed_focus=RAJ_defense_of_burma
+	990 = {
+				state_is_fully_controlled_by_ROOT_or_subject = yes
+			}
+}
+
+RAJ_set150={
+	has_completed_focus=RAJ_south_east_asia_command
+}
+
+RAJ_set151={
+	has_completed_focus=RAJ_urban_training
+	326 = {
+				controller = {
+					OR = {
+						original_tag = ROOT
+						is_ally_with = ROOT
+					}
+					has_full_control_of_state = PREV
+				}
+			}
+			custom_override_tooltip = {
+				tooltip = {
+					localization_key = generic_requires_divs_in_state_tt
+					NUM_DIVISIONS = 0
+					STATE = [326.GetName]
+				}
+				num_divisions_in_states = {
+					count > 0
+					states = { 326 }
+				}
+			}
+}
+
+RAJ_set152={
+	NOT={OR={has_completed_focus=RAJ_indianize_the_army}}
+	is_in_faction_with = ENG
+}
+
+RAJ_set153={
+	has_completed_focus=RAJ_keep_british_generals
+	is_in_faction_with = ENG
+}
+
+RAJ_set154={
+	has_completed_focus=RAJ_learn_from_the_crown
+	ENG = {
+				has_completed_focus = shadow_scheme_focus
+			}
+			is_in_faction_with = ENG
+}
+
+RAJ_set155={
+	has_completed_focus=RAJ_learn_from_the_crown
+	has_manpower > 100000
+			is_in_faction_with = ENG
+}
+
+RAJ_set156={
+	has_completed_focus=RAJ_colonial_cadet_exchange
+	is_in_faction_with = ENG
+}
+
+RAJ_set157={
+	has_completed_focus=RAJ_colonial_cadet_exchange
+	is_in_faction_with = ENG
+}
+
+RAJ_set158={
+	NOT={OR={has_completed_focus=RAJ_keep_british_generals}}
+}
+
+RAJ_set159={
+	OR={has_completed_focus=RAJ_indianize_the_army has_completed_focus=RAJ_keep_british_generals}
+	has_war_support > 0.5
+			NOT = {
+				has_idea = capital_investment_model
+			}
+}
+
+RAJ_set160={
+	has_completed_focus=RAJ_indianize_the_army
+}
+
+RAJ_set161={
+	has_completed_focus=RAJ_forming_an_indian_doctrine
+	NOT={OR={has_completed_focus=RAJ_model_after_usa has_completed_focus=RAJ_model_after_soviet}}
+	NOT = {
+				has_war_with = GER
+			}
+}
+
+RAJ_set162={
+	has_completed_focus=RAJ_forming_an_indian_doctrine
+	NOT={OR={has_completed_focus=RAJ_model_after_germany has_completed_focus=RAJ_model_after_soviet}}
+	NOT = {
+				has_war_with = USA
+			}
+}
+
+RAJ_set163={
+	has_completed_focus=RAJ_forming_an_indian_doctrine
+	NOT={OR={has_completed_focus=RAJ_model_after_usa has_completed_focus=RAJ_model_after_germany}}
+	NOT = {
+				has_war_with = SOV
+			}
+}
+
+RAJ_set164={
+	OR={has_completed_focus=RAJ_model_after_usa has_completed_focus=RAJ_model_after_germany}
+	NOT={OR={has_completed_focus=RAJ_for_the_people_by_the_people}}
+}
+
+RAJ_set165={
+	OR={has_completed_focus=RAJ_model_after_usa has_completed_focus=RAJ_model_after_soviet}
+	NOT={OR={has_completed_focus=RAJ_automating_the_army}}
+}
+
+RAJ_set166={
+	always=yes
+}
+
+RAJ_set167={
+	has_completed_focus=RAJ_east_india_railways_dlc
+	controls_state = 432
+}
+
+RAJ_set168={
+	has_completed_focus=RAJ_east_india_railways_dlc
+	BRM = {
+				is_in_faction_with = ROOT
+				controls_state = 995
+				controls_state = 640
+				controls_state = 998
+			}
+			CHI = {
+				any_enemy_country = {
+					is_major = yes
+					NOT = {
+						original_tag = BRM
+						is_in_faction_with = RAJ
+						original_tag = RAJ
+					}
+				}
+				exists = yes
+				is_subject = no
+				NOT = {
+					has_idea = idea_RAJ_allied_equipment_support
+				}
+			}
+}
+
+RAJ_set169={
+	has_completed_focus=RAJ_the_burma_road
+	OR = {
+				controls_state = 434
+				controls_state = 990
+				controls_state = 432
+			}
+			CHI = {
+				any_enemy_country = {
+					is_major = yes
+					NOT = {
+						original_tag = BRM
+						is_in_faction_with = RAJ
+						original_tag = RAJ
+					}
+				}
+				exists = yes
+				is_subject = no
+			}
+}
+
+RAJ_set170={
+	has_completed_focus=RAJ_east_india_railways_dlc
+	431 = {
+				is_fully_controlled_by = ROOT
+			}
+			430 = {
+				is_fully_controlled_by = ROOT
+			}
+			432 = {
+				is_fully_controlled_by = ROOT
+			}
+}
+
+RAJ_set171={
+	has_completed_focus=RAJ_great_indian_peninsula_railway_dlc
+}
+
+RAJ_set172={
+	OR={has_completed_focus=RAJ_east_india_railways_dlc has_completed_focus=RAJ_bombay_baroda_and_central_india_railway}
+}
+
+RAJ_set173={
+	always=yes
+}
+
+RAJ_set174={
+	has_completed_focus=RAJ_bombay_baroda_and_central_india_railway
+	controls_state = 429
+}
+
+RAJ_set175={
+	has_completed_focus=RAJ_great_indian_peninsula_railway_dlc
+}
+
+RAJ_set176={
+	has_completed_focus=RAJ_great_indian_peninsula_railway_dlc
+}
+
+RAJ_set177={
+	has_completed_focus=RAJ_supply_center_fortifications
+	NOT={OR={has_completed_focus=RAJ_prioritize_civilian_cargo}}
+}
+
+RAJ_set178={
+	has_completed_focus=RAJ_supply_center_fortifications
+	NOT={OR={has_completed_focus=RAJ_prioritize_army_cargo}}
+}
+
+RAJ_set179={
+	always=yes
+}
+
+RAJ_set180={
+	has_completed_focus=RAJ_ammunition_factory_khadki
+}
+
+RAJ_set181={
+	has_completed_focus=RAJ_rifle_factory_ishapore_west_bengal
+}
+
+RAJ_set182={
+	has_completed_focus=RAJ_rifle_factory_ishapore_west_bengal
+}
+
+RAJ_set183={
+	OR={has_completed_focus=RAJ_ordnance_factory_medak has_completed_focus=RAJ_ordnance_factory_kanpur_uttar_pradesh}
+}
+
+RAJ_set184={
+	has_completed_focus=RAJ_ammunition_factory_khadki
+}
+
+RAJ_set185={
+	has_completed_focus=RAJ_gun_and_shell_factory_cossipore
+}
+
+RAJ_set186={
+	OR={has_completed_focus=RAJ_cordite_factory_aruvankadu_tamil_nadu has_completed_focus=RAJ_ordnance_factory_kanpur_uttar_pradesh}
+	if = {
+				limit = {
+					NOT = {
+						has_dlc = "Arms Against Tyranny"
+					}
+				}
+				has_completed_focus = RAJ_rifle_factory_ishapore_west_bengal
+				has_completed_focus = RAJ_gun_and_shell_factory_cossipore
+			}
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				OR = {
+					mio:RAJ_ammunition_factory_khadki_organization = {
+						has_mio_size > 7
+					}
+					mio:RAJ_ordnance_factory_kanpur_organization = {
+						has_mio_size > 7
+					}
+					mio:RAJ_ordnance_factory_medak_organization = {
+						has_mio_size > 7
+					}
+					mio:RAJ_vickers_armstrong_organization = {
+						has_mio_size > 7
+					}
+				}
+			}
+}
+
+RAJ_set187={
+	has_completed_focus=RAJ_gun_and_shell_factory_cossipore
+}
+
+RAJ_set188={
+	OR={has_completed_focus=RAJ_mechanization_of_the_cavalry has_completed_focus=RAJ_ordnance_factory_khamaria_jabalpur}
+}
+
+RAJ_set189={
+	always=yes
+}
+
+RAJ_set190={
+	has_completed_focus=RAJ_royal_indian_artillery_dlc
+}
+
+RAJ_set191={
+	has_completed_focus=RAJ_armoured_corps_center_and_school
+}
+
+RAJ_set192={
+	has_completed_focus=RAJ_mechanization_of_the_cavalry
+}
+
+RAJ_set193={
+	has_completed_focus=RAJ_royal_indian_artillery_dlc
+}
+
+RAJ_set194={
+	OR={has_completed_focus=RAJ_indian_territorial_force has_completed_focus=RAJ_mountain_guns}
+}
+
+RAJ_set195={
+	has_completed_focus=RAJ_re_establish_the_khyber_rifles
+	if = {
+				limit = {
+					is_ai = yes
+				}
+				OR = {
+					any_other_country = {
+						has_character = RAJ_orde_wingate
+						is_ai = yes
+					}
+					any_other_country = {
+						NOT = {
+							has_character = RAJ_orde_wingate
+						}
+					}
+				}
+			}
+}
+
+RAJ_set196={
+	OR={has_completed_focus=RAJ_military_pensions has_completed_focus=RAJ_royal_indian_artillery_dlc}
+	NOT={OR={has_completed_focus=RAJ_standardized_rations}}
+}
+
+RAJ_set197={
+	OR={has_completed_focus=RAJ_military_pensions has_completed_focus=RAJ_royal_indian_artillery_dlc}
+	NOT={OR={has_completed_focus=RAJ_specialized_dietary_requirement}}
+}
+
+RAJ_set198={
+	OR={has_completed_focus=RAJ_specialized_dietary_requirement has_completed_focus=RAJ_standardized_rations}
+}
+
+RAJ_set199={
+	has_completed_focus=RAJ_military_pensions
+}
+
+RAJ_set200={
+	has_completed_focus=RAJ_frontier_corps
+}
+
+RAJ_set201={
+	has_completed_focus=RAJ_indian_territorial_force
+}
+
+RAJ_set202={
+	has_completed_focus=RAJ_frontier_corps
+}
+
+RAJ_set203={
+	has_completed_focus=RAJ_the_burma_rifles
+}
+
+RAJ_set204={
+	has_completed_focus=RAJ_gurkhas
+}
+
+RAJ_set205={
+	always=yes
+}
+
+RAJ_set206={
+	has_completed_focus=RAJ_military_pensions
+}
+
+RAJ_set207={
+	has_completed_focus=RAJ_indian_states_force
+}
+
+RAJ_set208={
+	has_completed_focus=RAJ_military_pensions
+}
+
+RAJ_set209={
+	OR={has_completed_focus=RAJ_legacy_of_military_service has_completed_focus=RAJ_military_pensions}
+}
+
+RAJ_set210={
+	has_completed_focus=RAJ_indian_army_corps_of_engineers
+}
+
+RAJ_set211={
+	has_completed_focus=RAJ_indian_army_corps_of_engineers
+}
+
+RAJ_set212={
+	has_completed_focus=RAJ_legacy_of_military_service
+	has_stability > 0.59
+}
+
+RAJ_set213={
+	is_raj_or_raj_inheritor = yes
+}
+
+RAJ_set214={
+	has_completed_focus=RAJ_local_recruitment_offices
+}
+
+RAJ_set215={
+	has_completed_focus=RAJ_legacy_of_military_service
+	has_war_support > 0.4
+}
+
+RAJ_set216={
+	OR={has_completed_focus=RAJ_relax_agrarian_society_criteria has_completed_focus=RAJ_regimental_loyalty}
+	has_war_support > 0.68
+			OR = {
+				has_war_with_major = yes
+				surrender_progress > 0.2
+			}
+}
+
+RAJ_set217={
+	has_completed_focus=RAJ_abolish_agrarian_society_criteria
+}
+
+RAJ_set218={
+	OR={has_completed_focus=RAJ_british_air_experts has_completed_focus=RAJ_abolish_agrarian_society_criteria}
+}
+
+RAJ_set219={
+	always=yes
+}
+
+RAJ_set220={
+	has_completed_focus=RAJ_indian_air_force
+}
+
+RAJ_set221={
+	has_completed_focus=RAJ_indian_air_force
+}
+
+RAJ_set222={
+	has_completed_focus=RAJ_trainer_planes
+}
+
+RAJ_set223={
+	has_completed_focus=RAJ_trainer_planes
+}
+
+RAJ_set224={
+	OR={has_completed_focus=RAJ_spitfire has_completed_focus=RAJ_long_range_escorts}
+}
+
+RAJ_set225={
+	has_completed_focus=RAJ_british_air_experts
+}
+
+RAJ_set226={
+	has_completed_focus=RAJ_british_air_experts
+}
+
+RAJ_set227={
+	has_completed_focus=RAJ_trainer_planes
+}
+
+RAJ_set228={
+	has_completed_focus=RAJ_ground_pounder
+}
+
+RAJ_set229={
+	has_completed_focus=RAJ_trainer_planes
+}
+
+RAJ_set230={
+	always=yes
+}
+
+RAJ_set231={
+	has_completed_focus=RAJ_royal_indian_navy_dlc
+}
+
+RAJ_set232={
+	has_completed_focus=RAJ_royal_indian_navy_dlc
+	if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				has_tech = basic_ship_hull_light
+			}
+			else = {
+				has_tech = basic_destroyer
+			}
+}
+
+RAJ_set233={
+	has_completed_focus=RAJ_royal_indian_navy_dlc
+}
+
+RAJ_set234={
+	OR={has_completed_focus=RAJ_black_swan_sloops has_completed_focus=RAJ_expand_mazagon_dock_dlc}
+	NOT={OR={has_completed_focus=RAJ_found_scindia_shipyard_dlc}}
+	is_in_faction_with = ENG
+}
+
+RAJ_set235={
+	has_completed_focus=RAJ_obtain_british_naval_contracts
+	has_idea = RAJ_british_naval_agreement
+}
+
+RAJ_set236={
+	has_completed_focus=RAJ_indian_marine_corps
+}
+
+RAJ_set237={
+	OR={has_completed_focus=RAJ_black_swan_sloops has_completed_focus=RAJ_expand_mazagon_dock_dlc}
+	NOT={OR={has_completed_focus=RAJ_obtain_british_naval_contracts}}
+}
+
+RAJ_set238={
+	has_completed_focus=RAJ_obtain_british_naval_contracts
+	has_idea = RAJ_british_naval_agreement
+}
+
+RAJ_set239={
+	has_completed_focus=RAJ_found_scindia_shipyard_dlc
+}
+
+RAJ_set240={
+	has_completed_focus=RAJ_purchase_decomissioned_british_ships
+	has_idea = RAJ_british_naval_agreement
+			ENG = {
+				if = {
+					limit = {
+						has_dlc = "Man the Guns"
+					}
+					has_tech = basic_ship_hull_cruiser
+				}
+				else = {
+					has_tech = basic_light_cruiser
+				}
+			}
+}
+
+RAJ_set241={
+	OR={has_completed_focus=RAJ_dominate_the_bay_of_bengal has_completed_focus=RAJ_indian_cruiser_development}
+}
+
+RAJ_set242={
+	has_completed_focus=RAJ_found_scindia_shipyard_dlc
+}
+
+RAJ_set243={
+	has_completed_focus=RAJ_indian_cruiser_development
+}
+
+RAJ_set244={
+	OR={has_completed_focus=RAJ_obtain_modern_ship_contracts has_completed_focus=RAJ_increase_funding_for_the_GRSE}
+}
+
+RAJ_set245={
+	has_completed_focus=RAJ_increase_funding_for_the_GRSE
+}

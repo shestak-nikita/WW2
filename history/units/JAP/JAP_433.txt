@@ -1,0 +1,1 @@
+focus={current=JAP_form_greater_east_asian_currency_union}

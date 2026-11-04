@@ -1,0 +1,1 @@
+focus={current=SOV_reclaim_uryankhay_krai}

@@ -1,0 +1,26 @@
+NFQ_allowed_tag = {
+	or=  {
+		tag=JAP
+		tag=USA
+		tag=ENG
+		tag=GER
+		tag=ITA
+		tag=SOV
+		tag=FRA
+		tag=RAJ
+	}
+}
+NFQ_CanFocusLoad = {
+	is_ai=no  # I found out the hard way that somehow allowing it for ai makes the game crash
+	#has_variable=NFQ_focus_queue^0  # (Commented out, but implied)
+	NFQ_IsFocusSelected=no  # No focus currently active
+	NOT = {has_country_flag=NFQ_error}  
+	NOT = { has_country_flag = NFQ_holding }  # Prevents loading while hold is active
+
+}
+# NFQ_IsFocusSelected: Checks if a focus is currently selected.
+# Uses a game modifier to determine if a focus is active (hacky, but works ig).
+NFQ_IsFocusSelected = {
+	set_temp_variable={NFQ_polcost=modifier@female_random_country_leader_chance}  # Get modifier value
+	check_variable={NFQ_polcost > 1.99}  # If >1.99, assume no focus selected
+}

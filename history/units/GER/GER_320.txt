@@ -1,0 +1,1 @@
+focus={current=GER_tend_to_the_future_of_germany}

@@ -1,0 +1,1 @@
+focus={current=FRA_proclaim_the_third_empire}

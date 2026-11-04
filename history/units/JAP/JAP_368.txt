@@ -1,0 +1,1 @@
+focus={current=JAP_ignite_the_korean_peninsula}

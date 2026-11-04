@@ -1,0 +1,1 @@
+focus={current=SOV_curtailment_of_the_collective_farms}

@@ -1,0 +1,1 @@
+focus={current=JAP_trans_pacific_influence}

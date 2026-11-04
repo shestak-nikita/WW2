@@ -1,0 +1,12 @@
+﻿l_russian:
+ GER_integrate_organization_todt_into_wehrmacht:0 "Интеграция организации Тодта в Вермахт"
+ GER_integrate_organization_todt_into_wehrmacht_desc:0 "После передачи Организации Тодт под контроль Вермахта концерн можно перепрофилировать под нужды военной экономики. Бонус к гражданским фабрикам будет преобразован либо в строительство нефтеперерабатывающих заводов, либо в строительство военных заводов."
+ GER_integrate_organization_todt_into_wehrmacht_effect_tt:0 "Запускает событие: $EVENT$. Бонус 15% к строительству гражданских фабрик преобразуется либо в 15% к строительству нефтеперерабатывающих заводов, либо в 15% к строительству военных заводов."
+ NFQ_GER_organization_todt.1.t:0 "Организация Тодт и Вермахт"
+ NFQ_GER_organization_todt.1.desc:0 "Организация Тодт перешла под контроль Вермахта. Её строительный аппарат можно перепрофилировать: гражданскую фабричную программу можно превратить в производство синтетического топлива или в военное строительство."
+ NFQ_GER_organization_todt.1.a:0 "Переориентировать концерн на синтетическое топливо"
+ NFQ_GER_organization_todt.1.b:0 "Переориентировать концерн на военное строительство"
+ GER_organization_todt_integrated_refinery:0 "Организация Тодт — нефтепереработка"
+ GER_organization_todt_integrated_military:0 "Организация Тодт — военное строительство"
+ GER_organization_todt_integrated_refinery_trait:0 "$construction_company$"
+ GER_organization_todt_integrated_military_trait:0 "$construction_company$"

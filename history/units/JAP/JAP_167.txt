@@ -1,0 +1,1 @@
+focus={current=JAP_integrate_the_kenkokutai}

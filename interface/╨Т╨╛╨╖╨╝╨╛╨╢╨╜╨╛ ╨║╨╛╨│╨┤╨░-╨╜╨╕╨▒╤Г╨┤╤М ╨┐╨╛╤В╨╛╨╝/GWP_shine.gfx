@@ -1,0 +1,10 @@
+spriteTypes = {	
+	FrameAnimatedSpriteType = {
+	name = "GFX_SOV_focus_1"
+	texturefile = "gfx/interface/goals/SOV_1.png"
+	noOfFrames = 64
+	animation_rate_fps = 15
+	looping = no
+	play_on_show = yes
+	}
+}

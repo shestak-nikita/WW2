@@ -1,0 +1,1 @@
+focus={current=GER_ressurect_the_red_front_fighters_league}

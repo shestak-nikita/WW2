@@ -1,0 +1,1 @@
+focus={current=FRA_light_medium_armor}

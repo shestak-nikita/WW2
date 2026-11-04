@@ -1,0 +1,1 @@
+focus={current=FRA_heavy_armor_focus}

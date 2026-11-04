@@ -1,0 +1,1 @@
+focus={current=GER_negotiate_old_colonies_in_the_east}

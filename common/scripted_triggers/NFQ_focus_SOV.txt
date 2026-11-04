@@ -1,0 +1,1119 @@
+SOV_set101={always=yes}
+SOV_set102={always=yes}
+SOV_set103={has_completed_focus=SOV_infrastructure_effort_nsb has_completed_focus=SOV_heavy_industry
+	custom_trigger_tooltip={
+		tooltip=SOV_fyp_controlled_factories_tier_1_tt
+		NOT={num_of_controlled_factories<SOV_fyp_factory_requirement_tier_1}
+	}}
+SOV_set104={has_completed_focus=SOV_finish_the_five_year_plan}
+SOV_set105={has_completed_focus=SOV_finish_the_five_year_plan
+	SOV_third_five_year_plan_available=yes
+	custom_trigger_tooltip={
+		tooltip=SOV_fyp_controlled_factories_tier_2_tt
+		NOT={num_of_controlled_factories<SOV_fyp_factory_requirement_tier_2}
+	}
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set106={has_completed_focus=SOV_third_five_year_plan
+	not={has_completed_focus=SOV_shift_to_armaments_production}
+	SOV_third_five_year_plan_available=yes
+	custom_trigger_tooltip={
+		tooltip=SOV_fyp_controlled_factories_tier_3_tt
+		NOT={num_of_controlled_factories<SOV_fyp_factory_requirement_tier_3}
+	}
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set107={has_completed_focus=SOV_reorganize_the_pc_of_heavy_industry
+	SOV_third_five_year_plan_available=yes
+	custom_trigger_tooltip={
+		tooltip=SOV_fyp_controlled_factories_tier_4_tt
+		NOT={num_of_controlled_factories<SOV_fyp_factory_requirement_tier_4}
+	}
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set108={has_completed_focus=SOV_third_five_year_plan
+	SOV_third_five_year_plan_available=yes
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set109={has_completed_focus=SOV_third_five_year_plan
+	not={has_completed_focus=SOV_reorganize_the_pc_of_heavy_industry}
+	SOV_third_five_year_plan_available=yes
+	custom_trigger_tooltip={
+		tooltip=SOV_fyp_controlled_factories_tier_3_tt
+		NOT={num_of_controlled_factories<SOV_fyp_factory_requirement_tier_3}
+	}
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set110={has_completed_focus=SOV_shift_to_armaments_production
+	SOV_third_five_year_plan_available=yes
+	custom_trigger_tooltip={
+		tooltip=SOV_fyp_controlled_factories_tier_4_tt
+		NOT={num_of_controlled_factories<SOV_fyp_factory_requirement_tier_4}
+	}
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set111={or={has_completed_focus=SOV_reorganize_the_pc_of_heavy_industry has_completed_focus=SOV_shift_to_armaments_production}
+	any_owned_state={
+		has_resources_amount={
+			resource=steel
+			amount>0
+		}
+		free_building_slots={
+			building=industrial_complex
+			size>1
+			include_locked=yes
+		}
+	}
+	SOV_third_five_year_plan_available=yes
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set112={has_completed_focus=SOV_steel_casting_industry
+	has_tech=rubber_processing
+	SOV_third_five_year_plan_available=yes
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}
+	has_full_control_of_state=219
+	OR={has_full_control_of_state=260 has_full_control_of_state=223}}
+SOV_set113={has_completed_focus=SOV_steel_casting_industry
+	SOV_third_five_year_plan_available=yes
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set114={or={has_completed_focus=SOV_industrial_modernization has_completed_focus=SOV_optimize_production_lines}
+	SOV_fourth_five_year_plan_available=yes
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set115={has_completed_focus=SOV_restoration_and_development
+	custom_trigger_tooltip={
+		tooltip=SOV_fyp_controlled_factories_tier_5_tt
+		NOT={num_of_controlled_factories<SOV_fyp_factory_requirement_tier_5}
+	}
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set116={has_completed_focus=SOV_fourth_five_year_plan
+	num_subjects>0
+	NOT={has_completed_focus=SOV_curtailment_of_the_collective_farms}}
+SOV_set117={has_completed_focus=SOV_fourth_five_year_plan
+num_subjects>0}
+SOV_set118={has_completed_focus=SOV_found_the_comecon
+	num_subjects>0
+	is_subject=no
+	is_faction_leader=yes
+	has_government=communism}
+SOV_set119={has_completed_focus=SOV_fourth_five_year_plan has_completed_focus=SOV_national_academies_of_sciences}
+SOV_set120={has_completed_focus=SOV_finish_the_five_year_plan
+	not={has_completed_focus=SOV_foreign_experts}}
+SOV_set121={has_completed_focus=SOV_finish_the_five_year_plan
+	not={has_completed_focus=SOV_national_specialists}}
+SOV_set122={or={has_completed_focus=SOV_national_specialists has_completed_focus=SOV_foreign_experts}
+	OR={
+		408={is_fully_controlled_by=ROOT}
+		409={is_fully_controlled_by=ROOT}
+		566={is_fully_controlled_by=ROOT}
+		564={is_fully_controlled_by=ROOT}
+	}}
+SOV_set123={or={has_completed_focus=SOV_national_specialists has_completed_focus=SOV_foreign_experts}
+	OR={
+		572={is_fully_controlled_by=ROOT}
+		573={is_fully_controlled_by=ROOT}
+		582={is_fully_controlled_by=ROOT}
+		653={is_fully_controlled_by=ROOT}
+	}}
+SOV_set124={has_completed_focus=SOV_eastern_development has_completed_focus=SOV_develop_the_urals}
+SOV_set125={has_completed_focus=SOV_the_ussr_academy_of_sciences}
+SOV_set126={has_completed_focus=SOV_fourth_five_year_plan has_completed_focus=SOV_national_academies_of_sciences
+	196={is_controlled_by_ROOT_or_subject=yes}
+	251={is_controlled_by_ROOT_or_subject=yes}
+	217={is_controlled_by_ROOT_or_subject=yes}
+	245={is_controlled_by_ROOT_or_subject=yes}}
+SOV_set127={has_completed_focus=SOV_fourth_five_year_plan has_completed_focus=SOV_national_academies_of_sciences}
+SOV_set128={always=yes}
+SOV_set129={has_completed_focus=SOV_transpolar_flights
+	any_owned_state={
+		is_fully_controlled_by=ROOT
+		free_building_slots={
+			building=arms_factory
+			size>1
+			include_locked=yes
+		}
+	}}
+SOV_set130={has_completed_focus=SOV_expand_the_aircraft_industry}
+SOV_set131={has_completed_focus=SOV_modernize_aircraft_facilities
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}}
+SOV_set132={has_completed_focus=SOV_the_ussr_academy_of_sciences has_completed_focus=SOV_merge_aircraft_plants}
+SOV_set133={has_completed_focus=SOV_expand_the_aircraft_industry
+	not={has_completed_focus=SOV_intensify_pilot_training_program}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}}
+SOV_set134={has_completed_focus=SOV_transpolar_flights}
+SOV_set135={has_completed_focus=SOV_foster_flying_clubs
+	OR={has_completed_focus=SOV_the_path_of_marxism_leninism has_completed_focus=SOV_womens_fascist_movement}}
+SOV_set136={has_completed_focus=SOV_women_in_aviation
+	any_enemy_country={SOV_is_major_not_original_sov=yes}
+	has_full_control_of_state=219}
+SOV_set137={has_completed_focus=SOV_foster_flying_clubs
+	not={has_completed_focus=SOV_increase_aircraft_production}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}}
+SOV_set138={or={has_completed_focus=SOV_expand_the_aircraft_industry has_completed_focus=SOV_foster_flying_clubs}}
+SOV_set139={or={has_completed_focus=SOV_increase_aircraft_production has_completed_focus=SOV_intensify_pilot_training_program}
+	not={has_completed_focus=SOV_long_range_aircraft}}
+SOV_set140={or={has_completed_focus=SOV_increase_aircraft_production has_completed_focus=SOV_intensify_pilot_training_program}
+	not={has_completed_focus=SOV_ground_support}}
+SOV_set141={or={has_completed_focus=SOV_ground_support has_completed_focus=SOV_long_range_aircraft}}
+SOV_set142={always=yes}
+SOV_set143={has_completed_focus=SOV_expand_the_red_fleet
+	195={is_owned_and_controlled_by=ROOT}}
+SOV_set144={has_completed_focus=SOV_expand_the_red_fleet
+	OR={
+		213={is_owned_and_controlled_by=ROOT}
+		214={is_owned_and_controlled_by=ROOT}
+	}}
+SOV_set145={has_completed_focus=SOV_expand_the_red_fleet
+	OR={
+		192={is_owned_and_controlled_by=ROOT}
+		137={is_owned_and_controlled_by=ROOT}
+		218={is_owned_and_controlled_by=ROOT}
+		234={is_owned_and_controlled_by=ROOT}
+	}}
+SOV_set146={has_completed_focus=SOV_expand_the_red_fleet
+	OR={
+		408={is_owned_and_controlled_by=ROOT}
+		409={is_owned_and_controlled_by=ROOT}
+	}}
+SOV_set147={or={has_completed_focus=SOV_reinforce_western_naval_bases has_completed_focus=SOV_reinforce_northern_naval_bases has_completed_focus=SOV_reinforce_southern_naval_bases has_completed_focus=SOV_reinforce_eastern_naval_bases}}
+SOV_set148={has_completed_focus=SOV_expand_shipbuilding_plants
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}}
+SOV_set149={has_completed_focus=SOV_expand_the_red_fleet}
+SOV_set150={has_completed_focus=SOV_pc_of_the_ussr_navy
+	not={has_completed_focus=SOV_submarine_warfare}}
+SOV_set151={has_completed_focus=SOV_pc_of_the_ussr_navy
+	not={has_completed_focus=SOV_surface_warfare}}
+SOV_set152={has_completed_focus=SOV_surface_warfare
+	if={
+		limit={has_dlc="Man the Guns"}
+		has_tech=basic_ship_hull_heavy
+	}}
+SOV_set153={or={has_completed_focus=SOV_surface_warfare has_completed_focus=SOV_submarine_warfare}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	if={
+		limit={has_dlc="Man the Guns"}
+		has_tech=basic_ship_hull_heavy
+	}}
+SOV_set154={or={has_completed_focus=SOV_surface_warfare has_completed_focus=SOV_submarine_warfare}}
+SOV_set155={has_completed_focus=SOV_submarine_warfare}
+SOV_set156={has_completed_focus=SOV_expand_shipbuilding_plants has_completed_focus=SOV_an_oceangoing_navy}
+SOV_set157={or={has_completed_focus=SOV_increase_aircraft_production has_completed_focus=SOV_intensify_pilot_training_program} has_completed_focus=SOV_advanced_maneuvers}
+SOV_set158={has_completed_focus=SOV_advanced_maneuvers}
+SOV_set159={always=yes}
+SOV_set160={has_completed_focus=SOV_found_the_pcdi
+has_full_control_of_state=219}
+SOV_set161={has_completed_focus=SOV_pc_of_mechanical_engineering
+	if={
+		limit={has_dlc="No Step Back"}
+		has_tech=improved_medium_tank_chassis
+	}
+	else={has_tech=improved_medium_tank}}
+SOV_set162={has_completed_focus=SOV_pc_of_mechanical_engineering}
+SOV_set163={has_completed_focus=SOV_superior_war_machines}
+SOV_set164={has_completed_focus=SOV_pc_of_mechanical_engineering
+has_full_control_of_state=219}
+SOV_set165={has_completed_focus=SOV_the_means_to_wage_war
+	custom_trigger_tooltip={
+		tooltip=SOV_fyp_controlled_factories_tier_4_tt
+		NOT={num_of_controlled_factories<SOV_fyp_factory_requirement_tier_4}
+	}}
+SOV_set166={or={has_completed_focus=SOV_development_of_tankograd has_completed_focus=SOV_pc_of_mortar_armament has_completed_focus=SOV_soviet_artillery}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}}
+SOV_set167={always=yes}
+SOV_set168={has_completed_focus=SOV_found_the_pcdi has_completed_focus=SOV_strengthen_the_mobilization_plan}
+SOV_set169={has_completed_focus=SOV_the_means_to_wage_war has_completed_focus=SOV_military_engineering_university}
+SOV_set170={has_completed_focus=SOV_leningrad_polytechnical_institute
+	custom_trigger_tooltip={
+		tooltip=SOV_national_academies_of_sciences_available_tt
+		set_temp_variable={SOV_current_academies=SOV_academy_of_sciences_research_speed_factor}
+		multiply_temp_variable={SOV_current_academies=100}
+		check_variable={
+			SOV_current_academies=SOV_academies_required_for_atomic_bomb_project
+			compare=greater_than_or_equals
+		}
+	}
+	is_subject=no}
+SOV_set171={has_completed_focus=SOV_military_engineering_university
+	has_full_control_of_state=219
+	has_equipment={train_equipment>119}
+	OR={
+		threat>0.85
+		any_enemy_country={
+			SOV_is_major_not_original_sov=yes
+			capital_scope={is_on_continent=europe}
+		}
+	}}
+SOV_set172={has_completed_focus=SOV_leningrad_polytechnical_institute has_completed_focus=SOV_move_industry_to_the_urals
+	OR={
+		195={
+			is_controlled_by=ROOT
+			any_neighbor_state={
+				is_owned_by=ROOT
+				NOT={is_fully_controlled_by=ROOT}
+			}
+		}
+		219={
+			is_controlled_by=ROOT
+			any_neighbor_state={
+				is_owned_by=ROOT
+				NOT={is_fully_controlled_by=ROOT}
+			}
+		}
+		217={
+			is_controlled_by=ROOT
+			any_neighbor_state={
+				is_owned_by=ROOT
+				NOT={is_fully_controlled_by=ROOT}
+			}
+		}
+		137={
+			is_controlled_by=ROOT
+			any_neighbor_state={
+				is_owned_by=ROOT
+				NOT={is_fully_controlled_by=ROOT}
+			}
+		}
+		202={
+			is_controlled_by=ROOT
+			any_neighbor_state={
+				is_owned_by=ROOT
+				NOT={is_fully_controlled_by=ROOT}
+			}
+		}
+	}}
+SOV_set173={has_completed_focus=SOV_military_engineering_university
+	not={has_completed_focus=SOV_improve_the_stalin_line}
+	OR={has_full_control_of_state=188 has_full_control_of_state=189 has_full_control_of_state=814 has_full_control_of_state=97 has_full_control_of_state=94 has_full_control_of_state=93 has_full_control_of_state=91 has_full_control_of_state=89 has_full_control_of_state=80 has_full_control_of_state=78 has_full_control_of_state=766}}
+SOV_set174={has_completed_focus=SOV_military_engineering_university
+	not={has_completed_focus=SOV_the_molotov_line}
+	OR={has_full_control_of_state=209 has_full_control_of_state=210 has_full_control_of_state=207 has_full_control_of_state=206 has_full_control_of_state=202 has_full_control_of_state=203 has_full_control_of_state=834 has_full_control_of_state=192}}
+SOV_set175={or={has_completed_focus=SOV_move_industry_to_the_urals has_completed_focus=SOV_improve_the_stalin_line has_completed_focus=SOV_the_molotov_line}
+	219={
+		is_controlled_by=ROOT
+		OR={
+			any_neighbor_state={
+				NOT={is_controlled_by=ROOT}
+			}
+			SOV={surrender_progress>0.1}
+		}
+	}}
+SOV_set176={or={has_completed_focus=SOV_improve_the_stalin_line has_completed_focus=SOV_the_molotov_line}
+	OR={has_full_control_of_state=195 has_full_control_of_state=208 has_full_control_of_state=137}}
+SOV_set177={has_completed_focus=SOV_military_engineering_university
+has_full_control_of_state=215 has_full_control_of_state=216 has_full_control_of_state=264 has_full_control_of_state=195}
+SOV_set178={has_completed_focus=SOV_military_engineering_university
+	OR={has_full_control_of_state=563 has_full_control_of_state=561 has_full_control_of_state=657 has_full_control_of_state=409 has_full_control_of_state=408}}
+SOV_set179={has_completed_focus=SOV_strengthen_the_mobilization_plan
+	not={has_completed_focus=SOV_cohesion_first}}
+SOV_set180={has_completed_focus=SOV_strengthen_the_mobilization_plan
+	not={has_completed_focus=SOV_restore_cossack_units}}
+SOV_set181={or={has_completed_focus=SOV_restore_cossack_units has_completed_focus=SOV_cohesion_first}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}}
+SOV_set182={has_completed_focus=SOV_rehabilitated_military}
+SOV_set183={has_completed_focus=SOV_strengthen_the_mobilization_plan
+	any_enemy_country={SOV_is_major_not_original_sov=yes}}
+SOV_set184={has_completed_focus=SOV_rehabilitated_military has_completed_focus=SOV_desperate_measures}
+SOV_set185={has_completed_focus=SOV_rehabilitated_military has_completed_focus=SOV_desperate_measures
+	NOT={has_idea=SOV_desperate_measures_ns}}
+SOV_set186={has_completed_focus=SOV_desperate_measures
+has_war=yes}
+SOV_set187={has_completed_focus=SOV_lessons_of_war
+	any_owned_state={
+		controller={has_war_with=ROOT}
+	}}
+SOV_set188={has_completed_focus=SOV_lessons_of_war}
+SOV_set189={has_completed_focus=SOV_smersh}
+SOV_set190={has_completed_focus=SOV_military_reorganization}
+SOV_set191={has_completed_focus=SOV_military_reorganization has_completed_focus=SOV_lessons_of_war
+	not={has_completed_focus=SOV_swap_to_political_advisors}}
+SOV_set192={has_completed_focus=SOV_military_reorganization has_completed_focus=SOV_lessons_of_war
+	not={has_completed_focus=SOV_swap_to_political_advisors}
+has_completed_focus=SOV_church_candidates}
+SOV_set193={has_completed_focus=SOV_military_reorganization has_completed_focus=SOV_lessons_of_war
+	not={has_completed_focus=SOV_keep_commissars_organization has_completed_focus=SOV_adjoined_battle_priests}}
+SOV_set194={or={has_completed_focus=SOV_keep_commissars_organization has_completed_focus=SOV_swap_to_political_advisors has_completed_focus=SOV_adjoined_battle_priests}
+	any_enemy_country={SOV_is_major_not_original_sov=yes}
+	surrender_progress<0.05}
+SOV_set195={or={has_completed_focus=SOV_keep_commissars_organization has_completed_focus=SOV_swap_to_political_advisors has_completed_focus=SOV_adjoined_battle_priests}
+	any_enemy_country={SOV_is_major_not_original_sov=yes}
+	surrender_progress<0.05}
+SOV_set196={not={has_completed_focus=SOV_beaten_but_not_defeated}}
+SOV_set197={has_completed_focus=SOV_the_path_of_marxism_leninism
+	not={has_completed_focus=SOV_the_right_opposition has_completed_focus=SOV_the_left_opposition}}
+SOV_set198={has_completed_focus=SOV_the_centre}
+SOV_set199={has_completed_focus=SOV_the_centre}
+SOV_set200={has_completed_focus=SOV_the_stalin_constitution}
+SOV_set201={has_completed_focus=SOV_the_zinovyevite_terrorist_center}
+SOV_set202={has_completed_focus=SOV_socialism_in_one_country has_completed_focus=SOV_secure_the_administration}
+SOV_set203={has_completed_focus=SOV_the_zinovyevite_terrorist_center
+	has_country_flag={
+		flag=SOV_first_moscow_trial_flag
+		days>175
+	}
+	custom_trigger_tooltip={
+		tooltip=SOV_last_purge_focus_days_tt
+		has_country_flag={
+			flag=SOV_first_moscow_trial_flag
+			days>175
+		}
+	}}
+SOV_set204={has_completed_focus=SOV_the_anti_soviet_trotskyist_center}
+SOV_set205={has_completed_focus=SOV_the_collectivization_process has_completed_focus=SOV_the_workers_dictatorship}
+SOV_set206={has_completed_focus=SOV_organization_centralization_discipline}
+SOV_set207={has_completed_focus=SOV_the_workers_dictatorship
+	has_country_flag={
+		flag=SOV_second_moscow_trial_flag
+		days>175
+	}
+	custom_trigger_tooltip={
+		tooltip=SOV_last_purge_focus_days_military_tt
+		has_country_flag={
+			flag=SOV_second_moscow_trial_flag
+			days>175
+		}
+	}}
+SOV_set208={has_completed_focus=SOV_the_military_conspiracy
+	has_country_flag={
+		flag=SOV_trial_of_the_generals_flag
+		days>175
+	}
+	custom_trigger_tooltip={
+		tooltip=SOV_last_purge_focus_days_rights_tt
+		has_country_flag={
+			flag=SOV_trial_of_the_generals_flag
+			days>175
+		}
+	}}
+SOV_set209={has_completed_focus=SOV_the_military_conspiracy
+	has_government=communism
+	NOT={has_global_flag=AAT_trotsky_sent_to_stalin}
+	has_global_flag=AAT_trotsky_in_mexico}
+SOV_set210={has_completed_focus=SOV_the_bloc_of_rights_and_trotskyites
+	has_country_flag={
+		flag=SOV_third_moscow_trial_flag
+		days>175
+	}
+	custom_trigger_tooltip={
+		tooltip=SOV_last_purge_focus_days_cult_tt
+		has_country_flag={
+			flag=SOV_third_moscow_trial_flag
+			days>175
+		}
+	}
+	has_completed_focus=SOV_expand_the_agitprop
+	has_country_leader={
+		character=SOV_iosif_stalin
+		ruling_only=yes
+	}}
+SOV_set211={has_completed_focus=SOV_stalins_cult_of_personality
+	has_defensive_war=yes
+	if={
+		limit={has_dlc="No Step Back"}
+		has_tech=advanced_heavy_tank_chassis
+	}
+	else={has_tech=advanced_heavy_tank}}
+SOV_set212={has_completed_focus=SOV_stalins_cult_of_personality
+	not={has_completed_focus=SOV_the_faithful_servant_of_lenin}
+	custom_trigger_tooltip={
+		tooltip=SOV_propaganda_campaigns_taken_5_or_greater_tt
+		check_variable={
+			SOV_propaganda_campaigns_taken=5
+			compare=greater_than_or_equals
+		}
+	}}
+SOV_set213={has_completed_focus=SOV_inheritor_of_the_mantle_of_lenin
+	custom_trigger_tooltip={
+		tooltip=SOV_propaganda_campaigns_taken_10_or_greater_tt
+		check_variable={
+			SOV_propaganda_campaigns_taken=10
+			compare=greater_than_or_equals
+		}
+	}}
+SOV_set214={has_completed_focus=SOV_stalins_cult_of_personality
+	not={has_completed_focus=SOV_inheritor_of_the_mantle_of_lenin}
+	custom_trigger_tooltip={
+		tooltip=SOV_propaganda_campaigns_taken_5_or_greater_tt
+		check_variable={
+			SOV_propaganda_campaigns_taken=5
+			compare=greater_than_or_equals
+		}
+	}}
+SOV_set215={has_completed_focus=SOV_the_faithful_servant_of_lenin
+	custom_trigger_tooltip={
+		tooltip=SOV_propaganda_campaigns_taken_10_or_greater_tt
+		check_variable={
+			SOV_propaganda_campaigns_taken=10
+			compare=greater_than_or_equals
+		}
+	}}
+SOV_set216={or={has_completed_focus=SOV_inheritor_of_the_mantle_of_lenin has_completed_focus=SOV_the_faithful_servant_of_lenin}
+	custom_trigger_tooltip={
+		tooltip=SOV_propaganda_campaigns_taken_10_or_greater_tt
+		check_variable={
+			SOV_propaganda_campaigns_taken=10
+			compare=greater_than_or_equals
+		}
+	}}
+SOV_set217={has_completed_focus=SOV_inheritor_of_the_mantle_of_lenin has_completed_focus=SOV_leader_of_the_party_and_the_people
+	not={has_completed_focus=SOV_architect_of_communism}
+	custom_trigger_tooltip={
+		tooltip=SOV_propaganda_campaigns_taken_15_or_greater_tt
+		check_variable={
+			SOV_propaganda_campaigns_taken=15
+			compare=greater_than_or_equals
+		}
+	}}
+SOV_set218={has_completed_focus=SOV_the_faithful_servant_of_lenin has_completed_focus=SOV_leader_of_the_party_and_the_people
+	not={has_completed_focus=SOV_great_commander}
+	custom_trigger_tooltip={
+		tooltip=SOV_propaganda_campaigns_taken_15_or_greater_tt
+		check_variable={
+			SOV_propaganda_campaigns_taken=15
+			compare=greater_than_or_equals
+		}
+	}}
+SOV_set219={or={has_completed_focus=SOV_great_commander has_completed_focus=SOV_architect_of_communism}
+	custom_trigger_tooltip={
+		tooltip=SOV_propaganda_campaigns_taken_20_or_greater_tt
+		check_variable={
+			SOV_propaganda_campaigns_taken=20
+			compare=greater_than_or_equals
+		}
+	}}
+SOV_set220={has_completed_focus=SOV_stalins_cult_of_personality}
+SOV_set221={has_completed_focus=SOV_freedom_of_debate_unity_of_action
+num_subjects>0}
+SOV_set222={has_completed_focus=SOV_the_path_of_marxism_leninism
+	not={has_completed_focus=SOV_the_right_opposition has_completed_focus=SOV_the_centre}
+	SOV_soviet_civil_war_not_started=yes
+	custom_trigger_tooltip={
+		tooltip=SOV_no_major_purge_tt
+		check_variable={SOV_great_purge_counter<1}
+	}}
+SOV_set223={has_completed_focus=SOV_the_left_opposition
+	custom_trigger_tooltip={
+		tooltip=SOV_major_purge_tt
+		check_variable={SOV_great_purge_counter>0}
+	}
+	SOV_soviet_civil_war_not_started=yes}
+SOV_set224={has_completed_focus=SOV_the_left_opposition}
+SOV_set225={has_completed_focus=SOV_the_left_opposition
+SOV_soviet_civil_war_not_started=yes}
+SOV_set226={has_completed_focus=SOV_the_left_opposition
+	SOV_soviet_civil_war_not_started=yes
+	SOV_has_selected_hq=yes}
+SOV_set227={has_completed_focus=SOV_the_left_opposition
+	not={has_completed_focus=SOV_cooperation_against_stalin}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set228={has_completed_focus=SOV_the_fourth_international has_completed_focus=SOV_bring_old_trotskyists_back}
+SOV_set229={has_completed_focus=SOV_integrate_smirnovs_bloc
+SOV_soviet_civil_war_not_started=yes}
+SOV_set230={has_completed_focus=SOV_integrate_smirnovs_bloc
+SOV_soviet_civil_war_not_started=yes}
+SOV_set231={or={has_completed_focus=SOV_approach_tukhachevsky has_completed_focus=SOV_approach_primakov has_completed_focus=SOV_committee_in_exile}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set232={or={has_completed_focus=SOV_approach_tukhachevsky has_completed_focus=SOV_approach_primakov}
+	SOV_soviet_civil_war_not_started=yes
+	if={
+		limit={
+			is_ai=yes
+			has_war=yes
+		}
+		date>1940.1.1
+	}}
+SOV_set233={has_completed_focus=SOV_left_opposition_coup has_completed_focus=SOV_funds_for_the_cause
+	has_global_flag=SOV_soviet_civil_war
+	NOT={has_global_flag=SOV_soviet_civil_war_over}}
+SOV_set234={has_completed_focus=SOV_left_opposition_coup
+has_global_flag=SOV_soviet_civil_war_over}
+SOV_set235={has_completed_focus=SOV_left_opposition_coup
+	not={has_completed_focus=SOV_return_democracy_to_the_party}
+has_global_flag=SOV_soviet_civil_war_over}
+SOV_set236={has_completed_focus=SOV_long_live_the_workers_government
+	not={has_completed_focus=SOV_reigniting_the_revolutionary_spirit}
+	SOV_lev_trotsky={is_country_leader=yes}}
+SOV_set237={has_completed_focus=SOV_long_live_the_workers_government
+	not={has_completed_focus=SOV_the_builder_of_the_red_army}}
+SOV_set238={has_completed_focus=SOV_left_opposition_coup has_completed_focus=SOV_committee_in_exile
+has_global_flag=SOV_soviet_civil_war_over}
+SOV_set239={or={has_completed_focus=SOV_the_builder_of_the_red_army has_completed_focus=SOV_reigniting_the_revolutionary_spirit}}
+SOV_set240={or={has_completed_focus=SOV_the_builder_of_the_red_army has_completed_focus=SOV_reigniting_the_revolutionary_spirit}}
+SOV_set241={or={has_completed_focus=SOV_the_builder_of_the_red_army has_completed_focus=SOV_reigniting_the_revolutionary_spirit}
+has_global_flag=SOV_soviet_civil_war_over}
+SOV_set242={has_completed_focus=SOV_the_permanent_revolution
+surrender_progress<0.15}
+SOV_set243={has_completed_focus=SOV_system_decentralization}
+SOV_set244={has_completed_focus=SOV_all_power_to_the_soviets
+	not={has_completed_focus=SOV_strengthen_the_trade_unions}}
+SOV_set245={has_completed_focus=SOV_regional_development}
+SOV_set246={has_completed_focus=SOV_autonomous_soviet_republics}
+SOV_set247={has_completed_focus=SOV_a_global_class_struggle
+surrender_progress<0.05}
+SOV_set248={has_completed_focus=SOV_a_global_class_struggle
+surrender_progress<0.05}
+SOV_set249={or={has_completed_focus=SOV_the_onslaught_on_colonialism has_completed_focus=SOV_carry_revolution_east}
+surrender_progress<0.05}
+SOV_set250={has_completed_focus=SOV_the_path_of_marxism_leninism
+	not={has_completed_focus=SOV_the_left_opposition has_completed_focus=SOV_the_centre}
+	SOV_soviet_civil_war_not_started=yes
+	custom_trigger_tooltip={
+		tooltip=SOV_no_major_purge_tt
+		check_variable={SOV_great_purge_counter<1}
+	}}
+SOV_set251={has_completed_focus=SOV_the_right_opposition
+SOV_soviet_civil_war_not_started=yes}
+SOV_set252={has_completed_focus=SOV_the_right_opposition}
+SOV_set253={has_completed_focus=SOV_the_need_for_policy_changes
+SOV_soviet_civil_war_not_started=yes}
+SOV_set254={has_completed_focus=SOV_the_need_for_policy_changes
+SOV_soviet_civil_war_not_started=yes}
+SOV_set255={has_completed_focus=SOV_the_need_for_policy_changes
+	not={has_completed_focus=SOV_cooperation_against_stalin}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set256={has_completed_focus=SOV_reverse_the_collectivization_process
+	not={has_completed_focus=SOV_covert_support_for_spanish_poum}
+	NOT={has_country_flag=SOV_soviet_civil_war_over}
+	SOV_has_selected_hq=yes}
+SOV_set257={has_completed_focus=SOV_reverse_the_collectivization_process
+	not={has_completed_focus=SOV_concessions_to_foreign_powers}
+	SOV_soviet_civil_war_not_started=yes
+	NOT={has_global_flag=scw_over}
+	OR={
+		NOT={has_global_flag=SPR_anarchist_uprising_flag}
+		AND={
+			country_exists=SPC
+			NOT={has_war_with=SPC}
+			SPC={has_completed_focus=SPR_the_anti_fascist_workers_revolution}
+		}
+	}}
+SOV_set258={has_completed_focus=SOV_organize_uprisings_in_the_country
+SOV_soviet_civil_war_not_started=yes}
+SOV_set259={has_completed_focus=SOV_organize_uprisings_in_the_country
+SOV_soviet_civil_war_not_started=yes}
+SOV_set260={has_completed_focus=SOV_undermine_stalins_authority has_completed_focus=SOV_clandestine_cells
+	SOV_soviet_civil_war_not_started=yes
+	NOT={has_idea=SOV_lavrenty_beriya}}
+SOV_set261={has_completed_focus=SOV_covert_support_for_spanish_poum
+	has_global_flag=SOV_soviet_civil_war_over
+	custom_trigger_tooltip={
+		tooltip=SOV_poum_exists_tt
+		SPC={
+			exists=yes
+			has_completed_focus=SPR_the_anti_fascist_workers_revolution
+		}
+	}}
+SOV_set262={has_completed_focus=SOV_dissent_in_the_party
+SOV_soviet_civil_war_not_started=yes}
+SOV_set263={has_completed_focus=SOV_coup_detat
+	not={has_completed_focus=SOV_return_democracy_to_the_party}}
+SOV_set264={has_completed_focus=SOV_coup_detat
+	NOT={has_global_flag=SOV_soviet_civil_war_over}}
+SOV_set265={has_completed_focus=SOV_coup_detat}
+SOV_set266={has_completed_focus=SOV_curtailment_of_the_collective_farms
+	not={has_completed_focus=SOV_a_new_theory_of_revolution}
+has_character=SOV_aleksey_rykov}
+SOV_set267={has_completed_focus=SOV_curtailment_of_the_collective_farms
+	not={has_completed_focus=SOV_administrative_reforms}
+	SOV_nikolay_bukharin={is_country_leader=yes}}
+SOV_set268={has_completed_focus=SOV_curtailment_of_the_collective_farms
+has_war=no}
+SOV_set269={has_completed_focus=SOV_back_to_the_nep}
+SOV_set270={has_completed_focus=SOV_back_to_the_nep}
+SOV_set271={has_completed_focus=SOV_back_to_the_nep
+has_idea=SOV_mikhail_tomsky}
+SOV_set272={or={has_completed_focus=SOV_administrative_reforms has_completed_focus=SOV_a_new_theory_of_revolution}}
+SOV_set273={has_completed_focus=SOV_incorporate_local_organizations has_completed_focus=SOV_international_revolutionary_marxist_centre
+	not={has_completed_focus=SOV_strengthen_the_trade_unions}
+is_faction_leader=yes}
+SOV_set274={has_completed_focus=SOV_for_the_common_good}
+SOV_set275={has_completed_focus=SOV_victory_over_devastation}
+SOV_set276={or={has_completed_focus=SOV_a_new_theory_of_revolution has_completed_focus=SOV_administrative_reforms} has_completed_focus=SOV_planned_economy
+	surrender_progress<0.1
+	OR={
+		is_faction_leader=yes
+		is_in_faction=no
+	}}
+SOV_set277={has_completed_focus=SOV_paced_industrialization
+has_idea=new_economic_policy}
+SOV_set278={has_completed_focus=SOV_international_revolutionary_marxist_centre
+surrender_progress<0.05}
+SOV_set279={has_completed_focus=SOV_the_enemies_of_the_people
+surrender_progress<0.01}
+SOV_set280={or={has_completed_focus=SOV_the_left_opposition has_completed_focus=SOV_the_right_opposition}
+	not={has_completed_focus=SOV_divert_attention_towards_military}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set281={or={has_completed_focus=SOV_the_left_opposition has_completed_focus=SOV_the_right_opposition}
+	not={has_completed_focus=SOV_military_support}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set282={or={has_completed_focus=SOV_the_left_opposition has_completed_focus=SOV_the_right_opposition}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set283={or={has_completed_focus=SOV_the_left_opposition has_completed_focus=SOV_the_right_opposition}
+	SOV_has_selected_hq=yes
+	SOV_soviet_civil_war_not_started=yes}
+SOV_set284={or={has_completed_focus=SOV_the_left_opposition has_completed_focus=SOV_the_right_opposition}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set285={has_completed_focus=SOV_gain_support_from_party_members
+	not={has_completed_focus=SOV_left_eliminate_right has_completed_focus=SOV_eliminate_the_left}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set286={has_completed_focus=SOV_cooperation_against_stalin
+SOV_soviet_civil_war_not_started=yes}
+SOV_set287={has_completed_focus=SOV_cooperation_against_stalin
+SOV_soviet_civil_war_not_started=yes}
+SOV_set288={has_completed_focus=SOV_cooperation_against_stalin
+	not={has_completed_focus=SOV_left_purges has_completed_focus=SOV_right_purges}
+has_global_flag=SOV_soviet_civil_war_over}
+SOV_set289={or={has_completed_focus=SOV_all_power_to_the_soviets has_completed_focus=SOV_incorporate_local_organizations}
+	not={has_completed_focus=SOV_regional_development}}
+SOV_set290={has_completed_focus=SOV_strengthen_the_trade_unions}
+SOV_set291={has_completed_focus=SOV_the_peoples_revolution
+has_government=communism}
+SOV_set292={has_completed_focus=SOV_the_path_of_marxism_leninism}
+SOV_set293={has_completed_focus=SOV_addressing_internal_affairs}
+SOV_set294={has_completed_focus=SOV_addressing_internal_affairs}
+SOV_set295={has_completed_focus=SOV_addressing_internal_affairs}
+SOV_set296={has_completed_focus=SOV_expand_the_agitprop
+	not={has_completed_focus=SOV_collectivist_propaganda}}
+SOV_set297={has_completed_focus=SOV_positive_heroism}
+SOV_set298={has_completed_focus=SOV_revive_the_stakhanovite_movement}
+SOV_set299={has_completed_focus=SOV_expand_the_agitprop
+	not={has_completed_focus=SOV_positive_heroism}}
+SOV_set300={has_completed_focus=SOV_collectivist_propaganda}
+SOV_set301={has_completed_focus=SOV_socialist_emulation}
+SOV_set302={has_completed_focus=SOV_expand_the_agitprop}
+SOV_set303={or={has_completed_focus=SOV_war_heroes has_completed_focus=SOV_socialist_realism}}
+SOV_set304={has_completed_focus=SOV_the_path_of_marxism_leninism}
+SOV_set305={has_completed_focus=SOV_the_comintern
+	any_allied_country={
+		capital_scope={is_on_continent=asia}
+		is_major=no
+	}
+	num_of_civilian_factories_available_for_projects>2
+	is_subject=no}
+SOV_set306={has_completed_focus=SOV_development_aid_for_eastern_allies
+is_subject=no}
+SOV_set307={has_completed_focus=SOV_war_measures_in_the_east
+	is_subject=no
+	TAN={
+		OR={
+			is_in_faction_with=ROOT
+			is_subject_of=ROOT
+		}
+	}}
+SOV_set308={has_completed_focus=SOV_war_measures_in_the_east
+	MON={
+		is_in_faction_with=ROOT
+		has_full_control_of_state=330 has_full_control_of_state=819 has_full_control_of_state=817 has_full_control_of_state=818
+	}
+	is_subject=no}
+SOV_set309={has_completed_focus=SOV_the_comintern
+	has_civil_war=no
+	OR={has_completed_focus=SOV_the_centre has_completed_focus=SOV_the_left_opposition has_completed_focus=SOV_the_right_opposition}
+	if={
+		limit={has_dlc="La Resistance"}
+		SPR_scw_in_progress=yes
+		if={
+			limit={
+				NOT={has_global_flag=spanish_civil_war}
+			}
+			custom_trigger_tooltip={
+				tooltip=POR_spr_tooltip_country_exist_tt
+				country_exists=SPR
+			}
+			custom_trigger_tooltip={
+				tooltip=POR_spr_tooltip_at_peace_tt
+				NOT={has_war_with=SPR}
+			}
+		}
+		else={
+			if={
+				limit={has_completed_focus=SOV_covert_support_for_spanish_poum}
+				country_exists=SPC
+				NOT={has_war_with=SPC}
+			}
+			else={
+				country_exists=SPD
+				NOT={has_war_with=SPD}
+			}
+		}
+	}
+	else={
+		any_other_country={
+			original_tag=SPR
+			has_civil_war=yes
+			NOT={has_war_with=ROOT}
+			OR={has_government=democratic has_government=communism}
+		}
+	}
+	has_government=communism
+	is_subject=no}
+SOV_set310={has_completed_focus=SOV_the_comintern
+	not={has_completed_focus=SOV_policy_of_individual_security}}
+SOV_set311={has_completed_focus=SOV_policy_of_collective_security}
+SOV_set312={has_completed_focus=SOV_anti_fascist_policies
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	is_subject=no}
+SOV_set313={has_completed_focus=SOV_seek_a_defense_pact_with_the_allies
+	is_subject=no
+	country_exists=SAU
+	NOT={has_war_with=SAU}}
+SOV_set314={has_completed_focus=SOV_seek_a_defense_pact_with_the_allies
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	any_country={
+		OR={tag=ENG tag=FRA tag=GER tag=ITA}
+		has_government=fascism
+		is_major=yes
+	}
+	is_subject=no}
+SOV_set315={has_completed_focus=SOV_the_comintern
+	not={has_completed_focus=SOV_policy_of_collective_security}}
+SOV_set316={has_completed_focus=SOV_policy_of_individual_security has_completed_focus=SOV_anti_capitalist_policies
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	country_exists=GER
+	GER={SOV_is_valid_subject=yes}
+	NOT={has_war_with=GER}
+	is_subject=no}
+SOV_set317={has_completed_focus=SOV_approach_germany
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	any_country={
+		OR={tag=ENG tag=FRA tag=GER tag=ITA}
+		has_government=democratic
+		is_major=yes
+		is_subject=no
+	}}
+SOV_set318={has_completed_focus=SOV_the_comintern
+	NOT={has_government=democratic}}
+SOV_set319={has_completed_focus=SOV_anti_capitalist_policies
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	is_subject=no}
+SOV_set320={has_completed_focus=SOV_recover_alaska
+	OR={has_full_control_of_state=408 has_full_control_of_state=409 has_full_control_of_state=637}
+	is_subject=no}
+SOV_set321={has_completed_focus=SOV_the_comintern
+	OR={
+		NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	}
+	is_subject=no}
+SOV_set322={has_completed_focus=SOV_baltic_security
+	not={has_completed_focus=SOV_claims_in_baltic}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	is_subject=no}
+SOV_set323={has_completed_focus=SOV_baltic_security
+	not={has_completed_focus=SOV_respect_baltic_self_determination}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	is_subject=no}
+SOV_set324={or={has_completed_focus=SOV_respect_baltic_self_determination has_completed_focus=SOV_claims_in_baltic}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	is_subject=no}
+SOV_set325={has_completed_focus=SOV_secure_leningrad
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	is_subject=no}
+SOV_set326={or={has_completed_focus=SOV_respect_baltic_self_determination has_completed_focus=SOV_claims_in_baltic}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	is_subject=no}
+SOV_set327={has_completed_focus=SOV_claims_on_poland
+	not={has_completed_focus=SOV_offer_poland_protection}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	is_subject=no
+	NOT={is_in_faction_with=POL}
+	NOT={has_non_aggression_pact_with=POL}
+	NOT={has_guaranteed=POL}
+	NOT={has_war_with=POL}
+	OR={
+		96={is_owned_and_controlled_by=POL}
+		95={is_owned_and_controlled_by=POL}
+		94={is_owned_and_controlled_by=POL}
+		93={is_owned_and_controlled_by=POL}
+		91={is_owned_and_controlled_by=POL}
+		89={is_owned_and_controlled_by=POL}
+		784={is_owned_and_controlled_by=POL}
+	}}
+SOV_set328={has_completed_focus=SOV_claims_on_poland
+	not={has_completed_focus=SOV_demand_eastern_poland}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	country_exists=POL
+	NOT={has_war_with=POL}
+	POL={
+		SOV_is_valid_subject=yes
+		has_capitulated=no
+	}
+	is_subject=no}
+SOV_set329={has_completed_focus=SOV_claims_on_poland
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	is_subject=no
+	any_country={
+		owns_state=78
+		controls_state=78
+	}}
+SOV_set330={has_completed_focus=SOV_claim_on_bessarabia
+	not={has_completed_focus=SOV_seek_balkan_cooperation}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	any_other_country={BUL_is_balkan_nation=yes}
+	is_subject=no}
+SOV_set331={has_completed_focus=SOV_claim_on_bessarabia
+	not={has_completed_focus=SOV_demand_balkan_submission}
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	any_other_country={BUL_is_balkan_nation=yes}
+	is_subject=no}
+SOV_set332={has_completed_focus=SOV_the_comintern
+is_subject=no}
+SOV_set333={has_completed_focus=SOV_middle_east_diplomacy
+	not={has_completed_focus=SOV_support_afghan_ideology}
+	OR={country_exists=IRQ country_exists=PER country_exists=AFG country_exists=SAU}
+	is_subject=no}
+SOV_set334={has_completed_focus=SOV_middle_east_diplomacy
+	not={has_completed_focus=SOV_the_southern_thrust}
+	NOT={has_war_with=AFG}
+	is_subject=no}
+SOV_set335={has_completed_focus=SOV_support_afghan_ideology
+	country_exists=PER
+	NOT={has_war_with=PER}
+	NOT={is_in_faction_with=PER}
+	is_subject=no
+	any_enemy_country={is_major=yes}}
+SOV_set336={has_completed_focus=SOV_the_comintern
+	not={has_completed_focus=SOV_reconcile_japan}
+	any_country={
+		SOV_is_free_chinese_tag=yes
+		has_war_with=JAP
+	}
+	is_subject=no}
+SOV_set337={has_completed_focus=SOV_the_threat_from_the_land_of_the_rising_sun
+	not={has_completed_focus=SOV_two_red_flags has_completed_focus=SOV_support_the_kuomintang}
+	controls_state=405 controls_state=404 controls_state=732 controls_state=586
+	OR={
+		AND={controls_state=617 controls_state=618}
+		SIK={
+			NOT={has_war_with=ROOT}
+			controls_state=617 controls_state=618
+		}
+	}
+	is_subject=no}
+SOV_set338={has_completed_focus=SOV_the_threat_from_the_land_of_the_rising_sun
+	not={has_completed_focus=SOV_the_gobi_gambit has_completed_focus=SOV_support_the_kuomintang}
+	has_government=communism
+	NOT={has_war_with=PRC}
+	is_subject=no}
+SOV_set339={has_completed_focus=SOV_the_threat_from_the_land_of_the_rising_sun
+	not={has_completed_focus=SOV_the_gobi_gambit has_completed_focus=SOV_two_red_flags}
+	NOT={has_completed_focus=SOV_the_left_opposition}
+	NOT={has_war_with=CHI}
+	is_subject=no}
+SOV_set340={or={has_completed_focus=SOV_the_gobi_gambit has_completed_focus=SOV_two_red_flags has_completed_focus=SOV_support_the_kuomintang}
+is_subject=no}
+SOV_set341={or={has_completed_focus=SOV_the_gobi_gambit has_completed_focus=SOV_two_red_flags has_completed_focus=SOV_support_the_kuomintang}
+	surrender_progress<0.01
+	country_exists=JAP
+	NOT={
+		JAP={is_in_faction_with=ROOT}
+	}
+	is_subject=no}
+SOV_set342={has_completed_focus=SOV_prepare_a_war_with_japan
+	not={has_completed_focus=SOV_recover_the_kuril_islands}
+	surrender_progress<0.01
+	country_exists=JAP
+	NOT={is_in_faction_with=JAP}
+	NOT={has_war_together_with=JAP}
+	761={
+		controller={
+			NOT={is_in_faction_with=ROOT}
+		}
+	}
+	is_subject=no}
+SOV_set343={has_completed_focus=SOV_prepare_a_war_with_japan
+	not={has_completed_focus=SOV_end_the_khalkhin_gol_conflict}
+	surrender_progress<0.01
+	country_exists=JAP
+	NOT={
+		JAP={is_in_faction_with=ROOT}
+	}
+	JAP={controls_state=555}
+	NOT={has_war_with=JAP}
+	is_subject=no}
+SOV_set344={has_completed_focus=SOV_the_comintern
+	not={has_completed_focus=SOV_the_threat_from_the_land_of_the_rising_sun}
+	NOT={has_war_with=JAP}
+	is_subject=no
+	655={is_owned_and_controlled_by=ROOT}
+	537={is_owned_and_controlled_by=JAP}}
+SOV_set345={has_completed_focus=SOV_reconcile_japan
+is_subject=no}
+SOV_set346={has_completed_focus=SOV_reconcile_japan
+	NOT={has_country_flag=SOV_paranoia_system_active_flag}
+	country_exists=JAP
+	NOT={has_war_with=JAP}
+	is_subject=no
+	JAP={SOV_is_valid_subject=yes}}
+SOV_set347={not={has_completed_focus=SOV_the_path_of_marxism_leninism}
+	custom_trigger_tooltip={
+		tooltip=SOV_no_major_purge_tt
+		check_variable={SOV_great_purge_counter<1}
+	}}
+SOV_set348={has_completed_focus=SOV_beaten_but_not_defeated
+SOV_soviet_civil_war_not_started=yes}
+SOV_set349={has_completed_focus=SOV_unification_of_the_exiles
+SOV_soviet_civil_war_not_started=yes}
+SOV_set350={has_completed_focus=SOV_unification_of_the_exiles
+SOV_soviet_civil_war_not_started=yes}
+SOV_set351={has_completed_focus=SOV_unification_of_the_exiles
+SOV_soviet_civil_war_not_started=yes}
+SOV_set352={or={has_completed_focus=SOV_womens_fascist_movement has_completed_focus=SOV_the_true_tsars has_completed_focus=SOV_national_unification}
+	SOV_has_selected_hq=yes
+	SOV_soviet_civil_war_not_started=yes}
+SOV_set353={has_completed_focus=SOV_embrace_the_black_hundreds
+SOV_soviet_civil_war_not_started=yes}
+SOV_set354={has_completed_focus=SOV_embrace_the_black_hundreds
+SOV_soviet_civil_war_not_started=yes}
+SOV_set355={has_completed_focus=SOV_embrace_the_black_hundreds
+SOV_soviet_civil_war_not_started=yes}
+SOV_set356={has_completed_focus=SOV_embrace_the_black_hundreds
+SOV_soviet_civil_war_not_started=yes}
+SOV_set357={or={has_completed_focus=SOV_muster_the_old_guard has_completed_focus=SOV_fascist_youth_union}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set358={or={has_completed_focus=SOV_muster_the_old_guard has_completed_focus=SOV_fascist_youth_union}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set359={or={has_completed_focus=SOV_muster_the_old_guard has_completed_focus=SOV_fascist_youth_union}
+SOV_soviet_civil_war_not_started=yes}
+SOV_set360={or={has_completed_focus=SOV_tolkachi has_completed_focus=SOV_organize_wreckers has_completed_focus=SOV_south_manchuria_railway}
+	SOV={
+		OR={
+			fascism>0.25
+			neutrality>0.25
+		}
+	}
+	SOV_soviet_civil_war_not_started=yes}
+SOV_set361={has_completed_focus=SOV_the_eyes_fear
+SOV_soviet_civil_war_not_started=yes}
+SOV_set362={has_completed_focus=SOV_the_hands_do}
+SOV_set363={has_completed_focus=SOV_call_for_aid
+	has_global_flag=SOV_soviet_civil_war
+	OR={has_country_flag=SOV_CSW_transfer_vladivostok_flag has_country_flag=SOV_CSW_transfer_sakhalin_flag}}
+SOV_set364={has_completed_focus=SOV_the_hands_do
+has_global_flag=SOV_soviet_civil_war}
+SOV_set365={has_completed_focus=SOV_the_hands_do}
+SOV_set366={has_completed_focus=SOV_the_hands_do
+has_global_flag=SOV_soviet_civil_war_over}
+SOV_set367={has_completed_focus=SOV_consolidate_power
+has_war=no}
+SOV_set368={has_completed_focus=SOV_consolidate_power
+	not={has_completed_focus=SOV_offer_autonomy_to_former_soviet_republics}
+	any_country={has_country_flag=SOV_breakaway_country_flag}}
+SOV_set369={has_completed_focus=SOV_consolidate_power
+	not={has_completed_focus=SOV_bringing_breakaways_back_to_the_fold}
+	any_country={has_country_flag=SOV_breakaway_country_flag}}
+SOV_set370={has_completed_focus=SOV_rebuild_the_nation}
+SOV_set371={has_completed_focus=SOV_beaten_but_not_defeated}
+SOV_set372={has_completed_focus=SOV_article_124
+has_full_control_of_state=219}
+SOV_set373={has_completed_focus=SOV_reopen_novodevichi
+has_full_control_of_state=219}
+SOV_set374={has_completed_focus=SOV_reopen_novodevichi}
+SOV_set375={has_completed_focus=SOV_the_synod}
+SOV_set376={has_completed_focus=SOV_the_declaration has_completed_focus=SOV_consolidate_power has_completed_focus=SOV_reformalize_the_role_of_the_patriarchate}
+SOV_set377={has_completed_focus=SOV_rebuild_the_savior_cathedral has_completed_focus=SOV_the_synod}
+SOV_set378={has_completed_focus=SOV_consolidate_power has_completed_focus=SOV_reformalize_the_role_of_the_patriarchate
+has_civil_war=no}
+SOV_set379={has_completed_focus=SOV_reconvene_the_zemsky_sobor
+	not={has_completed_focus=SOV_romanov_reconstruction}}
+SOV_set380={has_completed_focus=SOV_dismantle_the_zemsky_sobor}
+SOV_set381={has_completed_focus=SOV_reconvene_the_zemsky_sobor
+	not={has_completed_focus=SOV_dismantle_the_zemsky_sobor}}
+SOV_set382={has_completed_focus=SOV_romanov_reconstruction}
+SOV_set383={or={has_completed_focus=SOV_romanov_reconstruction has_completed_focus=SOV_dismantle_the_zemsky_sobor}}
+SOV_set384={has_completed_focus=SOV_romanov_reconstruction}
+SOV_set385={has_completed_focus=SOV_reinstitute_the_mestnichestvo}
+SOV_set386={has_completed_focus=SOV_reinstitute_the_mestnichestvo has_completed_focus=SOV_the_triple_entente
+is_subject=no}
+SOV_set387={has_completed_focus=SOV_church_candidates
+	not={has_completed_focus=SOV_panslavic_nationalism}
+is_subject=no}
+SOV_set388={has_completed_focus=SOV_the_rightful_heir_to_the_empire
+	is_subject=no
+	OR={has_government=neutrality has_government=fascism}}
+SOV_set389={or={has_completed_focus=SOV_romanov_reconstruction has_completed_focus=SOV_dismantle_the_zemsky_sobor}
+	is_subject=no
+	MON={
+		exists=yes
+		NOT={
+			OR={
+				is_in_faction_with=ROOT
+				is_subject_of=ROOT
+			}
+		}
+	}}
+SOV_set390={or={has_completed_focus=SOV_romanov_reconstruction has_completed_focus=SOV_dismantle_the_zemsky_sobor}
+	is_subject=no
+	TAN={
+		exists=yes
+		NOT={
+			OR={
+				is_in_faction_with=ROOT
+				is_subject_of=ROOT
+			}
+		}
+	}}
+SOV_set391={or={has_completed_focus=SOV_romanov_reconstruction has_completed_focus=SOV_dismantle_the_zemsky_sobor}
+has_full_control_of_state=213 has_full_control_of_state=214 has_full_control_of_state=208}
+SOV_set392={has_completed_focus=SOV_westward_bound has_completed_focus=SOV_romanov_reconstruction
+	is_subject=no
+	is_in_faction=no
+	ENG={
+		NOT={has_government=communism}
+		NOT={has_completed_focus=ENG_alliance_with_germany}
+	}
+	FRA={
+		NOT={has_government=communism}
+		NOT={has_completed_focus=FRA_establish_spheres_of_influence}
+	}}
+SOV_set393={has_completed_focus=SOV_the_triple_entente
+	not={has_completed_focus=SOV_panslavic_nationalism}
+is_subject=no}
+SOV_set394={has_completed_focus=SOV_westward_bound
+is_subject=no}
+SOV_set395={has_completed_focus=SOV_westward_bound
+is_subject=no}
+SOV_set396={has_completed_focus=SOV_westward_bound
+is_subject=no}
+SOV_set397={has_completed_focus=SOV_secure_the_baltics has_completed_focus=SOV_secure_finland has_completed_focus=SOV_the_old_enemy
+	not={has_completed_focus=SOV_the_rightful_heir_to_the_empire has_completed_focus=SOV_our_slavic_commitments}}
+SOV_set398={or={has_completed_focus=SOV_our_slavic_commitments has_completed_focus=SOV_panslavic_nationalism}
+	is_subject=no
+	country_exists=ROM}
+SOV_set399={or={has_completed_focus=SOV_dismantle_the_zemsky_sobor has_completed_focus=SOV_romanov_reconstruction}
+	IF={
+		limit={
+			NOT={has_country_flag=SOV_CSW_transfer_vladivostok_flag}
+		}
+		has_full_control_of_state=408
+	}
+	ELSE={
+		OR={
+			has_country_flag=SOV_CSW_transfer_vladivostok_flag
+			has_full_control_of_state=408
+		}
+	}
+	has_full_control_of_state=409 has_full_control_of_state=657}
+SOV_set400={has_completed_focus=SOV_pacify_the_rim has_completed_focus=SOV_dismantle_the_zemsky_sobor}
+SOV_set401={has_completed_focus=SOV_eastern_expansion
+	not={has_completed_focus=SOV_into_central_asia}
+is_subject=no}
+SOV_set402={has_completed_focus=SOV_intervention_in_the_americas
+is_subject=no}
+SOV_set403={has_completed_focus=SOV_eastern_expansion
+	not={has_completed_focus=SOV_intervention_in_the_americas}
+is_subject=no}
+SOV_set404={has_completed_focus=SOV_into_central_asia
+is_subject=no}
+SOV_set405={has_completed_focus=SOV_pacify_the_rim}
+SOV_set406={has_completed_focus=SOV_rebuild_the_far_eastern_fleet}
+SOV_set407={has_completed_focus=SOV_rebuild_the_far_eastern_fleet
+	not={has_completed_focus=SOV_japanese_overtures}}
+SOV_set408={has_completed_focus=SOV_memories_of_1905}
+SOV_set409={has_completed_focus=SOV_the_lonely_island}
+SOV_set410={has_completed_focus=SOV_pacify_the_rim
+	is_subject=no
+	is_in_faction=no
+	GER={
+		is_faction_leader=yes
+		has_government=fascism
+	}}
+SOV_set411={has_completed_focus=SOV_the_berlin_moscow_axis
+	not={has_completed_focus=SOV_memories_of_1905}
+	is_subject=no
+	is_in_faction_with=GER
+	GER={is_faction_leader=yes}
+	JAP={
+		is_in_faction=no
+		has_government=fascism
+	}}

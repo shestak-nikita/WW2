@@ -1,0 +1,1 @@
+focus={current=SOV_claim_on_bessarabia}

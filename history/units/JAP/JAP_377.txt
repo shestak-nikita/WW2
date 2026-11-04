@@ -1,0 +1,1 @@
+focus={current=JAP_educate_the_peasants}

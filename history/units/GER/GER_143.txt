@@ -1,0 +1,1 @@
+focus={current=GER_lessons_of_the_great_war}

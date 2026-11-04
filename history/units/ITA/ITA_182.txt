@@ -1,0 +1,1 @@
+focus={current=ITA_cacciatorpediniere_di_scorta}

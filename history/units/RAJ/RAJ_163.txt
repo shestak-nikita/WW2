@@ -1,0 +1,1 @@
+focus={current=RAJ_model_after_soviet}

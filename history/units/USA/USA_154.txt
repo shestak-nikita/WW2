@@ -1,0 +1,1 @@
+focus={current=USA_ally_with_the_silver_shirts}

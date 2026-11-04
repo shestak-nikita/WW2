@@ -1,0 +1,1 @@
+focus={current=JAP_protect_the_manchurians}

@@ -1,0 +1,1 @@
+focus={current=JAP_give_it_your_all_for_the_emperor}

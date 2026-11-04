@@ -1,0 +1,1 @@
+focus={current=JAP_children_of_the_sun}

@@ -1,0 +1,1 @@
+focus={current=JAP_modern_bombers}

@@ -1,0 +1,1 @@
+focus={current=GER_an_invincible_army}

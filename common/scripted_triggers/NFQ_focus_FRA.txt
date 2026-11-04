@@ -1,0 +1,709 @@
+FRA_set101={always=yes}
+FRA_set102={has_completed_focus=FRA_devalue_the_franc
+	any_owned_state={
+		is_core_of=ROOT
+		infrastructure<4
+	}}
+FRA_set103={has_completed_focus=FRA_devalue_the_franc}
+FRA_set104={has_completed_focus=FRA_invest_in_the_metropole
+	any_owned_state={
+		is_core_of=ROOT
+		free_building_slots={
+			building=industrial_complex
+			size>1
+			include_locked=yes
+		}
+	}}
+FRA_set105={or={has_completed_focus=FRA_metropolitan_france has_completed_focus=FRA_algerie_france}}
+FRA_set106={or={has_completed_focus=FRA_industrial_expansion has_completed_focus=FRA_colonial_industry}}
+FRA_set107={or={has_completed_focus=FRA_invest_in_the_metropole has_completed_focus=FRA_invest_in_the_colonies}
+	any_state={
+		OR={state=459 state=460 state=513}
+		OWNER={
+			OR={
+				tag=ROOT
+				is_subject_of=ROOT
+			}
+		}
+		free_building_slots={
+			building=industrial_complex
+			size>1
+			include_locked=yes
+		}
+	}}
+FRA_set108={has_completed_focus=FRA_devalue_the_franc
+	any_owned_state={
+		not={is_core_of=ROOT}
+		not={is_on_continent=europe}
+		is_controlled_by=ROOT
+	}}
+FRA_set109={has_completed_focus=FRA_invest_in_the_colonies
+	any_state={
+		OR={state=272 state=780 state=556 state=779 state=778 state=781 state=776 state=777}
+		is_owned_or_subject_trigger=yes
+	}}
+FRA_set110={has_completed_focus=FRA_invest_in_the_colonies
+	any_state={
+		OR={is_core_of=VIN is_core_of=CAM is_core_of=LAO}
+		is_owned_or_subject_trigger=yes
+	}}
+FRA_set111={has_completed_focus=FRA_invest_in_the_colonies
+	any_state={
+		OR={is_core_of=SYR is_core_of=LEB}
+		is_owned_or_subject_trigger=yes
+	}}
+FRA_set112={or={has_completed_focus=FRA_algerie_france has_completed_focus=FRA_invest_in_west_africa has_completed_focus=FRA_invest_in_indochina has_completed_focus=FRA_invest_in_syria}}
+FRA_set113={has_completed_focus=FRA_industrial_expansion
+	if={
+		limit={amount_research_slots>3}
+		num_of_factories>75
+	}
+	amount_research_slots<5}
+FRA_set114={has_completed_focus=FRA_colonial_industry
+	if={
+		limit={amount_research_slots>3}
+		num_of_factories>75
+	}
+	amount_research_slots<5}
+FRA_set115={has_completed_focus=FRA_colonial_industry}
+FRA_set116={has_war_support>0.12}
+FRA_set117={has_completed_focus=FRA_begin_rearmament
+	not={has_completed_focus=FRA_aggressive_focus}}
+FRA_set118={has_completed_focus=FRA_defensive_focus
+	not={has_completed_focus=FRA_methodical_battle}}
+FRA_set119={has_completed_focus=FRA_defensive_focus
+	not={has_completed_focus=FRA_firepower_kills}}
+FRA_set120={has_completed_focus=FRA_methodical_battle}
+FRA_set121={has_completed_focus=FRA_fortification_focus
+	735={is_controlled_by=ROOT}}
+FRA_set122={has_completed_focus=FRA_alpine_forts
+	18={is_controlled_by=ROOT}
+	29={is_controlled_by=ROOT}
+	785={is_controlled_by=ROOT}
+	has_idea=FRA_protected_by_the_maginot_line}
+FRA_set123={has_completed_focus=FRA_firepower_kills}
+FRA_set124={has_completed_focus=FRA_infantry_focus}
+FRA_set125={has_completed_focus=FRA_artillery_focus}
+FRA_set126={has_completed_focus=FRA_heavy_armor_focus
+	OR={
+		AND={has_tech=basic_heavy_tank has_tech=basic_medium_tank}
+		AND={has_tech=basic_heavy_tank_chassis has_tech=basic_medium_tank_chassis}
+	}}
+FRA_set127={or={has_completed_focus=FRA_defensive_focus has_completed_focus=FRA_aggressive_focus}}
+FRA_set128={has_completed_focus=FRA_infantry_tanks}
+FRA_set129={has_completed_focus=FRA_special_forces}
+FRA_set130={has_completed_focus=FRA_begin_rearmament
+	not={has_completed_focus=FRA_defensive_focus}}
+FRA_set131={has_completed_focus=FRA_aggressive_focus
+	not={has_completed_focus=FRA_air_dominance}}
+FRA_set132={has_completed_focus=FRA_battle_of_maneuver}
+FRA_set133={has_completed_focus=FRA_motorized_focus}
+FRA_set134={has_completed_focus=FRA_mechanized_focus}
+FRA_set135={has_completed_focus=FRA_aggressive_focus
+	not={has_completed_focus=FRA_battle_of_maneuver}}
+FRA_set136={has_completed_focus=FRA_air_dominance}
+FRA_set137={has_completed_focus=FRA_cas_focus}
+FRA_set138={has_completed_focus=FRA_air_ground_cooperation}
+FRA_set139={or={has_completed_focus=FRA_light_medium_armor has_completed_focus=FRA_heavy_armor_focus has_completed_focus=FRA_extend_the_maginot_line has_completed_focus=FRA_flying_artillery}
+	NOT={has_idea=FRA_disjointed_government}}
+FRA_set140={not={has_completed_focus=FRA_revive_the_national_bloc}}
+FRA_set141={has_completed_focus=FRA_form_the_popular_front
+	not={has_completed_focus=FRA_review_foreign_policy}
+	is_subject=no}
+FRA_set142={has_completed_focus=FRA_invite_communist_ministers
+is_subject=no}
+FRA_set143={has_completed_focus=FRA_strengthen_the_unions
+is_subject=no}
+FRA_set144={has_completed_focus=FRA_invite_communist_ministers
+is_subject=no}
+FRA_set145={has_completed_focus=FRA_womens_suffrage
+is_subject=no}
+FRA_set146={has_completed_focus=FRA_womens_suffrage has_completed_focus=FRA_strengthen_the_unions}
+FRA_set147={has_completed_focus=FRA_industrial_collectivization}
+FRA_set148={or={has_completed_focus=FRA_celebrate_the_commune has_completed_focus=FRA_legal_equality}
+	is_subject=no
+	communism>0.45}
+FRA_set149={has_completed_focus=FRA_force_the_issue
+	not={has_completed_focus=FRA_revolution_to_the_utmost}}
+FRA_set150={has_completed_focus=FRA_reconciliation}
+FRA_set151={has_completed_focus=FRA_constitutional_convention
+	not={has_completed_focus=FRA_loyalty_to_moscow has_completed_focus=FRA_loyalty_to_the_cause}
+is_subject=no}
+FRA_set152={has_completed_focus=FRA_anti_fascist_coalition
+is_subject=no}
+FRA_set153={has_completed_focus=FRA_invite_anti_fascist_emigrants
+is_subject=no}
+FRA_set154={or={has_completed_focus=FRA_reconnect_to_the_balkans has_completed_focus=FRA_host_the_german_exiles}
+	any_neighbor_country={
+		has_government=fascism
+		NOT={has_war_with=ROOT}
+		NOT={is_in_faction_with=ROOT}
+	}}
+FRA_set155={or={has_completed_focus=FRA_constitutional_convention has_completed_focus=FRA_destroy_the_counter_revolution}
+	not={has_completed_focus=FRA_anti_fascist_coalition has_completed_focus=FRA_loyalty_to_the_cause}
+	Not={has_war_with=SOV}
+	SOV={has_government=communism}
+	OR={
+		is_subject=no
+		is_subject_of=SOV
+	}}
+FRA_set156={has_completed_focus=FRA_loyalty_to_moscow}
+FRA_set157={has_completed_focus=FRA_league_of_french_bolshevist_volunteers
+	GER={
+		not={has_government=communism}
+	}}
+FRA_set158={has_completed_focus=FRA_force_the_issue
+	not={has_completed_focus=FRA_reconciliation}}
+FRA_set159={has_completed_focus=FRA_revolution_to_the_utmost
+is_subject=no}
+FRA_set160={has_completed_focus=FRA_destroy_the_counter_revolution}
+FRA_set161={has_completed_focus=FRA_destroy_the_counter_revolution
+	not={has_completed_focus=FRA_loyalty_to_moscow has_completed_focus=FRA_anti_fascist_coalition}
+is_subject=no}
+FRA_set162={has_completed_focus=FRA_loyalty_to_the_cause
+is_subject=no}
+FRA_set163={has_completed_focus=FRA_carry_the_revolution_north
+is_subject=no}
+FRA_set164={has_completed_focus=FRA_carry_the_revolution_north
+	is_subject=no
+	GER={
+		not={has_government=communism}
+	}}
+FRA_set165={has_completed_focus=FRA_carry_the_revolution_west has_completed_focus=FRA_carry_the_revolution_east
+	ITA={ITA_is_kinda_fascist=yes}
+	is_subject=no}
+FRA_set166={has_completed_focus=FRA_carry_the_revolution_south}
+FRA_set167={has_completed_focus=FRA_form_the_popular_front}
+FRA_set168={has_completed_focus=FRA_reform_the_labour_laws}
+FRA_set169={has_completed_focus=FRA_nationalize_key_industry}
+FRA_set170={has_completed_focus=FRA_nationalize_key_industry}
+FRA_set171={has_completed_focus=FRA_reorganize_the_aviation_industry has_completed_focus=FRA_form_the_state_arsenals}
+FRA_set172={has_completed_focus=FRA_general_work_council}
+FRA_set173={has_completed_focus=FRA_general_work_council}
+FRA_set174={has_completed_focus=FRA_form_the_popular_front
+has_idea=FRA_political_violence}
+FRA_set175={or={has_completed_focus=FRA_reform_the_labour_laws has_completed_focus=FRA_protect_the_rights_of_man}}
+FRA_set176={has_completed_focus=FRA_the_blum_viollette_proposal
+	any_owned_state={
+		NOT={
+			is_on_continent=europe
+			is_core_of=ROOT
+		}
+	}}
+FRA_set177={has_completed_focus=FRA_expand_the_citizenship
+	not={has_completed_focus=FRA_encourage_immigration}}
+FRA_set178={has_completed_focus=FRA_france_undividable
+has_war=no}
+FRA_set179={has_completed_focus=FRA_expand_the_citizenship
+	not={has_completed_focus=FRA_france_undividable}}
+FRA_set180={or={has_completed_focus=FRA_reform_the_labour_laws has_completed_focus=FRA_protect_the_rights_of_man}
+	NOT={
+		OR={has_completed_focus=FRA_invite_communist_ministers has_completed_focus=FRA_utilize_the_leagues}
+	}}
+FRA_set181={or={has_completed_focus=FRA_form_the_popular_front has_completed_focus=FRA_revive_the_national_bloc}
+	SPR_scw_in_progress=yes
+	is_subject=no}
+FRA_set182={has_completed_focus=FRA_review_foreign_policy
+	FIN={
+		has_war=yes
+		NOT={has_war_with=ROOT}
+	}
+	is_subject=no}
+FRA_set183={has_completed_focus=FRA_review_foreign_policy
+	not={has_completed_focus=FRA_buy_time}
+	OR={country_exists=YUG country_exists=CZE country_exists=ROM country_exists=POL}
+	is_subject=no
+	NOT={
+		AND={has_war_with=YUG has_war_with=POL has_war_with=ROM has_war_with=CZE}
+	}}
+FRA_set184={has_completed_focus=FRA_confirm_eastern_commitments
+	country_exists=CZE
+	is_subject=no}
+FRA_set185={has_completed_focus=FRA_strengthen_the_little_entente
+	is_subject=no
+	is_faction_leader=yes}
+FRA_set186={has_completed_focus=FRA_invite_yugoslavia
+	is_subject=no
+	is_faction_leader=yes}
+FRA_set187={has_completed_focus=FRA_invite_romania
+	is_in_faction=yes
+	any_other_country={
+		is_in_faction_with=ROOT
+		custom_trigger_tooltip={
+			tooltip=FRA_invest_in_our_weaker_allies_trigger_tt
+			check_variable={num_of_military_factories<FRA.num_of_military_factories}
+		}
+	}}
+FRA_set188={has_completed_focus=FRA_invest_in_our_weaker_allies
+is_in_faction=yes}
+FRA_set189={has_completed_focus=FRA_strengthen_the_little_entente
+FRA_has_worker_shortage=yes}
+FRA_set190={has_completed_focus=FRA_strengthen_the_little_entente
+	ENG={is_faction_leader=yes}
+	is_subject=no
+	NOT={has_war_with=ENG}}
+FRA_set191={has_completed_focus=FRA_confirm_eastern_commitments
+	country_exists=POL
+	NOT={has_war_with=POL}
+	is_subject=no}
+FRA_set192={has_completed_focus=FRA_review_foreign_policy
+	not={has_completed_focus=FRA_confirm_eastern_commitments}}
+FRA_set193={or={has_completed_focus=FRA_strengthen_the_little_entente has_completed_focus=FRA_buy_time}}
+FRA_set194={has_completed_focus=FRA_strengthen_government_support
+	custom_trigger_tooltip={
+		tooltip=FRA_strengthen_government_support_tooltip
+		NOT={has_idea=FRA_strengthen_government_support_focus}
+		has_country_flag=FRA_strengthen_government_support_focus_flag
+	}}
+FRA_set195={has_completed_focus=FRA_buy_time
+	not={has_completed_focus=FRA_france_leads}
+	is_subject=no
+	has_government=democratic
+	ENG={
+		exists=yes
+		has_government=democratic
+	}
+	NOT={has_war_with=ENG}
+	is_in_faction=no}
+FRA_set196={has_completed_focus=FRA_go_with_britain
+	country_exists=USA
+	USA_can_sell_weapons_trigger=yes}
+FRA_set197={has_completed_focus=FRA_buy_time
+	not={has_completed_focus=FRA_go_with_britain}
+	is_subject=no
+	is_in_faction=no}
+FRA_set198={has_completed_focus=FRA_france_leads
+	is_subject=no
+	NOT={has_war_with=ITA}
+	ENG={
+		exists=yes
+		has_government=ROOT
+		NOT={has_war_with=ITA has_war_with=ROOT}
+	}
+	268={is_owned_or_subject_trigger=yes}
+	AND={
+		OR={
+			ITA={controls_state=550}
+			any_country={
+				is_subject_of=ITA
+				controls_state=550
+			}
+		}
+		OR={
+			ITA={controls_state=559}
+			any_country={
+				is_subject_of=ITA
+				controls_state=559
+			}
+		}
+	}}
+FRA_set199={has_completed_focus=FRA_concessions_to_italy
+	is_subject=no
+	NOT={has_war_with=ITA has_war_with=ENG}
+	ENG={
+		NOT={has_war_with=ITA}
+		exists=yes
+	}
+	AND={
+		OR={
+			ITA={controls_state=550}
+			any_country={
+				is_subject_of=ITA
+				controls_state=550
+			}
+		}
+		OR={
+			ITA={controls_state=559}
+			any_country={
+				is_subject_of=ITA
+				controls_state=559
+			}
+		}
+	}
+	has_country_flag=lar_france_stresa_front_italy_agreed}
+FRA_set200={has_completed_focus=FRA_france_leads
+	is_subject=no
+	SOV={
+		exists=yes
+		NOT={has_government=fascism}
+		NOT={has_war_with=ROOT}
+		is_faction_leader=yes
+		NOT={has_global_flag=sov_yes_pact}
+	}}
+FRA_set201={has_completed_focus=FRA_form_the_popular_front}
+FRA_set202={has_completed_focus=FRA_leftist_rhetoric
+	OR={
+		has_government=communism
+		communism>0.4
+	}}
+FRA_set203={has_completed_focus=FRA_national_mobilization
+	not={has_completed_focus=FRA_humanite_unie}
+	is_puppet=no
+	is_in_faction=no
+	OR={
+		has_government=communism
+		communism>0.4
+	}
+	has_war=no
+	SOV={
+		exists=yes
+		has_government=communism
+		is_faction_leader=yes
+	}}
+FRA_set204={has_completed_focus=FRA_national_mobilization
+	not={has_completed_focus=FRA_join_comintern}
+is_puppet=no}
+FRA_set205={not={has_completed_focus=FRA_form_the_popular_front}}
+FRA_set206={has_completed_focus=FRA_revive_the_national_bloc
+	not={has_completed_focus=FRA_agricultural_protectionism}}
+FRA_set207={or={has_completed_focus=FRA_laissez_faire has_completed_focus=FRA_agricultural_protectionism}}
+FRA_set208={has_completed_focus=FRA_protect_the_rights_of_man}
+FRA_set209={or={has_completed_focus=FRA_freedom_front has_completed_focus=FRA_promote_entrepeneurship}}
+FRA_set210={has_completed_focus=FRA_revive_the_national_bloc
+	not={has_completed_focus=FRA_laissez_faire}}
+FRA_set211={or={has_completed_focus=FRA_agricultural_protectionism has_completed_focus=FRA_laissez_faire}}
+FRA_set212={has_completed_focus=FRA_economic_devolution}
+FRA_set213={has_completed_focus=FRA_revive_the_national_bloc
+	has_idea=FRA_political_violence
+	NOT={has_government=communism}}
+FRA_set214={has_completed_focus=FRA_revive_the_national_bloc
+	NOT={has_completed_focus=FRA_review_foreign_policy}
+	is_subject=no}
+FRA_set215={has_completed_focus=FRA_utilize_the_leagues
+	not={has_completed_focus=FRA_the_council_of_rambouillet}
+	custom_trigger_tooltip={
+		tooltip=FRA_national_regeneration_trigger_tt
+		set_temp_variable={FRA_rw_support=party_popularity@neutrality}
+		add_to_temp_variable={FRA_rw_support=party_popularity@fascism}
+		check_variable={FRA_rw_support>0.5}
+	}}
+FRA_set216={has_completed_focus=FRA_national_regeneration}
+FRA_set217={has_completed_focus=FRA_national_regeneration}
+FRA_set218={has_completed_focus=FRA_integralism
+	not={has_completed_focus=FRA_family has_completed_focus=FRA_fatherland}}
+FRA_set219={has_completed_focus=FRA_integralism
+	not={has_completed_focus=FRA_work has_completed_focus=FRA_fatherland}}
+FRA_set220={has_completed_focus=FRA_integralism
+	not={has_completed_focus=FRA_family has_completed_focus=FRA_work}}
+FRA_set221={has_completed_focus=FRA_national_regeneration}
+FRA_set222={has_completed_focus=FRA_national_regeneration}
+FRA_set223={has_completed_focus=FRA_diplomatic_freedom
+	not={has_completed_focus=FRA_towards_a_new_europe}
+is_subject=no}
+FRA_set224={has_completed_focus=FRA_latin_entente
+	any_other_country={
+		original_tag=SPR
+		OR={
+			has_government=ROOT
+			AND={
+				has_country_leader={character=SPA_francisco_franco}
+				ROOT={has_government=fascism}
+			}
+		}
+	}
+	IF={
+		limit={is_subject=yes}
+		41={
+			CONTROLLER={
+				set_temp_variable={spain=THIS}
+			}
+		}
+		OVERLORD={
+			NOT={has_war_with=var:spain}
+		}
+	}}
+FRA_set225={has_completed_focus=FRA_reach_out_to_spain
+	POR={
+		exists=yes
+		NOT={has_war_with=ROOT}
+	}
+	IF={
+		limit={is_subject=yes}
+		OVERLORD={
+			NOT={has_war_with=POR}
+		}
+	}}
+FRA_set226={has_completed_focus=FRA_latin_entente
+	country_exists=ITA
+	NOT={has_war_with=ITA}
+	ITA={is_subject=no}
+	OR={
+		is_subject=no
+		is_subject_of=ITA
+	}}
+FRA_set227={has_completed_focus=FRA_compensate_italy
+	NOT={is_in_faction_with=GRE}}
+FRA_set228={has_completed_focus=FRA_invite_portugal has_completed_focus=FRA_intervention_in_greece
+	is_in_faction_with=ITA is_in_faction_with=POR
+	41={
+		CONTROLLER={is_in_faction_with=ROOT}
+	}}
+FRA_set229={has_completed_focus=FRA_the_congress_of_paris}
+FRA_set230={has_completed_focus=FRA_diplomatic_freedom
+	not={has_completed_focus=FRA_latin_entente}
+	OR={
+		is_subject=no
+		is_subject_of=GER
+	}}
+FRA_set231={has_completed_focus=FRA_towards_a_new_europe
+	GER={
+		has_government=ROOT
+		NOT={has_war_with=ROOT}
+	}
+	OR={
+		is_subject=no
+		is_subject_of=GER
+	}}
+FRA_set232={has_completed_focus=FRA_establish_spheres_of_influence
+	not={has_completed_focus=FRA_align_belgium}
+	OR={
+		is_subject=no
+		is_subject_of=GER
+	}}
+FRA_set233={has_completed_focus=FRA_establish_spheres_of_influence
+	not={has_completed_focus=FRA_split_belgium}
+	BEL={
+		exists=yes
+		is_in_faction=no
+		NOT={has_war_with=ROOT}
+	}
+	OR={
+		is_subject=no
+		is_subject_of=GER
+	}}
+FRA_set234={or={has_completed_focus=FRA_split_belgium has_completed_focus=FRA_align_belgium}
+	BEL={is_subject_of=ROOT}
+	OR={
+		is_subject=no
+		is_subject_of=GER
+	}
+	295={
+		CONTROLLER={
+			OR={
+				tag=BEL
+				is_subject_of=BEL
+			}
+		}
+	}
+	538={
+		CONTROLLER={
+			OR={
+				tag=BEL
+				is_subject_of=BEL
+			}
+		}
+	}
+	718={
+		CONTROLLER={
+			OR={
+				tag=BEL
+				is_subject_of=BEL
+			}
+		}
+	}
+	769={
+		CONTROLLER={
+			OR={
+				tag=BEL
+				is_subject_of=BEL
+			}
+		}
+	}
+	768={
+		CONTROLLER={
+			OR={
+				tag=BEL
+				is_subject_of=BEL
+			}
+		}
+	}
+	890={
+		CONTROLLER={
+			OR={
+				tag=BEL
+				is_subject_of=BEL
+			}
+		}
+	}
+	888={
+		CONTROLLER={
+			OR={
+				tag=BEL
+				is_subject_of=BEL
+			}
+		}
+	}
+	889={
+		CONTROLLER={
+			OR={
+				tag=BEL
+				is_subject_of=BEL
+			}
+		}
+	}}
+FRA_set235={has_completed_focus=FRA_grow_the_empire
+	OR={
+		is_subject=no
+		is_subject_of=GER
+	}}
+FRA_set236={or={has_completed_focus=FRA_intervention_in_greece has_completed_focus=FRA_grow_the_empire}}
+FRA_set237={has_completed_focus=FRA_expand_to_the_suez}
+FRA_set238={has_completed_focus=FRA_revive_the_national_bloc}
+FRA_set239={has_completed_focus=FRA_right_wing_rhetoric
+	OR={
+		has_government=fascism
+		fascism>0.4
+	}}
+FRA_set240={has_completed_focus=FRA_army_of_aggression
+	not={has_completed_focus=FRA_join_germany has_completed_focus=FRA_woo_italy}
+is_puppet=no}
+FRA_set241={has_completed_focus=FRA_army_of_aggression
+	not={has_completed_focus=FRA_join_germany has_completed_focus=FRA_france_first}
+	is_puppet=no
+	NOT={has_war_with=ITA}
+	has_government=fascism
+	OR={
+		is_faction_leader=yes
+		is_in_faction=no
+	}
+	ITA={
+		exists=yes
+		is_in_faction=no
+		has_government=fascism
+		is_puppet=no
+	}}
+FRA_set242={has_completed_focus=FRA_woo_italy
+	is_puppet=no
+	GER={has_government=democratic}}
+FRA_set243={has_completed_focus=FRA_army_of_aggression
+	not={has_completed_focus=FRA_woo_italy has_completed_focus=FRA_france_first}
+	is_puppet=no
+	is_in_faction=no
+	NOT={has_war_with=GER}
+	OR={
+		has_government=fascism
+		fascism>0.4
+	}
+	GER={
+		exists=yes
+		has_government=fascism
+		is_faction_leader=yes
+	}}
+FRA_set244={has_completed_focus=FRA_utilize_the_leagues
+	not={has_completed_focus=FRA_national_regeneration}
+is_subject=no}
+FRA_set245={has_completed_focus=FRA_the_council_of_rambouillet
+is_subject=no}
+FRA_set246={has_completed_focus=FRA_revise_the_constitution
+	not={has_idea=FRA_constitutional_revision}
+	is_subject=no}
+FRA_set247={has_completed_focus=FRA_repeal_the_law_of_exile
+	not={has_completed_focus=FRA_the_legitimate_heir has_completed_focus=FRA_proclaim_the_third_empire}
+is_subject=no}
+FRA_set248={has_completed_focus=FRA_orleanist_restoration
+is_subject=no}
+FRA_set249={has_completed_focus=FRA_orleanist_restoration
+is_subject=no}
+FRA_set250={or={has_completed_focus=FRA_guarantee_the_constitution has_completed_focus=FRA_the_first_citizen_of_the_state}
+is_subject=no}
+FRA_set251={has_completed_focus=FRA_counter_action
+	OR={
+		GER={has_government=fascism}
+		ITA={has_government=fascism}
+	}
+	is_subject=no}
+FRA_set252={has_completed_focus=FRA_counter_action}
+FRA_set253={has_completed_focus=FRA_slum_clearing}
+FRA_set254={has_completed_focus=FRA_repeal_the_law_of_exile
+	not={has_completed_focus=FRA_orleanist_restoration has_completed_focus=FRA_proclaim_the_third_empire}
+is_subject=no}
+FRA_set255={has_completed_focus=FRA_the_legitimate_heir
+is_subject=no}
+FRA_set256={has_completed_focus=FRA_secure_the_crown_of_spain
+	not={has_completed_focus=FRA_two_countries_two_crowns}
+	if={
+		limit={country_exists=SPB}
+		SPB={
+			NOT={has_war_with=SPA}
+			NOT={has_war_with=SPC}
+			NOT={has_war_with=SPD}
+			OR={
+				is_in_faction=no
+				is_in_faction_with=ROOT
+			}
+			NOT={has_war_with=ROOT}
+		}
+	}
+	else={
+		any_controlled_state={is_core_of=SPB}
+	}
+	is_subject=no}
+FRA_set257={has_completed_focus=FRA_secure_the_crown_of_spain
+	not={has_completed_focus=FRA_unite_the_crowns}
+	is_subject=no
+	country_exists=SPB
+	SPB={
+		OR={
+			is_in_faction=no
+			is_in_faction_with=ROOT
+		}
+		NOT={has_war_with=ROOT}
+	}}
+FRA_set258={has_completed_focus=FRA_repeal_the_law_of_exile
+	not={has_completed_focus=FRA_orleanist_restoration has_completed_focus=FRA_the_legitimate_heir}
+	is_subject=no
+	OR={
+		is_in_faction=no
+		is_faction_leader=yes
+	}}
+FRA_set259={has_completed_focus=FRA_proclaim_the_third_empire
+is_subject=no}
+FRA_set260={has_completed_focus=FRA_avenge_waterloo
+	is_subject=no
+	OR={
+		HOL={is_subject_of=ROOT}
+		any_controlled_state={is_core_of=HOL}
+	}}
+FRA_set261={has_completed_focus=FRA_avenge_waterloo
+is_subject=no}
+FRA_set262={has_completed_focus=FRA_retribution_for_sedan
+	is_subject=no
+	is_faction_leader=yes
+	any_controlled_state={is_core_of=GER}
+	GER={
+		OR={
+			exists=no
+			has_capitulated=yes
+		}
+	}}
+FRA_set263={has_completed_focus=FRA_retribution_for_sedan
+is_subject=no}
+FRA_set264={has_completed_focus=FRA_return_to_borodino
+is_subject=no}
+FRA_set265={always=yes}
+FRA_set266={has_completed_focus=FRA_naval_rearmament}
+FRA_set267={has_completed_focus=FRA_colonial_naval_bases}
+FRA_set268={has_completed_focus=FRA_naval_rearmament
+	not={has_completed_focus=FRA_the_young_school}}
+FRA_set269={has_completed_focus=FRA_the_old_school
+	not={has_completed_focus=FRA_carrier_focus}}
+FRA_set270={has_completed_focus=FRA_the_old_school
+	not={has_completed_focus=FRA_capital_ship_focus}}
+FRA_set271={has_completed_focus=FRA_carrier_focus}
+FRA_set272={has_completed_focus=FRA_capital_ship_focus}
+FRA_set273={has_completed_focus=FRA_carrier_focus}
+FRA_set274={has_completed_focus=FRA_naval_rearmament
+	not={has_completed_focus=FRA_the_old_school}}
+FRA_set275={has_completed_focus=FRA_the_young_school}
+FRA_set276={has_completed_focus=FRA_the_young_school}
+FRA_set277={has_completed_focus=FRA_surface_combat has_completed_focus=FRA_undersea_combat}
+FRA_set278={or={has_completed_focus=FRA_prioritize_the_joffre has_completed_focus=FRA_rush_the_richelieus has_completed_focus=FRA_improved_screen_ships}}
+FRA_set279={always=yes}
+FRA_set280={has_completed_focus=FRA_air_focus
+	not={has_completed_focus=FRA_bomber_focus}}
+FRA_set281={has_completed_focus=FRA_fighter_focus}
+FRA_set282={has_completed_focus=FRA_air_focus
+	not={has_completed_focus=FRA_fighter_focus}}
+FRA_set283={or={has_completed_focus=FRA_fighter_focus has_completed_focus=FRA_bomber_focus}}
+FRA_set284={has_completed_focus=FRA_bomber_focus}
+FRA_set285={has_completed_focus=FRA_bomber_focus}

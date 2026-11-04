@@ -1,0 +1,1 @@
+focus={current=JAP_expand_hiratsuka_navy_arsenal}

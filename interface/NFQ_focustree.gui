@@ -1,0 +1,5398 @@
+guiTypes = {
+	containerWindowType = {
+		name = "NFQ_tree_overlay"
+		position = { x = 182 y = 65 }
+		size = { width = 24000 height = 6000 }
+		Orientation = upper_left
+		clipping = no
+		buttonType = {
+			name = "101"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "101t"
+			text = "[?t101]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "102"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "102t"
+			text = "[?t102]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "103"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "103t"
+			text = "[?t103]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "104"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "104t"
+			text = "[?t104]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "105"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "105t"
+			text = "[?t105]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "106"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "106t"
+			text = "[?t106]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "107"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "107t"
+			text = "[?t107]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "108"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "108t"
+			text = "[?t108]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "109"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "109t"
+			text = "[?t109]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "110"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "110t"
+			text = "[?t110]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "111"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "111t"
+			text = "[?t111]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "112"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "112t"
+			text = "[?t112]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "113"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "113t"
+			text = "[?t113]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "114"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "114t"
+			text = "[?t114]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "115"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "115t"
+			text = "[?t115]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "116"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "116t"
+			text = "[?t116]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "117"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "117t"
+			text = "[?t117]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "118"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "118t"
+			text = "[?t118]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "119"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "119t"
+			text = "[?t119]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "120"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "120t"
+			text = "[?t120]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "121"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "121t"
+			text = "[?t121]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "122"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "122t"
+			text = "[?t122]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "123"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "123t"
+			text = "[?t123]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "124"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "124t"
+			text = "[?t124]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "125"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "125t"
+			text = "[?t125]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "126"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "126t"
+			text = "[?t126]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "127"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "127t"
+			text = "[?t127]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "128"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "128t"
+			text = "[?t128]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "129"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "129t"
+			text = "[?t129]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "130"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "130t"
+			text = "[?t130]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "131"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "131t"
+			text = "[?t131]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "132"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "132t"
+			text = "[?t132]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "133"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "133t"
+			text = "[?t133]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "134"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "134t"
+			text = "[?t134]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "135"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "135t"
+			text = "[?t135]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "136"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "136t"
+			text = "[?t136]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "137"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "137t"
+			text = "[?t137]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "138"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "138t"
+			text = "[?t138]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "139"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "139t"
+			text = "[?t139]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "140"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "140t"
+			text = "[?t140]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "141"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "141t"
+			text = "[?t141]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "142"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "142t"
+			text = "[?t142]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "143"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "143t"
+			text = "[?t143]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "144"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "144t"
+			text = "[?t144]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "145"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "145t"
+			text = "[?t145]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "146"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "146t"
+			text = "[?t146]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "147"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "147t"
+			text = "[?t147]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "148"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "148t"
+			text = "[?t148]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "149"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "149t"
+			text = "[?t149]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "150"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "150t"
+			text = "[?t150]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "151"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "151t"
+			text = "[?t151]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "152"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "152t"
+			text = "[?t152]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "153"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "153t"
+			text = "[?t153]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "154"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "154t"
+			text = "[?t154]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "155"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "155t"
+			text = "[?t155]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "156"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "156t"
+			text = "[?t156]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "157"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "157t"
+			text = "[?t157]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "158"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "158t"
+			text = "[?t158]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "159"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "159t"
+			text = "[?t159]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "160"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "160t"
+			text = "[?t160]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "161"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "161t"
+			text = "[?t161]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "162"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "162t"
+			text = "[?t162]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "163"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "163t"
+			text = "[?t163]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "164"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "164t"
+			text = "[?t164]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "165"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "165t"
+			text = "[?t165]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "166"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "166t"
+			text = "[?t166]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "167"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "167t"
+			text = "[?t167]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "168"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "168t"
+			text = "[?t168]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "169"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "169t"
+			text = "[?t169]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "170"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "170t"
+			text = "[?t170]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "171"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "171t"
+			text = "[?t171]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "172"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "172t"
+			text = "[?t172]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "173"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "173t"
+			text = "[?t173]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "174"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "174t"
+			text = "[?t174]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "175"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "175t"
+			text = "[?t175]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "176"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "176t"
+			text = "[?t176]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "177"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "177t"
+			text = "[?t177]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "178"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "178t"
+			text = "[?t178]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "179"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "179t"
+			text = "[?t179]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "180"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "180t"
+			text = "[?t180]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "181"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "181t"
+			text = "[?t181]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "182"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "182t"
+			text = "[?t182]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "183"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "183t"
+			text = "[?t183]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "184"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "184t"
+			text = "[?t184]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "185"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "185t"
+			text = "[?t185]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "186"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "186t"
+			text = "[?t186]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "187"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "187t"
+			text = "[?t187]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "188"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "188t"
+			text = "[?t188]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "189"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "189t"
+			text = "[?t189]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "190"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "190t"
+			text = "[?t190]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "191"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "191t"
+			text = "[?t191]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "192"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "192t"
+			text = "[?t192]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "193"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "193t"
+			text = "[?t193]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "194"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "194t"
+			text = "[?t194]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "195"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "195t"
+			text = "[?t195]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "196"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "196t"
+			text = "[?t196]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "197"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "197t"
+			text = "[?t197]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "198"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "198t"
+			text = "[?t198]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "199"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "199t"
+			text = "[?t199]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "200"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "200t"
+			text = "[?t200]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "201"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "201t"
+			text = "[?t201]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "202"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "202t"
+			text = "[?t202]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "203"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "203t"
+			text = "[?t203]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "204"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "204t"
+			text = "[?t204]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "205"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "205t"
+			text = "[?t205]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "206"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "206t"
+			text = "[?t206]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "207"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "207t"
+			text = "[?t207]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "208"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "208t"
+			text = "[?t208]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "209"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "209t"
+			text = "[?t209]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "210"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "210t"
+			text = "[?t210]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "211"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "211t"
+			text = "[?t211]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "212"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "212t"
+			text = "[?t212]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "213"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "213t"
+			text = "[?t213]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "214"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "214t"
+			text = "[?t214]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "215"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "215t"
+			text = "[?t215]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "216"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "216t"
+			text = "[?t216]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "217"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "217t"
+			text = "[?t217]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "218"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "218t"
+			text = "[?t218]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "219"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "219t"
+			text = "[?t219]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "220"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "220t"
+			text = "[?t220]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "221"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "221t"
+			text = "[?t221]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "222"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "222t"
+			text = "[?t222]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "223"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "223t"
+			text = "[?t223]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "224"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "224t"
+			text = "[?t224]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "225"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "225t"
+			text = "[?t225]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "226"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "226t"
+			text = "[?t226]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "227"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "227t"
+			text = "[?t227]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "228"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "228t"
+			text = "[?t228]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "229"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "229t"
+			text = "[?t229]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "230"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "230t"
+			text = "[?t230]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "231"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "231t"
+			text = "[?t231]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "232"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "232t"
+			text = "[?t232]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "233"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "233t"
+			text = "[?t233]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "234"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "234t"
+			text = "[?t234]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "235"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "235t"
+			text = "[?t235]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "236"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "236t"
+			text = "[?t236]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "237"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "237t"
+			text = "[?t237]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "238"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "238t"
+			text = "[?t238]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "239"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "239t"
+			text = "[?t239]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "240"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "240t"
+			text = "[?t240]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "241"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "241t"
+			text = "[?t241]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "242"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "242t"
+			text = "[?t242]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "243"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "243t"
+			text = "[?t243]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "244"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "244t"
+			text = "[?t244]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "245"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "245t"
+			text = "[?t245]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "246"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "246t"
+			text = "[?t246]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "247"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "247t"
+			text = "[?t247]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "248"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "248t"
+			text = "[?t248]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "249"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "249t"
+			text = "[?t249]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "250"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "250t"
+			text = "[?t250]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "251"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "251t"
+			text = "[?t251]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "252"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "252t"
+			text = "[?t252]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "253"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "253t"
+			text = "[?t253]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "254"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "254t"
+			text = "[?t254]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "255"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "255t"
+			text = "[?t255]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "256"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "256t"
+			text = "[?t256]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "257"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "257t"
+			text = "[?t257]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "258"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "258t"
+			text = "[?t258]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "259"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "259t"
+			text = "[?t259]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "260"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "260t"
+			text = "[?t260]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "261"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "261t"
+			text = "[?t261]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "262"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "262t"
+			text = "[?t262]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "263"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "263t"
+			text = "[?t263]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "264"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "264t"
+			text = "[?t264]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "265"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "265t"
+			text = "[?t265]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "266"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "266t"
+			text = "[?t266]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "267"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "267t"
+			text = "[?t267]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "268"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "268t"
+			text = "[?t268]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "269"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "269t"
+			text = "[?t269]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "270"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "270t"
+			text = "[?t270]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "271"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "271t"
+			text = "[?t271]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "272"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "272t"
+			text = "[?t272]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "273"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "273t"
+			text = "[?t273]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "274"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "274t"
+			text = "[?t274]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "275"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "275t"
+			text = "[?t275]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "276"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "276t"
+			text = "[?t276]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "277"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "277t"
+			text = "[?t277]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "278"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "278t"
+			text = "[?t278]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "279"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "279t"
+			text = "[?t279]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "280"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "280t"
+			text = "[?t280]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "281"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "281t"
+			text = "[?t281]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "282"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "282t"
+			text = "[?t282]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "283"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "283t"
+			text = "[?t283]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "284"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "284t"
+			text = "[?t284]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "285"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "285t"
+			text = "[?t285]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "286"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "286t"
+			text = "[?t286]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "287"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "287t"
+			text = "[?t287]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "288"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "288t"
+			text = "[?t288]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "289"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "289t"
+			text = "[?t289]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "290"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "290t"
+			text = "[?t290]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "291"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "291t"
+			text = "[?t291]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "292"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "292t"
+			text = "[?t292]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "293"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "293t"
+			text = "[?t293]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "294"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "294t"
+			text = "[?t294]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "295"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "295t"
+			text = "[?t295]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "296"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "296t"
+			text = "[?t296]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "297"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "297t"
+			text = "[?t297]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "298"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "298t"
+			text = "[?t298]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "299"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "299t"
+			text = "[?t299]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "300"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "300t"
+			text = "[?t300]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "301"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "301t"
+			text = "[?t301]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "302"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "302t"
+			text = "[?t302]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "303"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "303t"
+			text = "[?t303]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "304"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "304t"
+			text = "[?t304]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "305"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "305t"
+			text = "[?t305]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "306"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "306t"
+			text = "[?t306]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "307"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "307t"
+			text = "[?t307]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "308"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "308t"
+			text = "[?t308]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "309"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "309t"
+			text = "[?t309]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "310"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "310t"
+			text = "[?t310]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "311"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "311t"
+			text = "[?t311]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "312"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "312t"
+			text = "[?t312]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "313"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "313t"
+			text = "[?t313]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "314"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "314t"
+			text = "[?t314]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "315"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "315t"
+			text = "[?t315]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "316"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "316t"
+			text = "[?t316]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "317"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "317t"
+			text = "[?t317]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "318"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "318t"
+			text = "[?t318]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "319"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "319t"
+			text = "[?t319]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "320"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "320t"
+			text = "[?t320]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "321"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "321t"
+			text = "[?t321]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "322"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "322t"
+			text = "[?t322]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "323"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "323t"
+			text = "[?t323]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "324"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "324t"
+			text = "[?t324]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "325"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "325t"
+			text = "[?t325]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "326"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "326t"
+			text = "[?t326]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "327"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "327t"
+			text = "[?t327]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "328"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "328t"
+			text = "[?t328]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "329"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "329t"
+			text = "[?t329]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "330"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "330t"
+			text = "[?t330]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "331"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "331t"
+			text = "[?t331]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "332"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "332t"
+			text = "[?t332]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "333"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "333t"
+			text = "[?t333]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "334"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "334t"
+			text = "[?t334]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "335"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "335t"
+			text = "[?t335]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "336"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "336t"
+			text = "[?t336]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "337"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "337t"
+			text = "[?t337]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "338"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "338t"
+			text = "[?t338]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "339"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "339t"
+			text = "[?t339]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "340"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "340t"
+			text = "[?t340]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "341"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "341t"
+			text = "[?t341]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "342"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "342t"
+			text = "[?t342]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "343"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "343t"
+			text = "[?t343]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "344"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "344t"
+			text = "[?t344]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "345"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "345t"
+			text = "[?t345]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "346"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "346t"
+			text = "[?t346]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "347"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "347t"
+			text = "[?t347]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "348"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "348t"
+			text = "[?t348]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "349"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "349t"
+			text = "[?t349]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "350"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "350t"
+			text = "[?t350]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "351"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "351t"
+			text = "[?t351]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "352"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "352t"
+			text = "[?t352]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "353"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "353t"
+			text = "[?t353]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "354"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "354t"
+			text = "[?t354]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "355"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "355t"
+			text = "[?t355]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "356"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "356t"
+			text = "[?t356]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "357"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "357t"
+			text = "[?t357]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "358"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "358t"
+			text = "[?t358]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "359"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "359t"
+			text = "[?t359]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "360"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "360t"
+			text = "[?t360]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "361"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "361t"
+			text = "[?t361]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "362"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "362t"
+			text = "[?t362]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "363"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "363t"
+			text = "[?t363]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "364"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "364t"
+			text = "[?t364]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "365"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "365t"
+			text = "[?t365]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "366"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "366t"
+			text = "[?t366]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "367"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "367t"
+			text = "[?t367]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "368"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "368t"
+			text = "[?t368]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "369"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "369t"
+			text = "[?t369]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "370"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "370t"
+			text = "[?t370]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "371"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "371t"
+			text = "[?t371]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "372"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "372t"
+			text = "[?t372]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "373"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "373t"
+			text = "[?t373]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "374"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "374t"
+			text = "[?t374]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "375"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "375t"
+			text = "[?t375]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "376"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "376t"
+			text = "[?t376]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "377"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "377t"
+			text = "[?t377]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "378"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "378t"
+			text = "[?t378]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "379"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "379t"
+			text = "[?t379]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "380"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "380t"
+			text = "[?t380]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "381"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "381t"
+			text = "[?t381]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "382"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "382t"
+			text = "[?t382]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "383"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "383t"
+			text = "[?t383]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "384"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "384t"
+			text = "[?t384]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "385"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "385t"
+			text = "[?t385]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "386"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "386t"
+			text = "[?t386]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "387"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "387t"
+			text = "[?t387]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "388"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "388t"
+			text = "[?t388]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "389"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "389t"
+			text = "[?t389]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "390"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "390t"
+			text = "[?t390]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "391"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "391t"
+			text = "[?t391]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "392"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "392t"
+			text = "[?t392]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "393"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "393t"
+			text = "[?t393]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "394"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "394t"
+			text = "[?t394]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "395"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "395t"
+			text = "[?t395]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "396"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "396t"
+			text = "[?t396]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "397"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "397t"
+			text = "[?t397]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "398"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "398t"
+			text = "[?t398]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "399"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "399t"
+			text = "[?t399]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "400"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "400t"
+			text = "[?t400]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "401"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "401t"
+			text = "[?t401]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "402"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "402t"
+			text = "[?t402]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "403"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "403t"
+			text = "[?t403]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "404"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "404t"
+			text = "[?t404]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "405"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "405t"
+			text = "[?t405]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "406"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "406t"
+			text = "[?t406]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "407"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "407t"
+			text = "[?t407]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "408"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "408t"
+			text = "[?t408]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "409"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "409t"
+			text = "[?t409]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "410"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "410t"
+			text = "[?t410]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "411"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "411t"
+			text = "[?t411]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "412"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "412t"
+			text = "[?t412]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "413"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "413t"
+			text = "[?t413]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "414"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "414t"
+			text = "[?t414]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "415"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "415t"
+			text = "[?t415]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "416"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "416t"
+			text = "[?t416]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "417"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "417t"
+			text = "[?t417]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "418"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "418t"
+			text = "[?t418]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "419"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "419t"
+			text = "[?t419]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "420"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "420t"
+			text = "[?t420]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "421"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "421t"
+			text = "[?t421]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "422"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "422t"
+			text = "[?t422]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "423"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "423t"
+			text = "[?t423]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "424"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "424t"
+			text = "[?t424]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "425"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "425t"
+			text = "[?t425]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "426"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "426t"
+			text = "[?t426]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "427"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "427t"
+			text = "[?t427]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "428"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "428t"
+			text = "[?t428]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "429"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "429t"
+			text = "[?t429]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "430"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "430t"
+			text = "[?t430]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "431"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "431t"
+			text = "[?t431]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "432"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "432t"
+			text = "[?t432]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "433"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "433t"
+			text = "[?t433]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "434"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "434t"
+			text = "[?t434]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "435"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "435t"
+			text = "[?t435]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "436"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "436t"
+			text = "[?t436]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "437"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "437t"
+			text = "[?t437]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "438"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "438t"
+			text = "[?t438]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "439"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "439t"
+			text = "[?t439]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "440"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "440t"
+			text = "[?t440]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "441"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "441t"
+			text = "[?t441]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "442"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "442t"
+			text = "[?t442]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "443"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "443t"
+			text = "[?t443]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "444"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "444t"
+			text = "[?t444]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "445"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "445t"
+			text = "[?t445]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "446"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "446t"
+			text = "[?t446]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "447"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "447t"
+			text = "[?t447]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "448"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "448t"
+			text = "[?t448]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "449"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "449t"
+			text = "[?t449]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "450"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "450t"
+			text = "[?t450]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "451"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "451t"
+			text = "[?t451]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "452"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "452t"
+			text = "[?t452]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "453"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "453t"
+			text = "[?t453]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "454"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "454t"
+			text = "[?t454]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "455"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "455t"
+			text = "[?t455]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "456"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "456t"
+			text = "[?t456]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "457"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "457t"
+			text = "[?t457]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "458"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "458t"
+			text = "[?t458]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "459"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "459t"
+			text = "[?t459]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "460"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "460t"
+			text = "[?t460]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "461"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "461t"
+			text = "[?t461]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "462"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "462t"
+			text = "[?t462]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "463"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "463t"
+			text = "[?t463]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "464"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "464t"
+			text = "[?t464]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "465"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "465t"
+			text = "[?t465]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "466"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "466t"
+			text = "[?t466]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "467"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "467t"
+			text = "[?t467]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "468"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "468t"
+			text = "[?t468]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "469"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "469t"
+			text = "[?t469]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "470"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "470t"
+			text = "[?t470]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "471"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "471t"
+			text = "[?t471]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "472"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "472t"
+			text = "[?t472]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "473"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "473t"
+			text = "[?t473]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "474"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "474t"
+			text = "[?t474]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "475"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "475t"
+			text = "[?t475]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "476"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "476t"
+			text = "[?t476]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "477"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "477t"
+			text = "[?t477]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "478"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "478t"
+			text = "[?t478]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "479"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "479t"
+			text = "[?t479]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "480"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "480t"
+			text = "[?t480]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "481"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "481t"
+			text = "[?t481]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "482"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "482t"
+			text = "[?t482]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "483"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "483t"
+			text = "[?t483]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "484"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "484t"
+			text = "[?t484]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "485"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "485t"
+			text = "[?t485]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "486"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "486t"
+			text = "[?t486]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "487"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "487t"
+			text = "[?t487]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "488"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "488t"
+			text = "[?t488]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "489"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "489t"
+			text = "[?t489]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "490"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "490t"
+			text = "[?t490]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "491"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "491t"
+			text = "[?t491]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "492"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "492t"
+			text = "[?t492]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "493"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "493t"
+			text = "[?t493]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "494"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "494t"
+			text = "[?t494]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "495"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "495t"
+			text = "[?t495]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "496"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "496t"
+			text = "[?t496]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "497"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "497t"
+			text = "[?t497]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "498"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "498t"
+			text = "[?t498]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "499"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "499t"
+			text = "[?t499]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "500"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "500t"
+			text = "[?t500]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "501"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "501t"
+			text = "[?t501]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "502"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "502t"
+			text = "[?t502]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "503"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "503t"
+			text = "[?t503]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "504"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "504t"
+			text = "[?t504]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "505"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "505t"
+			text = "[?t505]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "506"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "506t"
+			text = "[?t506]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "507"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "507t"
+			text = "[?t507]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "508"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "508t"
+			text = "[?t508]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "509"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "509t"
+			text = "[?t509]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "510"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "510t"
+			text = "[?t510]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "511"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "511t"
+			text = "[?t511]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "512"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "512t"
+			text = "[?t512]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "513"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "513t"
+			text = "[?t513]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "514"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "514t"
+			text = "[?t514]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "515"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "515t"
+			text = "[?t515]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "516"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "516t"
+			text = "[?t516]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "517"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "517t"
+			text = "[?t517]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "518"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "518t"
+			text = "[?t518]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "519"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "519t"
+			text = "[?t519]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "520"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "520t"
+			text = "[?t520]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "521"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "521t"
+			text = "[?t521]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "522"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "522t"
+			text = "[?t522]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "523"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "523t"
+			text = "[?t523]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "524"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "524t"
+			text = "[?t524]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "525"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "525t"
+			text = "[?t525]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "526"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "526t"
+			text = "[?t526]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "527"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "527t"
+			text = "[?t527]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "528"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "528t"
+			text = "[?t528]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "529"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "529t"
+			text = "[?t529]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "530"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "530t"
+			text = "[?t530]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "531"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "531t"
+			text = "[?t531]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "532"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "532t"
+			text = "[?t532]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "533"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "533t"
+			text = "[?t533]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "534"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "534t"
+			text = "[?t534]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "535"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "535t"
+			text = "[?t535]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "536"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "536t"
+			text = "[?t536]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "537"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "537t"
+			text = "[?t537]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "538"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "538t"
+			text = "[?t538]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "539"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "539t"
+			text = "[?t539]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "540"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "540t"
+			text = "[?t540]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "541"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "541t"
+			text = "[?t541]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "542"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "542t"
+			text = "[?t542]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "543"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "543t"
+			text = "[?t543]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "544"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "544t"
+			text = "[?t544]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "545"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "545t"
+			text = "[?t545]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "546"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "546t"
+			text = "[?t546]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "547"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "547t"
+			text = "[?t547]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "548"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "548t"
+			text = "[?t548]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+		buttonType = {
+			name = "549"
+			spriteType = "GFX_icon"
+		}
+		instantTextboxType = {
+			name = "549t"
+			text = "[?t549]"
+			font = "hoi_16mbs"
+			format = center
+			bordersize = { x = 0 y = 9 }
+			maxWidth = 30
+		}
+
+	}
+}

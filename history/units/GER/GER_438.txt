@@ -1,0 +1,1 @@
+focus={current=GER_offer_military_production_support}

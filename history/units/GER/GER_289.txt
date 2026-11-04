@@ -1,0 +1,1 @@
+focus={current=GER_ascension_of_speer}

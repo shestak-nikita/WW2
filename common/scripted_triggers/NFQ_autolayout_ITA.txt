@@ -1,0 +1,2952 @@
+# Generated file. Regenerate with tools/generate_nfq_layout.py.
+NFQ_focus_visible_ITA_ITA_ethiopian_war_logistics_bba = {
+    always = yes
+}
+
+NFQ_focus_visible_ITA_ITA_italian_highways_bba = {
+    always = yes
+}
+
+NFQ_focus_visible_ITA_ITA_ministry_of_italian_africa = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_italian_highways_bba = yes
+            NFQ_focus_visible_ITA_ITA_ethiopian_war_logistics_bba = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_develop_ethiopia = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_ministry_of_italian_africa = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_develop_libya = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_ministry_of_italian_africa = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_develop_eritrea = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_ministry_of_italian_africa = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_develop_somaliland = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_ministry_of_italian_africa = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_regional_development = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_develop_eritrea = yes
+            NFQ_focus_visible_ITA_ITA_develop_libya = yes
+            NFQ_focus_visible_ITA_ITA_develop_somaliland = yes
+            NFQ_focus_visible_ITA_ITA_develop_ethiopia = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_litoranea_balbo = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_regional_development = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_via_della_vittoria = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_litoranea_balbo = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_libyan_railway = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_litoranea_balbo = yes
+            NFQ_focus_visible_ITA_ITA_prospect_for_oil = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_prospect_for_oil = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_regional_development = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_libyan_refineries = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_prospect_for_oil = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_polizia_dell_africa_italiana = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_strengthen_ascari_corps
+                check_variable = { f115 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_regional_development = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_strengthen_ascari_corps = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_polizia_dell_africa_italiana
+                check_variable = { f114 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_regional_development = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_comandante_diavolo = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_polizia_dell_africa_italiana = yes
+            NFQ_focus_visible_ITA_ITA_strengthen_ascari_corps = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_steel_industry_in_terni = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_power_plants_in_terni
+                check_variable = { f118 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_italian_highways_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_power_plants_in_terni = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_steel_industry_in_terni
+                check_variable = { f117 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_italian_highways_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_industria_della_gomma_sintetica = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_steel_industry_in_terni = yes
+            NFQ_focus_visible_ITA_ITA_power_plants_in_terni = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_strengthen_northern_industry = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_modernize_the_mezzogiorno
+                check_variable = { f121 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_industria_della_gomma_sintetica = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_modernize_the_mezzogiorno = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_strengthen_northern_industry
+                check_variable = { f120 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_industria_della_gomma_sintetica = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_new_industrialization_program = {
+    AND = {
+        AND = {
+            OR = {
+                NFQ_focus_visible_ITA_ITA_strengthen_northern_industry = yes
+                NFQ_focus_visible_ITA_ITA_modernize_the_mezzogiorno = yes
+            }
+            NFQ_focus_visible_ITA_ITA_expand_national_universities = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_railway_innovations = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_italian_highways_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_expand_foggia_farm_fields = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_railway_innovations = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_investments_in_edison = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_railway_innovations = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_expand_national_universities = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_investments_in_edison = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_fiocchi_munizioni = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_italian_highways_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_brescia_small_arms_industry = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_fiocchi_munizioni = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_milan_comms_industry = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_fiocchi_munizioni = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_redirect_alfa_romeo_production = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_brescia_small_arms_industry = yes
+            NFQ_focus_visible_ITA_ITA_milan_comms_industry = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_increase_production = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_keep_specialization
+                check_variable = { f132 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_ITA_ITA_expand_national_universities = yes
+            NFQ_focus_visible_ITA_ITA_redirect_alfa_romeo_production = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_keep_specialization = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_increase_production
+                check_variable = { f131 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_ITA_ITA_expand_national_universities = yes
+            NFQ_focus_visible_ITA_ITA_redirect_alfa_romeo_production = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_thermojet_research = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_increase_production = yes
+            NFQ_focus_visible_ITA_ITA_keep_specialization = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_army_primacy_bba = {
+    always = yes
+}
+
+NFQ_focus_visible_ITA_ITA_preserve_army_traditions = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_a_bandits_war
+                check_variable = { f139 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_army_primacy_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_increase_artillery_production = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_fiocchi_munizioni = yes
+            NFQ_focus_visible_ITA_ITA_army_primacy_bba = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_vallo_alpino_del_littorio = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_milan_comms_industry = yes
+            NFQ_focus_visible_ITA_ITA_increase_artillery_production = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_moschettieri_del_duce = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_preserve_army_traditions = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_a_bandits_war = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_preserve_army_traditions
+                check_variable = { f135 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_army_primacy_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_carica_di_isbuscenskij = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_a_bandits_war = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_army_leaders = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_preserve_army_traditions = yes
+            NFQ_focus_visible_ITA_ITA_a_bandits_war = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_superesercito = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_preserve_army_traditions = yes
+            NFQ_focus_visible_ITA_ITA_a_bandits_war = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_italian_tankettes = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_preserve_army_traditions = yes
+            NFQ_focus_visible_ITA_ITA_a_bandits_war = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_bersaglieri = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_army_leaders = yes
+            NFQ_focus_visible_ITA_ITA_superesercito = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_divisioni_alpine = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_bersaglieri = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_fanti_dell_aria = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_bersaglieri = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_self_propelled_guns = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_superesercito = yes
+            NFQ_focus_visible_ITA_ITA_italian_tankettes = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_end_fiat_ansaldo_duopoly = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_modernize_ansaldo_facilities
+                check_variable = { f149 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_self_propelled_guns = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_modernize_ansaldo_facilities = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_end_fiat_ansaldo_duopoly
+                check_variable = { f148 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_self_propelled_guns = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_ferrea_mole_ferreo_cuore = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_end_fiat_ansaldo_duopoly = yes
+            NFQ_focus_visible_ITA_ITA_modernize_ansaldo_facilities = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_air_innovations_bba = {
+    always = yes
+}
+
+NFQ_focus_visible_ITA_ITA_citta_dell_aria = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_air_innovations_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_expand_rome_flying_school = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_air_innovations_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_reggianes_exports = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_citta_dell_aria = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_diving_bombers = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_citta_dell_aria = yes
+            NFQ_focus_visible_ITA_ITA_expand_rome_flying_school = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_superaereo = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_citta_dell_aria = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_officers_of_the_service_role = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_superaereo = yes
+            NFQ_focus_visible_ITA_ITA_expand_rome_flying_school = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_standardization = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_specialization
+                check_variable = { f159 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_superaereo = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_specialization = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_standardization
+                check_variable = { f158 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_superaereo = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_long_range_aircraft = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_standardization = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_bomber_designs = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_standardization = yes
+            NFQ_focus_visible_ITA_ITA_specialization = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_fighter_designs = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_standardization = yes
+            NFQ_focus_visible_ITA_ITA_specialization = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_multirole_aircraft = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_specialization = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_supremacy_in_the_skies = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_multirole_aircraft = yes
+            NFQ_focus_visible_ITA_ITA_long_range_aircraft = yes
+            NFQ_focus_visible_ITA_ITA_fighter_designs = yes
+            NFQ_focus_visible_ITA_ITA_bomber_designs = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_naval_power_projection = {
+    always = yes
+}
+
+NFQ_focus_visible_ITA_ITA_intensify_torpedo_manufacturing = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_naval_power_projection = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_expand_naval_facilities = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_naval_power_projection = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_oto_naval_guns = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_naval_power_projection = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_improve_overseas_naval_bases = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_expand_naval_facilities = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_milizia_marittima_di_artiglieria = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_expand_naval_facilities = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_supermarina = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_expand_naval_facilities = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_stockpile_fuel = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_expand_naval_facilities = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_forza_navale_especiale = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_expand_naval_facilities = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_naval_air_coordination = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_supermarina = yes
+            NFQ_focus_visible_ITA_ITA_expand_rome_flying_school = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_decima_flottiglia_mas = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_supermarina = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_incrociatori_leggeri = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_incrociatori_pesanti
+                check_variable = { f177 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_supermarina = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_incrociatori_pesanti = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_incrociatori_leggeri
+                check_variable = { f176 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_supermarina = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_expand_naval_intelligence = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_supermarina = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_cooperation_programs = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_supermarina = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_cruiser_submarines = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_midget_submarines
+                check_variable = { f181 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_incrociatori_leggeri = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_midget_submarines = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_cruiser_submarines
+                check_variable = { f180 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_incrociatori_leggeri = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_cacciatorpediniere_di_scorta = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_incrociatori_leggeri = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_ispettorato_dei_mezzi_antisommergibili = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_incrociatori_leggeri = yes
+            NFQ_focus_visible_ITA_ITA_incrociatori_pesanti = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_navi_da_battaglia = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_incrociatori_pesanti = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_proper_carriers = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_refit_civilian_ships
+                check_variable = { f186 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_incrociatori_pesanti = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_refit_civilian_ships = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_proper_carriers
+                check_variable = { f185 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_incrociatori_pesanti = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_flotta_d_evasione = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_ispettorato_dei_mezzi_antisommergibili = yes
+            NFQ_focus_visible_ITA_ITA_cacciatorpediniere_di_scorta = yes
+            NFQ_focus_visible_ITA_ITA_navi_da_battaglia = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_abyssinian_fiasco = {
+    AND = {
+        AND = {
+            has_dlc = "By Blood Alone"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_culto_del_duce
+                }
+                NOT = {
+                    has_completed_focus = ITA_convene_the_grand_council
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_solid_progress
+                    check_variable = { f189 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_struggle_in_ethiopia
+                    check_variable = { f190 = 5 }
+                }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_solid_progress = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_struggle_in_ethiopia
+                    check_variable = { f190 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_the_abyssinian_fiasco
+                    check_variable = { f188 = 5 }
+                }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_struggle_in_ethiopia = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_solid_progress
+                    check_variable = { f189 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_the_abyssinian_fiasco
+                    check_variable = { f188 = 5 }
+                }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_undermine_the_duce = {
+    AND = {
+        AND = {
+            has_dlc = "By Blood Alone"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_defy_the_duce
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_struggle_in_ethiopia = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_servizio_informazione_militare = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_solid_progress = yes
+            NFQ_focus_visible_ITA_ITA_the_abyssinian_fiasco = yes
+            NFQ_focus_visible_ITA_ITA_struggle_in_ethiopia = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_conspiracies_in_the_shadows = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_undermine_the_duce = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_triumph_in_africa_bba = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_servizio_informazione_militare = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_convene_the_grand_council = {
+    AND = {
+        AND = {
+            has_dlc = "By Blood Alone"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_defy_the_duce
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_culto_del_duce
+                    check_variable = { f200 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_defy_the_duce
+                    check_variable = { f353 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_triumph_in_africa_bba = yes
+            NFQ_focus_visible_ITA_ITA_conspiracies_in_the_shadows = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_devaluate_the_lire = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_triumph_in_africa_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_anglo_italian_agreements = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_triumph_in_africa_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_topple_amhara_rulers = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_triumph_in_africa_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_new_emperor_of_ethiopia = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_triumph_in_africa_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_culto_del_duce = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_dlc = "By Blood Alone"
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_defy_the_duce
+                }
+                NOT = {
+                    has_completed_focus = ITA_convene_the_grand_council
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_convene_the_grand_council
+                    check_variable = { f195 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_defy_the_duce
+                    check_variable = { f353 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_triumph_in_africa_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_man_of_providence = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_culto_del_duce = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_legge_bottai = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_man_of_providence = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_boost_the_grand_council_of_fascism = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_to_live_as_a_lion
+                check_variable = { f204 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_man_of_providence = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_to_live_as_a_lion = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_boost_the_grand_council_of_fascism
+                check_variable = { f203 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_man_of_providence = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_la_battaglia_del_grano = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_la_battaglia_per_la_terra
+                check_variable = { f206 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_culto_del_duce = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_la_battaglia_per_la_terra = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_la_battaglia_del_grano
+                check_variable = { f205 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_culto_del_duce = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_la_battaglia_per_le_nascite = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_la_battaglia_del_grano = yes
+            NFQ_focus_visible_ITA_ITA_la_battaglia_per_la_terra = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_strengthen_the_regime = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_la_battaglia_per_le_nascite = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_devotion = {
+    AND = {
+        AND = {
+            OR = {
+                NFQ_focus_visible_ITA_ITA_to_live_as_a_lion = yes
+                NFQ_focus_visible_ITA_ITA_boost_the_grand_council_of_fascism = yes
+            }
+            NFQ_focus_visible_ITA_ITA_strengthen_the_regime = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_ministero_della_cultura_popolare = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_culto_del_duce = yes
+            NFQ_focus_visible_ITA_ITA_convene_the_grand_council = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_believe_obey_fight = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_ministero_della_cultura_popolare = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_banda_carita = {
+    AND = {
+        AND = {
+            OR = {
+                has_dlc = "La Resistance"
+                has_dlc = "Waking the Tiger"
+            }
+            if = {
+                limit = {
+                    has_dlc = "By Blood Alone"
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_defy_the_duce
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_believe_obey_fight = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_banda_koch = {
+    AND = {
+        AND = {
+            has_dlc = "La Resistance"
+            if = {
+                limit = {
+                    has_dlc = "By Blood Alone"
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_defy_the_duce
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_banda_carita = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_security_militias = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_culto_del_duce = yes
+            NFQ_focus_visible_ITA_ITA_convene_the_grand_council = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_battaglioni_d_assalto = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_strengthen_the_blackshirts
+                check_variable = { f216 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_security_militias = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_strengthen_the_blackshirts = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_battaglioni_d_assalto
+                check_variable = { f215 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_security_militias = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_milizia_coloniale = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_battaglioni_d_assalto = yes
+            NFQ_focus_visible_ITA_ITA_strengthen_the_blackshirts = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_towards_a_greater_italy = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_mare_nostrum_bba
+                check_variable = { f280 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_strengthen_the_regime = yes
+            NFQ_focus_visible_ITA_ITA_blackshirt_loyalty = yes
+            NFQ_focus_visible_ITA_ITA_setting_course = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_heroes_of_the_nation = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_capo_supremo
+                check_variable = { f220 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_ITA_ITA_towards_a_greater_italy = yes
+            NFQ_focus_visible_ITA_ITA_devotion = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_capo_supremo = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_heroes_of_the_nation
+                check_variable = { f219 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_ITA_ITA_towards_a_greater_italy = yes
+            NFQ_focus_visible_ITA_ITA_devotion = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_bend_the_bars = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_towards_a_greater_italy = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_subdue_the_sentinels = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_bend_the_bars = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_a_colonial_empire = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_subdue_the_sentinels = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_by_blood_alone = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_a_colonial_empire = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_masters_of_the_aegean = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_bend_the_bars = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_masters_of_the_mediterranean = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_masters_of_the_aegean = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_depose_mussolini = {
+    AND = {
+        AND = {
+            has_dlc = "By Blood Alone"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_culto_del_duce
+                }
+                NOT = {
+                    has_completed_focus = ITA_defy_the_duce
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_convene_the_grand_council = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_italo_balbo_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_dino_grandi_focus
+                    check_variable = { f229 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_monarchia_d_italia
+                    check_variable = { f257 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_depose_mussolini = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_dino_grandi_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_italo_balbo_focus
+                    check_variable = { f228 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_monarchia_d_italia
+                    check_variable = { f257 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_depose_mussolini = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_stop_the_squandering = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_italo_balbo_focus = yes
+            NFQ_focus_visible_ITA_ITA_dino_grandi_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_consolidate_power = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_italo_balbo_focus = yes
+            NFQ_focus_visible_ITA_ITA_dino_grandi_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_purge_the_party = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_consolidate_power = yes
+            NFQ_focus_visible_ITA_ITA_stop_the_squandering = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_fate_of_mussolini = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_purge_the_party = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_divino_duce = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_a_greater_purpose
+                check_variable = { f236 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_fate_of_mussolini = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_blackshirt_loyalty = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_divino_duce = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_a_greater_purpose = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_divino_duce
+                check_variable = { f234 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_fate_of_mussolini = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_spreading_the_eagles_wings = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_a_greater_purpose = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_italian_hegemony = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_spreading_the_eagles_wings = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_reorganize_regio_esercito = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_reinforce_regia_aeronautica
+                check_variable = { f240 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_ITA_ITA_italo_balbo_focus = yes
+            NFQ_focus_visible_ITA_ITA_stop_the_squandering = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_reinforce_regia_aeronautica = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_reorganize_regio_esercito
+                check_variable = { f239 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_ITA_ITA_italo_balbo_focus = yes
+            NFQ_focus_visible_ITA_ITA_stop_the_squandering = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_compagnie_auto_avio_sahariane = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_reorganize_regio_esercito = yes
+            NFQ_focus_visible_ITA_ITA_reinforce_regia_aeronautica = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_combined_land_and_air_warfare = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_compagnie_auto_avio_sahariane = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_fourth_shore = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_italo_balbo_focus = yes
+            NFQ_focus_visible_ITA_ITA_stop_the_squandering = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_oil_in_tripoli = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_steel_in_tripoli
+                check_variable = { f245 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_fourth_shore = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_steel_in_tripoli = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_oil_in_tripoli
+                check_variable = { f244 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_fourth_shore = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_novus_ordo = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_steel_in_tripoli = yes
+            NFQ_focus_visible_ITA_ITA_oil_in_tripoli = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_seek_british_military_cooperation = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_invite_france_to_military_partnership
+                check_variable = { f249 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_dino_grandi_focus = yes
+            NFQ_focus_visible_ITA_ITA_monarchia_d_italia = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_anglo_italian_pact = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_seek_british_military_cooperation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_invite_france_to_military_partnership = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_seek_british_military_cooperation
+                check_variable = { f247 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_dino_grandi_focus = yes
+            NFQ_focus_visible_ITA_ITA_monarchia_d_italia = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_franco_italian_pact = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_invite_france_to_military_partnership = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_proclaim_the_italian_empire = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_anglo_italian_pact = yes
+            NFQ_focus_visible_ITA_ITA_franco_italian_pact = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_reorganize_the_party = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_dino_grandi_focus = yes
+            NFQ_focus_visible_ITA_ITA_consolidate_power = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_meritocracy = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_reorganize_the_party = yes
+            NFQ_focus_visible_ITA_ITA_purge_the_party = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_economic_reforms = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_reorganize_the_party = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_improve_the_industries = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_economic_reforms = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_expanded_corporatism = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_meritocracy = yes
+            NFQ_focus_visible_ITA_ITA_improve_the_industries = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_monarchia_d_italia = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_dino_grandi_focus
+                    check_variable = { f229 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_italo_balbo_focus
+                    check_variable = { f228 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_depose_mussolini = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_extraction_industry = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_monarchia_d_italia = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_new_corporations = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_extraction_industry = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_prepare_for_the_coming_wars = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_extraction_industry = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_mobilize_the_railway_guns = {
+    AND = {
+        AND = {
+            has_dlc = "By Blood Alone"
+            has_dlc = "No Step Back"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_culto_del_duce
+                }
+                NOT = {
+                    has_completed_focus = ITA_defy_the_duce
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_prepare_for_the_coming_wars = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_bring_back_old_glories = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_prepare_for_the_coming_wars = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_new_forms_of_weaponry = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_prepare_for_the_coming_wars = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_revoke_the_acerbo_law = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_power_to_the_king
+                check_variable = { f270 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_monarchia_d_italia = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_christian_democracy = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_democratic_king
+                check_variable = { f266 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_revoke_the_acerbo_law = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_democratic_king = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_christian_democracy
+                check_variable = { f265 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_revoke_the_acerbo_law = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_cooperate_with_moderates = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_christian_democracy = yes
+            NFQ_focus_visible_ITA_ITA_democratic_king = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_expand_intelligence_services = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_democratic_king = yes
+            NFQ_focus_visible_ITA_ITA_christian_democracy = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_crush_opposition = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_cooperate_with_moderates = yes
+            NFQ_focus_visible_ITA_ITA_expand_intelligence_services = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_power_to_the_king = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_revoke_the_acerbo_law
+                check_variable = { f264 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_monarchia_d_italia = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_disband_the_blackshirts = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_utilize_the_blackshirts
+                check_variable = { f272 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_power_to_the_king = yes
+            NFQ_focus_visible_ITA_ITA_revoke_the_acerbo_law = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_utilize_the_blackshirts = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_disband_the_blackshirts
+                check_variable = { f271 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_power_to_the_king = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_expand_the_royal_guard = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_disband_the_blackshirts = yes
+            NFQ_focus_visible_ITA_ITA_utilize_the_blackshirts = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_gloria_al_regno_d_italia = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_expand_the_royal_guard = yes
+            NFQ_focus_visible_ITA_ITA_democratic_king = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_paramilitary_training = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_expand_the_royal_guard = yes
+            NFQ_focus_visible_ITA_ITA_utilize_the_blackshirts = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_seek_papal_support = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_power_to_the_king = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_agents_of_the_church = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_seek_papal_support = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_strengthen_the_papacy = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_agents_of_the_church = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_setting_course = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_gloria_al_regno_d_italia = yes
+            NFQ_focus_visible_ITA_ITA_crush_opposition = yes
+            NFQ_focus_visible_ITA_ITA_strengthen_the_papacy = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_mare_nostrum_bba = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_towards_a_greater_italy
+                check_variable = { f218 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_setting_course = yes
+            NFQ_focus_visible_ITA_ITA_strengthen_the_regime = yes
+            NFQ_focus_visible_ITA_ITA_blackshirt_loyalty = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_auxiliaries = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_mare_nostrum_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_italian_legions = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_mare_nostrum_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_new_roman_citizens = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_mare_nostrum_bba = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_all_roads_lead_to_rome = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_italian_legions = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_king_of_the_skies = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_all_roads_lead_to_rome = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_modern_musculus = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_all_roads_lead_to_rome = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_caligulas_pride = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_all_roads_lead_to_rome = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_iberian_protection = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_mare_nostrum_bba = yes
+            NFQ_focus_visible_ITA_ITA_deus_vult = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_south_american_alliances = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_iberian_protection = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_papacy_reborn = {
+    AND = {
+        AND = {
+            has_country_flag = ITA_pope_took_over_italy_flag
+        }
+        NFQ_focus_visible_ITA_ITA_strengthen_the_papacy = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_deus_vult = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_papacy_reborn = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_il_vento_aureo = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_deus_vult = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_catholic_action = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_papacy_reborn = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_a_time_for_war = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_deus_vult = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_holy_lands = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_deus_vult = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_catholic_dominion = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_a_time_for_war = yes
+            NFQ_focus_visible_ITA_ITA_the_holy_lands = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_foreign_affairs = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_dlc = "By Blood Alone"
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_defy_the_duce
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_triumph_in_africa_bba = yes
+            NFQ_focus_visible_ITA_ITA_conspiracies_in_the_shadows = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_balkan_ambition = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_potential_allies_in_the_balkans
+                check_variable = { f299 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_foreign_affairs = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_potential_allies_in_the_balkans = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_balkan_ambition
+                check_variable = { f298 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_foreign_affairs = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_albanian_occupation = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_potential_allies_in_the_balkans = yes
+            NFQ_focus_visible_ITA_ITA_balkan_ambition = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_albanian_oil = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_albanian_occupation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_support_albanian_irredentism = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_albanian_occupation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_albanian_fascist_militia = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_support_albanian_irredentism = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_guarantee_austrian_independence = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_italy_first
+                    check_variable = { f316 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_pact_of_steel
+                    check_variable = { f310 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_potential_allies_in_the_balkans = yes
+            NFQ_focus_visible_ITA_ITA_balkan_ambition = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_negotiate_italian_claims = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_guarantee_austrian_independence = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_ratify_the_stresa_front = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_negotiate_italian_claims = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_joint_military_programs = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_ratify_the_stresa_front = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_italys_destiny = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_ratify_the_stresa_front = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_eastern_threat = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_italys_destiny = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_pact_of_steel = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_guarantee_austrian_independence
+                    check_variable = { f304 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_italy_first
+                    check_variable = { f316 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_potential_allies_in_the_balkans = yes
+            NFQ_focus_visible_ITA_ITA_balkan_ambition = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_german_military_cooperation = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_pact_of_steel = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_sea_wolves_bba = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_german_military_cooperation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_secret_weapons = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_german_military_cooperation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_treaty_with_germany = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_pact_of_steel = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_request_control_of_french_territories = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_war_with_france
+                check_variable = { f319 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_ITA_ITA_pact_of_steel = yes
+            NFQ_focus_visible_ITA_ITA_italian_irredentism = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_italy_first = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_guarantee_austrian_independence
+                    check_variable = { f304 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_pact_of_steel
+                    check_variable = { f310 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_potential_allies_in_the_balkans = yes
+            NFQ_focus_visible_ITA_ITA_balkan_ambition = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_befriend_japan = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_pact_of_steel = yes
+            NFQ_focus_visible_ITA_ITA_italy_first = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_italian_irredentism = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_pact_of_steel = yes
+            NFQ_focus_visible_ITA_ITA_italy_first = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_war_with_france = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_request_control_of_french_territories
+                check_variable = { f315 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_italian_irredentism = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_demand_ticino = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_war_with_france = yes
+            NFQ_focus_visible_ITA_ITA_request_control_of_french_territories = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_war_with_the_uk = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_italy_first = yes
+            NFQ_focus_visible_ITA_ITA_italian_irredentism = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_war_with_greece = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_befriend_greece
+                check_variable = { f323 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_italian_irredentism = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_befriend_greece = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_war_with_greece
+                check_variable = { f322 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_italy_first = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_claims_on_turkey_bba = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_befriend_turkey
+                check_variable = { f325 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_war_with_greece = yes
+            NFQ_focus_visible_ITA_ITA_befriend_greece = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_befriend_turkey = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_claims_on_turkey_bba
+                check_variable = { f324 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_war_with_greece = yes
+            NFQ_focus_visible_ITA_ITA_befriend_greece = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_corpo_di_truppe_volontarie = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_foreign_affairs = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_spanish_italian_alliance = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_demand_balearic_islands_bba
+                check_variable = { f328 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_ITA_ITA_corpo_di_truppe_volontarie = yes
+            NFQ_focus_visible_ITA_ITA_italy_first = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_demand_balearic_islands_bba = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_spanish_italian_alliance
+                check_variable = { f327 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_corpo_di_truppe_volontarie = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_befriend_portugal = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_spanish_italian_alliance = yes
+            NFQ_focus_visible_ITA_ITA_demand_balearic_islands_bba = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_italian_liberation_war = {
+    AND = {
+        AND = {
+            has_global_flag = ITA_antifascist_civil_war_triggered_flag
+            tag = RDS
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_fronte_militare_clandestino = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_italian_liberation_war = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_corpo_volontari_della_liberta = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_the_carabinieri
+                check_variable = { f333 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_fronte_militare_clandestino = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_carabinieri = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_corpo_volontari_della_liberta
+                check_variable = { f332 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_fronte_militare_clandestino = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_gappisti = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_corpo_volontari_della_liberta = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_partisan_republics = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_corpo_volontari_della_liberta = yes
+            NFQ_focus_visible_ITA_ITA_the_carabinieri = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_kings_finest = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_carabinieri = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_grande_rivolta_rurale = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_partisan_republics = yes
+            OR = {
+                NFQ_focus_visible_ITA_ITA_gappisti = yes
+                NFQ_focus_visible_ITA_ITA_the_kings_finest = yes
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_liberation_or_death = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_grande_rivolta_rurale = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_independence_rds = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_liberation_or_death = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_italian_social_republic = {
+    AND = {
+        AND = {
+            has_global_flag = ITA_antifascist_civil_war_triggered_flag
+            tag = RSI
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_guardia_nazionale_repubblicana = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_italian_social_republic = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_integrate_polizia_dell_africa_italiana = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_guardia_nazionale_repubblicana = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_anti_partisan_measures = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_integrate_polizia_dell_africa_italiana = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_all_within_the_state = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_guardia_nazionale_repubblicana = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_battaglioni_m = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_guardia_nazionale_repubblicana = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_reinforce_the_gustav_line = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_battaglioni_m = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_social_republic_prevails = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ITA_ITA_anti_partisan_measures = yes
+            NFQ_focus_visible_ITA_ITA_all_within_the_state = yes
+            NFQ_focus_visible_ITA_ITA_reinforce_the_gustav_line = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_independence_rsi = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_social_republic_prevails = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_unite_the_opposition = {
+    AND = {
+        AND = {
+            has_dlc = "By Blood Alone"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_culto_del_duce
+                }
+                NOT = {
+                    has_completed_focus = ITA_convene_the_grand_council
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_abyssinian_fiasco = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_liberate_gramsci = {
+    AND = {
+        AND = {
+            has_dlc = "By Blood Alone"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_culto_del_duce
+                }
+                NOT = {
+                    has_completed_focus = ITA_convene_the_grand_council
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_unite_the_opposition = yes
+            NFQ_focus_visible_ITA_ITA_triumph_in_africa_bba = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_organize_strikes_in_the_north = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_the_southern_farmlands
+                check_variable = { f352 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_unite_the_opposition = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_southern_farmlands = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_organize_strikes_in_the_north
+                check_variable = { f351 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_unite_the_opposition = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_defy_the_duce = {
+    AND = {
+        AND = {
+            has_dlc = "By Blood Alone"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ITA_culto_del_duce
+                }
+                NOT = {
+                    has_completed_focus = ITA_convene_the_grand_council
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_convene_the_grand_council
+                    check_variable = { f195 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_culto_del_duce
+                    check_variable = { f200 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_organize_strikes_in_the_north = yes
+            NFQ_focus_visible_ITA_ITA_the_southern_farmlands = yes
+            NFQ_focus_visible_ITA_ITA_triumph_in_africa_bba = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_appeal_to_the_bourgeoisie = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_defy_the_duce = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_seize_old_equipment = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_defy_the_duce = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_italian_republic = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_defy_the_duce = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_popular_front = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_italian_socialism
+                check_variable = { f384 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_italian_republic = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_garibaldi_legion = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_popular_front = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_gruppi_di_difesa_della_donna = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_garibaldi_legion = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_a_new_era_for_the_red_shirts = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_garibaldi_legion = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_pugno_alzato = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_gruppi_di_difesa_della_donna = yes
+            NFQ_focus_visible_ITA_ITA_a_new_era_for_the_red_shirts = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_a_leader_steps_forward = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_popular_front = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_path_to_progress = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_a_leader_steps_forward = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_industrial_socialization = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_popular_front = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_institute_the_five_year_plan = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_industrial_socialization = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_new_ricostruzione_industriale = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_institute_the_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_political_commissars = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_appease_the_military
+                    check_variable = { f369 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_empower_the_carabinieri
+                    check_variable = { f371 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_industrial_socialization = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_common_ground = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_the_popular_front = yes
+            NFQ_focus_visible_ITA_ITA_italian_socialism = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_appease_the_military = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_empower_the_carabinieri
+                    check_variable = { f371 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_political_commissars
+                    check_variable = { f367 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_common_ground = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_crush_the_mafia = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_cooperate_with_the_mafia
+                check_variable = { f385 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ITA_ITA_the_popular_front = yes
+            NFQ_focus_visible_ITA_ITA_italian_socialism = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_empower_the_carabinieri = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ITA_appease_the_military
+                    check_variable = { f369 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ITA_political_commissars
+                    check_variable = { f367 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_crush_the_mafia = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_army_modernization = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_appease_the_military = yes
+            NFQ_focus_visible_ITA_ITA_political_commissars = yes
+            NFQ_focus_visible_ITA_ITA_empower_the_carabinieri = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_union_in_the_party = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_path_to_progress = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_follow_the_soviet_union = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_defend_the_land
+                check_variable = { f379 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_union_in_the_party = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_military_cooperation = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_follow_the_soviet_union = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_defense_against_capitalism = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_military_cooperation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_combined_research_effort = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_military_cooperation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_special_brigades = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_follow_the_soviet_union = yes
+            NFQ_focus_visible_ITA_ITA_defend_the_land = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_defend_the_land = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_follow_the_soviet_union
+                check_variable = { f374 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_union_in_the_party = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_united_anarchist_confederations = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_defend_the_land = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_fight_against_stalinism = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_defend_the_land = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_raise_the_peoples = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_defend_the_land = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_il_sol_dell_avvenire = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_combined_research_effort = yes
+            NFQ_focus_visible_ITA_ITA_raise_the_peoples = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_italian_socialism = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_the_popular_front
+                check_variable = { f357 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_italian_republic = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_cooperate_with_the_mafia = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_crush_the_mafia
+                check_variable = { f370 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_italian_socialism = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_mafia_abroad = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_cooperate_with_the_mafia = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_empower_the_unions = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_italian_socialism = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_production_lines = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_empower_the_unions = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_republics_leadership = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_italian_socialism = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_bring_back_exiled_intellectuals = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_republics_leadership = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_social_stability = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_bring_back_exiled_intellectuals = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_aid_for_the_spanish_republic = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_italian_socialism = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_italia_libera = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_reestablish_old_alliances
+                check_variable = { f399 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_social_stability = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_european_democracies = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_italia_libera = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_peace_preservation = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_european_democracies = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_scientific_cooperation = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_italia_libera = yes
+            NFQ_focus_visible_ITA_ITA_reestablish_old_alliances = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_secure_the_borders = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_scientific_cooperation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_bring_down_fascist_strongholds = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_scientific_cooperation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_reestablish_old_alliances = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_italia_libera
+                check_variable = { f393 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_social_stability = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_military_agreements = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_reestablish_old_alliances = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_enemies_of_capitalism = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_military_agreements = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_ethiopian_question = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_defy_the_duce = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_abolish_the_colonies = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_new_colonial_policies
+                check_variable = { f406 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_ethiopian_question = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_cooperatives_for_intensive_exploitation = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_abolish_the_colonies = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_condemn_colonialism = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_cooperatives_for_intensive_exploitation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_new_colonial_policies = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ITA_abolish_the_colonies
+                check_variable = { f403 = 5 }
+            }
+        }
+        NFQ_focus_visible_ITA_ITA_the_ethiopian_question = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_negotiations_with_albania = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_abolish_the_colonies = yes
+            NFQ_focus_visible_ITA_ITA_new_colonial_policies = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_enlist_the_bashkimi_kombetar = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_negotiations_with_albania = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_italian_confederation = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_new_colonial_policies = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_planned_economy = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_italian_confederation = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_the_fight_overseas = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ITA_ITA_cooperatives_for_intensive_exploitation = yes
+            NFQ_focus_visible_ITA_ITA_the_italian_confederation = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_irregulars = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_fight_overseas = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_liberate_the_workers_of_africa = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_fight_overseas = yes
+    }
+}
+
+NFQ_focus_visible_ITA_ITA_ascari = {
+    AND = {
+        NFQ_focus_visible_ITA_ITA_the_fight_overseas = yes
+    }
+}
+

@@ -1,0 +1,1 @@
+focus={current=JAP_sea_greater_east_asian_co_properity_sphere}

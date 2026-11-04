@@ -1,0 +1,1 @@
+focus={current=JAP_asian_communist_solidarity}

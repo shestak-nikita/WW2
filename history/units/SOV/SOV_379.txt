@@ -1,0 +1,1 @@
+focus={current=SOV_dismantle_the_zemsky_sobor}

@@ -1,0 +1,1 @@
+focus={current=SOV_soviet_atomic_bomb_project}

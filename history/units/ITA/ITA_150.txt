@@ -1,0 +1,1 @@
+focus={current=ITA_ferrea_mole_ferreo_cuore}

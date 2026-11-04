@@ -1,0 +1,1 @@
+focus={current=JAP_f_go_nuclear_project}

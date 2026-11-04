@@ -1,0 +1,1 @@
+focus={current=SOV_move_industry_to_the_urals}

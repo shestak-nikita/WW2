@@ -1,0 +1,1 @@
+focus={current=GER_panzer_troops_school}

@@ -1,0 +1,15 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_GPW_Albert_Shpeer"
+        texturefile = "gfx/interface/goals/GPW_Albert_Shpeer.png"
+    }
+    spriteType = {
+        name = "GFX_GPW_Yalmar_Shaht"
+        texturefile = "gfx/interface/goals/GPW_Yalmar_Shaht.png"
+    }
+    spriteType = {
+        name = "GFX_GPW_Walther_Funk"
+        texturefile = "gfx/interface/goals/GPW_Walther_Funk.png"
+    }
+}
+

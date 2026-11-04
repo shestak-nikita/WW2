@@ -1,0 +1,1 @@
+focus={current=SOV_sabotage_behind_enemy_lines}

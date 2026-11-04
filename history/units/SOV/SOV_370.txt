@@ -1,0 +1,1 @@
+focus={current=SOV_restore_the_glory_of_the_motherland}

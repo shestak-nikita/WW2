@@ -1,0 +1,1 @@
+focus={current=GER_plenipotentiary_of_armaments}

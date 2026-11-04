@@ -1,0 +1,1 @@
+focus={current=JAP_spiritual_mobilization}

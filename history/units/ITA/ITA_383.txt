@@ -1,0 +1,1 @@
+focus={current=ITA_il_sol_dell_avvenire}

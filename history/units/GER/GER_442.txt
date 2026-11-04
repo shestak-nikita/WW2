@@ -1,0 +1,1 @@
+focus={current=GER_reach_out_to_scandinavia}

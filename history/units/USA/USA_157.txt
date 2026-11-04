@@ -1,0 +1,1 @@
+focus={current=USA_de_regulate_the_banking_sector}

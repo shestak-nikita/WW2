@@ -1,0 +1,1 @@
+focus={current=SOV_an_empire_in_the_pacific}

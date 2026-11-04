@@ -1,0 +1,1 @@
+focus={current=RAJ_rifle_factory_ishapore_west_bengal}

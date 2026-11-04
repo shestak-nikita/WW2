@@ -1,0 +1,1 @@
+focus={current=GER_salvage_captured_equipment}

@@ -1,0 +1,149 @@
+scripted_gui={
+	NFQ_Open_NFqueue={
+		context_type=national_focus_context
+		window_name="NFQ_OpenNFqueue"
+		parent_window_name="nationalfocusview"
+		dirty=NFQ_d
+		ai_enabled={always=no}
+		visible={tag=root NFQ_allowed_tag=yes}
+		effects={
+			NFQ_OpenButton_click={
+				NFQ_dirty=yes
+				if ={
+					limit={has_country_flag=NFQ_OpenNFqueueFlag}
+					clr_country_flag=NFQ_OpenNFqueueFlag
+				}
+				else={set_country_flag=NFQ_OpenNFqueueFlag}
+			}
+		}
+	}
+	NFQ_NFqueue_UIs={
+		context_type=player_context
+		window_name="NFQ_queue_window"
+		parent_window_name="nationalfocusview"
+		#dirty=NFQ_d
+		ai_enabled={always=no}
+		visible={tag=root has_country_flag=NFQ_OpenNFqueueFlag}
+		triggers={
+			NFQ_queue_up_click_enabled={check_variable={i>0}}
+			NFQ_queue_down_click_enabled={
+				set_temp_variable={ii=i}
+				add_to_temp_variable={ii=1}
+				check_variable={ii<NFQ_focus_queue^num}
+			}
+			NFQ_add_hold_to_queue_click_enabled={
+				check_variable={NFQ_hold_days>0}
+			}
+			NFQ_hold_decrease_click_enabled={
+				check_variable={NFQ_hold_days>0}
+			}
+		}
+		properties={
+			NFQ_NFicon={image=[NFQ_focusicon]}
+		}
+		effects={
+			NFQ_close_button_click={
+				clr_country_flag=NFQ_OpenNFqueueFlag
+
+				NFQ_dirty=yes
+			}
+			NFQ_clear_button_click={
+				NFQ_del_all=yes
+			}
+			NFQ_reopen_startmenu_click={
+				if={
+					limit={has_country_flag=NFQ_startmenu_closed}
+					clr_country_flag=NFQ_startmenu_closed
+				}
+			}
+			NFQ_hold_decrease_click={
+				subtract_from_variable={NFQ_hold_days=1}
+				if={
+					limit={check_variable={NFQ_hold_days<0}}
+					set_variable={NFQ_hold_days=0}
+				}
+				NFQ_dirty=yes
+			}
+			NFQ_hold_increase_click={
+				add_to_variable={NFQ_hold_days=1}
+				if={
+					limit={check_variable={NFQ_hold_days>70}}
+					set_variable={NFQ_hold_days=70}
+				}
+				NFQ_dirty=yes
+			}
+			NFQ_add_hold_to_queue_click={
+				# Only add if days > 0
+				if={
+					limit={check_variable={NFQ_hold_days>0}}
+					# Add -1000 minus the days to queue to represent a hold
+					# Example: 10 days = -1010, 35 days = -1035
+					set_temp_variable={hold_value=-1000}
+					subtract_from_temp_variable={hold_value=NFQ_hold_days}
+					add_to_array={NFQ_focus_queue=hold_value}
+					set_variable={NFQ_hold_days=0}
+					NFQ_set_text_variables=yes
+					NFQ_dirty=yes
+				}
+			}
+			NFQ_remove_from_queue_button_click={
+				# Check if it's a hold item (negative value < -999)
+				if={
+					limit={check_variable={v<-999}}
+					# It's a hold, just remove it from queue
+					remove_from_array={array=NFQ_focus_queue index=i}
+					NFQ_set_text_variables=yes
+					NFQ_dirty=yes
+				}
+				else={
+					# It's a regular focus
+					set_variable={n=v} 
+					NFQ_set=yes
+				}
+			}
+			NFQ_queue_up_click={
+				set_temp_variable={ti=-1}
+				NFQ_list_swap_in_queue=yes
+			}
+			NFQ_queue_down_click={
+				set_temp_variable={ti=1}
+				NFQ_list_swap_in_queue=yes
+			}
+			NFQ_queue_up_shift_click={
+				set_temp_variable={tv=v}
+				for_each_loop={
+					array=NFQ_focus_queue value=vv index=ii break=b
+					set_variable={NFQ_focus_queue^ii=tv}
+					set_temp_variable={tv=vv}
+					if={
+						limit={check_variable={ii=i}}
+						set_temp_variable={b=1}
+					}
+				}
+				clr_country_flag=NFQ_error
+				NFQ_set_text_variables=yes
+			}
+			NFQ_queue_down_shift_click={
+				add_to_array={NFQ_focus_queue=v}
+				remove_from_array={array=NFQ_focus_queue index=i}
+				clr_country_flag=NFQ_error
+				NFQ_set_text_variables=yes
+			}
+		}
+		dynamic_lists={
+			NFQ_queue_list={
+				array=NFQ_focus_queue
+				country_scope_entry_container="NFQ_NF_item"
+				change_scope=no
+				value=v index=i
+			}
+		}
+	}
+	NFQ_NFitem_UIs={
+		context_type=player_context
+		window_name="NFQ_NF_item"
+		#dirty=NFQ_d
+		visible={always=no}
+		ai_enabled={always=no}
+	}
+}

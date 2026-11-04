@@ -1,0 +1,1 @@
+focus={current=JAP_an_expedition_to_tibet}

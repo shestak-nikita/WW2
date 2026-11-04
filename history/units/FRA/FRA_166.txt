@@ -1,0 +1,1 @@
+focus={current=FRA_egalite_liberte_solidarite}

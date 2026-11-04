@@ -1,0 +1,1 @@
+focus={current=JAP_abe_isoo_focus}

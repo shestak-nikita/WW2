@@ -1,0 +1,85 @@
+NFQ_del_all={
+	for_each_loop={
+		array=NFQ_focus_queue
+		value=v
+		if={
+			limit={check_variable={v > 0}}
+			meta_effect={
+				text={set_variable={f[nfid]=1} set_variable={t[nfid]=0}}
+				nfid="[?v]"
+			}
+		}
+	}
+	clear_array=NFQ_focus_queue
+	# Cancel any active focus or hold - well it does't actually cancel the current focus youre doing but it rather just clears it from the completing array if that makes sense
+	if={
+		limit={has_country_flag=NFQ_NFQactivated}
+		clr_country_flag=NFQ_NFQactivated
+		meta_effect = {
+			text={set_variable={f[nfid]=1} set_variable={t[nfid]=0}}
+			nfid="[?NFQ_nfnum]"
+		}
+		set_variable={NFQ_nfnum=0}
+	}
+	if={
+		limit={has_country_flag=NFQ_holding}
+		clr_country_flag=NFQ_holding
+		set_variable={hold_days_display=0}
+	}
+	clr_country_flag=NFQ_error
+	set_variable={NFQ_hold_days=0}
+	NFQ_dirty=yes
+}
+NFQ_list_swap_in_queue={
+	set_temp_variable={tmpindex=i}
+	add_to_temp_variable={tmpindex=ti}
+	set_temp_variable={tmpvar=NFQ_focus_queue^tmpindex}
+	set_variable={NFQ_focus_queue^tmpindex=v}
+	set_variable={NFQ_focus_queue^i=tmpvar}
+	meta_effect={
+		text={
+			add_to_temp_variable={tmpindex=1}
+			add_to_temp_variable={i=1}
+			set_variable={t[v1]=tmpindex}
+			set_variable={t[v2]=i}
+		}
+		v1="[?v]"
+		v2="[?tmpvar]"
+	}
+	clr_country_flag=NFQ_error
+	NFQ_dirty=yes
+}
+NFQ_get_lastindex={
+	set_temp_variable={li=NFQ_focus_queue^num}
+	subtract_from_temp_variable={li=1}
+}
+
+
+# NFQ 2.0: recover a stalled queue by skipping its first (blocked) item.
+# The normal focus state is restored before the item is removed; hold items are
+# supported defensively even though holds should not normally set NFQ_error.
+NFQ_skip_failed_item={
+    if={
+        limit={has_country_flag=NFQ_error}
+        if={
+            limit={has_variable=NFQ_focus_queue^0}
+            set_temp_variable={NFQ_skip_value=NFQ_focus_queue^0}
+            if={
+                limit={check_variable={NFQ_skip_value > 0}}
+                meta_effect={
+                    text={set_variable={f[nfid]=1} set_variable={t[nfid]=0}}
+                    nfid="[?NFQ_skip_value]"
+                }
+            }
+            remove_from_array={array=NFQ_focus_queue index=0}
+        }
+        set_variable={NFQ_nfnum=0}
+        clr_country_flag=NFQ_NFQactivated
+        clr_country_flag=NFQ_holding
+        set_variable={hold_days_display=0}
+        clr_country_flag=NFQ_error
+        NFQ_set_text_variables=yes
+        NFQ_dirty=yes
+    }
+}
+

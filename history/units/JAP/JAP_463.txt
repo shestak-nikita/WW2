@@ -1,0 +1,1 @@
+focus={current=JAP_establish_synthetic_fuel_joint_venture}

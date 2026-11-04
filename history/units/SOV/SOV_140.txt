@@ -1,0 +1,1 @@
+focus={current=SOV_long_range_aircraft}

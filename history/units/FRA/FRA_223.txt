@@ -1,0 +1,1 @@
+focus={current=FRA_latin_entente}

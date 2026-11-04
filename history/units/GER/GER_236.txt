@@ -1,0 +1,1 @@
+focus={current=GER_subjugate_romanian_economy}

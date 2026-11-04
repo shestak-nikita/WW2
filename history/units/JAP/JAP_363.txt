@@ -1,0 +1,1 @@
+focus={current=JAP_raise_the_red_flag_high}

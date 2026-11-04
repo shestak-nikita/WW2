@@ -1,0 +1,1 @@
+focus={current=FRA_invite_communist_ministers}

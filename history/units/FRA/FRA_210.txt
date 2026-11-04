@@ -1,0 +1,1 @@
+focus={current=FRA_agricultural_protectionism}

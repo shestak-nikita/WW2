@@ -1,0 +1,1 @@
+focus={current=JAP_increase_armament_spending}

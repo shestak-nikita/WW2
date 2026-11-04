@@ -1,0 +1,4012 @@
+# Generated file. Regenerate with tools/generate_nfq_layout.py.
+NFQ_focus_visible_JAP_JAP_the_unthinkable_option = {
+    AND = {
+        AND = {
+            NOT = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_support_the_kodoha_faction
+                    has_completed_focus = JAP_strengthen_civilian_government
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    check_variable = { f207 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_strengthen_civilian_government
+                    check_variable = { f118 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_support_the_kodoha_faction
+                    check_variable = { f119 = 5 }
+                }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_approach_the_young_officers = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_unthinkable_option = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_exchange_the_exiles = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_unthinkable_option = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_open_up_the_universities = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_exchange_the_exiles = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_cast_the_die = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_approach_the_young_officers = yes
+            NFQ_focus_visible_JAP_JAP_exchange_the_exiles = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_fate_of_the_imperial_family = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_cast_the_die = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_rebuild_the_civil_service = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_fate_of_the_imperial_family = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_reeducation_campaign = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_fate_of_the_imperial_family = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_finish_the_fight = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_rebuild_the_civil_service = yes
+            NFQ_focus_visible_JAP_JAP_reeducation_campaign = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_join_comintern = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_asian_communist_solidarity
+                check_variable = { f113 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_JAP_JAP_finish_the_fight = yes
+            NFQ_focus_visible_JAP_JAP_communist_volunteers = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_red_brigades = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_cast_the_die = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_communist_volunteers = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_red_brigades = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_asian_communist_solidarity = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_join_comintern
+                check_variable = { f110 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_JAP_JAP_finish_the_fight = yes
+            NFQ_focus_visible_JAP_JAP_communist_volunteers = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_nationalize_the_zaibatsus = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_cast_the_die = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_people_owned_mines = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_nationalize_the_zaibatsus = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_public_works = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_nationalize_the_zaibatsus = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_tokyo_aluminum_plant = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_people_owned_mines = yes
+            NFQ_focus_visible_JAP_JAP_public_works = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_strengthen_civilian_government = {
+    AND = {
+        AND = {
+            NOT = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_support_the_kodoha_faction
+                    has_completed_focus = JAP_the_unthinkable_option
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    check_variable = { f207 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_support_the_kodoha_faction
+                    check_variable = { f119 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_the_unthinkable_option
+                    check_variable = { f101 = 5 }
+                }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_support_the_kodoha_faction = {
+    AND = {
+        AND = {
+            NOT = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_the_unthinkable_option
+                    has_completed_focus = JAP_strengthen_civilian_government
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    check_variable = { f207 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_strengthen_civilian_government
+                    check_variable = { f118 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_the_unthinkable_option
+                    check_variable = { f101 = 5 }
+                }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_challenge_the_zaibatsus = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_support_the_kodoha_faction = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_national_mobilization_law = {
+    AND = {
+        AND = {
+            NOT = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_the_unthinkable_option
+                    has_completed_focus = JAP_strengthen_civilian_government
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_challenge_the_zaibatsus = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_national_research_policy = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_national_mobilization_law = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_imperial_arsenals = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_national_mobilization_law = yes
+            NFQ_focus_visible_JAP_JAP_challenge_the_zaibatsus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_national_defense_state = {
+    AND = {
+        AND = {
+            NOT = {
+                has_dlc = "No Compromise, No Surrender"
+            }
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_the_unthinkable_option
+                    has_completed_focus = JAP_strengthen_civilian_government
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_imperial_arsenals = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_spiritual_mobilization = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_national_defense_state = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_warrior_spirit = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_national_defense_state = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_strengthen_the_divine_wind = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_spiritual_mobilization = yes
+            NFQ_focus_visible_JAP_JAP_warrior_spirit = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_showa_restoration = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_modern_shogunate
+                check_variable = { f129 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_support_the_kodoha_faction = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_modern_shogunate = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_showa_restoration
+                check_variable = { f128 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_support_the_kodoha_faction = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_prepare_for_war_with_the_soviet_union = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_modern_shogunate = yes
+            NFQ_focus_visible_JAP_JAP_showa_restoration = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_join_the_london_naval_treaty = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_prepare_for_war_with_the_soviet_union = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_build_up_the_manchurian_army = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_prepare_for_war_with_the_soviet_union = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_create_a_manchurian_imperial_air_force = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_build_up_the_manchurian_army = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_non_aggression_pact_with_china = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_join_the_london_naval_treaty = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_technological_exchange = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_non_aggression_pact_with_china = yes
+            NFQ_focus_visible_JAP_JAP_create_a_manchurian_imperial_air_force = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_preemptive_war = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_technological_exchange = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_establish_the_northern_resource_area = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_preemptive_war = yes
+            NFQ_focus_visible_JAP_JAP_imperial_arsenals = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_german_rocketry = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_preemptive_war = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ally_with_the_zaibatsus = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_strengthen_civilian_government = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_research_spending = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_strengthen_civilian_government = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_pre_emptive_coup = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_research_spending = yes
+            NFQ_focus_visible_JAP_JAP_ally_with_the_zaibatsus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_purge_the_militarists = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_research_spending = yes
+            NFQ_focus_visible_JAP_JAP_ally_with_the_zaibatsus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_showa_constitution = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_pre_emptive_coup = yes
+            NFQ_focus_visible_JAP_JAP_purge_the_militarists = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_west_pacific_treaty_organization = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_rekindle_the_old_alliance
+                check_variable = { f145 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_the_showa_constitution = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_rekindle_the_old_alliance = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_west_pacific_treaty_organization
+                check_variable = { f144 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_the_showa_constitution = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_pacific_guardian = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_west_pacific_treaty_organization = yes
+            NFQ_focus_visible_JAP_JAP_rekindle_the_old_alliance = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_anti_communist_bulwark = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_pacific_guardian = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_anti_communist_volunteers = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_anti_communist_bulwark = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_korean_question = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_pacific_guardian = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_liberate_manchuria = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_korean_question = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ultimate_deterrence = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_liberate_manchuria = yes
+            NFQ_focus_visible_JAP_JAP_anti_communist_volunteers = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_full_sovereignty_for_the_philippines = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_liberate_manchuria = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_okadas_military_purge_speech = {
+    AND = {
+        AND = {
+            has_dlc = "No Compromise, No Surrender"
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                    check_variable = { f154 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    check_variable = { f207 = 5 }
+                }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_revere_the_emperor_destroy_the_traitors = {
+    AND = {
+        AND = {
+            has_dlc = "No Compromise, No Surrender"
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_okadas_military_purge_speech
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_okadas_military_purge_speech
+                    check_variable = { f153 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    check_variable = { f207 = 5 }
+                }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_establish_the_gunbatsu = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_revere_the_emperor_destroy_the_traitors = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_authorize_aid_to_ethiopia = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_revere_the_emperor_destroy_the_traitors = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_grand_army_purge = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_establish_the_gunbatsu = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_remove_the_weeds_from_the_crop = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_establish_the_gunbatsu = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_the_showa_restoration = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_remove_the_weeds_from_the_crop = yes
+            NFQ_focus_visible_JAP_JAP_grand_army_purge = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_an_ode_to_showa_restoration = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_the_showa_restoration = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ikki_kitas_state_socialist_ideals = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_the_showa_restoration = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_oppose_the_zaibatsus = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ikki_kitas_state_socialist_ideals = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_give_it_your_all_for_the_emperor = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_oppose_the_zaibatsus = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_revitalize_rural_areas = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_oppose_the_zaibatsus = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_nationalize_western_corporations = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_oppose_the_zaibatsus = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ally_the_league_of_blood = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_the_showa_restoration = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_integrate_the_kenkokutai = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ally_the_league_of_blood = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_contact_the_masterless_samurai = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ally_the_league_of_blood = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_contact_former_sakurakai_members = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ally_the_league_of_blood = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_great_spiritual_evil = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_the_showa_restoration = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_strike_down_the_enemy_of_the_people = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_great_spiritual_evil = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_prepare_for_the_final_war = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_great_spiritual_evil = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_indoctrination_in_the_military_academy = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_the_showa_restoration = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_supremacy_of_will = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_indoctrination_in_the_military_academy = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_tennoheika_banzai = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_supremacy_of_will = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_truly_righteous_army = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_supremacy_of_will = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_supremacy_of_the_kempeitai = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_a_truly_righteous_army = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sonnou_joui = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_a_truly_righteous_army = yes
+            NFQ_focus_visible_JAP_JAP_tennoheika_banzai = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_subdue_the_kwantung_army = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_indoctrination_in_the_military_academy = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_hasten_the_integration_of_taiwan = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_subdue_the_kwantung_army = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_integrate_the_government_general = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_subdue_the_kwantung_army = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_align_the_concordia_association = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_integrate_the_government_general = yes
+            NFQ_focus_visible_JAP_JAP_hasten_the_integration_of_taiwan = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_integrate_the_great_empire_of_manchuria = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_align_the_concordia_association = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_embrace_kokutai = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_the_showa_restoration = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_empower_the_shogun = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_empower_the_emperor
+                check_variable = { f186 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_embrace_kokutai = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_empower_the_emperor = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_empower_the_shogun
+                check_variable = { f185 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_embrace_kokutai = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_worthy_succssor_of_meiji = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_empower_the_emperor = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_art_of_warfare = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_empower_the_shogun = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_imperial_colors = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_empower_the_shogun = yes
+            NFQ_focus_visible_JAP_JAP_empower_the_emperor = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_utilize_our_polish_friendship = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_return_to_sakoku_ron
+                    check_variable = { f191 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_the_enemy_of_our_enemy
+                    check_variable = { f192 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_the_imperial_colors = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_return_to_sakoku_ron = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_the_enemy_of_our_enemy
+                    check_variable = { f192 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_utilize_our_polish_friendship
+                    check_variable = { f190 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_the_imperial_colors = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_enemy_of_our_enemy = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_return_to_sakoku_ron
+                    check_variable = { f191 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_utilize_our_polish_friendship
+                    check_variable = { f190 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_the_imperial_colors = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_societal_bushido = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_the_enemy_of_our_enemy = yes
+            NFQ_focus_visible_JAP_JAP_utilize_our_polish_friendship = yes
+            NFQ_focus_visible_JAP_JAP_return_to_sakoku_ron = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_politicize_the_education_system = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_societal_bushido = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_spirit_of_the_imperial_nation = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_societal_bushido = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_propagandize_the_nihon_shoki = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_the_spirit_of_the_imperial_nation = yes
+            NFQ_focus_visible_JAP_JAP_politicize_the_education_system = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_yamato_spirit = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_propagandize_the_nihon_shoki = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_children_of_the_sun = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_yamato_spirit = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_footsteps_of_jimmu = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_yamato_spirit = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_yatagarasus_guidance = {
+    AND = {
+        AND = {
+            has_dlc = "No Compromise, No Surrender"
+            has_country_flag = JAP_empress_nagako_became_queen_flag
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_okadas_military_purge_speech
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_the_footsteps_of_jimmu = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_jeweled_spear_has_struck = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_the_footsteps_of_jimmu = yes
+            NFQ_focus_visible_JAP_JAP_children_of_the_sun = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_hakko_ichiu = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_jeweled_spear_has_struck = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_embodying_empress_jinguu = {
+    AND = {
+        AND = {
+            has_dlc = "No Compromise, No Surrender"
+            has_country_flag = JAP_empress_nagako_became_queen_flag
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_okadas_military_purge_speech
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_the_yamato_spirit = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_to_reach_princess_kaguya = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_embodying_empress_jinguu = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_to_rival_zheng_yi_sao = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_embodying_empress_jinguu = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_amaterasus_aramitama = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_to_rival_zheng_yi_sao = yes
+            NFQ_focus_visible_JAP_JAP_to_reach_princess_kaguya = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_purge_the_kodoha_faction = {
+    AND = {
+        AND = {
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_the_unthinkable_option
+                    has_completed_focus = JAP_support_the_kodoha_faction
+                    has_completed_focus = JAP_strengthen_civilian_government
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                    has_completed_focus = JAP_okadas_military_purge_speech
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_okadas_military_purge_speech
+                    check_variable = { f153 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                    check_variable = { f154 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_strengthen_civilian_government
+                    check_variable = { f118 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_support_the_kodoha_faction
+                    check_variable = { f119 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_the_unthinkable_option
+                    check_variable = { f101 = 5 }
+                }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_promulgate_the_military_ministers_system = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_purge_the_kodoha_faction = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_east_asian_cooperative_society = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_purge_the_kodoha_faction = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_imperial_headquarters_liasion_conference = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_purge_the_kodoha_faction = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_reprimand_hamada_kunimatsu = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_the_harakiri_debate
+                check_variable = { f212 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_promulgate_the_military_ministers_system = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_harakiri_debate = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_reprimand_hamada_kunimatsu
+                check_variable = { f211 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_promulgate_the_military_ministers_system = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_konoes_first_cabinet = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_harakiri_debate = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_new_order_in_east_asia = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_konoes_first_cabinet = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_reiterate_the_three_principles_of_hirota = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_reprimand_hamada_kunimatsu = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_formalize_japan_china_manchukuo_alliance = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_reiterate_the_three_principles_of_hirota = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_national_spiritual_mobliization_movement = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_reiterate_the_three_principles_of_hirota = yes
+            NFQ_focus_visible_JAP_JAP_konoes_first_cabinet = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_cabinet_intelligence_bureau = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_national_spiritual_mobliization_movement = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_crackdown_on_foreign_agents = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_form_cabinet_intelligence_bureau = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_found_the_great_japan_press_association = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_form_cabinet_intelligence_bureau = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_empower_the_thought_police = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_found_the_great_japan_press_association = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_the_central_economic_council = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_national_spiritual_mobliization_movement = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_expand_the_showa_research_association = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_form_the_central_economic_council = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_the_great_japan_industrial_patriotic_association = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_form_the_central_economic_council = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_guide_the_zaibatsus = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_form_the_central_economic_council = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_state_general_mobilization_law = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_national_spiritual_mobliization_movement = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_issue_the_ten_commandments_for_marriage = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_national_spiritual_mobliization_movement = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_enact_religious_organizations_law = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_issue_the_ten_commandments_for_marriage = yes
+            NFQ_focus_visible_JAP_JAP_sea_state_general_mobilization_law = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_new_order_movement = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_enact_religious_organizations_law = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_tripartite_pact = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_new_order_movement = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_mil_tech_coop_with_germany = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_tripartite_pact = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_imperial_rule_assistance_association = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_new_order_movement = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_the_yokusan_sonendan = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_imperial_rule_assistance_association = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_integrate_the_great_japan_youth_party = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_form_the_yokusan_sonendan = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_national_defense_state = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_imperial_rule_assistance_association = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_formalize_the_tonarigumi = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_imperial_rule_assistance_association = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ichioku_isshin = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_formalize_the_tonarigumi = yes
+            NFQ_focus_visible_JAP_JAP_sea_national_defense_state = yes
+            NFQ_focus_visible_JAP_JAP_form_the_yokusan_sonendan = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_issue_the_senjinkun_military_code = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_imperial_rule_assistance_association = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_issue_the_shinmin_no_michi_manifesto = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_issue_the_senjinkun_military_code = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_greater_east_asian_co_properity_sphere = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_imperial_rule_assistance_association = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_expand_japan_manchukuo_economic_bloc = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_greater_east_asian_co_properity_sphere = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_develop_the_yen_bloc = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_expand_japan_manchukuo_economic_bloc = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_flying_geese = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_greater_east_asian_co_properity_sphere = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_greater_east_asia_railroad = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_flying_geese = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_east_asia_development_board = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_greater_east_asian_co_properity_sphere = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ministry_of_greater_east_asia = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_east_asia_development_board = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_promote_pan_asianism = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_ministry_of_greater_east_asia = yes
+            NFQ_focus_visible_JAP_JAP_develop_the_yen_bloc = yes
+            NFQ_focus_visible_JAP_JAP_greater_east_asia_railroad = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_tojos_premiership = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_solidify_tohokai_rule
+                    check_variable = { f251 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_the_crysanthemum_throne
+                    check_variable = { f250 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_yamamotos_premiership
+                    check_variable = { f249 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_ichioku_isshin = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_yamamotos_premiership = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_solidify_tohokai_rule
+                    check_variable = { f251 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_the_crysanthemum_throne
+                    check_variable = { f250 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_tojos_premiership
+                    check_variable = { f248 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_ichioku_isshin = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_crysanthemum_throne = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_solidify_tohokai_rule
+                    check_variable = { f251 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_tojos_premiership
+                    check_variable = { f248 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_yamamotos_premiership
+                    check_variable = { f249 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_ichioku_isshin = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_solidify_tohokai_rule = {
+    AND = {
+        AND = {
+            has_country_flag = JAP_tohokai_prime_minister_added
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                    has_completed_focus = JAP_okadas_military_purge_speech
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_the_crysanthemum_throne
+                    check_variable = { f250 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_tojos_premiership
+                    check_variable = { f248 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_yamamotos_premiership
+                    check_variable = { f249 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_ichioku_isshin = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_national_defense_brotherhood = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_tojos_premiership = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_supreme_council_for_direction_of_war = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_tojos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_yamamotos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_the_crysanthemum_throne = yes
+            NFQ_focus_visible_JAP_JAP_solidify_tohokai_rule = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_found_the_boeitai = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_tojos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_yamamotos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_the_crysanthemum_throne = yes
+            NFQ_focus_visible_JAP_JAP_solidify_tohokai_rule = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_advance_one_hundred_million_fireballs = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_found_the_boeitai = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_joshi_teishin_tai = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_tojos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_yamamotos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_the_crysanthemum_throne = yes
+            NFQ_focus_visible_JAP_JAP_solidify_tohokai_rule = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_metal_collection_order = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_tojos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_yamamotos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_the_crysanthemum_throne = yes
+            NFQ_focus_visible_JAP_JAP_solidify_tohokai_rule = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_the_dai_nippon_fujinkai = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_tojos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_yamamotos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_the_crysanthemum_throne = yes
+            NFQ_focus_visible_JAP_JAP_solidify_tohokai_rule = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_fund_propaganda_films = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_tojos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_yamamotos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_the_crysanthemum_throne = yes
+            NFQ_focus_visible_JAP_JAP_solidify_tohokai_rule = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_eternal_kingdom = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_fund_propaganda_films = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_found_the_air_defense_surveilance_corps = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_tojos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_yamamotos_premiership = yes
+            NFQ_focus_visible_JAP_JAP_the_crysanthemum_throne = yes
+            NFQ_focus_visible_JAP_JAP_solidify_tohokai_rule = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_koiso_cabinet = {
+    AND = {
+        AND = {
+            has_country_flag = JAP_tojo_or_yamamoto_resigned_flag
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                    has_completed_focus = JAP_okadas_military_purge_speech
+                }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_war_has_not_necessarily_developed_focus = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_koiso_cabinet = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_japans_longest_day = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_the_surrender_broadcast
+                check_variable = { f265 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_the_war_has_not_necessarily_developed_focus = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_surrender_broadcast = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_japans_longest_day
+                check_variable = { f264 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_the_war_has_not_necessarily_developed_focus = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_revisit_the_thirteen_demands = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_sea_purge_the_kodoha_faction = yes
+            NFQ_focus_visible_JAP_JAP_revere_the_emperor_destroy_the_traitors = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_invest_in_senbu = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_revisit_the_thirteen_demands = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_establish_mongol_military_government = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_revisit_the_thirteen_demands = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_launch_the_suiyuan_campaign = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_establish_mongol_military_government = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_reorganize_the_united_autonomous_government = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_establish_mongol_military_government = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_mengjiang_united_autonomous_government = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_reorganize_the_united_autonomous_government = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_mongol_autonomous_state = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_mengjiang_united_autonomous_government = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_reinforce_the_beijing_garrison = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_revisit_the_thirteen_demands = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_strategic_offensives = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_reinforce_the_beijing_garrison = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_intensify_anti_guerilla_operations = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_strategic_offensives = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_reorganized_national_government = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_strategic_offensives = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_occupy_macau = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_reorganized_national_government = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_develop_the_chinese_resources = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_reinforce_the_beijing_garrison = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_the_jikyoku_iinkai = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_reinforce_the_beijing_garrison = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_an_expedition_to_tibet = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_reinforce_the_beijing_garrison = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ally_the_dragon_king = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_claim_the_raven_crown
+                check_variable = { f282 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_an_expedition_to_tibet = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_claim_the_raven_crown = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_ally_the_dragon_king
+                check_variable = { f281 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_an_expedition_to_tibet = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ally_the_gorkhas = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_claim_the_scripech
+                check_variable = { f284 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_claim_the_raven_crown = yes
+            NFQ_focus_visible_JAP_JAP_ally_the_dragon_king = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_claim_the_scripech = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_ally_the_gorkhas
+                check_variable = { f283 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_claim_the_raven_crown = yes
+            NFQ_focus_visible_JAP_JAP_ally_the_dragon_king = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ally_afghanistan = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_best_the_graveyard
+                check_variable = { f286 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_claim_the_scripech = yes
+            NFQ_focus_visible_JAP_JAP_ally_the_gorkhas = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_best_the_graveyard = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_ally_afghanistan
+                check_variable = { f285 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_claim_the_scripech = yes
+            NFQ_focus_visible_JAP_JAP_ally_the_gorkhas = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_nanshin_ron = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_sea_purge_the_kodoha_faction = yes
+            NFQ_focus_visible_JAP_JAP_revere_the_emperor_destroy_the_traitors = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_soviet_japanese_neutrality_pact = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_nanshin_ron = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_unsinkable_aircraft_carriers = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_nanshin_ron = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_isolate_oceania = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_unsinkable_aircraft_carriers = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_battle_for_australia = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_isolate_oceania = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_operation_take_australia = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_battle_for_australia = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_exploit_southern_resource_area = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_nanshin_ron = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_demand_tonkinese_bases = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_nanshin_ron = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_occupy_indochina = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_demand_tonkinese_bases = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_pressure_siam = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_occupy_siam
+                check_variable = { f297 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_demand_tonkinese_bases = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_occupy_siam = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_sea_pressure_siam
+                check_variable = { f296 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_demand_tonkinese_bases = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_strike_the_southern_road = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_occupy_siam = yes
+            NFQ_focus_visible_JAP_JAP_sea_pressure_siam = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_occupy_east_timor = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_strike_the_southern_road = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_hokushin_ron = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_sea_purge_the_kodoha_faction = yes
+            NFQ_focus_visible_JAP_JAP_revere_the_emperor_destroy_the_traitors = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ensure_temporary_peace_with_china = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_hokushin_ron = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_mongol_volunteer_army = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ensure_temporary_peace_with_china = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_strenghten_manchukuo_imperial_army = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_hokushin_ron = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_strenghten_manchukuo_imperial_airforce = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_strenghten_manchukuo_imperial_army = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_utilize_ainu_expertise = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_hokushin_ron = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_kantokuen = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_utilize_ainu_expertise = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_green_persimmon = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_the_persimmon_has_ripened
+                check_variable = { f308 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_kantokuen = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_persimmon_has_ripened = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_a_green_persimmon
+                check_variable = { f307 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_kantokuen = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_establish_the_northern_resource_area = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_a_green_persimmon = yes
+            NFQ_focus_visible_JAP_JAP_the_persimmon_has_ripened = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_seek_yakuza_support = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_okadas_military_purge_speech = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_expand_the_metropolitan_police = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_okadas_military_purge_speech = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_secretly_rebuild_the_party = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_okadas_military_purge_speech = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_build_an_anti_army_coalition = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_okadas_military_purge_speech = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ensure_cross_party_support = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_build_an_anti_army_coalition = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_gather_royal_pacifists_support = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_build_an_anti_army_coalition = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_limit_military_power = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_sway_the_navy_moderates
+                check_variable = { f317 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_gather_royal_pacifists_support = yes
+            NFQ_focus_visible_JAP_JAP_ensure_cross_party_support = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sway_the_navy_moderates = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_limit_military_power
+                check_variable = { f316 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_gather_royal_pacifists_support = yes
+            NFQ_focus_visible_JAP_JAP_ensure_cross_party_support = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_divert_military_funds = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_return_of_the_manchukuo_exiles
+                check_variable = { f330 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_limit_military_power = yes
+            NFQ_focus_visible_JAP_JAP_sway_the_navy_moderates = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_bribe_generals = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_sway_the_navy_moderates = yes
+            NFQ_focus_visible_JAP_JAP_limit_military_power = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_appoint_new_generals = {
+    AND = {
+        AND = {
+            has_dlc = "No Compromise, No Surrender"
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_a_red_sun_rises_for_a_new_era
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_JAP_JAP_bribe_generals = yes
+            NFQ_focus_visible_JAP_JAP_divert_military_funds = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_implement_army_reforms = {
+    AND = {
+        AND = {
+            has_dlc = "No Compromise, No Surrender"
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_a_red_sun_rises_for_a_new_era
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_JAP_JAP_bribe_generals = yes
+            NFQ_focus_visible_JAP_JAP_divert_military_funds = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_new_take_on_state_shintoism = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_implement_army_reforms = yes
+            NFQ_focus_visible_JAP_JAP_appoint_new_generals = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_crush_the_spirit_of_gekokujo = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_a_new_take_on_state_shintoism = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_anti_militarist_speeches_in_the_diet = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_secretly_rebuild_the_party = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sway_disillusioned_young_officers = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_anti_militarist_speeches_in_the_diet = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_organize_the_student_movements = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_anti_militarist_speeches_in_the_diet = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_raise_support_within_the_proletarian_class = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_organize_the_student_movements = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_organize_underground_resistance = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_anti_militarist_speeches_in_the_diet = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_mountain_village_operation_units = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_organize_underground_resistance = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_return_of_the_manchukuo_exiles = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_divert_military_funds
+                check_variable = { f318 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_JAP_JAP_mountain_village_operation_units = yes
+            NFQ_focus_visible_JAP_JAP_raise_support_within_the_proletarian_class = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_organize_the_fifth_column = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_return_of_the_manchukuo_exiles = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_revoke_the_peace_preservation_law = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_return_of_the_manchukuo_exiles = yes
+            NFQ_focus_visible_JAP_JAP_divert_military_funds = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_red_sun_rises_for_a_new_era = {
+    AND = {
+        AND = {
+            has_dlc = "No Compromise, No Surrender"
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_organize_a_general_election
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_organize_a_general_election
+                check_variable = { f402 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_revoke_the_peace_preservation_law = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_lecture_group_ascendant = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_the_labor_farmer_faction_ascendant
+                check_variable = { f335 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_a_red_sun_rises_for_a_new_era = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_labor_farmer_faction_ascendant = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_the_lecture_group_ascendant
+                check_variable = { f334 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_a_red_sun_rises_for_a_new_era = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_fate_of_the_imperial_family = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_the_lecture_group_ascendant = yes
+            NFQ_focus_visible_JAP_JAP_the_labor_farmer_faction_ascendant = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_hold_a_peoples_tribunal = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_fate_of_the_imperial_family = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_social_and_cultural_revolution = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_fate_of_the_imperial_family = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_overhaul_the_education_system = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_social_and_cultural_revolution = yes
+            NFQ_focus_visible_JAP_JAP_hold_a_peoples_tribunal = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_nationalize_the_zaibatsus = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_overhaul_the_education_system = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_functionalist_housing_policy = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_overhaul_the_education_system = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_redistribute_land_and_wealth = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_overhaul_the_education_system = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ganbarou = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_redistribute_land_and_wealth = yes
+            NFQ_focus_visible_JAP_JAP_a_functionalist_housing_policy = yes
+            NFQ_focus_visible_JAP_JAP_sea_nationalize_the_zaibatsus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_cooperate_with_anarchists = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_sea_fate_of_the_imperial_family = yes
+            NFQ_focus_visible_JAP_JAP_the_labor_farmer_faction_ascendant = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_ie_system_and_socialism = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_sea_fate_of_the_imperial_family = yes
+            NFQ_focus_visible_JAP_JAP_the_lecture_group_ascendant = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_fukumotoism = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_ie_system_and_socialism = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_modern_ashigaru = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_ie_system_and_socialism = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_learn_from_the_nkvd = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_modern_ashigaru = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_further_urban_investments = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_fukumotoism = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_first_five_year_plan = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_fukumotoism = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_pioneer_organizations = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_the_first_five_year_plan = yes
+            NFQ_focus_visible_JAP_JAP_further_urban_investments = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_war_communism = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_cooperate_with_anarchists = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_uno_school_of_economics = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_cooperate_with_anarchists = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_incorporate_buddhist_socialism = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_cooperate_with_anarchists = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_spirit_of_the_ikko_ikki = {
+    AND = {
+        AND = {
+            has_dlc = "No Compromise, No Surrender"
+            has_country_flag = JAP_buddhist_socialist_takeover_flag
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                    has_completed_focus = JAP_organize_a_general_election
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_incorporate_buddhist_socialism = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_achieving_joubukkokudo = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_spirit_of_the_ikko_ikki = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_uplift_ainu_revolution_theory = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_incorporate_buddhist_socialism = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_kikues_new_model = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_cooperate_with_anarchists = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_women_in_industry = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_kikues_new_model = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_national_cooperatives = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_uno_school_of_economics = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_further_rural_investments = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_uno_school_of_economics = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_adopt_syndicalist_ideas = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_further_rural_investments = yes
+            NFQ_focus_visible_JAP_JAP_form_national_cooperatives = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_raise_the_red_flag_high = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_adopt_syndicalist_ideas = yes
+            NFQ_focus_visible_JAP_JAP_form_pioneer_organizations = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_guide_the_lesser_states = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_raise_the_red_flag_high = yes
+            NFQ_focus_visible_JAP_JAP_adopt_syndicalist_ideas = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_socialism_in_one_state = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_raise_the_red_flag_high = yes
+            NFQ_focus_visible_JAP_JAP_form_pioneer_organizations = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_courage_to_defend_the_revolution = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_guide_the_lesser_states = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_demand_submission_from_breawakay_states = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_guide_the_lesser_states = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ignite_the_korean_peninsula = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_demand_submission_from_breawakay_states = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_protect_the_manchurians = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ignite_the_korean_peninsula = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_guide_the_chinese = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ignite_the_korean_peninsula = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_guide_the_mongols = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_guide_the_chinese = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_spread_the_revolutuon_south = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_guide_the_chinese = yes
+            NFQ_focus_visible_JAP_JAP_protect_the_manchurians = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_free_asians_from_soviet_opression = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_spread_the_revolutuon_south = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_go_after_the_capitalists = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_spread_the_revolutuon_south = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_free_asia_pacific = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_go_after_the_capitalists = yes
+            NFQ_focus_visible_JAP_JAP_free_asians_from_soviet_opression = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_pan_asian_revolutionary_front = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_guide_the_lesser_states = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_educate_the_peasants = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_pan_asian_revolutionary_front = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_common_currency_for_all_of_asia = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_pan_asian_revolutionary_front = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_minitry_of_pan_asian_development = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_pan_asian_revolutionary_front = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_development_for_the_undeveloped = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_minitry_of_pan_asian_development = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_pan_asian_diet = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_the_minitry_of_pan_asian_development = yes
+            NFQ_focus_visible_JAP_JAP_a_common_currency_for_all_of_asia = yes
+            NFQ_focus_visible_JAP_JAP_educate_the_peasants = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_extensive_navy_maneuvers = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_socialism_in_one_state = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_extensive_army_maneuvers = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_socialism_in_one_state = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_reclaim_lost_territories = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_socialism_in_one_state = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_conquer_the_army_remnants = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_socialism_in_one_state = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_put_an_end_to_chinese_feudalism = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_conquer_the_army_remnants = yes
+            NFQ_focus_visible_JAP_JAP_reclaim_lost_territories = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_mobilize_the_proletariat = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_put_an_end_to_chinese_feudalism = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_long_march_to_victory = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_put_an_end_to_chinese_feudalism = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_pacific_union_of_soviet_socialist_republics = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_put_an_end_to_chinese_feudalism = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_indochinese_soviet = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_pacific_union_of_soviet_socialist_republics = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_transformation_of_nature = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_indochinese_soviet = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_south_pacific_soviet = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_pacific_union_of_soviet_socialist_republics = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_oceanian_soviet = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_south_pacific_soviet = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_strike_down_the_great_pretender = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_pacific_union_of_soviet_socialist_republics = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_a_red_dawn_over_asia = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_strike_down_the_great_pretender = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_to_rival_the_comintern = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_pacific_union_of_soviet_socialist_republics = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_wrestle_mongolia_from_the_soviets = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_to_rival_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_wrestle_tuva_from_the_soviets = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_wrestle_mongolia_from_the_soviets = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_spread_revolutionary_flames_to_south_asia = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_to_rival_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_spread_revolutionary_flames_to_west_asia = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_spread_revolutionary_flames_to_south_asia = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_trans_pacific_influence = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_to_rival_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_organize_a_general_election = {
+    AND = {
+        AND = {
+            has_dlc = "No Compromise, No Surrender"
+            IF = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = JAP_a_red_sun_rises_for_a_new_era
+                    has_completed_focus = JAP_sea_purge_the_kodoha_faction
+                    has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_a_red_sun_rises_for_a_new_era
+                check_variable = { f333 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_revoke_the_peace_preservation_law = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_rikken_minseito_victory = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_rikken_seiyukai_victory
+                check_variable = { f404 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_organize_a_general_election = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_rikken_seiyukai_victory = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_rikken_minseito_victory
+                check_variable = { f403 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_organize_a_general_election = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_promote_meritocracy = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_rikken_minseito_victory = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_experimental_housing_solutions = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_rikken_minseito_victory = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_minshu_shugi = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_experimental_housing_solutions = yes
+            NFQ_focus_visible_JAP_JAP_promote_meritocracy = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_embrace_amakudari = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_rikken_seiyukai_victory = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_agricultural_protectionism = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_rikken_seiyukai_victory = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_minpon_shugi = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_agricultural_protectionism = yes
+            NFQ_focus_visible_JAP_JAP_embrace_amakudari = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_machida_chuuji_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_abe_isoo_focus
+                    check_variable = { f412 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_ichiro_hatoyama_focus
+                    check_variable = { f415 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_mitsumasa_yonai_focus
+                    check_variable = { f417 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_tokugawa_iesato_focus
+                    check_variable = { f414 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_minshu_shugi = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_abe_isoo_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_ichiro_hatoyama_focus
+                    check_variable = { f415 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_machida_chuuji_focus
+                    check_variable = { f411 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_mitsumasa_yonai_focus
+                    check_variable = { f417 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_tokugawa_iesato_focus
+                    check_variable = { f414 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_minshu_shugi = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_uplift_labor_unions = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_abe_isoo_focus = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_tokugawa_iesato_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_abe_isoo_focus
+                    check_variable = { f412 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_ichiro_hatoyama_focus
+                    check_variable = { f415 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_machida_chuuji_focus
+                    check_variable = { f411 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_mitsumasa_yonai_focus
+                    check_variable = { f417 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_minpon_shugi = yes
+            NFQ_focus_visible_JAP_JAP_minshu_shugi = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ichiro_hatoyama_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_abe_isoo_focus
+                    check_variable = { f412 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_machida_chuuji_focus
+                    check_variable = { f411 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_mitsumasa_yonai_focus
+                    check_variable = { f417 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_tokugawa_iesato_focus
+                    check_variable = { f414 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_minpon_shugi = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_the_ldp = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ichiro_hatoyama_focus = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_mitsumasa_yonai_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_abe_isoo_focus
+                    check_variable = { f412 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_ichiro_hatoyama_focus
+                    check_variable = { f415 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_machida_chuuji_focus
+                    check_variable = { f411 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_tokugawa_iesato_focus
+                    check_variable = { f414 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_minpon_shugi = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_draft_the_showa_constitution = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_abe_isoo_focus = yes
+            NFQ_focus_visible_JAP_JAP_machida_chuuji_focus = yes
+            NFQ_focus_visible_JAP_JAP_tokugawa_iesato_focus = yes
+            NFQ_focus_visible_JAP_JAP_ichiro_hatoyama_focus = yes
+            NFQ_focus_visible_JAP_JAP_mitsumasa_yonai_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_limit_the_emperors_power = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_draft_the_showa_constitution = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ensure_civil_liberties = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_draft_the_showa_constitution = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_crush_the_internal_factions = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_limit_the_emperors_power = yes
+            NFQ_focus_visible_JAP_JAP_ensure_civil_liberties = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_democratic_war_with_manchukuo = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_crush_the_internal_factions = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_democratic_war_with_china = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_crush_the_internal_factions = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_closer_ties_with_the_usa = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_democratic_war_with_china = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ally_the_philippines = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_closer_ties_with_the_usa = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_strike_the_soviets = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_democratic_war_with_china = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_free_colonized_asian_countries = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_democratic_war_with_china = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_fund_resistance_groups_in_asia = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_free_colonized_asian_countries = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_rekindle_the_old_alliance = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_create_greater_east_asian_treaty_organization
+                check_variable = { f431 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_crush_the_internal_factions = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_guardian_of_the_pacific = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_rekindle_the_old_alliance = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_create_greater_east_asian_treaty_organization = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_sea_rekindle_the_old_alliance
+                check_variable = { f429 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_democratic_war_with_china = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_greater_east_asian_customs_union = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_create_greater_east_asian_treaty_organization = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_greater_east_asian_currency_union = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_create_greater_east_asian_treaty_organization = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_an_integrated_union = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_form_greater_east_asian_currency_union = yes
+            NFQ_focus_visible_JAP_JAP_form_greater_east_asian_customs_union = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_greater_east_asian_federation = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_an_integrated_union = yes
+            NFQ_focus_visible_JAP_JAP_guardian_of_the_pacific = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_democratic_womens_suffrage = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_crush_the_internal_factions = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_launch_the_income_doubling_plan = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_crush_the_internal_factions = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_reform_the_education_system = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_launch_the_income_doubling_plan = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_democratic_women_in_the_workforce = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_reform_the_education_system = yes
+            NFQ_focus_visible_JAP_JAP_democratic_womens_suffrage = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_taiheyo_belt = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_launch_the_income_doubling_plan = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_shinkansen = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_launch_the_income_doubling_plan = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_pursue_international_trade = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_launch_the_income_doubling_plan = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_seek_foreign_investments = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_pursue_international_trade = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_invest_in_foreign_industries = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_pursue_international_trade = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_democratic_foreign_exchange_allocation_policy = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_invest_in_foreign_industries = yes
+            NFQ_focus_visible_JAP_JAP_seek_foreign_investments = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_democratic_research_slot = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_taiheyo_belt = yes
+            NFQ_focus_visible_JAP_JAP_reform_the_education_system = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_offshore_coal = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_taiheyo_belt = yes
+            NFQ_focus_visible_JAP_JAP_shinkansen = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_democratic_nationalize_zaibatsus = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_democratic_work_with_the_zaibatsus
+                    check_variable = { f450 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_split_uo_zaibatsu_monopolies
+                    check_variable = { f449 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_offshore_coal = yes
+            NFQ_focus_visible_JAP_JAP_democratic_research_slot = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_split_uo_zaibatsu_monopolies = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_democratic_nationalize_zaibatsus
+                    check_variable = { f448 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_democratic_work_with_the_zaibatsus
+                    check_variable = { f450 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_offshore_coal = yes
+            NFQ_focus_visible_JAP_JAP_democratic_research_slot = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_democratic_work_with_the_zaibatsus = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_democratic_nationalize_zaibatsus
+                    check_variable = { f448 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_split_uo_zaibatsu_monopolies
+                    check_variable = { f449 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_offshore_coal = yes
+            NFQ_focus_visible_JAP_JAP_democratic_research_slot = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_lifetime_employment = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_split_uo_zaibatsu_monopolies = yes
+            NFQ_focus_visible_JAP_JAP_democratic_work_with_the_zaibatsus = yes
+            NFQ_focus_visible_JAP_JAP_democratic_nationalize_zaibatsus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_modernize_agriculture = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_split_uo_zaibatsu_monopolies = yes
+            NFQ_focus_visible_JAP_JAP_democratic_work_with_the_zaibatsus = yes
+            NFQ_focus_visible_JAP_JAP_democratic_nationalize_zaibatsus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_civilian_nuclear_reactor_investments = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_modernize_agriculture = yes
+            NFQ_focus_visible_JAP_JAP_lifetime_employment = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ministry_of_commerce_and_industry = {
+    always = yes
+}
+
+NFQ_focus_visible_JAP_JAP_continue_takahashi_korekiyos_policies = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_increase_armament_spending
+                check_variable = { f456 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_ministry_of_commerce_and_industry = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_increase_armament_spending = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_continue_takahashi_korekiyos_policies
+                check_variable = { f455 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_ministry_of_commerce_and_industry = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_approach_mitsui = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_continue_takahashi_korekiyos_policies = yes
+            NFQ_focus_visible_JAP_JAP_increase_armament_spending = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_approach_mitsubishi = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_continue_takahashi_korekiyos_policies = yes
+            NFQ_focus_visible_JAP_JAP_increase_armament_spending = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_approach_sumitomo = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_continue_takahashi_korekiyos_policies = yes
+            NFQ_focus_visible_JAP_JAP_increase_armament_spending = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_approach_yasuda = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_continue_takahashi_korekiyos_policies = yes
+            NFQ_focus_visible_JAP_JAP_increase_armament_spending = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_fund_the_riken_institute = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_approach_yasuda = yes
+            NFQ_focus_visible_JAP_JAP_approach_mitsui = yes
+            NFQ_focus_visible_JAP_JAP_approach_sumitomo = yes
+            NFQ_focus_visible_JAP_JAP_approach_mitsubishi = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_build_the_nishotaki_and_miyanaka_dams = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_fund_the_riken_institute = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_establish_synthetic_fuel_joint_venture = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_fund_the_riken_institute = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_establish_nippon_hassoden = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_fund_the_riken_institute = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_new_industrial_city_development_policy = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_establish_nippon_hassoden = yes
+            NFQ_focus_visible_JAP_JAP_establish_synthetic_fuel_joint_venture = yes
+            NFQ_focus_visible_JAP_JAP_build_the_nishotaki_and_miyanaka_dams = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ship_management_committee = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_new_industrial_city_development_policy = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_establish_housing_corporation = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_establish_nippon_hassoden = yes
+            NFQ_focus_visible_JAP_JAP_establish_synthetic_fuel_joint_venture = yes
+            NFQ_focus_visible_JAP_JAP_build_the_nishotaki_and_miyanaka_dams = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_danganressha = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_establish_housing_corporation = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_central_agricultural_association = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_establish_housing_corporation = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_five_great_cities = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_new_industrial_city_development_policy = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_resource_security = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_the_five_great_cities = yes
+            NFQ_focus_visible_JAP_JAP_central_agricultural_association = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ministry_of_colonial_affairs = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ministry_of_commerce_and_industry = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_manchuria_five_year_plan = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ministry_of_colonial_affairs = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_establish_manchuria_airplane_manufacturing_company = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_manchuria_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_eastern_road_and_steel_expansion = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_manchuria_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_promote_japanese_settlement = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_eastern_road_and_steel_expansion = yes
+            NFQ_focus_visible_JAP_JAP_establish_manchuria_airplane_manufacturing_company = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_construct_the_sui_ho_dam = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_eastern_road_and_steel_expansion = yes
+            NFQ_focus_visible_JAP_JAP_establish_manchuria_airplane_manufacturing_company = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_shuilikeng_power_plant = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ministry_of_colonial_affairs = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_improve_agricultural_output = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_shuilikeng_power_plant = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_develop_the_south_seas_mandate = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ministry_of_colonial_affairs = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_increase_crop_yields = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_develop_the_south_seas_mandate = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_upgrade_the_oriental_development_company = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_improve_agricultural_output = yes
+            NFQ_focus_visible_JAP_JAP_increase_crop_yields = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_build_up_korean_industries = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_ministry_of_colonial_affairs = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_increase_agricultural_export = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_build_up_korean_industries = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_hydroelectric_dams_in_korea = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_build_up_korean_industries = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_prepare_for_peninsular_warfare = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_build_up_korean_industries = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_establish_the_japanese_korean_army = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_prepare_for_peninsular_warfare = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_imperial_defense_plan = {
+    always = yes
+}
+
+NFQ_focus_visible_JAP_JAP_expand_kawagoe_army_arsenal = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_imperial_defense_plan = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_reform_the_army = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_rely_on_supremacy_of_the_will
+                check_variable = { f495 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_expand_kawagoe_army_arsenal = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_rethink_armor_doctrine = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_reform_the_army = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_foreign_tank_modernization_cooperation = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_domestic_tank_modernization_program
+                check_variable = { f493 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_rethink_armor_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_domestic_tank_modernization_program = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_foreign_tank_modernization_cooperation
+                check_variable = { f492 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_rethink_armor_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_ultimate_tank = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_domestic_tank_modernization_program = yes
+            NFQ_focus_visible_JAP_JAP_foreign_tank_modernization_cooperation = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_rely_on_supremacy_of_the_will = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_reform_the_army
+                check_variable = { f490 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_expand_kawagoe_army_arsenal = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_adopt_new_assault_doctrine = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_rely_on_supremacy_of_the_will = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_develop_lethal_infantry_equipment = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_adopt_new_assault_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_develop_sophisticated_artillery_equipment = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_adopt_new_assault_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_expand_the_irago_proving_ground = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_develop_sophisticated_artillery_equipment = yes
+            NFQ_focus_visible_JAP_JAP_develop_lethal_infantry_equipment = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_prepare_the_northern_front = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_reform_the_army = yes
+            NFQ_focus_visible_JAP_JAP_rely_on_supremacy_of_the_will = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_enact_the_national_conscription_law = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_reform_the_army = yes
+            NFQ_focus_visible_JAP_JAP_rely_on_supremacy_of_the_will = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_instill_the_spirit_of_bushido = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_prepare_the_northern_front = yes
+            NFQ_focus_visible_JAP_JAP_enact_the_national_conscription_law = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_mountaineers = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_instill_the_spirit_of_bushido = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_jungle_adaptation = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_instill_the_spirit_of_bushido = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_army_weapons_administration_headquarters = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_instill_the_spirit_of_bushido = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_divert_naval_guns_to_the_army = {
+    AND = {
+        AND = {
+            has_dlc = "No Step Back"
+        }
+        NFQ_focus_visible_JAP_JAP_army_weapons_administration_headquarters = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_pivot_towards_defensive_measures = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_strenghten_the_supply_lines
+                check_variable = { f508 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_army_weapons_administration_headquarters = yes
+            NFQ_focus_visible_JAP_JAP_jungle_adaptation = yes
+            NFQ_focus_visible_JAP_JAP_sea_mountaineers = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_strenghten_the_supply_lines = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_pivot_towards_defensive_measures
+                check_variable = { f507 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_army_weapons_administration_headquarters = yes
+            NFQ_focus_visible_JAP_JAP_jungle_adaptation = yes
+            NFQ_focus_visible_JAP_JAP_sea_mountaineers = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_ni_go_nuclear_project = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_strenghten_the_supply_lines = yes
+            NFQ_focus_visible_JAP_JAP_pivot_towards_defensive_measures = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_establish_showa_aircraft_idnsutry = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_imperial_defense_plan = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_develop_new_fighters = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_establish_showa_aircraft_idnsutry = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_7075_aluminium_alloy = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_develop_new_fighters = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_modern_bombers = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_establish_showa_aircraft_idnsutry = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_improve_the_type_91_aerial_torpedo = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_modern_bombers = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_escort_efficiency = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_develop_new_fighters = yes
+            NFQ_focus_visible_JAP_JAP_modern_bombers = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_sturdy_aircraft = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_sea_long_operational_range
+                check_variable = { f517 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_escort_efficiency = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_long_operational_range = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_sea_sturdy_aircraft
+                check_variable = { f516 = 5 }
+            }
+        }
+        NFQ_focus_visible_JAP_JAP_escort_efficiency = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_project_z_bomber_project = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_long_operational_range = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_adopt_new_air_doctrine = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_sea_long_operational_range = yes
+            NFQ_focus_visible_JAP_JAP_sea_sturdy_aircraft = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_unify_the_air_forces = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_adopt_new_air_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_improved_radio_communications = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_unify_the_air_forces = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_combined_arms = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_improved_radio_communications = yes
+            OR = {
+                NFQ_focus_visible_JAP_JAP_strenghten_the_supply_lines = yes
+                NFQ_focus_visible_JAP_JAP_pivot_towards_defensive_measures = yes
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_the_divine_wind = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_adopt_new_air_doctrine = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_jet_prototypes = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_sea_unify_the_air_forces = yes
+            NFQ_focus_visible_JAP_JAP_the_divine_wind = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_rockets_development = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_sea_unify_the_air_forces = yes
+            NFQ_focus_visible_JAP_JAP_the_divine_wind = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_expand_hiratsuka_navy_arsenal = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_the_imperial_defense_plan = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_expand_navy_technical_department = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_expand_hiratsuka_navy_arsenal = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_prepare_the_southern_front = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_expand_hiratsuka_navy_arsenal = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_focus_on_aircraft_carriers = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_balanced_naval_approach
+                    check_variable = { f532 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_sea_battleship_initiative
+                    check_variable = { f533 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_expand_navy_technical_department = yes
+            NFQ_focus_visible_JAP_JAP_prepare_the_southern_front = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_yokosuka_naval_air_technical_arsenal = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_focus_on_aircraft_carriers = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_establish_the_mine_warfare_force = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_yokosuka_naval_air_technical_arsenal = yes
+            NFQ_focus_visible_JAP_JAP_improve_the_type_91_aerial_torpedo = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_balanced_naval_approach = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_focus_on_aircraft_carriers
+                    check_variable = { f529 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_sea_battleship_initiative
+                    check_variable = { f533 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_expand_navy_technical_department = yes
+            NFQ_focus_visible_JAP_JAP_prepare_the_southern_front = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_battleship_initiative = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = JAP_balanced_naval_approach
+                    check_variable = { f532 = 5 }
+                }
+                OR = {
+                    has_completed_focus = JAP_focus_on_aircraft_carriers
+                    check_variable = { f529 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_expand_navy_technical_department = yes
+            NFQ_focus_visible_JAP_JAP_prepare_the_southern_front = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_bigger_better_yamato = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_sea_battleship_initiative = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_akizuki_class_destroyers = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_focus_on_aircraft_carriers = yes
+            NFQ_focus_visible_JAP_JAP_balanced_naval_approach = yes
+            NFQ_focus_visible_JAP_JAP_sea_battleship_initiative = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_form_the_kido_butai = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_focus_on_aircraft_carriers = yes
+            NFQ_focus_visible_JAP_JAP_balanced_naval_approach = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_sea_heavier_naval_guns = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_balanced_naval_approach = yes
+            NFQ_focus_visible_JAP_JAP_sea_battleship_initiative = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_naval_armaments_program = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_form_the_kido_butai = yes
+            NFQ_focus_visible_JAP_JAP_sea_heavier_naval_guns = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_radio_guided_missiles = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_naval_armaments_program = yes
+            NFQ_focus_visible_JAP_JAP_rockets_development = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_assure_superior_naval_quality = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_seek_strength_in_numbers
+                check_variable = { f541 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_form_the_kido_butai = yes
+            NFQ_focus_visible_JAP_JAP_sea_heavier_naval_guns = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_seek_strength_in_numbers = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = JAP_assure_superior_naval_quality
+                check_variable = { f540 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_JAP_JAP_form_the_kido_butai = yes
+            NFQ_focus_visible_JAP_JAP_sea_heavier_naval_guns = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_nationalize_suzuka_naval_arsenal = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_form_the_kido_butai = yes
+            NFQ_focus_visible_JAP_JAP_sea_heavier_naval_guns = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_nationalize_fujinagata_shipyards = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_nationalize_suzuka_naval_arsenal = yes
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_secure_the_sea_lanes = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_naval_armaments_program = yes
+            NFQ_focus_visible_JAP_JAP_assure_superior_naval_quality = yes
+            NFQ_focus_visible_JAP_JAP_seek_strength_in_numbers = yes
+            NFQ_focus_visible_JAP_JAP_nationalize_suzuka_naval_arsenal = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_fix_flawed_naval_designs = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_JAP_JAP_naval_armaments_program = yes
+            NFQ_focus_visible_JAP_JAP_assure_superior_naval_quality = yes
+            NFQ_focus_visible_JAP_JAP_seek_strength_in_numbers = yes
+            NFQ_focus_visible_JAP_JAP_nationalize_suzuka_naval_arsenal = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_f_go_nuclear_project = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_fix_flawed_naval_designs = yes
+            NFQ_focus_visible_JAP_JAP_secure_the_sea_lanes = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_combined_nuclear_research_efforts = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_JAP_JAP_f_go_nuclear_project = yes
+            NFQ_focus_visible_JAP_JAP_ni_go_nuclear_project = yes
+        }
+    }
+}
+
+NFQ_focus_visible_JAP_JAP_end_the_interservice_rivalry = {
+    AND = {
+        NFQ_focus_visible_JAP_JAP_combined_nuclear_research_efforts = yes
+    }
+}
+

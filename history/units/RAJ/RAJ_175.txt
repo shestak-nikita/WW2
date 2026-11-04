@@ -1,0 +1,1 @@
+focus={current=RAJ_supply_center_fortifications}

@@ -1,0 +1,349 @@
+USA_set101={not={has_completed_focus=USA_reestablish_the_gold_standard}
+has_government=democratic}
+USA_set102={has_completed_focus=USA_continue_the_new_deal}
+USA_set103={has_completed_focus=USA_suspend_the_presecution
+	OR={
+		communism>0.1
+		has_country_leader={
+			ruling_only=yes
+			name="Harry S. Truman"
+		}
+	}}
+USA_set104={has_completed_focus=USA_desegregate_the_armed_forces
+communism>0.2}
+USA_set105={has_completed_focus=USA_desegregate_the_armed_forces
+communism>0.35}
+USA_set106={has_completed_focus=USA_democratic_socialism has_completed_focus=USA_full_desegregation
+	has_government=communism
+	country_exists="PHI"}
+USA_set107={has_completed_focus=USA_liberty_for_the_philippines}
+USA_set108={has_completed_focus=USA_suspend_the_presecution
+	congress_high_support_trigger=yes
+	OR={
+		has_idea_with_trait=communist_revolutionary
+		has_government=communism
+	}
+	not={has_completed_focus=USA_limited_intervention}
+	not={has_completed_focus=USA_neutrality_act}}
+USA_set109={has_completed_focus=USA_union_representation_act
+congress_medium_support_trigger=yes}
+USA_set110={has_completed_focus=USA_union_representation_act
+	OR={
+		has_idea_with_trait=communist_revolutionary
+		has_government=communism
+	}
+	congress_high_support_trigger=yes}
+USA_set111={has_completed_focus=USA_old_age_pension_act has_completed_focus=USA_accumulated_wealth_tax_act}
+USA_set112={has_completed_focus=USA_guarantee_the_american_dream
+	congress_high_support_trigger=yes
+	OR={
+		has_idea_with_trait=communist_revolutionary
+		has_government=communism
+	}}
+USA_set113={has_completed_focus=USA_guarantee_the_american_dream
+congress_high_support_trigger=yes}
+USA_set114={has_completed_focus=USA_worker_management_act has_completed_focus=USA_militia_organization_act
+congress_high_support_trigger=yes}
+USA_set115={has_completed_focus=USA_communal_property_act
+	OR={
+		has_war_with=CSA
+		has_global_flag=USA_civil_war_fired
+	}}
+USA_set116={has_completed_focus=USA_suspend_the_presecution has_completed_focus=USA_agricultural_adjustment_act
+	OR={has_government=democratic has_government=communism}}
+USA_set117={has_completed_focus=USA_reach_out_to_the_ware_group
+	not={has_war_with=SOU}}
+USA_set118={has_completed_focus=USA_us_ussr_economic_cooperation
+	not={has_completed_focus=USA_secure_china}
+	is_in_faction=no
+	not={has_war_with=SOU}
+	SOV_comintern_joinable=yes}
+USA_set119={has_completed_focus=USA_reach_out_to_the_ware_group
+	not={has_completed_focus=USA_unholy_alliance}
+	not={has_war_with=event_target:WTT_communist_china}
+	OR={
+		is_faction_leader=yes
+		event_target:WTT_communist_china={is_faction_leader=yes}
+	}
+	event_target:WTT_communist_china={has_rule=can_join_factions}}
+USA_set120={has_completed_focus=USA_reach_out_to_the_ware_group
+communism>0.3}
+USA_set121={has_completed_focus=USA_end_monarchism
+	OR={
+		ENG={
+			exists=yes
+			NOT={has_war_with=ROOT}
+			NOT={is_in_faction_with=ROOT}
+			NOT={has_completed_focus=ENG_decolonization}
+		}
+		ITA={
+			exists=yes
+			NOT={has_war_with=ROOT}
+			NOT={is_in_faction_with=ROOT}
+			if={
+				limit={has_dlc="By Blood Alone"}
+				NOT={has_completed_focus=ITA_abolish_the_colonies has_completed_focus=ITA_new_colonial_policies}
+			}
+			any_controlled_state={
+				NOT={is_core_of=ITA}
+			}
+		}
+		FRA={
+			exists=yes
+			NOT={has_war_with=ROOT}
+			NOT={is_in_faction_with=ROOT}
+			any_controlled_state={
+				NOT={is_core_of=FRA}
+			}
+		}
+		GER={
+			exists=yes
+			NOT={has_war_with=ROOT}
+			NOT={is_in_faction_with=ROOT}
+			any_controlled_state={
+				NOT={is_core_of=GER}
+			}
+		}
+	}}
+USA_set122={has_completed_focus=USA_continue_the_new_deal}
+USA_set123={has_completed_focus=USA_wpa
+	congress_medium_support_trigger=yes
+	has_government=democratic}
+USA_set124={has_completed_focus=USA_agricultural_adjustment_act
+	congress_medium_support_trigger=yes
+	has_government=democratic
+	not={has_country_flag=USA_great_depression_cooldown}}
+USA_set125={has_completed_focus=USA_fair_labour_standards_act
+	congress_medium_support_trigger=yes
+	has_government=democratic
+	not={has_country_flag=USA_great_depression_cooldown}}
+USA_set126={has_completed_focus=USA_wpa}
+USA_set127={has_completed_focus=USA_office_of_scientific_research_and_development}
+USA_set128={or={has_completed_focus=USA_continue_the_new_deal has_completed_focus=USA_reestablish_the_gold_standard}
+	not={has_completed_focus=USA_neutrality_act}
+	congress_high_support_trigger=yes
+	has_government=democratic
+	NOT={has_idea_with_trait=fascist_demagogue}
+	NOT={has_idea_with_trait=communist_revolutionary}}
+USA_set129={has_completed_focus=USA_limited_intervention
+has_government=democratic}
+USA_set130={has_completed_focus=USA_war_propaganda
+	not={has_completed_focus=USA_focus_on_asia}
+has_government=democratic}
+USA_set131={has_completed_focus=USA_focus_on_europe}
+USA_set132={has_completed_focus=USA_war_propaganda
+	not={has_completed_focus=USA_focus_on_europe}
+	NOT={
+		OR={has_war_with=JAP has_war_with=CHI}
+	}}
+USA_set133={has_completed_focus=USA_focus_on_asia}
+USA_set134={or={has_completed_focus=USA_magic has_completed_focus=USA_office_of_strategic_services}}
+USA_set135={or={has_completed_focus=USA_black_chamber has_completed_focus=USA_arsenal_of_democracy}
+has_government=democratic}
+USA_set136={has_completed_focus=USA_scientist_haven}
+USA_set137={or={has_completed_focus=USA_continue_the_new_deal has_completed_focus=USA_reestablish_the_gold_standard}
+	not={has_completed_focus=USA_limited_intervention}
+	congress_low_support_trigger=yes
+	democratic>0.95
+	NOT={has_idea_with_trait=fascist_demagogue}
+	NOT={has_idea_with_trait=communist_revolutionary}}
+USA_set138={or={has_completed_focus=USA_neutrality_act has_completed_focus=USA_limited_intervention}
+	if={
+		limit={has_war_support>0.4}
+		congress_medium_support_trigger=yes
+	}
+	else={congress_high_support_trigger=yes}
+	democratic>0.95
+	custom_trigger_tooltip={tooltip=USA_lend_lease_act_neutrality_tt}
+	if={
+		limit={has_completed_focus=USA_neutrality_act}
+		any_other_country={
+			is_major=yes
+			has_government=ROOT
+			has_war=yes
+			surrender_progress>0
+		}
+	}}
+USA_set139={has_completed_focus=USA_neutrality_act
+democratic>0.95}
+USA_set140={has_completed_focus=USA_arsenal_of_democracy
+	OR={
+		has_war=yes
+		has_war_support>0.3
+	}
+	democratic>0.95}
+USA_set141={has_completed_focus=USA_the_giant_wakes
+democratic>0.95}
+USA_set142={has_completed_focus=USA_arsenal_of_democracy
+	OR={
+		has_war=yes
+		has_war_support>0.3
+	}}
+USA_set143={has_completed_focus=USA_military_construction
+	OR={
+		has_war_support>0.3
+		has_war=yes
+	}}
+USA_set144={not={has_completed_focus=USA_continue_the_new_deal}
+	has_government=democratic
+	NOT={
+		has_country_leader={
+			ruling_only=yes
+			character=USA_franklin_delano_roosevelt
+		}
+	}}
+USA_set145={has_completed_focus=USA_reestablish_the_gold_standard
+congress_medium_support_trigger=yes}
+USA_set146={has_completed_focus=USA_adjusted_compensation_act
+congress_medium_support_trigger=yes}
+USA_set147={has_completed_focus=USA_labour_management_relations_act}
+USA_set148={has_completed_focus=USA_protectionist_tariffs
+congress_high_support_trigger=yes}
+USA_set149={has_completed_focus=USA_income_tax_reform}
+USA_set150={has_completed_focus=USA_reestablish_the_gold_standard}
+USA_set151={has_completed_focus=USA_america_first
+congress_low_support_trigger=yes}
+USA_set152={has_completed_focus=USA_extend_the_chinese_exclusion_acts has_completed_focus=USA_labour_management_relations_act}
+USA_set153={has_completed_focus=USA_empower_the_huac
+	fascism>0.15
+	congress_high_support_trigger=yes}
+USA_set154={has_completed_focus=USA_america_first
+	fascism>0.1
+	has_idea_with_trait=fascist_demagogue
+	not={has_completed_focus=USA_limited_intervention}
+	not={has_completed_focus=USA_neutrality_act}}
+USA_set155={has_completed_focus=USA_ally_with_the_silver_shirts
+fascism>0.2}
+USA_set156={has_completed_focus=USA_national_prosperity_program}
+USA_set157={has_completed_focus=USA_national_prosperity_program}
+USA_set158={has_completed_focus=USA_privatize_the_TVA has_completed_focus=USA_de_regulate_the_banking_sector}
+USA_set159={has_completed_focus=USA_ally_with_the_silver_shirts}
+USA_set160={has_completed_focus=USA_invite_foreign_support}
+USA_set161={has_completed_focus=USA_send_lindbergh_to_germany
+	not={has_war_with=GER}}
+USA_set162={has_completed_focus=USA_send_lindbergh_to_germany}
+USA_set163={has_completed_focus=USA_work_with_the_bund has_completed_focus=USA_national_employment_strategy
+	OR={
+		has_civil_war=yes
+		has_government=fascism has_government=neutrality
+	}}
+USA_set164={has_completed_focus=USA_america_first
+	congress_high_support_trigger=yes
+	fascism>0.3}
+USA_set165={has_completed_focus=USA_war_powers_act
+has_war_support>0.35}
+USA_set166={has_completed_focus=USA_war_powers_act}
+USA_set167={has_completed_focus=USA_seize_cuba}
+USA_set168={has_completed_focus=USA_manifest_destiny
+	any_other_country={owns_state=473 owns_state=471 owns_state=864}}
+USA_set169={has_completed_focus=USA_the_canadian_corridor has_completed_focus=USA_eliminate_the_southern_threat}
+USA_set170={has_completed_focus=USA_north_american_dominion}
+USA_set171={has_completed_focus=USA_strategic_interests}
+USA_set172={has_completed_focus=USA_north_american_dominion
+country_exists=AST country_exists=NZL}
+USA_set173={has_completed_focus=USA_pacific_pacification}
+USA_set174={has_completed_focus=USA_secure_asia has_completed_focus=USA_protect_south_america}
+USA_set175={always=yes}
+USA_set176={has_completed_focus=USA_war_plans_division}
+USA_set177={has_completed_focus=USA_intervention_in_the_americas}
+USA_set178={has_completed_focus=USA_intervention_in_the_americas}
+USA_set179={has_completed_focus=USA_intervention_in_the_americas}
+USA_set180={has_completed_focus=USA_reinforce_monroe_doctrine}
+USA_set181={has_completed_focus=USA_war_plan_gray}
+USA_set182={has_completed_focus=USA_war_plans_division}
+USA_set183={has_completed_focus=USA_intervention_in_europe}
+USA_set184={has_completed_focus=USA_intervention_in_europe}
+USA_set185={has_completed_focus=USA_intervention_in_europe}
+USA_set186={has_completed_focus=USA_war_plan_black
+	country_exists=GER
+	is_subject=no
+	ENG={
+		NOT={is_in_faction_with=GER}
+	}
+	ENG={
+		has_government=ROOT
+		has_war=yes
+		not={has_war_with=ROOT}
+		any_enemy_country={is_major=yes}
+	}}
+USA_set187={has_completed_focus=USA_intervention_in_europe}
+USA_set188={has_completed_focus=USA_war_plan_white
+	SOV={has_civil_war=no}}
+USA_set189={has_completed_focus=USA_intervention_in_europe}
+USA_set190={has_completed_focus=USA_war_plan_red}
+USA_set191={has_completed_focus=USA_war_plan_red}
+USA_set192={has_completed_focus=USA_war_plans_division}
+USA_set193={has_completed_focus=USA_intervention_in_asia}
+USA_set194={has_completed_focus=USA_intervention_in_asia}
+USA_set195={has_completed_focus=USA_war_plan_yellow has_completed_focus=USA_war_plan_orange
+	JAP={
+		exists=yes
+		NOT={has_government=ROOT}
+	}}
+USA_set196={always=yes}
+USA_set197={has_completed_focus=USA_war_department
+	if={
+		limit={
+			threat<0.5
+			has_war=no
+		}
+		congress_high_support_trigger=yes
+	}
+	else={congress_low_support_trigger=yes}}
+USA_set198={has_completed_focus=USA_selective_training_act}
+USA_set199={has_completed_focus=USA_selective_training_act}
+USA_set200={has_completed_focus=USA_louisiana_maneuvers}
+USA_set201={has_completed_focus=USA_louisiana_maneuvers}
+USA_set202={has_completed_focus=USA_army_of_the_united_states
+congress_medium_support_trigger=yes}
+USA_set203={has_completed_focus=USA_selective_training_act}
+USA_set204={has_completed_focus=USA_support_rock_island}
+USA_set205={has_completed_focus=USA_tank_experiments
+	not={has_completed_focus=USA_main_battle_tanks}}
+USA_set206={has_completed_focus=USA_tank_experiments
+	not={has_completed_focus=USA_tank_destroyer_doctrine}}
+USA_set207={or={has_completed_focus=USA_main_battle_tanks has_completed_focus=USA_tank_destroyer_doctrine}}
+USA_set208={has_completed_focus=USA_war_department}
+USA_set209={has_completed_focus=USA_build_the_pentagon}
+USA_set210={has_completed_focus=USA_war_department}
+USA_set211={has_completed_focus=USA_air_war_plans_division
+	not={has_completed_focus=USA_strategic_bombing}}
+USA_set212={has_completed_focus=USA_air_war_plans_division
+	not={has_completed_focus=USA_air_support}}
+USA_set213={has_completed_focus=USA_air_support}
+USA_set214={has_completed_focus=USA_air_support}
+USA_set215={has_completed_focus=USA_strategic_bombing
+	has_war=yes
+	OR={is_in_faction_with=GER is_in_faction_with=JAP is_in_faction_with=ITA is_in_faction_with=SOV is_in_faction_with=FRA is_in_faction_with=ENG}}
+USA_set216={or={has_completed_focus=USA_air_support has_completed_focus=USA_strategic_bombing}}
+USA_set217={has_completed_focus=USA_TAC}
+USA_set218={has_completed_focus=USA_combined_bomber_offensive}
+USA_set219={has_completed_focus=USA_war_department
+	if={
+		limit={
+			threat<0.5
+			has_war=no
+		}
+		congress_high_support_trigger=yes
+	}
+	else={congress_low_support_trigger=yes}
+	controls_state=378 controls_state=358}
+USA_set220={has_completed_focus=USA_two_ocean_navy_act}
+USA_set221={has_completed_focus=USA_maritime_commission}
+USA_set222={has_completed_focus=USA_two_ocean_navy_act}
+USA_set223={has_completed_focus=USA_bureau_of_ships
+	not={has_completed_focus=USA_carrier_primacy}}
+USA_set224={has_completed_focus=USA_battleship_primacy}
+USA_set225={has_completed_focus=USA_advanced_mahanian_doctrine}
+USA_set226={has_completed_focus=USA_bureau_of_ships
+	not={has_completed_focus=USA_battleship_primacy}}
+USA_set227={has_completed_focus=USA_carrier_primacy}
+USA_set228={has_completed_focus=USA_bureau_of_aeronautics}
+USA_set229={has_completed_focus=USA_bureau_of_ships}
+USA_set230={has_completed_focus=USA_escort_effort}
+USA_set231={has_completed_focus=USA_bureau_of_ships
+is_special_project_completed=sp:sp_naval_cruiser_submarine}
+USA_set232={has_completed_focus=USA_fleet_submarines}
+USA_set233={has_completed_focus=USA_two_ocean_navy_act}
+USA_set234={has_completed_focus=USA_fund_the_navy}
+USA_set235={has_completed_focus=USA_expand_the_USMC}

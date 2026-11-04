@@ -1,0 +1,1 @@
+focus={current=ITA_end_fiat_ansaldo_duopoly}

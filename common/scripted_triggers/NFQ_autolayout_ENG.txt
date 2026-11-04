@@ -1,0 +1,1496 @@
+# Generated file. Regenerate with tools/generate_nfq_layout.py.
+NFQ_focus_visible_ENG_crypto_bomb_focus = {
+    always = yes
+}
+
+NFQ_focus_visible_ENG_tizard_mission_focus = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_crypto_bomb_focus = yes
+            NFQ_focus_visible_ENG_radar_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_maud_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_tizard_mission_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_limited_rearmament_focus = {
+    always = yes
+}
+
+NFQ_focus_visible_ENG_ENG_motorized_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_limited_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_tank_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_motorized_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_expand_the_secret_intelligence_service_focus = {
+    AND = {
+        AND = {
+            has_dlc = "La Resistance"
+        }
+        NFQ_focus_visible_ENG_limited_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_air_defense_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_limited_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_radar_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_air_defense_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_shadow_scheme_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_limited_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_industrial_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_shadow_scheme_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_vickers_experimental_facility_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_industrial_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_extra_tech_slot = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_industrial_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_general_rearmament_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_limited_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_special_air_service = {
+    AND = {
+        NFQ_focus_visible_ENG_general_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_parachute_regiments = {
+    AND = {
+        AND = {
+            has_dlc = "Arms Against Tyranny"
+        }
+        NFQ_focus_visible_ENG_ENG_special_air_service = yes
+    }
+}
+
+NFQ_focus_visible_ENG_royal_ordinance_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_industrial_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_small_arms_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_royal_ordinance_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_UK_secret_focus = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_royal_ordinance_focus = yes
+            NFQ_focus_visible_ENG_maud_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_air_rearmament_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_general_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_chiefs_of_staff_committee = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_air_rearmament_focus = yes
+            NFQ_focus_visible_ENG_naval_rearmament_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_fighter_command_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_air_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_bomber_command_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_air_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_coastal_command_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_air_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_aircraft_production_focus = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ENG_fighter_command_focus = yes
+            NFQ_focus_visible_ENG_bomber_command_focus = yes
+            NFQ_focus_visible_ENG_coastal_command_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_uk_jet_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_aircraft_production_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_naval_rearmament_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_general_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_anti_non_contact_committee = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+        }
+        NFQ_focus_visible_ENG_naval_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_secure_the_imperial_shipping_routes = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_naval_rearmament_focus = yes
+            NFQ_focus_visible_ENG_uk_service_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_uk_destroyer_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_naval_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_a_s_warfare = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+        }
+        NFQ_focus_visible_ENG_uk_destroyer_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_convoy_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_destroyer_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_anti_submarine_training_school = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_convoy_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_waves_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_naval_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_carrier_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = uk_battleship_focus
+                check_variable = { f136 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_uk_waves_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_battleship_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = uk_carrier_focus
+                check_variable = { f135 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_uk_waves_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_amphibious_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_naval_rearmament_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_expand_the_repair_yards = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+        }
+        OR = {
+            NFQ_focus_visible_ENG_uk_battleship_focus = yes
+            NFQ_focus_visible_ENG_uk_carrier_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_vanguard = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+        }
+        NFQ_focus_visible_ENG_uk_battleship_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_empire_focus = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ENG_revisit_colonial_policy
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_revisit_colonial_policy
+                check_variable = { f152 = 5 }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_uk_service_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_empire_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_mediterranean_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_service_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_rock_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = uk_spain_focus
+                check_variable = { f144 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_uk_mediterranean_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_spain_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = uk_rock_focus
+                check_variable = { f143 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_uk_mediterranean_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_protect_suez = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_mediterranean_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_balkan_strategy = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_uk_protect_suez = yes
+            NFQ_focus_visible_ENG_uk_malta_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_uk_sanction_italy_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_balkan_strategy = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_war_with_italy = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_sanction_italy_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_turkey_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = uk_greece_focus
+                check_variable = { f150 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_uk_protect_suez = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_greece_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = uk_turkey_focus
+                check_variable = { f149 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_uk_protect_suez = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_malta_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_mediterranean_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_revisit_colonial_policy = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = uk_empire_focus
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = uk_empire_focus
+                check_variable = { f140 = 5 }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_guide_the_colonies = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_revisit_colonial_policy = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_towards_dominion_independence = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_guide_the_colonies = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_foundations_for_an_indian_state = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_towards_dominion_independence = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_the_three_nation_solution = {
+    AND = {
+        AND = {
+            NOT = {
+                has_dlc = "Graveyard of Empires"
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_foundations_for_an_indian_state = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_towards_indian_independence = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_foundations_for_an_indian_state = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_withdraw_from_contested_territories = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_guide_the_colonies = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_self_government_for_the_mediterranean = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_withdraw_from_contested_territories = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_self_government_for_africa = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_self_government_for_the_mediterranean = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_self_government_for_the_middle_east = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_withdraw_from_contested_territories = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_self_government_for_the_americas = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_self_government_for_the_middle_east = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_self_government_for_asia = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_self_government_for_the_americas = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_decolonization = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_ENG_self_government_for_africa = yes
+            NFQ_focus_visible_ENG_ENG_self_government_for_asia = yes
+            NFQ_focus_visible_ENG_ENG_towards_indian_independence = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_the_winds_of_change = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_decolonization = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_colonial_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_service_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_asia_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_colonial_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_burma_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_asia_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_sanction_japan_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_burma_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_war_with_japan = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_uk_sanction_japan_focus = yes
+            NFQ_focus_visible_ENG_ENG_sarawakrangers_focus = yes
+            NFQ_focus_visible_ENG_ENG_east_indies_fleet_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_singapore_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_asia_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_royal_malay_regiment_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_territorial_army_of_malaysia_focus
+                check_variable = { f266 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_singapore_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_territorial_army_of_malaysia_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_royal_malay_regiment_focus
+                check_variable = { f263 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_singapore_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_peninsular_focus = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ENG_ENG_royal_malay_regiment_focus = yes
+            NFQ_focus_visible_ENG_ENG_territorial_army_of_malaysia_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_sarawakrangers_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_peninsular_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_hongkong_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_asia_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_south_east_asia_air_command_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_hongkong_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_east_indies_fleet_focus = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_peninsular_focus = yes
+            NFQ_focus_visible_ENG_ENG_south_east_asia_air_command_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_uk_china_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_south_east_asia_air_command_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_commonwealth_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_colonial_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_british_commonwealth_air_training_plan = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_commonwealth_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_india_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_commonwealth_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_free_india_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_indian_autonomy
+                check_variable = { f185 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_uk_india_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_australia_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_commonwealth_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_new_zealand_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_australia_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_canada_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_commonwealth_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_south_africa_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_commonwealth_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_indian_autonomy = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ENG_revisit_colonial_policy
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = uk_free_india_focus
+                check_variable = { f180 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_uk_india_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_imperial_conference = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ENG_revisit_colonial_policy
+                }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_ENG_uk_canada_focus = yes
+            NFQ_focus_visible_ENG_uk_new_zealand_focus = yes
+            NFQ_focus_visible_ENG_uk_south_africa_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_imperial_federation = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_imperial_conference = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_steady_as_she_goes = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ENG_a_change_in_course
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_a_change_in_course
+                check_variable = { f216 = 5 }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_global_defense = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    OR = {
+                        has_completed_focus = ENG_home_defence
+                        has_completed_focus = ENG_a_change_in_course
+                    }
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_home_defence
+                check_variable = { f199 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_steady_as_she_goes = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_every_man_will_do_his_duty = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_global_defense = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_motion_of_no_confidence = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_global_defense = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_no_further_appeasement = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_ENG_every_man_will_do_his_duty = yes
+            NFQ_focus_visible_ENG_ENG_motion_of_no_confidence = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_kickstart_the_war_industry = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_no_further_appeasement = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_secure_the_oil_imports = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_kickstart_the_war_industry = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_maintaining_imperial_integrity = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_maintaining_the_balance_of_power
+                check_variable = { f197 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_no_further_appeasement = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_enforce_the_naval_treaties = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_maintaining_imperial_integrity = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_maintaining_the_balance_of_power = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_maintaining_imperial_integrity
+                check_variable = { f195 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_no_further_appeasement = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_continental_intervention = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_maintaining_the_balance_of_power = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_home_defence = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    OR = {
+                        has_completed_focus = ENG_global_defense
+                        has_completed_focus = ENG_a_change_in_course
+                    }
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_global_defense
+                check_variable = { f189 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_steady_as_she_goes = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_iraq_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_home_defence = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_iran_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_iraq_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_embargo_ussr = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ENG_a_change_in_course
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ENG_uk_iran_focus = yes
+            NFQ_focus_visible_ENG_ENG_no_further_appeasement = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_war_with_ussr = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_embargo_ussr = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_issue_gasmasks = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_home_defence = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_military_training_act = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_issue_gasmasks = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_embargo_germany = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_military_training_act = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_war_with_germany = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_embargo_germany = yes
+    }
+}
+
+NFQ_focus_visible_ENG_uk_scandinavian_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_home_defence = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_swedish_intervention = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_scandinavian_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_norwegian_intervention = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_scandinavian_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_danish_intervention = {
+    AND = {
+        NFQ_focus_visible_ENG_uk_scandinavian_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_prepare_for_the_inevitable = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_home_defence = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_benelux_intervention = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_home_defence = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_belgium_security = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_benelux_intervention = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_dutch_security = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_benelux_intervention = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_a_change_in_course = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = ENG_steady_as_she_goes
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_steady_as_she_goes
+                check_variable = { f188 = 5 }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_the_kings_party = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    OR = {
+                        has_completed_focus = ENG_organize_the_blackshirts
+                        has_completed_focus = ENG_concessions_to_the_trade_unions
+                        has_completed_focus = ENG_steady_as_she_goes
+                    }
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ENG_concessions_to_the_trade_unions
+                    check_variable = { f243 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ENG_organize_the_blackshirts
+                    check_variable = { f223 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_a_change_in_course = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_reassess_continental_commitments = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_the_kings_party = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_isolate_the_mediterranean_threat = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_reassess_continental_commitments = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_alliance_with_germany = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_noninterference_treaty_with_germany
+                check_variable = { f221 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_isolate_the_mediterranean_threat = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_noninterference_treaty_with_germany = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_alliance_with_germany
+                check_variable = { f220 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_isolate_the_mediterranean_threat = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_take_out_the_regia_marina = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ENG_ENG_noninterference_treaty_with_germany = yes
+            NFQ_focus_visible_ENG_ENG_alliance_with_germany = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_organize_the_blackshirts = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    OR = {
+                        has_completed_focus = ENG_the_kings_party
+                        has_completed_focus = ENG_concessions_to_the_trade_unions
+                        has_completed_focus = ENG_steady_as_she_goes
+                    }
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ENG_concessions_to_the_trade_unions
+                    check_variable = { f243 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ENG_the_kings_party
+                    check_variable = { f217 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_a_change_in_course = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_the_british_path_to_fascism = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_organize_the_blackshirts = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_secure_the_italian_alliance = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_the_british_path_to_fascism = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_gibraltar_for_spanish_support = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_pre_empt_spanish_alignment
+                check_variable = { f227 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_secure_the_italian_alliance = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_pre_empt_spanish_alignment = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_gibraltar_for_spanish_support
+                check_variable = { f226 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_secure_the_italian_alliance = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_prevent_a_continental_hegemony = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ENG_ENG_gibraltar_for_spanish_support = yes
+            NFQ_focus_visible_ENG_ENG_pre_empt_spanish_alignment = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_enact_the_mosley_manifesto = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_the_british_path_to_fascism = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_god_save_the_king = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ENG_ENG_the_kings_party = yes
+            NFQ_focus_visible_ENG_ENG_organize_the_blackshirts = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_ceylon_forward_operating_base = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_god_save_the_king = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_imperial_conscription = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_ceylon_forward_operating_base = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_reclaim_burma = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_imperial_conscription = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_pre_empt_the_ideological_threat = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ENG_ENG_imperial_conscription = yes
+            NFQ_focus_visible_ENG_ENG_take_out_the_regia_marina = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_expose_the_belly_of_the_bear = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_pre_empt_the_ideological_threat = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_reclaim_the_jewel_in_the_crown = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_imperial_conscription = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_consolidate_the_british_isles = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_god_save_the_king = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_unite_the_anglosphere = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_ENG_imperial_conscription = yes
+            NFQ_focus_visible_ENG_ENG_bring_the_dominions_back_into_the_fold = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_appeal_to_imperial_loyalists = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_god_save_the_king = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_bring_the_dominions_back_into_the_fold = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_appeal_to_imperial_loyalists = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_the_sun_never_sets = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_bring_the_dominions_back_into_the_fold = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_pre_empt_the_strategic_threat = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_bring_the_dominions_back_into_the_fold = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_concessions_to_the_trade_unions = {
+    AND = {
+        AND = {
+            has_dlc = "Man the Guns"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    OR = {
+                        has_completed_focus = ENG_the_kings_party
+                        has_completed_focus = ENG_organize_the_blackshirts
+                        has_completed_focus = ENG_steady_as_she_goes
+                    }
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = ENG_organize_the_blackshirts
+                    check_variable = { f223 = 5 }
+                }
+                OR = {
+                    has_completed_focus = ENG_the_kings_party
+                    check_variable = { f217 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_a_change_in_course = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_move_to_secure_the_dominions = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ENG_ENG_organize_the_blackshirts = yes
+            NFQ_focus_visible_ENG_ENG_concessions_to_the_trade_unions = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_the_fate_of_the_royal_family = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_concessions_to_the_trade_unions = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_eliminate_the_upper_class = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_concessions_to_the_trade_unions = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_for_the_good_of_the_revolution = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_ENG_ENG_the_fate_of_the_royal_family = yes
+            NFQ_focus_visible_ENG_ENG_eliminate_the_upper_class = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_the_british_communist_alternative = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_follow_moscow
+                check_variable = { f253 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_for_the_good_of_the_revolution = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_enforce_decolonization = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_reach_out_across_the_channel
+                check_variable = { f250 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_the_british_communist_alternative = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_reach_out_across_the_channel = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_enforce_decolonization
+                check_variable = { f249 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_the_british_communist_alternative = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_soviet_cooperation = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_the_one_true_revolution
+                check_variable = { f252 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ENG_ENG_enforce_decolonization = yes
+            NFQ_focus_visible_ENG_ENG_reach_out_across_the_channel = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_the_one_true_revolution = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_soviet_cooperation
+                check_variable = { f251 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_ENG_ENG_enforce_decolonization = yes
+            NFQ_focus_visible_ENG_ENG_reach_out_across_the_channel = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_follow_moscow = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_the_british_communist_alternative
+                check_variable = { f248 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_for_the_good_of_the_revolution = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_tackle_fascism = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_tackle_capitalism
+                check_variable = { f256 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_follow_moscow = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_preparing_the_second_front = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_tackle_fascism = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_tackle_capitalism = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = ENG_tackle_fascism
+                check_variable = { f254 = 5 }
+            }
+        }
+        NFQ_focus_visible_ENG_ENG_follow_moscow = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_bermuda_invasion_launch_point = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_tackle_capitalism = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_crush_the_dream = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_bermuda_invasion_launch_point = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_socialist_science_pool = {
+    AND = {
+        NFQ_focus_visible_ENG_ENG_follow_moscow = yes
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_liberate_the_home_of_marx = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ENG_ENG_the_one_true_revolution = yes
+            NFQ_focus_visible_ENG_ENG_preparing_the_second_front = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_ENG_spirit_of_the_industrial_revolution = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_ENG_ENG_soviet_cooperation = yes
+            NFQ_focus_visible_ENG_ENG_liberate_the_home_of_marx = yes
+            NFQ_focus_visible_ENG_ENG_crush_the_dream = yes
+        }
+    }
+}
+
+NFQ_focus_visible_ENG_sp_landward_forts_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_singapore_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_hk_landward_forts_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_hongkong_focus = yes
+    }
+}
+
+NFQ_focus_visible_ENG_hk_air_focus = {
+    AND = {
+        NFQ_focus_visible_ENG_hk_landward_forts_focus = yes
+    }
+}
+

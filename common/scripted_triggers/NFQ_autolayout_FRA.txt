@@ -1,0 +1,1689 @@
+# Generated file. Regenerate with tools/generate_nfq_layout.py.
+NFQ_focus_visible_FRA_FRA_devalue_the_franc = {
+    always = yes
+}
+
+NFQ_focus_visible_FRA_FRA_autoroutes = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_devalue_the_franc = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invest_in_the_metropole = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_devalue_the_franc = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_metropolitan_france = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_invest_in_the_metropole = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_industrial_expansion = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_metropolitan_france = yes
+            NFQ_focus_visible_FRA_FRA_algerie_france = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_military_factories = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_industrial_expansion = yes
+            NFQ_focus_visible_FRA_FRA_colonial_industry = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_algerie_france = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_invest_in_the_metropole = yes
+            NFQ_focus_visible_FRA_FRA_invest_in_the_colonies = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invest_in_the_colonies = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_devalue_the_franc = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invest_in_west_africa = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_invest_in_the_colonies = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invest_in_indochina = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_invest_in_the_colonies = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invest_in_syria = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_invest_in_the_colonies = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_colonial_industry = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_algerie_france = yes
+            NFQ_focus_visible_FRA_FRA_invest_in_west_africa = yes
+            NFQ_focus_visible_FRA_FRA_invest_in_indochina = yes
+            NFQ_focus_visible_FRA_FRA_invest_in_syria = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_extra_research_slot = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_industrial_expansion = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_extra_research_slot_2 = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_colonial_industry = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_global_integration = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_colonial_industry = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_begin_rearmament = {
+    always = yes
+}
+
+NFQ_focus_visible_FRA_FRA_defensive_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_aggressive_focus
+                check_variable = { f130 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_begin_rearmament = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_firepower_kills = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_methodical_battle
+                check_variable = { f119 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_defensive_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_methodical_battle = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_firepower_kills
+                check_variable = { f118 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_defensive_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_fortification_focus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_methodical_battle = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_alpine_forts = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_fortification_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_extend_the_maginot_line = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_alpine_forts = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_infantry_focus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_firepower_kills = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_artillery_focus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_infantry_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_heavy_armor_focus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_artillery_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_division_cuirassee = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_heavy_armor_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_infantry_tanks = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_defensive_focus = yes
+            NFQ_focus_visible_FRA_FRA_aggressive_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_special_forces = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_infantry_tanks = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_fusiliers_marine = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_special_forces = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_aggressive_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_defensive_focus
+                check_variable = { f117 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_begin_rearmament = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_battle_of_maneuver = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_air_dominance
+                check_variable = { f135 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_aggressive_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_motorized_focus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_battle_of_maneuver = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_mechanized_focus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_motorized_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_light_medium_armor = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_mechanized_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_air_dominance = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_battle_of_maneuver
+                check_variable = { f131 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_aggressive_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_cas_focus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_air_dominance = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_air_ground_cooperation = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_cas_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_flying_artillery = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_air_ground_cooperation = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_army_reform = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_light_medium_armor = yes
+            NFQ_focus_visible_FRA_FRA_heavy_armor_focus = yes
+            NFQ_focus_visible_FRA_FRA_extend_the_maginot_line = yes
+            NFQ_focus_visible_FRA_FRA_flying_artillery = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_form_the_popular_front = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = FRA_revive_the_national_bloc
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_revive_the_national_bloc
+                check_variable = { f205 = 5 }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invite_communist_ministers = {
+    AND = {
+        AND = {
+            has_dlc = "La Resistance"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = FRA_revive_the_national_bloc
+                    has_completed_focus = FRA_review_foreign_policy
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_form_the_popular_front = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_strengthen_the_unions = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_invite_communist_ministers = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_celebrate_the_commune = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_strengthen_the_unions = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_womens_suffrage = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_invite_communist_ministers = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_legal_equality = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_womens_suffrage = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_industrial_collectivization = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_FRA_FRA_womens_suffrage = yes
+            NFQ_focus_visible_FRA_FRA_strengthen_the_unions = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_agricultural_collectivization = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_industrial_collectivization = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_force_the_issue = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_celebrate_the_commune = yes
+            NFQ_focus_visible_FRA_FRA_legal_equality = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_reconciliation = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_revolution_to_the_utmost
+                check_variable = { f158 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_force_the_issue = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_constitutional_convention = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_reconciliation = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_anti_fascist_coalition = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_loyalty_to_moscow
+                    check_variable = { f155 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_loyalty_to_the_cause
+                    check_variable = { f161 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_constitutional_convention = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invite_anti_fascist_emigrants = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_anti_fascist_coalition = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_reconnect_to_the_balkans = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_invite_anti_fascist_emigrants = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_pre_empt_the_fascist_attack = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_reconnect_to_the_balkans = yes
+            NFQ_focus_visible_FRA_FRA_host_the_german_exiles = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_loyalty_to_moscow = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_anti_fascist_coalition
+                    check_variable = { f151 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_loyalty_to_the_cause
+                    check_variable = { f161 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_FRA_FRA_constitutional_convention = yes
+            NFQ_focus_visible_FRA_FRA_destroy_the_counter_revolution = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_league_of_french_bolshevist_volunteers = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_loyalty_to_moscow = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_host_the_german_exiles = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_league_of_french_bolshevist_volunteers = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_revolution_to_the_utmost = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_reconciliation
+                check_variable = { f149 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_force_the_issue = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_destroy_the_counter_revolution = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_revolution_to_the_utmost = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_revolutionary_zeal = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_destroy_the_counter_revolution = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_loyalty_to_the_cause = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_anti_fascist_coalition
+                    check_variable = { f151 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_loyalty_to_moscow
+                    check_variable = { f155 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_destroy_the_counter_revolution = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_carry_the_revolution_north = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_loyalty_to_the_cause = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_carry_the_revolution_west = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_carry_the_revolution_north = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_carry_the_revolution_east = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_carry_the_revolution_north = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_carry_the_revolution_south = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_FRA_FRA_carry_the_revolution_west = yes
+            NFQ_focus_visible_FRA_FRA_carry_the_revolution_east = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_egalite_liberte_solidarite = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_carry_the_revolution_south = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_reform_the_labour_laws = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_form_the_popular_front = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_nationalize_key_industry = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_reform_the_labour_laws = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_reorganize_the_aviation_industry = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_nationalize_key_industry = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_form_the_state_arsenals = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_nationalize_key_industry = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_general_work_council = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_FRA_FRA_reorganize_the_aviation_industry = yes
+            NFQ_focus_visible_FRA_FRA_form_the_state_arsenals = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_dirigisme = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_general_work_council = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_national_champions = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_general_work_council = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_ban_the_leagues = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_form_the_popular_front = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_the_blum_viollette_proposal = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_reform_the_labour_laws = yes
+            NFQ_focus_visible_FRA_FRA_protect_the_rights_of_man = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_expand_the_citizenship = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_the_blum_viollette_proposal = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_france_undividable = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_encourage_immigration
+                check_variable = { f179 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_expand_the_citizenship = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_french_union = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_france_undividable = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_encourage_immigration = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_france_undividable
+                check_variable = { f177 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_expand_the_citizenship = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_review_foreign_policy = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = FRA_invite_communist_ministers
+                    has_completed_focus = FRA_utilize_the_leagues
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_FRA_FRA_reform_the_labour_laws = yes
+            NFQ_focus_visible_FRA_FRA_protect_the_rights_of_man = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_intervention_in_spain = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_form_the_popular_front = yes
+            NFQ_focus_visible_FRA_FRA_revive_the_national_bloc = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_support_the_finns = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_review_foreign_policy = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_confirm_eastern_commitments = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_buy_time
+                check_variable = { f192 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_review_foreign_policy = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_strengthen_the_little_entente = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_confirm_eastern_commitments = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invite_yugoslavia = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_strengthen_the_little_entente = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invite_romania = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_invite_yugoslavia = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invest_in_our_weaker_allies = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_invite_romania = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_coordinate_rearmament = {
+    AND = {
+        AND = {
+            has_dlc = "Death or Dishonor"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = FRA_invite_communist_ministers
+                    has_completed_focus = FRA_utilize_the_leagues
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_invest_in_our_weaker_allies = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_foreign_guest_workers = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_strengthen_the_little_entente = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_join_the_ententes = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_strengthen_the_little_entente = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_revive_the_franco_polish_alliance = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_confirm_eastern_commitments = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_buy_time = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_confirm_eastern_commitments
+                check_variable = { f183 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_review_foreign_policy = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_strengthen_government_support = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_strengthen_the_little_entente = yes
+            NFQ_focus_visible_FRA_FRA_buy_time = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_defensive_strategems = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_strengthen_government_support = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_go_with_britain = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_france_leads
+                check_variable = { f197 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_buy_time = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_arms_purchases_in_the_us = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_go_with_britain = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_france_leads = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_go_with_britain
+                check_variable = { f195 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_buy_time = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_concessions_to_italy = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_france_leads = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_ratify_the_stresa_front = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_concessions_to_italy = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_franco_soviet_treaty = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_france_leads = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_leftist_rhetoric = {
+    AND = {
+        AND = {
+            NOT = {
+                has_dlc = "La Resistance"
+            }
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = FRA_revive_the_national_bloc
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_form_the_popular_front = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_national_mobilization = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_leftist_rhetoric = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_join_comintern = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_humanite_unie
+                check_variable = { f204 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_national_mobilization = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_humanite_unie = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_join_comintern
+                check_variable = { f203 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_national_mobilization = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_revive_the_national_bloc = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = FRA_form_the_popular_front
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_form_the_popular_front
+                check_variable = { f140 = 5 }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_laissez_faire = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_agricultural_protectionism
+                check_variable = { f210 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_revive_the_national_bloc = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_protect_the_rights_of_man = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_laissez_faire = yes
+            NFQ_focus_visible_FRA_FRA_agricultural_protectionism = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_freedom_front = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_protect_the_rights_of_man = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_stimulate_the_dynamic_market = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_freedom_front = yes
+            NFQ_focus_visible_FRA_FRA_promote_entrepeneurship = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_agricultural_protectionism = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_laissez_faire
+                check_variable = { f206 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_revive_the_national_bloc = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_economic_devolution = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_agricultural_protectionism = yes
+            NFQ_focus_visible_FRA_FRA_laissez_faire = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_promote_entrepeneurship = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_economic_devolution = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_ban_communism = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_revive_the_national_bloc = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_utilize_the_leagues = {
+    AND = {
+        AND = {
+            has_dlc = "La Resistance"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = FRA_form_the_popular_front
+                    has_completed_focus = FRA_review_foreign_policy
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_revive_the_national_bloc = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_national_regeneration = {
+    AND = {
+        AND = {
+            has_dlc = "La Resistance"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = FRA_form_the_popular_front
+                }
+                NOT = {
+                    has_completed_focus = FRA_review_foreign_policy
+                }
+                NOT = {
+                    has_completed_focus = FRA_the_council_of_rambouillet
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_the_council_of_rambouillet
+                check_variable = { f244 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_utilize_the_leagues = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_destroy_decadence = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_national_regeneration = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_integralism = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_national_regeneration = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_work = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_family
+                    check_variable = { f219 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_fatherland
+                    check_variable = { f220 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_integralism = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_family = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_fatherland
+                    check_variable = { f220 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_work
+                    check_variable = { f218 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_integralism = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_fatherland = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_family
+                    check_variable = { f219 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_work
+                    check_variable = { f218 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_integralism = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_political_unity = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_national_regeneration = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_diplomatic_freedom = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_national_regeneration = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_latin_entente = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_towards_a_new_europe
+                check_variable = { f230 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_diplomatic_freedom = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_reach_out_to_spain = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_latin_entente = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_invite_portugal = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_reach_out_to_spain = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_compensate_italy = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_latin_entente = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_intervention_in_greece = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_compensate_italy = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_the_congress_of_paris = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_FRA_FRA_invite_portugal = yes
+            NFQ_focus_visible_FRA_FRA_intervention_in_greece = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_the_natural_borders_of_france = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_the_congress_of_paris = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_towards_a_new_europe = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_latin_entente
+                check_variable = { f223 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_diplomatic_freedom = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_establish_spheres_of_influence = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_towards_a_new_europe = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_split_belgium = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_align_belgium
+                check_variable = { f233 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_establish_spheres_of_influence = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_align_belgium = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_split_belgium
+                check_variable = { f232 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_establish_spheres_of_influence = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_grow_the_empire = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_split_belgium = yes
+            NFQ_focus_visible_FRA_FRA_align_belgium = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_bring_home_quebec = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_grow_the_empire = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_expand_to_the_suez = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_intervention_in_greece = yes
+            NFQ_focus_visible_FRA_FRA_grow_the_empire = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_dominate_the_middle_east = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_expand_to_the_suez = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_right_wing_rhetoric = {
+    AND = {
+        AND = {
+            NOT = {
+                has_dlc = "La Resistance"
+            }
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = FRA_form_the_popular_front
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_revive_the_national_bloc = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_army_of_aggression = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_right_wing_rhetoric = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_france_first = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_join_germany
+                    check_variable = { f243 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_woo_italy
+                    check_variable = { f241 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_army_of_aggression = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_woo_italy = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_france_first
+                    check_variable = { f240 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_join_germany
+                    check_variable = { f243 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_army_of_aggression = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_dismantle_the_democracies = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_woo_italy = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_join_germany = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_france_first
+                    check_variable = { f240 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_woo_italy
+                    check_variable = { f241 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_army_of_aggression = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_the_council_of_rambouillet = {
+    AND = {
+        AND = {
+            has_dlc = "La Resistance"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = FRA_form_the_popular_front
+                }
+                NOT = {
+                    has_completed_focus = FRA_review_foreign_policy
+                }
+                NOT = {
+                    has_completed_focus = FRA_national_regeneration
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_national_regeneration
+                check_variable = { f215 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_utilize_the_leagues = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_revise_the_constitution = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_the_council_of_rambouillet = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_repeal_the_law_of_exile = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_revise_the_constitution = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_orleanist_restoration = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_proclaim_the_third_empire
+                    check_variable = { f258 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_the_legitimate_heir
+                    check_variable = { f254 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_repeal_the_law_of_exile = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_guarantee_the_constitution = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_orleanist_restoration = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_the_first_citizen_of_the_state = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_orleanist_restoration = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_counter_action = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_guarantee_the_constitution = yes
+            NFQ_focus_visible_FRA_FRA_the_first_citizen_of_the_state = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_no_further_humiliations = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_counter_action = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_slum_clearing = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_counter_action = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_public_welfare = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_slum_clearing = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_the_legitimate_heir = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_orleanist_restoration
+                    check_variable = { f247 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_proclaim_the_third_empire
+                    check_variable = { f258 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_repeal_the_law_of_exile = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_secure_the_crown_of_spain = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_the_legitimate_heir = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_unite_the_crowns = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_two_countries_two_crowns
+                check_variable = { f257 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_secure_the_crown_of_spain = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_two_countries_two_crowns = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_unite_the_crowns
+                check_variable = { f256 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_secure_the_crown_of_spain = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_proclaim_the_third_empire = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = FRA_orleanist_restoration
+                    check_variable = { f247 = 5 }
+                }
+                OR = {
+                    has_completed_focus = FRA_the_legitimate_heir
+                    check_variable = { f254 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_repeal_the_law_of_exile = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_avenge_waterloo = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_proclaim_the_third_empire = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_reorganize_the_dutch = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_avenge_waterloo = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_retribution_for_sedan = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_avenge_waterloo = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_disunite_germany = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_retribution_for_sedan = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_return_to_borodino = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_retribution_for_sedan = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_je_suis_la_deluge = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_return_to_borodino = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_naval_rearmament = {
+    always = yes
+}
+
+NFQ_focus_visible_FRA_FRA_colonial_naval_bases = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_naval_rearmament = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_develop_colonial_dockyards = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_colonial_naval_bases = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_the_old_school = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_the_young_school
+                check_variable = { f274 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_naval_rearmament = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_capital_ship_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_carrier_focus
+                check_variable = { f270 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_the_old_school = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_carrier_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_capital_ship_focus
+                check_variable = { f269 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_the_old_school = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_carrier_planes = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_carrier_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_rush_the_richelieus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_capital_ship_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_prioritize_the_joffre = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_carrier_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_the_young_school = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_the_old_school
+                check_variable = { f268 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_naval_rearmament = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_undersea_combat = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_the_young_school = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_surface_combat = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_the_young_school = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_improved_screen_ships = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_FRA_FRA_surface_combat = yes
+            NFQ_focus_visible_FRA_FRA_undersea_combat = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_naval_doctrine = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_prioritize_the_joffre = yes
+            NFQ_focus_visible_FRA_FRA_rush_the_richelieus = yes
+            NFQ_focus_visible_FRA_FRA_improved_screen_ships = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_air_focus = {
+    always = yes
+}
+
+NFQ_focus_visible_FRA_FRA_fighter_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_bomber_focus
+                check_variable = { f282 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_air_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_heavy_fighter_focus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_fighter_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_bomber_focus = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = FRA_fighter_focus
+                check_variable = { f280 = 5 }
+            }
+        }
+        NFQ_focus_visible_FRA_FRA_air_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_air_doctrine = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_FRA_FRA_fighter_focus = yes
+            NFQ_focus_visible_FRA_FRA_bomber_focus = yes
+        }
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_heavy_bomber_focus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_bomber_focus = yes
+    }
+}
+
+NFQ_focus_visible_FRA_FRA_naval_bomber_focus = {
+    AND = {
+        NFQ_focus_visible_FRA_FRA_bomber_focus = yes
+    }
+}
+

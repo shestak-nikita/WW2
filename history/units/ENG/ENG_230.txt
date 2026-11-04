@@ -1,0 +1,1 @@
+focus={current=ENG_god_save_the_king}

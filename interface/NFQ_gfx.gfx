@@ -1,0 +1,19 @@
+spriteTypes={
+	# GFX_icon: Strip of icons for focus "+" buttons.
+	# Frames: 0 = normal, 1 = hover shine, 2 = glow for available, 3 = glow hover.THAT WAS HOW IT WAS SUPPOSED TO BE BUT I GAVE UP
+	# Currently, buttons use frame 0, hover to frame 1 (shine).
+	# To add glow for available, would need dynamic frame setting, which is not supported atm.
+	spriteType={
+		name="GFX_icon"
+		textureFile="gfx/NFQ/NFQ_strip_icons.dds"
+		noOfFrames=4 #1 glow , 1 shine , 1 unavaible , and add to que button as a base
+	}
+	spriteType={
+		name="GFX_queue_bg"
+		textureFile="gfx/NFQ/NFQ_queue_item.dds"
+	}
+	spriteType={
+		name="GFX_bg_start_menu"
+		textureFile="gfx/NFQ/NFQ_bgr_strmenu.dds"
+	}
+}

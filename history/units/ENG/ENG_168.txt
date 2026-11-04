@@ -1,0 +1,1 @@
+focus={current=uk_sanction_japan_focus}

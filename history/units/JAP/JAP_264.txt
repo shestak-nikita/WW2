@@ -1,0 +1,1 @@
+focus={current=JAP_japans_longest_day}

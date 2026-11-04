@@ -1,0 +1,1 @@
+focus={current=FRA_colonial_naval_bases}

@@ -1,0 +1,1 @@
+focus={current=JAP_conquer_the_army_remnants}

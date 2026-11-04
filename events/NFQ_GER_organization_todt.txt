@@ -1,0 +1,37 @@
+add_namespace = NFQ_GER_organization_todt
+
+# Fired by GER_integrate_organization_todt_into_wehrmacht.
+country_event = {
+	id = NFQ_GER_organization_todt.1
+	title = NFQ_GER_organization_todt.1.t
+	desc = NFQ_GER_organization_todt.1.desc
+	picture = GFX_report_event_generic_construction_site
+
+	is_triggered_only = yes
+
+	option = { # Synthetic refineries
+		name = NFQ_GER_organization_todt.1.a
+		ai_chance = {
+			base = 50
+		}
+		clr_country_flag = GER_todt_integration_military
+		set_country_flag = GER_todt_integration_refinery
+		GER_upgrade_todt_organization_to_refinery = yes
+		show_ideas_tooltip = GER_organization_todt_integrated_refinery
+	}
+
+	option = { # Military factories
+		name = NFQ_GER_organization_todt.1.b
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				has_war = yes
+			}
+		}
+		clr_country_flag = GER_todt_integration_refinery
+		set_country_flag = GER_todt_integration_military
+		GER_upgrade_todt_organization_to_military = yes
+		show_ideas_tooltip = GER_organization_todt_integrated_military
+	}
+}

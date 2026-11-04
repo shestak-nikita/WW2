@@ -1,0 +1,1 @@
+focus={current=FRA_franco_soviet_treaty}

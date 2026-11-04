@@ -1,0 +1,1 @@
+focus={current=GER_assist_our_eastern_comrades}

@@ -1,0 +1,213 @@
+spriteTypes = {	
+
+###############################    Kits
+
+###Infantry Eqp
+	spriteType = {
+		name = "GFX_crunch_infantry_equipment_texticon"
+		texturefile = "gfx/texticons/kit/infantry_equipment_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+###Support Eqp
+	spriteType = {
+		name = "GFX_crunch_support_equipment_texticon"
+		texturefile = "gfx/texticons//kit/support_equipment_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+###############################    Artillery and the such
+
+###Rocket Arty
+	spriteType = {
+		name = "GFX_crunch_rocketartillery_texticon"
+		texturefile = "gfx/texticons//artillery/rocketartillery_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+###SPSHA
+	spriteType = {
+		name = "GFX_crunch_selfpropelledsuperheavyartillery_texticon"
+		texturefile = "gfx/texticons/artillery/selfpropelledsuperheavyartillery_texticon.dds"
+		legacy_lazy_load = no
+	}
+    
+###SHA
+	spriteType = {
+		name = "GFX_crunch_superheavyartillery_texticon"
+		texturefile = "gfx/texticons/artillery/superheavyartillery_texticon.dds"
+		legacy_lazy_load = no
+	}
+###Arty
+	spriteType = {
+		name = "GFX_crunch_artillery_texticon"
+		texturefile = "gfx/texticons/artillery/artillery_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+###AntiAir
+	spriteType = {
+		name = "GFX_crunch_antiair_texticon"
+		texturefile = "gfx/texticons/artillery/antiair_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+###AntiTank
+	spriteType = {
+		name = "GFX_crunch_antitank_texticon"
+		texturefile = "gfx/texticons/artillery/antitank_texticon.dds"
+		legacy_lazy_load = no
+	}
+    
+###############################    Vehicles :D  (.w.) 
+    
+###FlameTank
+	spriteType = {
+		name = "GFX_crunch_flametank_texticon"
+		texturefile = "gfx/texticons/vehicles/flametank_texticon.dds"
+		legacy_lazy_load = no
+	}
+    
+###LightTank
+	spriteType = {
+		name = "GFX_crunch_armortechnology_texticon"
+		texturefile = "gfx/texticons/vehicles/armortechnology_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_crunch_lightarmortechnology_texticon"
+		texturefile = "gfx/texticons/vehicles/lighttank_tech_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_crunch_lighttank_texticon"
+		texturefile = "gfx/texticons/vehicles/lighttank_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+###MediumTank
+	spriteType = {
+		name = "GFX_crunch_mediumtank_texticon"
+		texturefile = "gfx/texticons/vehicles/mediumtank_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_crunch_mediumarmortechnology_texticon"
+		texturefile = "gfx/texticons/vehicles/mediumtank_tech_texticon.dds"
+		legacy_lazy_load = no
+	}
+###heavytank
+	spriteType = {
+		name = "GFX_crunch_heavytank_texticon"
+		texturefile = "gfx/texticons/vehicles/heavytank_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_crunch_heavyarmortechnology_texticon"
+		texturefile = "gfx/texticons/vehicles/heavytank_tech_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+###superheavytank
+	spriteType = {
+		name = "GFX_crunch_superheavytank_texticon"
+		texturefile = "gfx/texticons/vehicles/superheavytank_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+###moderntankchassis
+	spriteType = {
+		name = "GFX_crunch_modernarmortechnology_texticon"
+		texturefile = "gfx/texticons/vehicles/moderntank_tech_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_crunch_moderntank_texticon"
+		texturefile = "gfx/texticons/vehicles/moderntank_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+
+###armored car
+	spriteType = {
+		name = "GFX_crunch_armoredcar_texticon"
+		texturefile = "gfx/texticons/vehicles/armoredcar_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+###trucks
+	spriteType = {
+		name = "GFX_crunch_motorized_texticon"
+		texturefile = "gfx/texticons/vehicles/motorized_texticon.dds"
+		legacy_lazy_load = no
+	}
+    
+###mechanized
+	spriteType = {
+		name = "GFX_crunch_mechanized_texticon"
+		texturefile = "gfx/texticons/vehicles/mechanized_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_crunch_amphibiousmech_texticon"
+		texturefile = "gfx/texticons/vehicles/amphibiousmech_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_crunch_amphibioustank_texticon"
+		texturefile = "gfx/texticons/vehicles/amphibioustank_texticon.dds"
+		legacy_lazy_load = no
+	}
+    
+### Buildings
+   	spriteType = {
+		name = "GFX_crunch_mil_factory_texticon"
+		texturefile = "gfx/texticons/building/military_factory_texticon.dds"
+		legacy_lazy_load = no
+	}
+   	spriteType = {
+		name = "GFX_crunch_civ_factory_texticon"
+		texturefile = "gfx/texticons/building/civilian_factory_texticon.dds"
+		legacy_lazy_load = no
+	}
+   	spriteType = {
+		name = "GFX_crunch_refinery_texticon"
+		texturefile = "gfx/texticons/building/refinery_factory_texticon.dds"
+		legacy_lazy_load = no
+	}
+   	spriteType = {
+		name = "GFX_crunch_dockyard_texticon"
+		texturefile = "gfx/texticons/building/dockyard_factory_texticon.dds"
+		legacy_lazy_load = no
+	}
+   	spriteType = {
+		name = "GFX_crunch_infrastructure_texticon"
+		texturefile = "gfx/texticons/building/infrastructure_texticon.dds"
+		legacy_lazy_load = no
+	}
+   	spriteType = {
+		name = "GFX_crunch_airbase_texticon"
+		texturefile = "gfx/texticons/building/airbase_texticon.dds"
+		legacy_lazy_load = no
+	}
+   	spriteType = {
+		name = "GFX_crunch_silo_texticon"
+		texturefile = "gfx/texticons/building/silo_texticon.dds"
+		legacy_lazy_load = no
+	}
+   	spriteType = {
+		name = "GFX_crunch_naval_base_texticon"
+		texturefile = "gfx/texticons/building/naval_base_texticon.dds"
+		legacy_lazy_load = no
+	}
+   	spriteType = {
+		name = "GFX_crunch_railways_texticon"
+		texturefile = "gfx/texticons/building/railroad_texticon.dds"
+		legacy_lazy_load = no
+	}
+   	spriteType = {
+		name = "GFX_crunch_buildingslot_texticon"
+		texturefile = "gfx/texticons/building/buildingslot_texticon.dds"
+		legacy_lazy_load = no
+	}
+}

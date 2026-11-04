@@ -1,0 +1,1 @@
+focus={current=JAP_people_owned_mines}

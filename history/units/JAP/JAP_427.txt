@@ -1,0 +1,1 @@
+focus={current=JAP_free_colonized_asian_countries}

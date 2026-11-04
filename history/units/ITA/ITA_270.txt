@@ -1,0 +1,1 @@
+focus={current=ITA_power_to_the_king}

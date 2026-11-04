@@ -1,0 +1,13 @@
+defined_text={
+	name=GetNFQItemName
+	text={
+		trigger={
+			check_variable={v<-999}
+			set_temp_variable={hold_days_display=v}
+			add_to_temp_variable={hold_days_display=1000}
+			multiply_temp_variable={hold_days_display=-1}
+		}
+		localization_key="NFQ_hold_display"
+	}
+	text={localization_key=[NFQ_focustitle]}
+}

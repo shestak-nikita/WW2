@@ -1,0 +1,1 @@
+focus={current=SOV_a_global_class_struggle}

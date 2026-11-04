@@ -1,0 +1,1 @@
+focus={current=JAP_rekindle_the_old_alliance}

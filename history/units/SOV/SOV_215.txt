@@ -1,0 +1,1 @@
+focus={current=SOV_ban_excessive_hero_worship}

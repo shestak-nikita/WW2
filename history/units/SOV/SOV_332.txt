@@ -1,0 +1,1 @@
+focus={current=SOV_middle_east_diplomacy}

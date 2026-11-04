@@ -1,0 +1,1 @@
+focus={current=GER_tackle_the_communist_threat}

@@ -1,0 +1,1 @@
+focus={current=ITA_invite_france_to_military_partnership}

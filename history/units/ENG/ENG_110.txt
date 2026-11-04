@@ -1,0 +1,1 @@
+focus={current=shadow_scheme_focus}

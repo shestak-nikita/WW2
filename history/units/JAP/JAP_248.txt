@@ -1,0 +1,1 @@
+focus={current=JAP_tojos_premiership}

@@ -1,0 +1,1 @@
+focus={current=ITA_steel_industry_in_terni}

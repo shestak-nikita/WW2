@@ -1,0 +1,647 @@
+# Character-specific trait helpers for advisor progression.
+
+
+
+GPW_GER_remove_ic_goring_traits = {
+	GER_hermann_goring = { remove_trait = { slot = political_advisor trait = GPW_GER_IC_GORING_1 } }
+	GER_hermann_goring = { remove_trait = { slot = political_advisor trait = GPW_GER_IC_GORING_2 } }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+GPW_GER_set_speer_stage_2 = {
+	GER_albert_speer = { remove_trait = { slot = political_advisor trait = GPW_GER_SPEER_STAGE_2 } }
+	GER_albert_speer = { remove_trait = { slot = political_advisor trait = GPW_GER_SPEER_STAGE_3 } }
+	GER_albert_speer = { add_trait = { slot = political_advisor trait = GPW_GER_SPEER_STAGE_2 } }
+}
+
+GPW_GER_set_speer_stage_3 = {
+	GER_albert_speer = { remove_trait = { slot = political_advisor trait = GPW_GER_SPEER_STAGE_2 } }
+	GER_albert_speer = { remove_trait = { slot = political_advisor trait = GPW_GER_SPEER_STAGE_3 } }
+	GER_albert_speer = { add_trait = { slot = political_advisor trait = GPW_GER_SPEER_STAGE_3 } }
+}
+
+GPW_GER_update_speer_focus_stage = {
+	if = {
+		limit = { has_completed_focus = GER_plenipotentiary_of_armaments }
+		GPW_GER_set_speer_stage_3 = yes
+	}
+	else_if = {
+		limit = { has_completed_focus = GER_employ_philipp_holzmann }
+		GPW_GER_set_speer_stage_2 = yes
+	}
+	else = {
+		GER_albert_speer = { remove_trait = { slot = political_advisor trait = GPW_GER_SPEER_STAGE_2 } }
+		GER_albert_speer = { remove_trait = { slot = political_advisor trait = GPW_GER_SPEER_STAGE_3 } }
+	}
+}
+
+GPW_GER_remove_speer_circle_upgrades = {
+	if = {
+		limit = { has_completed_focus = GER_plenipotentiary_of_armaments }
+		GER_albert_speer = { remove_trait = { slot = political_advisor trait = GPW_GER_SPEER_STAGE_3 } }
+	}
+	else_if = {
+		limit = { has_completed_focus = GER_employ_philipp_holzmann }
+		GER_albert_speer = { remove_trait = { slot = political_advisor trait = GPW_GER_SPEER_STAGE_2 } }
+	}
+}
+
+GPW_GER_apply_ic_goring_traits = {
+	GER_hermann_goring = { remove_trait = { slot = political_advisor trait = GPW_GER_IC_GORING_1 } }
+	GER_hermann_goring = { remove_trait = { slot = political_advisor trait = GPW_GER_IC_GORING_2 } }
+	if = { limit = { has_completed_focus = GER_plenipotentiary_of_the_four_year_plan }
+	GER_hermann_goring = { add_trait = { slot = political_advisor trait = GPW_GER_IC_GORING_2 } }
+	} else = {
+	GER_hermann_goring = { add_trait = { slot = political_advisor trait = GPW_GER_IC_GORING_1 } }
+	}
+}
+
+GPW_GER_update_ic_goring_traits = {
+	if = { limit = { OR = { check_variable = { GER_ascended_advisor_1 = 3 } check_variable = { GER_ascended_advisor_2 = 3 } check_variable = { GER_ascended_advisor_3 = 3 } } }
+		GPW_GER_apply_ic_goring_traits = yes
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Upgrade helpers that do not depend on has_completed_focus. NFQ_complete_focus
+# runs before the native focus flag is necessarily visible inside a completion reward.
+GER_upgrade_todt_organization_to_stage_1 = {
+	if = {
+		limit = {
+			has_idea = GER_organization_todt
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt
+			add_idea = GER_organization_todt_stage_1
+		}
+	}
+}
+
+GER_upgrade_todt_organization_to_stage_2 = {
+	if = {
+		limit = {
+			has_idea = GER_organization_todt
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt
+			add_idea = GER_organization_todt_improved
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = GER_organization_todt_stage_1
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt_stage_1
+			add_idea = GER_organization_todt_improved
+		}
+	}
+}
+
+# Stage 3 - the Wehrmacht integration choice converts the civilian factory bonus
+# into either a synthetic refinery bonus or a military factory bonus.
+GER_upgrade_todt_organization_to_refinery = {
+	if = {
+		limit = {
+			has_idea = GER_organization_todt
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt
+			add_idea = GER_organization_todt_integrated_refinery
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = GER_organization_todt_stage_1
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt_stage_1
+			add_idea = GER_organization_todt_integrated_refinery
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = GER_organization_todt_improved
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt_improved
+			add_idea = GER_organization_todt_integrated_refinery
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = GER_organization_todt_integrated_military
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt_integrated_military
+			add_idea = GER_organization_todt_integrated_refinery
+		}
+	}
+}
+
+GER_upgrade_todt_organization_to_military = {
+	if = {
+		limit = {
+			has_idea = GER_organization_todt
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt
+			add_idea = GER_organization_todt_integrated_military
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = GER_organization_todt_stage_1
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt_stage_1
+			add_idea = GER_organization_todt_integrated_military
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = GER_organization_todt_improved
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt_improved
+			add_idea = GER_organization_todt_integrated_military
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = GER_organization_todt_integrated_refinery
+		}
+		swap_ideas = {
+			remove_idea = GER_organization_todt_integrated_refinery
+			add_idea = GER_organization_todt_integrated_military
+		}
+	}
+}
+
+# Keep the Organization Todt concern in sync with Todt's completed focuses.
+GER_update_todt_organization_stage = {
+	if = {
+		limit = {
+			has_completed_focus = GER_integrate_organization_todt_into_wehrmacht
+		}
+		if = {
+			limit = {
+				has_country_flag = GER_todt_integration_refinery
+			}
+			GER_upgrade_todt_organization_to_refinery = yes
+		}
+		else_if = {
+			limit = {
+				has_country_flag = GER_todt_integration_military
+			}
+			GER_upgrade_todt_organization_to_military = yes
+		}
+	}
+	else_if = {
+		limit = {
+			has_completed_focus = GER_autonomous_organization_todt
+		}
+		GER_upgrade_todt_organization_to_stage_2 = yes
+	}
+	else_if = {
+		limit = {
+			has_completed_focus = GER_form_organization_todt
+		}
+		GER_upgrade_todt_organization_to_stage_1 = yes
+	}
+}
+
+GER_add_todt_effects = {
+	GER_update_todt_organization_stage = yes
+}
+
+GER_add_speer_effects = {
+	GPW_GER_update_speer_focus_stage = yes
+}
+
+GER_add_goring_effects = {
+	GPW_GER_apply_ic_goring_traits = yes
+}
+
+GER_add_himmler_effects = {
+	custom_effect_tooltip = generic_skip_one_line_tt
+	country_event = GER_inner_circle_himmler.00
+}
+
+GER_add_goebbels_effects = {
+
+}
+
+GER_add_hess_effects = {
+
+}
+
+GER_add_bormann_effects = {
+
+}
+
+GER_remove_todt_effects = {
+	if = { #STOP ANY FOCUS IN-PROGRESS (WITH SHINY EFFECT)
+		limit = {
+			has_shine_effect_on_focus = GER_form_organization_todt
+		}
+		deactivate_shine_on_focus = GER_form_organization_todt
+		clr_country_flag = GER_form_organization_todt_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_autonomous_organization_todt
+		}
+		deactivate_shine_on_focus = GER_autonomous_organization_todt
+		clr_country_flag = GER_autonomous_organization_todt_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_wunderwaffe
+			check_variable = { GER_wonder_weapons_focus_advisor = 1 }
+		}
+		deactivate_shine_on_focus = GER_wunderwaffe
+		clr_country_flag = GER_wunderwaffe_in_progress_flag
+		set_variable = { GER_wonder_weapons_focus_advisor = 0 }
+	}
+
+	#Uncomplete Ascension focus so that he can be picked later on
+	uncomplete_national_focus = {
+		focus = GER_ascension_of_todt
+		uncomplete_children = no
+		refund_political_power = no
+	}
+
+	if = { # REMOVE TODT FROM ASCENDED ADVISOR
+		limit = {
+			check_variable = { GER_ascended_advisor_1 = 1 }
+		}
+		set_variable = { GER_ascended_advisor_1 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_2 = 1 }
+		}
+		set_variable = { GER_ascended_advisor_2 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_3 = 1 }
+		}
+		set_variable = { GER_ascended_advisor_3 = 0 }
+	}
+}
+
+GER_remove_speer_effects = {
+	GPW_GER_remove_speer_circle_upgrades = yes
+
+	if = { #STOP ANY FOCUS IN-PROGRESS (WITH SHINY EFFECT)
+		limit = {
+			has_shine_effect_on_focus = GER_employ_philipp_holzmann
+		}
+		deactivate_shine_on_focus = GER_employ_philipp_holzmann
+		clr_country_flag = GER_employ_philipp_holzmann_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_plenipotentiary_of_armaments
+		}
+		deactivate_shine_on_focus = GER_plenipotentiary_of_armaments
+		clr_country_flag = GER_plenipotentiary_of_armaments_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_wunderwaffe
+			check_variable = { GER_wonder_weapons_focus_advisor = 2 }
+		}
+		deactivate_shine_on_focus = GER_wunderwaffe
+		clr_country_flag = GER_wunderwaffe_in_progress_flag
+		set_variable = { GER_wonder_weapons_focus_advisor = 0 }
+	}
+
+	#Uncomplete Ascension focus so that he can be picked later on
+	uncomplete_national_focus = {
+		focus = GER_ascension_of_speer
+		uncomplete_children = no
+		refund_political_power = no
+	}
+
+	if = { # REMOVE SPEER FROM ASCENDED ADVISOR
+		limit = {
+			check_variable = { GER_ascended_advisor_1 = 2 }
+		}
+		set_variable = { GER_ascended_advisor_1 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_2 = 2 }
+		}
+		set_variable = { GER_ascended_advisor_2 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_3 = 2 }
+		}
+		set_variable = { GER_ascended_advisor_3 = 0 }
+	}
+}
+
+GER_remove_goring_effects = {
+	GPW_GER_remove_ic_goring_traits = yes
+
+	if = { #STOP ANY FOCUS IN-PROGRESS (WITH SHINY EFFECT)
+		limit = {
+			has_shine_effect_on_focus = GER_prioritize_the_four_year_plan
+		}
+		deactivate_shine_on_focus = GER_prioritize_the_four_year_plan
+		clr_country_flag = GER_prioritize_the_four_year_plan_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_plenipotentiary_of_the_four_year_plan
+		}
+		deactivate_shine_on_focus = GER_plenipotentiary_of_the_four_year_plan
+		clr_country_flag = GER_plenipotentiary_of_the_four_year_plan_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_integration_of_puppet_economies
+		}
+		deactivate_shine_on_focus = GER_integration_of_puppet_economies
+		clr_country_flag = GER_integration_of_puppet_economies_in_progress_flag
+	}
+
+	#Uncomplete Ascension focus so that he can be picked later on
+	uncomplete_national_focus = {
+		focus = GER_ascension_of_goring
+		uncomplete_children = no
+		refund_political_power = no
+	}
+
+	if = { # REMOVE GÖRING FROM ASCENDED ADVISOR
+		limit = {
+			check_variable = { GER_ascended_advisor_1 = 3 }
+		}
+		set_variable = { GER_ascended_advisor_1 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_2 = 3 }
+		}
+		set_variable = { GER_ascended_advisor_2 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_3 = 3 }
+		}
+		set_variable = { GER_ascended_advisor_3 = 0 }
+	}
+}
+
+GER_remove_himmler_effects = {
+	if = { #STOP ANY FOCUS IN-PROGRESS (WITH SHINY EFFECT)
+		limit = {
+			has_shine_effect_on_focus = GER_expand_ss_security_duties
+		}
+		deactivate_shine_on_focus = GER_expand_ss_security_duties
+		clr_country_flag = GER_expand_ss_security_duties_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_strengthen_the_waffen_ss
+		}
+		deactivate_shine_on_focus = GER_strengthen_the_waffen_ss
+		clr_country_flag = GER_strengthen_the_waffen_ss_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_expand_gestapo
+		}
+		deactivate_shine_on_focus = GER_expand_gestapo
+		clr_country_flag = GER_expand_gestapo_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_absorb_the_abwehr
+		}
+		deactivate_shine_on_focus = GER_absorb_the_abwehr
+		clr_country_flag = GER_absorb_the_abwehr_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_hegemony_of_the_ss
+		}
+		deactivate_shine_on_focus = GER_hegemony_of_the_ss
+		clr_country_flag = GER_hegemony_of_the_ss_in_progress_flag
+	}
+
+	#Uncomplete Ascension focus so that he can be picked later on
+	uncomplete_national_focus = {
+		focus = GER_ascension_of_himmler
+		uncomplete_children = no
+		refund_political_power = no
+	}
+
+	if = { # REMOVE HIMMLER FROM ASCENDED ADVISOR
+		limit = {
+			check_variable = { GER_ascended_advisor_1 = 4 }
+		}
+		set_variable = { GER_ascended_advisor_1 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_2 = 4 }
+		}
+		set_variable = { GER_ascended_advisor_2 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_3 = 4 }
+		}
+		set_variable = { GER_ascended_advisor_3 = 0 }
+	}
+}
+
+GER_remove_goebbels_effects = {
+	if = { #STOP ANY FOCUS IN-PROGRESS (WITH SHINY EFFECT)
+		limit = {
+			has_shine_effect_on_focus = GER_ministry_of_public_enlightenment
+		}
+		deactivate_shine_on_focus = GER_ministry_of_public_enlightenment
+		clr_country_flag = GER_ministry_of_public_enlightenment_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_fund_the_film_department
+		}
+		deactivate_shine_on_focus = GER_fund_the_film_department
+		clr_country_flag = GER_fund_the_film_department_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_propaganda_master
+		}
+		deactivate_shine_on_focus = GER_propaganda_master
+		clr_country_flag = GER_propaganda_master_in_progress_flag
+	}
+
+	#Uncomplete Ascension focus so that he can be picked later on
+	uncomplete_national_focus = {
+		focus = GER_ascension_of_goebbels
+		uncomplete_children = no
+		refund_political_power = no
+	}
+
+	if = { # REMOVE GOEBBELS FROM ASCENDED ADVISOR
+		limit = {
+			check_variable = { GER_ascended_advisor_1 = 5 }
+		}
+		set_variable = { GER_ascended_advisor_1 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_2 = 5 }
+		}
+		set_variable = { GER_ascended_advisor_2 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_3 = 5 }
+		}
+		set_variable = { GER_ascended_advisor_3 = 0 }
+	}
+}
+
+GER_remove_hess_effects = {
+	if = { #STOP ANY FOCUS IN-PROGRESS (WITH SHINY EFFECT)
+		limit = {
+			has_shine_effect_on_focus = GER_optimize_reich_labour_service
+			check_variable = { GER_optimize_reich_service_focus_advisor = 6 }
+		}
+		deactivate_shine_on_focus = GER_optimize_reich_labour_service
+		clr_country_flag = GER_optimize_reich_labour_service_in_progress_flag
+		set_variable = { GER_optimize_reich_service_focus_advisor = 0 }
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_rally_the_industrialists
+		}
+		deactivate_shine_on_focus = GER_rally_the_industrialists
+		clr_country_flag = GER_rally_the_industrialists_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_total_control_over_domestic_affairs
+			check_variable = { GER_total_control_over_domestic_affairs_focus_advisor = 6 }
+		}
+		deactivate_shine_on_focus = GER_total_control_over_domestic_affairs
+		clr_country_flag = GER_total_control_over_domestic_affairs_in_progress_flag
+		set_variable = { GER_total_control_over_domestic_affairs_focus_advisor = 0 }
+	}
+
+	#Uncomplete Ascension focus so that he can be picked later on
+	uncomplete_national_focus = {
+		focus = GER_party_chancellor_hess
+		uncomplete_children = no
+		refund_political_power = no
+	}
+
+	if = { # REMOVE HESS FROM ASCENDED ADVISOR
+		limit = {
+			check_variable = { GER_ascended_advisor_1 = 6 }
+		}
+		set_variable = { GER_ascended_advisor_1 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_2 = 6 }
+		}
+		set_variable = { GER_ascended_advisor_2 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_3 = 6 }
+		}
+		set_variable = { GER_ascended_advisor_3 = 0 }
+	}
+}
+
+GER_remove_bormann_effects = {
+	if = { #STOP ANY FOCUS IN-PROGRESS (WITH SHINY EFFECT)
+		limit = {
+			has_shine_effect_on_focus = GER_optimize_reich_labour_service
+			check_variable = { GER_optimize_reich_service_focus_advisor = 7 }
+		}
+		deactivate_shine_on_focus = GER_optimize_reich_labour_service
+		clr_country_flag = GER_optimize_reich_labour_service_in_progress_flag
+		set_variable = { GER_optimize_reich_service_focus_advisor = 0 }
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_glorify_party_rallies
+		}
+		deactivate_shine_on_focus = GER_glorify_party_rallies
+		clr_country_flag = GER_glorify_party_rallies_in_progress_flag
+	}
+	else_if = {
+		limit = {
+			has_shine_effect_on_focus = GER_total_control_over_domestic_affairs
+			check_variable = { GER_total_control_over_domestic_affairs_focus_advisor = 7 }
+		}
+		deactivate_shine_on_focus = GER_total_control_over_domestic_affairs
+		clr_country_flag = GER_total_control_over_domestic_affairs_in_progress_flag
+		set_variable = { GER_total_control_over_domestic_affairs_focus_advisor = 0 }
+	}
+
+	#Uncomplete Ascension focus so that he can be picked later on
+	uncomplete_national_focus = {
+		focus = GER_party_chancellor_bormann
+		uncomplete_children = no
+		refund_political_power = no
+	}
+
+	if = { # REMOVE BORMANN FROM ASCENDED ADVISOR
+		limit = {
+			check_variable = { GER_ascended_advisor_1 = 7 }
+		}
+		set_variable = { GER_ascended_advisor_1 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_2 = 7 }
+		}
+		set_variable = { GER_ascended_advisor_2 = 0 }
+	}
+	else_if = {
+		limit = {
+			check_variable = { GER_ascended_advisor_3 = 7 }
+		}
+		set_variable = { GER_ascended_advisor_3 = 0 }
+	}
+}

@@ -1,0 +1,1 @@
+focus={current=FRA_national_champions}

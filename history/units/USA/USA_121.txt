@@ -1,0 +1,1 @@
+focus={current=USA_shatter_the_empires}

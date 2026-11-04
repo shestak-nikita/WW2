@@ -1,0 +1,1 @@
+focus={current=GER_proletarian_solidarity}

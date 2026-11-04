@@ -1,0 +1,1 @@
+focus={current=JAP_hold_a_peoples_tribunal}

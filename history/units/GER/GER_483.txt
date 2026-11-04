@@ -1,0 +1,1 @@
+focus={current=GER_our_place_in_the_sun_ww}

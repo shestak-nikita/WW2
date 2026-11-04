@@ -1,0 +1,1 @@
+focus={current=FRA_pre_empt_the_fascist_attack}

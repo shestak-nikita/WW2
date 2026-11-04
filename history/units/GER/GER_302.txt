@@ -1,0 +1,1 @@
+focus={current=GER_hegemony_of_the_ss}

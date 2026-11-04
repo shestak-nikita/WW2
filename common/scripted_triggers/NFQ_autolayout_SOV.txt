@@ -1,0 +1,2794 @@
+# Generated file. Regenerate with tools/generate_nfq_layout.py.
+NFQ_focus_visible_SOV_SOV_infrastructure_effort_nsb = {
+    always = yes
+}
+
+NFQ_focus_visible_SOV_SOV_heavy_industry = {
+    always = yes
+}
+
+NFQ_focus_visible_SOV_SOV_finish_the_five_year_plan = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_infrastructure_effort_nsb = yes
+            NFQ_focus_visible_SOV_SOV_heavy_industry = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_improve_railway_network = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_finish_the_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_third_five_year_plan = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_finish_the_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reorganize_the_pc_of_heavy_industry = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_shift_to_armaments_production
+                check_variable = { f109 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_third_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_industrial_modernization = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_reorganize_the_pc_of_heavy_industry = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_increase_state_reserves = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_third_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_shift_to_armaments_production = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_reorganize_the_pc_of_heavy_industry
+                check_variable = { f106 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_third_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_optimize_production_lines = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_shift_to_armaments_production = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_steel_casting_industry = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_reorganize_the_pc_of_heavy_industry = yes
+            NFQ_focus_visible_SOV_SOV_shift_to_armaments_production = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_synthetic_rubber = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_steel_casting_industry = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_oil_production = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_steel_casting_industry = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_restoration_and_development = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_industrial_modernization = yes
+            NFQ_focus_visible_SOV_SOV_optimize_production_lines = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_fourth_five_year_plan = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_restoration_and_development = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_found_the_comecon = {
+    AND = {
+        AND = {
+            has_government = communism
+        }
+        NFQ_focus_visible_SOV_SOV_fourth_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_common_economic_space_initiative = {
+    AND = {
+        AND = {
+            NOT = {
+                has_government = communism
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_fourth_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_found_the_warsaw_pact = {
+    AND = {
+        AND = {
+            has_government = communism
+            has_dlc = "No Compromise, No Surrender"
+        }
+        NFQ_focus_visible_SOV_SOV_found_the_comecon = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_no_time_for_peace = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_fourth_five_year_plan = yes
+            NFQ_focus_visible_SOV_SOV_national_academies_of_sciences = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_national_specialists = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_foreign_experts
+                check_variable = { f121 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_finish_the_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_foreign_experts = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_national_specialists
+                check_variable = { f120 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_finish_the_five_year_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_eastern_development = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_national_specialists = yes
+            NFQ_focus_visible_SOV_SOV_foreign_experts = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_develop_the_urals = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_national_specialists = yes
+            NFQ_focus_visible_SOV_SOV_foreign_experts = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_ussr_academy_of_sciences = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_eastern_development = yes
+            NFQ_focus_visible_SOV_SOV_develop_the_urals = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_national_academies_of_sciences = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_ussr_academy_of_sciences = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_transformation_of_nature = {
+    AND = {
+        AND = {
+            has_government = communism
+        }
+        AND = {
+            NFQ_focus_visible_SOV_SOV_fourth_five_year_plan = yes
+            NFQ_focus_visible_SOV_SOV_national_academies_of_sciences = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_transformation_of_nature_alt = {
+    AND = {
+        AND = {
+            NOT = {
+                has_government = communism
+            }
+        }
+        AND = {
+            NFQ_focus_visible_SOV_SOV_fourth_five_year_plan = yes
+            NFQ_focus_visible_SOV_SOV_national_academies_of_sciences = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_transpolar_flights = {
+    always = yes
+}
+
+NFQ_focus_visible_SOV_SOV_expand_the_aircraft_industry = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_transpolar_flights = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_modernize_aircraft_facilities = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_expand_the_aircraft_industry = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_merge_aircraft_plants = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_modernize_aircraft_facilities = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_found_the_jet_institute = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_the_ussr_academy_of_sciences = yes
+            NFQ_focus_visible_SOV_SOV_merge_aircraft_plants = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_increase_aircraft_production = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_intensify_pilot_training_program
+                check_variable = { f137 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_expand_the_aircraft_industry = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_foster_flying_clubs = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_transpolar_flights = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_women_in_aviation = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_foster_flying_clubs = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_raskovas_aviation_group = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_women_in_aviation = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_intensify_pilot_training_program = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_increase_aircraft_production
+                check_variable = { f133 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_foster_flying_clubs = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_expand_aviation_institutes = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_expand_the_aircraft_industry = yes
+            NFQ_focus_visible_SOV_SOV_foster_flying_clubs = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_ground_support = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_long_range_aircraft
+                check_variable = { f140 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_SOV_SOV_increase_aircraft_production = yes
+            NFQ_focus_visible_SOV_SOV_intensify_pilot_training_program = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_long_range_aircraft = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_ground_support
+                check_variable = { f139 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_SOV_SOV_increase_aircraft_production = yes
+            NFQ_focus_visible_SOV_SOV_intensify_pilot_training_program = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_modern_war_in_the_skies = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_ground_support = yes
+            NFQ_focus_visible_SOV_SOV_long_range_aircraft = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_expand_the_red_fleet = {
+    always = yes
+}
+
+NFQ_focus_visible_SOV_SOV_reinforce_western_naval_bases = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_expand_the_red_fleet = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reinforce_northern_naval_bases = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_expand_the_red_fleet = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reinforce_southern_naval_bases = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_expand_the_red_fleet = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reinforce_eastern_naval_bases = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_expand_the_red_fleet = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_expand_shipbuilding_plants = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_reinforce_western_naval_bases = yes
+            NFQ_focus_visible_SOV_SOV_reinforce_northern_naval_bases = yes
+            NFQ_focus_visible_SOV_SOV_reinforce_southern_naval_bases = yes
+            NFQ_focus_visible_SOV_SOV_reinforce_eastern_naval_bases = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_merge_naval_plants = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_expand_shipbuilding_plants = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_pc_of_the_ussr_navy = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_expand_the_red_fleet = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_surface_warfare = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_submarine_warfare
+                check_variable = { f151 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_pc_of_the_ussr_navy = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_submarine_warfare = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_surface_warfare
+                check_variable = { f150 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_pc_of_the_ussr_navy = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_offensive_maritime_strategy = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_surface_warfare = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_an_oceangoing_navy = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_surface_warfare = yes
+            NFQ_focus_visible_SOV_SOV_submarine_warfare = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_mine_warfare = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_surface_warfare = yes
+            NFQ_focus_visible_SOV_SOV_submarine_warfare = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_long_range_raiders = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_submarine_warfare = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_advanced_maneuvers = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_expand_shipbuilding_plants = yes
+            NFQ_focus_visible_SOV_SOV_an_oceangoing_navy = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_expand_the_morskaya_aviatsiya = {
+    AND = {
+        AND = {
+            OR = {
+                NFQ_focus_visible_SOV_SOV_increase_aircraft_production = yes
+                NFQ_focus_visible_SOV_SOV_intensify_pilot_training_program = yes
+            }
+            NFQ_focus_visible_SOV_SOV_advanced_maneuvers = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_naval_infantry = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_advanced_maneuvers = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_found_the_pcdi = {
+    always = yes
+}
+
+NFQ_focus_visible_SOV_SOV_pc_of_mechanical_engineering = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_found_the_pcdi = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_superior_war_machines = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_pc_of_mechanical_engineering = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_means_to_wage_war = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_pc_of_mechanical_engineering = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_soviet_artillery = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_superior_war_machines = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_pc_of_mortar_armament = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_pc_of_mechanical_engineering = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_development_of_tankograd = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_means_to_wage_war = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_merge_tank_and_materiel_plants = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_development_of_tankograd = yes
+            NFQ_focus_visible_SOV_SOV_pc_of_mortar_armament = yes
+            NFQ_focus_visible_SOV_SOV_soviet_artillery = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_strengthen_the_mobilization_plan = {
+    always = yes
+}
+
+NFQ_focus_visible_SOV_SOV_military_engineering_university = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_found_the_pcdi = yes
+            NFQ_focus_visible_SOV_SOV_strengthen_the_mobilization_plan = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_leningrad_polytechnical_institute = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_the_means_to_wage_war = yes
+            NFQ_focus_visible_SOV_SOV_military_engineering_university = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_soviet_atomic_bomb_project = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_leningrad_polytechnical_institute = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_move_industry_to_the_urals = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_military_engineering_university = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_road_of_life = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_leningrad_polytechnical_institute = yes
+            NFQ_focus_visible_SOV_SOV_move_industry_to_the_urals = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_molotov_line = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_improve_the_stalin_line
+                check_variable = { f174 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_military_engineering_university = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_improve_the_stalin_line = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_the_molotov_line
+                check_variable = { f173 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_military_engineering_university = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_defense_of_moscow = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_move_industry_to_the_urals = yes
+            NFQ_focus_visible_SOV_SOV_improve_the_stalin_line = yes
+            NFQ_focus_visible_SOV_SOV_the_molotov_line = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_impregnable_forts = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_improve_the_stalin_line = yes
+            NFQ_focus_visible_SOV_SOV_the_molotov_line = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_protect_the_white_sea_baltic_canal = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_military_engineering_university = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_far_east_fortification = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_military_engineering_university = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_restore_cossack_units = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_cohesion_first
+                check_variable = { f180 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_strengthen_the_mobilization_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_cohesion_first = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_restore_cossack_units
+                check_variable = { f179 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_strengthen_the_mobilization_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_rehabilitated_military = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_restore_cossack_units = yes
+            NFQ_focus_visible_SOV_SOV_cohesion_first = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_military_reorganization = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_rehabilitated_military = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_desperate_measures = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_strengthen_the_mobilization_plan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_an_adaptable_army = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_rehabilitated_military = yes
+            NFQ_focus_visible_SOV_SOV_desperate_measures = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_lessons_of_war = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_rehabilitated_military = yes
+            NFQ_focus_visible_SOV_SOV_desperate_measures = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_penal_battalions = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_desperate_measures = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_organization_of_the_partisans = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_lessons_of_war = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_smersh = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_lessons_of_war = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_barrier_troops = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_smersh = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_experts_in_camouflage = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_military_reorganization = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_keep_commissars_organization = {
+    AND = {
+        AND = {
+            NOT = {
+                has_government = fascism
+                has_government = neutrality
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_swap_to_political_advisors
+                check_variable = { f193 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_SOV_SOV_military_reorganization = yes
+            NFQ_focus_visible_SOV_SOV_lessons_of_war = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_adjoined_battle_priests = {
+    AND = {
+        AND = {
+            OR = {
+                has_government = fascism
+                has_government = neutrality
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_swap_to_political_advisors
+                check_variable = { f193 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_SOV_SOV_military_reorganization = yes
+            NFQ_focus_visible_SOV_SOV_lessons_of_war = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_swap_to_political_advisors = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_adjoined_battle_priests
+                    check_variable = { f192 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_keep_commissars_organization
+                    check_variable = { f191 = 5 }
+                }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_SOV_SOV_military_reorganization = yes
+            NFQ_focus_visible_SOV_SOV_lessons_of_war = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_glory_of_the_red_army = {
+    AND = {
+        AND = {
+            NOT = {
+                has_government = fascism
+                has_government = neutrality
+            }
+        }
+        OR = {
+            NFQ_focus_visible_SOV_SOV_keep_commissars_organization = yes
+            NFQ_focus_visible_SOV_SOV_swap_to_political_advisors = yes
+            NFQ_focus_visible_SOV_SOV_adjoined_battle_priests = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_glory_of_the_red_army_alt = {
+    AND = {
+        AND = {
+            OR = {
+                has_government = fascism
+                has_government = neutrality
+            }
+        }
+        OR = {
+            NFQ_focus_visible_SOV_SOV_keep_commissars_organization = yes
+            NFQ_focus_visible_SOV_SOV_swap_to_political_advisors = yes
+            NFQ_focus_visible_SOV_SOV_adjoined_battle_priests = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_path_of_marxism_leninism = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = SOV_the_hands_do
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_beaten_but_not_defeated
+                check_variable = { f347 = 5 }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_centre = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    AND = {
+                        has_completed_focus = SOV_the_left_opposition
+                        has_completed_focus = SOV_left_opposition_coup
+                    }
+                    AND = {
+                        has_completed_focus = SOV_the_right_opposition
+                        has_completed_focus = SOV_coup_detat
+                    }
+                    AND = {
+                        has_completed_focus = SOV_beaten_but_not_defeated
+                        has_completed_focus = SOV_the_hands_do
+                    }
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_the_left_opposition
+                    check_variable = { f222 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_the_right_opposition
+                    check_variable = { f250 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_path_of_marxism_leninism = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_socialism_in_one_country = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_centre = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_stalin_constitution = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_centre = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_zinovyevite_terrorist_center = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_stalin_constitution = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_secure_the_administration = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_zinovyevite_terrorist_center = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_collectivization_process = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_socialism_in_one_country = yes
+            NFQ_focus_visible_SOV_SOV_secure_the_administration = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_anti_soviet_trotskyist_center = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_zinovyevite_terrorist_center = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_workers_dictatorship = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_anti_soviet_trotskyist_center = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_organization_centralization_discipline = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_the_collectivization_process = yes
+            NFQ_focus_visible_SOV_SOV_the_workers_dictatorship = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_war_economy = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_organization_centralization_discipline = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_military_conspiracy = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_workers_dictatorship = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_bloc_of_rights_and_trotskyites = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_military_conspiracy = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_behead_the_snake = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_military_conspiracy = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_stalins_cult_of_personality = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_bloc_of_rights_and_trotskyites = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_they_will_know_fear = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_stalins_cult_of_personality = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_inheritor_of_the_mantle_of_lenin = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_the_faithful_servant_of_lenin
+                check_variable = { f214 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_stalins_cult_of_personality = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_brilliant_genius = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_inheritor_of_the_mantle_of_lenin = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_faithful_servant_of_lenin = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_inheritor_of_the_mantle_of_lenin
+                check_variable = { f212 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_stalins_cult_of_personality = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_ban_excessive_hero_worship = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_faithful_servant_of_lenin = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_leader_of_the_party_and_the_people = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_inheritor_of_the_mantle_of_lenin = yes
+            NFQ_focus_visible_SOV_SOV_the_faithful_servant_of_lenin = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_great_commander = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_architect_of_communism
+                check_variable = { f218 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_SOV_SOV_inheritor_of_the_mantle_of_lenin = yes
+            NFQ_focus_visible_SOV_SOV_leader_of_the_party_and_the_people = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_architect_of_communism = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_great_commander
+                check_variable = { f217 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_SOV_SOV_the_faithful_servant_of_lenin = yes
+            NFQ_focus_visible_SOV_SOV_leader_of_the_party_and_the_people = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_father_of_nations = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_great_commander = yes
+            NFQ_focus_visible_SOV_SOV_architect_of_communism = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_freedom_of_debate_unity_of_action = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_stalins_cult_of_personality = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_construction_of_communism = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_freedom_of_debate_unity_of_action = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_left_opposition = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = SOV_the_centre
+                }
+                NOT = {
+                    has_completed_focus = SOV_beaten_but_not_defeated
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_the_centre
+                    check_variable = { f197 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_the_right_opposition
+                    check_variable = { f250 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_path_of_marxism_leninism = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_fourth_international = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_left_opposition = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_bring_old_trotskyists_back = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_left_opposition = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_organize_the_wreckers = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_left_opposition = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_integrate_smirnovs_bloc = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_left_opposition = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_left_eliminate_right = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_cooperation_against_stalin
+                check_variable = { f285 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_left_opposition = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_committee_in_exile = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_the_fourth_international = yes
+            NFQ_focus_visible_SOV_SOV_bring_old_trotskyists_back = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_approach_tukhachevsky = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_integrate_smirnovs_bloc = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_approach_primakov = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_integrate_smirnovs_bloc = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_funds_for_the_cause = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_approach_tukhachevsky = yes
+            NFQ_focus_visible_SOV_SOV_approach_primakov = yes
+            NFQ_focus_visible_SOV_SOV_committee_in_exile = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_left_opposition_coup = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_approach_tukhachevsky = yes
+            NFQ_focus_visible_SOV_SOV_approach_primakov = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_vanguard_of_the_true_revolution = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_left_opposition_coup = yes
+            NFQ_focus_visible_SOV_SOV_funds_for_the_cause = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_long_live_the_workers_government = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_left_opposition_coup = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_left_purges = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_return_democracy_to_the_party
+                check_variable = { f288 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_left_opposition_coup = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_builder_of_the_red_army = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_reigniting_the_revolutionary_spirit
+                check_variable = { f237 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_long_live_the_workers_government = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reigniting_the_revolutionary_spirit = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_the_builder_of_the_red_army
+                check_variable = { f236 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_long_live_the_workers_government = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_permanent_revolution = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_left_opposition_coup = yes
+            NFQ_focus_visible_SOV_SOV_committee_in_exile = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_depoliticize_the_military = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_builder_of_the_red_army = yes
+            NFQ_focus_visible_SOV_SOV_reigniting_the_revolutionary_spirit = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_system_decentralization = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_builder_of_the_red_army = yes
+            NFQ_focus_visible_SOV_SOV_reigniting_the_revolutionary_spirit = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_strengthen_heavy_industry = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_builder_of_the_red_army = yes
+            NFQ_focus_visible_SOV_SOV_reigniting_the_revolutionary_spirit = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_a_global_class_struggle = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_permanent_revolution = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_all_power_to_the_soviets = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_system_decentralization = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_regional_development = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_strengthen_the_trade_unions
+                check_variable = { f289 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_all_power_to_the_soviets = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_autonomous_soviet_republics = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_regional_development = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_international_union_of_soviet_republics = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_autonomous_soviet_republics = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_onslaught_on_colonialism = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_a_global_class_struggle = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_carry_revolution_east = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_a_global_class_struggle = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_end_of_the_imperialist_era = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_onslaught_on_colonialism = yes
+            NFQ_focus_visible_SOV_SOV_carry_revolution_east = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_right_opposition = {
+    AND = {
+        AND = {
+            has_dlc = "No Step Back"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = SOV_the_centre
+                }
+                NOT = {
+                    has_completed_focus = SOV_beaten_but_not_defeated
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_the_centre
+                    check_variable = { f197 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_the_left_opposition
+                    check_variable = { f222 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_path_of_marxism_leninism = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_need_for_policy_changes = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_right_opposition = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reverse_the_collectivization_process = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_right_opposition = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_organize_uprisings_in_the_country = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_need_for_policy_changes = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_dissent_in_the_party = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_need_for_policy_changes = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_eliminate_the_left = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_cooperation_against_stalin
+                check_variable = { f285 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_need_for_policy_changes = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_concessions_to_foreign_powers = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_covert_support_for_spanish_poum
+                check_variable = { f257 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_reverse_the_collectivization_process = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_covert_support_for_spanish_poum = {
+    AND = {
+        AND = {
+            has_dlc = "La Resistance"
+            has_dlc = "No Step Back"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = SOV_the_centre
+                }
+                NOT = {
+                    has_completed_focus = SOV_beaten_but_not_defeated
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_concessions_to_foreign_powers
+                check_variable = { f256 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_reverse_the_collectivization_process = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_undermine_stalins_authority = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_organize_uprisings_in_the_country = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_clandestine_cells = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_organize_uprisings_in_the_country = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_plan_for_the_coup = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_undermine_stalins_authority = yes
+            NFQ_focus_visible_SOV_SOV_clandestine_cells = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_socialist_bulwark = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_covert_support_for_spanish_poum = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_coup_detat = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_dissent_in_the_party = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_right_purges = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_return_democracy_to_the_party
+                check_variable = { f288 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_coup_detat = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_power_of_the_peasantry = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_coup_detat = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_curtailment_of_the_collective_farms = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_coup_detat = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_administrative_reforms = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_a_new_theory_of_revolution
+                check_variable = { f267 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_curtailment_of_the_collective_farms = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_a_new_theory_of_revolution = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_administrative_reforms
+                check_variable = { f266 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_curtailment_of_the_collective_farms = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_back_to_the_nep = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_curtailment_of_the_collective_farms = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_planned_economy = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_back_to_the_nep = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_paced_industrialization = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_back_to_the_nep = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_trade_union_as_labor_organizer = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_back_to_the_nep = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_incorporate_local_organizations = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_administrative_reforms = yes
+            NFQ_focus_visible_SOV_SOV_a_new_theory_of_revolution = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_for_the_common_good = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_strengthen_the_trade_unions
+                check_variable = { f289 = 5 }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_SOV_SOV_incorporate_local_organizations = yes
+            NFQ_focus_visible_SOV_SOV_international_revolutionary_marxist_centre = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_victory_over_devastation = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_for_the_common_good = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_socialist_humanism = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_victory_over_devastation = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_international_revolutionary_marxist_centre = {
+    AND = {
+        AND = {
+            OR = {
+                NFQ_focus_visible_SOV_SOV_a_new_theory_of_revolution = yes
+                NFQ_focus_visible_SOV_SOV_administrative_reforms = yes
+            }
+            NFQ_focus_visible_SOV_SOV_planned_economy = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_a_sustainable_economy = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_paced_industrialization = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_enemies_of_the_people = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_international_revolutionary_marxist_centre = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_proclaim_soviet_hegemony = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_enemies_of_the_people = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_military_support = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_divert_attention_towards_military
+                check_variable = { f281 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_left_opposition = yes
+            NFQ_focus_visible_SOV_SOV_the_right_opposition = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_divert_attention_towards_military = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_military_support
+                check_variable = { f280 = 5 }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_left_opposition = yes
+            NFQ_focus_visible_SOV_SOV_the_right_opposition = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_gain_support_from_party_members = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_left_opposition = yes
+            NFQ_focus_visible_SOV_SOV_the_right_opposition = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_sway_the_railway_workers = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_left_opposition = yes
+            NFQ_focus_visible_SOV_SOV_the_right_opposition = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_infiltrate_the_nkvd = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_left_opposition = yes
+            NFQ_focus_visible_SOV_SOV_the_right_opposition = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_cooperation_against_stalin = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_eliminate_the_left
+                    check_variable = { f255 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_left_eliminate_right
+                    check_variable = { f227 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_gain_support_from_party_members = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_align_the_zinovyevites = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_cooperation_against_stalin = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_liberate_ryutin = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_cooperation_against_stalin = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_return_democracy_to_the_party = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_left_purges
+                    check_variable = { f235 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_right_purges
+                    check_variable = { f263 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_cooperation_against_stalin = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_strengthen_the_trade_unions = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_for_the_common_good
+                    check_variable = { f273 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_regional_development
+                    check_variable = { f244 = 5 }
+                }
+            }
+        }
+        OR = {
+            NFQ_focus_visible_SOV_SOV_all_power_to_the_soviets = yes
+            NFQ_focus_visible_SOV_SOV_incorporate_local_organizations = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_peoples_revolution = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_strengthen_the_trade_unions = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_supreme_soviet = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_peoples_revolution = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_addressing_internal_affairs = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = SOV_beaten_but_not_defeated
+                }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_path_of_marxism_leninism = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_nkvd_primacy = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_addressing_internal_affairs = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_new_soviet_woman = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_addressing_internal_affairs = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_expand_the_agitprop = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_addressing_internal_affairs = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_positive_heroism = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_collectivist_propaganda
+                check_variable = { f299 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_expand_the_agitprop = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_revive_the_stakhanovite_movement = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_positive_heroism = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_war_heroes = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_revive_the_stakhanovite_movement = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_collectivist_propaganda = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_positive_heroism
+                check_variable = { f296 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_expand_the_agitprop = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_socialist_emulation = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_collectivist_propaganda = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_socialist_realism = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_socialist_emulation = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_komsomol = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_expand_the_agitprop = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_patriarch_of_all_russia = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_war_heroes = yes
+            NFQ_focus_visible_SOV_SOV_socialist_realism = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_comintern = {
+    AND = {
+        AND = {
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = SOV_beaten_but_not_defeated
+                }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_path_of_marxism_leninism = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_development_aid_for_eastern_allies = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_war_measures_in_the_east = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_development_aid_for_eastern_allies = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_annex_tannu_tuva = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_war_measures_in_the_east = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_fortify_mongolian_border = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_war_measures_in_the_east = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_send_military_advisors_to_spain = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_policy_of_collective_security = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_policy_of_individual_security
+                check_variable = { f315 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_anti_fascist_policies = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_policy_of_collective_security = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_seek_a_defense_pact_with_the_allies = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_anti_fascist_policies = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_khakimov_proposal = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_seek_a_defense_pact_with_the_allies = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_eradicate_western_fascism = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_seek_a_defense_pact_with_the_allies = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_policy_of_individual_security = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_policy_of_collective_security
+                check_variable = { f310 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_approach_germany = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_policy_of_individual_security = yes
+            NFQ_focus_visible_SOV_SOV_anti_capitalist_policies = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_liberation_of_the_european_proletariat = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_approach_germany = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_anti_capitalist_policies = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_recover_alaska = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_anti_capitalist_policies = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_fight_for_the_pacific = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_recover_alaska = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_baltic_security = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_respect_baltic_self_determination = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_claims_in_baltic
+                check_variable = { f323 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_baltic_security = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_claims_in_baltic = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_respect_baltic_self_determination
+                check_variable = { f322 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_baltic_security = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_secure_leningrad = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_respect_baltic_self_determination = yes
+            NFQ_focus_visible_SOV_SOV_claims_in_baltic = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_control_scandinavia = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_secure_leningrad = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_claims_on_poland = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_respect_baltic_self_determination = yes
+            NFQ_focus_visible_SOV_SOV_claims_in_baltic = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_demand_eastern_poland = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_offer_poland_protection
+                check_variable = { f328 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_claims_on_poland = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_offer_poland_protection = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_demand_eastern_poland
+                check_variable = { f327 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_claims_on_poland = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_claim_on_bessarabia = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_claims_on_poland = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_demand_balkan_submission = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_seek_balkan_cooperation
+                check_variable = { f331 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_claim_on_bessarabia = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_seek_balkan_cooperation = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_demand_balkan_submission
+                check_variable = { f330 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_claim_on_bessarabia = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_middle_east_diplomacy = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_southern_thrust = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_support_afghan_ideology
+                check_variable = { f334 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_middle_east_diplomacy = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_support_afghan_ideology = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_the_southern_thrust
+                check_variable = { f333 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_middle_east_diplomacy = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_preemptive_invasion_of_iran = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_support_afghan_ideology = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_threat_from_the_land_of_the_rising_sun = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_reconcile_japan
+                check_variable = { f344 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_gobi_gambit = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_support_the_kuomintang
+                    check_variable = { f339 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_two_red_flags
+                    check_variable = { f338 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_threat_from_the_land_of_the_rising_sun = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_two_red_flags = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_support_the_kuomintang
+                    check_variable = { f339 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_the_gobi_gambit
+                    check_variable = { f337 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_threat_from_the_land_of_the_rising_sun = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_support_the_kuomintang = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_the_gobi_gambit
+                    check_variable = { f337 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_two_red_flags
+                    check_variable = { f338 = 5 }
+                }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_threat_from_the_land_of_the_rising_sun = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_intervention_in_china = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_gobi_gambit = yes
+            NFQ_focus_visible_SOV_SOV_two_red_flags = yes
+            NFQ_focus_visible_SOV_SOV_support_the_kuomintang = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_prepare_a_war_with_japan = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_the_gobi_gambit = yes
+            NFQ_focus_visible_SOV_SOV_two_red_flags = yes
+            NFQ_focus_visible_SOV_SOV_support_the_kuomintang = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_end_the_khalkhin_gol_conflict = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_recover_the_kuril_islands
+                check_variable = { f343 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_prepare_a_war_with_japan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_recover_the_kuril_islands = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_end_the_khalkhin_gol_conflict
+                check_variable = { f342 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_prepare_a_war_with_japan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reconcile_japan = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_the_threat_from_the_land_of_the_rising_sun
+                check_variable = { f336 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_comintern = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_spheres_of_influence_in_china = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_reconcile_japan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_soviet_japanese_pact_against_usa_focus = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_reconcile_japan = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_beaten_but_not_defeated = {
+    AND = {
+        AND = {
+            has_dlc = "No Step Back"
+            if = {
+                limit = {
+                    has_game_rule = {
+                        rule = obsolete_focus_branches_visibility
+                        option = HIDE
+                    }
+                }
+                NOT = {
+                    has_completed_focus = SOV_the_path_of_marxism_leninism
+                }
+            }
+        }
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_the_path_of_marxism_leninism
+                check_variable = { f196 = 5 }
+            }
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_unification_of_the_exiles = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_beaten_but_not_defeated = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_womens_fascist_movement = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_unification_of_the_exiles = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_true_tsars = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_unification_of_the_exiles = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_national_unification = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_unification_of_the_exiles = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_embrace_the_black_hundreds = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_womens_fascist_movement = yes
+            NFQ_focus_visible_SOV_SOV_the_true_tsars = yes
+            NFQ_focus_visible_SOV_SOV_national_unification = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_covert_operations = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_embrace_the_black_hundreds = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_muster_the_old_guard = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_embrace_the_black_hundreds = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_approach_semyonov = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_embrace_the_black_hundreds = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_fascist_youth_union = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_embrace_the_black_hundreds = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_tolkachi = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_muster_the_old_guard = yes
+            NFQ_focus_visible_SOV_SOV_fascist_youth_union = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_south_manchuria_railway = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_muster_the_old_guard = yes
+            NFQ_focus_visible_SOV_SOV_fascist_youth_union = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_organize_wreckers = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_muster_the_old_guard = yes
+            NFQ_focus_visible_SOV_SOV_fascist_youth_union = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_eyes_fear = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_tolkachi = yes
+            NFQ_focus_visible_SOV_SOV_organize_wreckers = yes
+            NFQ_focus_visible_SOV_SOV_south_manchuria_railway = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_hands_do = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_eyes_fear = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_call_for_aid = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_hands_do = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_request_imperial_protection = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_call_for_aid = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_sabotage_behind_enemy_lines = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_hands_do = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_aristocratic_investments = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_hands_do = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_consolidate_power = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_hands_do = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_rebuild_the_nation = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_consolidate_power = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_bringing_breakaways_back_to_the_fold = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_offer_autonomy_to_former_soviet_republics
+                check_variable = { f369 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_consolidate_power = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_offer_autonomy_to_former_soviet_republics = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_bringing_breakaways_back_to_the_fold
+                check_variable = { f368 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_consolidate_power = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_restore_the_glory_of_the_motherland = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_rebuild_the_nation = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_article_124 = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_beaten_but_not_defeated = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reopen_novodevichi = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_article_124 = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_rebuild_the_savior_cathedral = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_reopen_novodevichi = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_synod = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_reopen_novodevichi = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_declaration = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_synod = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_return_of_the_rocor = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_the_declaration = yes
+            NFQ_focus_visible_SOV_SOV_consolidate_power = yes
+            NFQ_focus_visible_SOV_SOV_reformalize_the_role_of_the_patriarchate = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reformalize_the_role_of_the_patriarchate = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_rebuild_the_savior_cathedral = yes
+            NFQ_focus_visible_SOV_SOV_the_synod = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reconvene_the_zemsky_sobor = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_consolidate_power = yes
+            NFQ_focus_visible_SOV_SOV_reformalize_the_role_of_the_patriarchate = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_dismantle_the_zemsky_sobor = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_romanov_reconstruction
+                check_variable = { f381 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_reconvene_the_zemsky_sobor = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_russian_corporate_state = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_dismantle_the_zemsky_sobor = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_romanov_reconstruction = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_dismantle_the_zemsky_sobor
+                check_variable = { f379 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_reconvene_the_zemsky_sobor = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_capital_of_the_tsars = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_romanov_reconstruction = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_church_candidates = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_romanov_reconstruction = yes
+            NFQ_focus_visible_SOV_SOV_dismantle_the_zemsky_sobor = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reinstitute_the_mestnichestvo = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_romanov_reconstruction = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_iron_wall_of_russian_resolve = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_reinstitute_the_mestnichestvo = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_my_brothers_keeper = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_reinstitute_the_mestnichestvo = yes
+            NFQ_focus_visible_SOV_SOV_the_triple_entente = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_rightful_heir_to_the_empire = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_panslavic_nationalism
+                check_variable = { f397 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_church_candidates = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_third_rome = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_rightful_heir_to_the_empire = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_vengeance_for_the_yoke = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_romanov_reconstruction = yes
+            NFQ_focus_visible_SOV_SOV_dismantle_the_zemsky_sobor = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_reclaim_uryankhay_krai = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_romanov_reconstruction = yes
+            NFQ_focus_visible_SOV_SOV_dismantle_the_zemsky_sobor = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_westward_bound = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_romanov_reconstruction = yes
+            NFQ_focus_visible_SOV_SOV_dismantle_the_zemsky_sobor = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_triple_entente = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_westward_bound = yes
+            NFQ_focus_visible_SOV_SOV_romanov_reconstruction = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_our_slavic_commitments = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_panslavic_nationalism
+                check_variable = { f397 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_triple_entente = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_old_enemy = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_westward_bound = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_secure_finland = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_westward_bound = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_secure_the_baltics = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_westward_bound = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_panslavic_nationalism = {
+    AND = {
+        NOT = {
+            OR = {
+                OR = {
+                    has_completed_focus = SOV_our_slavic_commitments
+                    check_variable = { f393 = 5 }
+                }
+                OR = {
+                    has_completed_focus = SOV_the_rightful_heir_to_the_empire
+                    check_variable = { f387 = 5 }
+                }
+            }
+        }
+        AND = {
+            NFQ_focus_visible_SOV_SOV_secure_the_baltics = yes
+            NFQ_focus_visible_SOV_SOV_secure_finland = yes
+            NFQ_focus_visible_SOV_SOV_the_old_enemy = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_fate_of_romania = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_our_slavic_commitments = yes
+            NFQ_focus_visible_SOV_SOV_panslavic_nationalism = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_pacify_the_rim = {
+    AND = {
+        OR = {
+            NFQ_focus_visible_SOV_SOV_dismantle_the_zemsky_sobor = yes
+            NFQ_focus_visible_SOV_SOV_romanov_reconstruction = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_eastern_expansion = {
+    AND = {
+        AND = {
+            NFQ_focus_visible_SOV_SOV_pacify_the_rim = yes
+            NFQ_focus_visible_SOV_SOV_dismantle_the_zemsky_sobor = yes
+        }
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_intervention_in_the_americas = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_into_central_asia
+                check_variable = { f403 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_eastern_expansion = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_restore_the_old_eastern_empire = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_intervention_in_the_americas = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_into_central_asia = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_intervention_in_the_americas
+                check_variable = { f401 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_eastern_expansion = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_last_break_southward = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_into_central_asia = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_rebuild_the_far_eastern_fleet = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_pacify_the_rim = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_modernize_the_far_eastern_fleet = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_rebuild_the_far_eastern_fleet = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_memories_of_1905 = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_japanese_overtures
+                check_variable = { f411 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_rebuild_the_far_eastern_fleet = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_lonely_island = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_memories_of_1905 = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_an_empire_in_the_pacific = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_the_lonely_island = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_the_berlin_moscow_axis = {
+    AND = {
+        NFQ_focus_visible_SOV_SOV_pacify_the_rim = yes
+    }
+}
+
+NFQ_focus_visible_SOV_SOV_japanese_overtures = {
+    AND = {
+        NOT = {
+            OR = {
+                has_completed_focus = SOV_memories_of_1905
+                check_variable = { f407 = 5 }
+            }
+        }
+        NFQ_focus_visible_SOV_SOV_the_berlin_moscow_axis = yes
+    }
+}
+

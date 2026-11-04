@@ -1,0 +1,1 @@
+focus={current=SOV_the_glory_of_the_red_army}

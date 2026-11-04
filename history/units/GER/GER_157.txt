@@ -1,0 +1,1 @@
+focus={current=GER_adopt_new_panzer_doctrine}

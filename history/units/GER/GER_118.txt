@@ -1,0 +1,1 @@
+focus={current=GER_trade_deal_with_sweden}

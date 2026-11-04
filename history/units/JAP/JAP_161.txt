@@ -1,0 +1,1 @@
+focus={current=JAP_ikki_kitas_state_socialist_ideals}

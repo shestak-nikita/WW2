@@ -1,0 +1,1 @@
+focus={current=GER_autonomy_in_the_kriegsschulen}

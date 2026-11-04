@@ -1,0 +1,1 @@
+focus={current=GER_total_control_over_domestic_affairs}

@@ -1,0 +1,1 @@
+focus={current=GER_launch_sino_germanic_joint_research_program}

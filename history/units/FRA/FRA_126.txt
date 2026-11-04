@@ -1,0 +1,1 @@
+focus={current=FRA_division_cuirassee}
