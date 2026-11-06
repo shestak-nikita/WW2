@@ -37,4 +37,3 @@ on_actions = {
         }
 
 	on_daily_RAJ = { effect = { NFQ_daily_tick = yes } }
-}
